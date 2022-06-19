@@ -1,9 +1,9 @@
 import {defineConfig} from 'vitepress';
 import path from 'path';
-import fs from 'fs/promises';
+import fs from 'fs';
 
 const directoryPath = path.join(__dirname, '../notes');
-const files = await fs.readdir(directoryPath);
+const files = fs.readdirSync(directoryPath);
 const notes = files
 	.filter((file) => !file.startsWith('.'))
 	.map((publicFile) => publicFile.replace(/.md/, ''));
@@ -30,7 +30,7 @@ export default defineConfig({
 		},
 
 		editLink: {
-			pattern: 'https://github.com/younho9/notes/edit/main/docs/notes:path',
+			pattern: 'https://github.com/younho9/notes/edit/main/docs/:path',
 			text: 'Edit this page on GitHub',
 		},
 
