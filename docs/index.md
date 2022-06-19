@@ -14,7 +14,7 @@ hero:
       link: /notes/index
     - theme: alt
       text: View on GitHub
-      link: https://github.com/younho9/notes
+      link: https://github.com/younho9/notes.younho9.com
 
 features:
   - title: Learning
