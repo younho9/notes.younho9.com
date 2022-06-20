@@ -12,8 +12,12 @@ const notes = files
 	.map((publicFile) => publicFile.replace(/.md/, ''));
 
 export default defineConfig({
+	lang: 'ko-KR',
 	title: 'Younho9 Notes',
 	description: '',
+	head: [
+		['link', { rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', sizes: '16x16' }], // prettier-ignore
+	],
 
 	lastUpdated: true,
 
