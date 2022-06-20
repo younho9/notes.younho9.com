@@ -32,7 +32,7 @@ updated: 2022-01-07 17:30
 
 ## Related
 
-- [[article vs section]]
+- [[article_vs_section|article vs section]]
 
 ## References
 

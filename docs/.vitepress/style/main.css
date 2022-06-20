@@ -1,0 +1,4 @@
+.external-link::after {
+	content: '\2197';
+	margin-left: 4px;
+}

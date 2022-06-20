@@ -13,9 +13,9 @@ updated: 2021-12-30 13:15
 ### DOMContentLoaded
 
 - 브라우저가 HTML을 전부 읽고 DOM을 완성하면 발생한다.
-	- 스크립트의 실행까지 완료되어야 한다. [[script 태그의 async와 defer 속성]]
-		- `async` 스크립트는 `DOMContentLoaded` 를 막지 않는다.
-		- `document.createElement('script')` 로 동적으로 추가된 스크립트 역시 `DOMContentLoaded` 를 막지 않는다
+  - 스크립트의 실행까지 완료되어야 한다. [[script 태그의 async와 defer 속성]]
+    - `async` 스크립트는 `DOMContentLoaded` 를 막지 않는다.
+    - `document.createElement('script')` 로 동적으로 추가된 스크립트 역시 `DOMContentLoaded` 를 막지 않는다
 - 이미지 파일이나 스타일시트 등의 기타 자원은 기다리지 않는다.
 - DOM이 준비된 것을 확인한 후 원하는 DOM 노드를 찾아 핸들러를 등록해 인터페이스를 초기화할 때 사용할 수 있음.
 - [[readyState|document.readyState]] 의 값이 `interactive` 이다.
@@ -33,4 +33,4 @@ updated: 2021-12-30 13:15
 ## Related
 
 - [[readyState]]
-- [[beforeunload vs unload]]
+- [[beforeunload_vs_unload|beforeunload vs unload]]

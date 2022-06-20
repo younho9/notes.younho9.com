@@ -4,7 +4,7 @@ tags:
   - Web-API
   - vs
 aliases:
-  - alias
+  - beforeunload vs unload
 publish: true
 created: 2022-01-05 22:59
 updated: 2022-01-05 23:00
