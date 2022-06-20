@@ -7,7 +7,7 @@ created: 2021-12-30 14:06
 updated: 2021-12-30 14:06
 ---
 
-![[스크린샷 2021-12-30 오후 2.08.45.png]]
+![accept-language.png](./images/accept-language.png)
 
 - `Accept-Language` 요청 HTTP 헤더는 어떤 언어를 클라이언트가 이해할 수 있는지, 그리고 지역 설정 중 어떤 것이 더 선호되는지를 알려준다.
 - `en;q=0.9` 는 영어의 가중치가 0.9 라는 뜻이다. 기본 가중치는 1이다.
@@ -15,11 +15,11 @@ updated: 2021-12-30 14:06
 
 ## Related
 
-- [[HTTP 헤더]]
-- [[HTTP Request|HTTP 요청]]
+- [[HTTP_헤더|HTTP 헤더]]
+- [[HTTP_Request|HTTP 요청]]
 - [[Content-Language]]
 - [[window.navigator.language]]
-- [[다국어 사이트를 디자인하거나 개발할 때 주의해야 할 사항]]
+- [[다국어_사이트를_디자인하거나_개발할_때_주의해야_할_사항]]
 
 ## References
 

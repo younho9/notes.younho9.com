@@ -4,13 +4,14 @@ tags:
   - http
 aliases:
   - HTTP Header
+  - HTTP 헤더
 created: 2021-12-30 13:06
 updated: 2021-12-30 13:15
 ---
 
 ## Related
 
-- [[HTTP Request|HTTP 요청]]
+- [[HTTP_Request|HTTP 요청]]
 
 ## References
 

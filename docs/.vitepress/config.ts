@@ -1,3 +1,6 @@
+import wikilinks from 'markdown-it-wikilinks';
+import externalLinks from 'markdown-it-external-links';
+import sanitize from 'sanitize-filename';
 import {defineConfig} from 'vitepress';
 import path from 'path';
 import fs from 'fs';
@@ -24,7 +27,10 @@ export default defineConfig({
 				{
 					text: 'Notes',
 					collapsible: true,
-					items: notes.map((note) => ({text: note, link: `/notes/${note}`})),
+					items: notes.map((note) => ({
+						text: note.replace(/_/g, ' '),
+						link: `/notes/${note}`,
+					})),
 				},
 			],
 		},
@@ -45,6 +51,26 @@ export default defineConfig({
 		footer: {
 			message: 'Released under the MIT License.',
 			copyright: 'Copyright © 2022-present Younho Choo',
+		},
+	},
+
+	markdown: {
+		config: (md) => {
+			md.use(externalLinks, {
+				externalClassName: 'external-link',
+				internalDomains: ['notes.younho9.com'],
+			});
+
+			md.use(
+				wikilinks({
+					postProcessPageName: (pageName) => {
+						pageName = pageName.trim();
+						pageName = pageName.split('/').map(sanitize).join('/');
+
+						return pageName;
+					},
+				}),
+			);
 		},
 	},
 });
