@@ -11,7 +11,9 @@ created: 2022-01-06 14:01
 updated: 2022-01-06 14:01
 ---
 
-JavaScript에는 크게 두 가지 유형의 값, [[원시 값(Primitive)]]과 [[JavaScript 객체(Object)|객체(Object)]]이 있다.
+# 값(Value)
+
+JavaScript에는 크게 두 가지 유형의 값, [[원시-값(Primitive)|원시 값(Primitive)]]과 [[JavaScript-객체(Object)|JavaScript 객체(Object)]]이 있다.
 
 - 원시 값은 **'값 그대로'** 저장, 할당, 복사된다.
 - 객체는 **'참조에 의해(by reference)''** 저장, 할당 복사된다.
@@ -40,8 +42,8 @@ console.log(str); // 'hellow'
 
 ## Related
 
-- [[원시 값(Primitive)]]
-- [[JavaScript 객체(Object)|객체(Object)]]
+- [[원시-값(Primitive)|원시 값(Primitive)]]
+- [[JavaScript-객체(Object)|JavaScript 객체(Object)]]
 
 ## References
 

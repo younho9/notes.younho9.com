@@ -12,12 +12,14 @@ created: 2021-12-31 16:29
 updated: 2021-12-31 16:29
 ---
 
+# 이벤트(Event)
+
 ![eventflow.png (480×560) (w3.org)](https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107/images/eventflow.png)
 
 - DOM 이벤트 흐름에는 3가지 단계가 있다
-	1. 캡쳐 단계
-	2. 타겟 단계
-	3. 버블링 단계
+  1.  캡쳐 단계
+  2.  타겟 단계
+  3.  버블링 단계
 
 ## 버블링과 캡처링
 
@@ -33,12 +35,12 @@ $el.addEventListener(..., {capture: true})
 $el.addEventListener(..., true)
 ```
 
-> `e.eventPhase` 프로퍼티로 현재 단계를 알 수 있다. 1: 캡쳐 단계, 2: 타겟 단계, 3: 버블링 단계 
+> `e.eventPhase` 프로퍼티로 현재 단계를 알 수 있다. 1: 캡쳐 단계, 2: 타겟 단계, 3: 버블링 단계
 
 ## event.currentTarget vs event.target
 
-- e.currentTarget : 이벤트 핸들러가 등록된 요소 
-	- 화살표 함수가 아니라면 [[this|`this`]] 와 같다.
+- e.currentTarget : 이벤트 핸들러가 등록된 요소
+  - 화살표 함수가 아니라면 [[this|`this`]] 와 같다.
 - e.target : 이벤트가 발생한 가장 안쪽의 요소
 
 -> 이벤트 캡쳐링, 버블링 흐름에서 두 객체가 다를 수 있다.
@@ -49,7 +51,7 @@ $el.addEventListener(..., true)
 
 ## 이벤트 위임
 
-- 이벤트 버블링 개념을 활용해서 요소마다 핸들러를 할당하지 않고, 공통 부모 요소에 하나의 핸들러를 할당해서 한꺼번에 다루는 방식입니다. 
+- 이벤트 버블링 개념을 활용해서 요소마다 핸들러를 할당하지 않고, 공통 부모 요소에 하나의 핸들러를 할당해서 한꺼번에 다루는 방식입니다.
 
 ## Related
 

@@ -9,12 +9,14 @@ created: 2022-01-08 15:22
 updated: 2022-01-08 15:22
 ---
 
+# 처리량(throughput)
+
 - 단위 시간당 데이터 전송으로 처리하는 양
 - 처리량이 높다 -> 단위 시간에 많은 데이터를 처리할 수 있다. -> 서버가 요청에 대해 빠르게 응답한다.
 
 ## Related
 
-- [[CSR vs SSR vs SSG]]
+- [[CSR-vs-SSR-vs-SSG|CSR vs SSR vs SSG]]
 
 ## References
 

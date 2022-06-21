@@ -6,6 +6,8 @@ created: 2021-12-30 13:06
 updated: 2021-12-30 13:16
 ---
 
+# vee-validator
+
 ## ValidationProvider
 
 - 먼저 `ValidationProvider` 컴포넌트에 등록을 해야 한다.
@@ -15,7 +17,7 @@ updated: 2021-12-30 13:16
 
 내부(slot)의 폼을 래핑하여 모든 필드의 유효성 상태를 제공하는 컴포넌트
 
-| Props | 설명    |
+| Props | 설명  |
 | ----- | ----- |
 | slim  | sdasd |
 |       |       |

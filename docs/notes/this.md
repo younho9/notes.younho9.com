@@ -6,6 +6,8 @@ created: 2021-12-31 17:30
 updated: 2022-01-10 00:19
 ---
 
+# this
+
 ## 일반 함수
 
 - this는 함수의 선언 위치와 상관 없이, 어떻게 호출(call) 되는지에 따라 달라진다.
@@ -13,16 +15,16 @@ updated: 2022-01-10 00:19
 ## 화살표 함수
 
 - 화살표 함수는 this를 바인딩하지 않는다.
-	- 함수가 선언되는 시점에 둘러싸는 범위의 이름에 대한 참조이다.
+  - 함수가 선언되는 시점에 둘러싸는 범위의 이름에 대한 참조이다.
 
 ## 명시적 바인딩
 
 - [Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
-	- call과 달리 두 번째 인자로 인수 배열을 받는다.
+  - call과 달리 두 번째 인자로 인수 배열을 받는다.
 - [Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
-	- apply와 달리 두 번째 인자부터 인수 목록으로 받는다.
+  - apply와 달리 두 번째 인자부터 인수 목록으로 받는다.
 - [Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
-	- this와 인자 목록을 바인드한 함수를 리턴한다.
+  - this와 인자 목록을 바인드한 함수를 리턴한다.
 
 ## Examples
 
@@ -30,17 +32,17 @@ updated: 2022-01-10 00:19
 var someValue = 'hello';
 
 function outerFunc() {
-    console.log(this.someValue);
-    this.innerFunc();
+	console.log(this.someValue);
+	this.innerFunc();
 }
 
 const obj = {
-    someValue : 'world',
-    outerFunc,
-    innerFunc : function() {
-        console.log("innerFunc's this : ", this);
-    }
-}
+	someValue: 'world',
+	outerFunc,
+	innerFunc: function () {
+		console.log("innerFunc's this : ", this);
+	},
+};
 
 obj.outerFunc();
 // => 'world'

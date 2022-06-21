@@ -11,10 +11,12 @@ created: 2021-12-31 11:18
 updated: 2021-12-31 11:18
 ---
 
+# 프록시(Proxy)
+
 ## 프록시 서버
 
 - 인터넷 상의 여러 네트워크들에 접속할 때, 중계 역할을 해주는 프로그램 또는 컴퓨터
-- 프록시는 [[HTTP Request|Request]]를 가로챈 뒤(intercepts) [[HTTP Response|Response]]를 돌려준다.
+- 프록시는 [[HTTP-Request|HTTP Request]]를 가로챈 뒤(intercepts) [[HTTP-Response|HTTP Response]]를 돌려준다.
 - 이렇게 가로챈 Request를 전달해줄수도, 아닐 수도(ex. 캐시인 경우), 수정할 수도(ex. 헤더를 변경하는 경우) 있다.
 
 ## JavaScript
@@ -23,11 +25,9 @@ updated: 2021-12-31 11:18
 
 ```js
 var handler = {
-    get: function(target, name){
-        return name in target?
-            target[name] :
-            37;
-    }
+	get: function (target, name) {
+		return name in target ? target[name] : 37;
+	},
 };
 
 var p = new Proxy({}, handler);

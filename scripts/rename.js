@@ -1,13 +1,13 @@
 const fs = require('fs');
+const path = require('path');
 
-const files = fs.readdirSync(__dirname + '/../docs/notes');
+const notes = fs
+	.readdirSync(path.join(__dirname, '../docs/notes'))
+	.filter((file) => path.extname(file) === '.md');
 
-files.forEach((file) => {
-	const fileName = file.split('.')[0];
-	const newFileName = fileName.replace(/\s/g, '_');
-
+notes.forEach((fileName) => {
 	fs.renameSync(
-		__dirname + '/../docs/notes/' + file,
-		__dirname + '/../docs/notes/' + newFileName + '.md',
+		path.join(__dirname, '../docs/notes/', fileName),
+		path.join(__dirname, '../docs/notes/', fileName.replace(/_/g, '-')),
 	);
 });

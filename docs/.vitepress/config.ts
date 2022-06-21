@@ -5,10 +5,13 @@ import {defineConfig} from 'vitepress';
 import path from 'path';
 import fs from 'fs';
 
+const isPublic = (file: string) => !file.startsWith('.');
+const isMarkdown = (file: string) => path.extname(file) === '.md';
+
 const directoryPath = path.join(__dirname, '../notes');
 const files = fs.readdirSync(directoryPath);
 const notes = files
-	.filter((file) => !file.startsWith('.'))
+	.filter((file) => isPublic(file) && isMarkdown(file))
 	.map((publicFile) => publicFile.replace(/.md/, ''));
 
 export default defineConfig({
@@ -32,7 +35,7 @@ export default defineConfig({
 					text: 'Notes',
 					collapsible: true,
 					items: notes.map((note) => ({
-						text: note.replace(/_/g, ' '),
+						text: note.replace(/-/g, ' '),
 						link: `/notes/${note}`,
 					})),
 				},

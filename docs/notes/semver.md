@@ -6,6 +6,8 @@ created: 2021-12-30 13:06
 updated: 2021-12-30 13:16
 ---
 
+# semver
+
 ![semver.png (524×247) (geeksforgeeks.org)](https://media.geeksforgeeks.org/wp-content/uploads/semver.png)
 
 버전을 Major.Minor.Patch(주.부.수) 숫자로 하고:

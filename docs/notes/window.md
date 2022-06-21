@@ -6,6 +6,8 @@ created: 2021-12-30 13:06
 updated: 2021-12-30 14:47
 ---
 
+# window
+
 - 브라우저의 정보를 얻을 수 있다.
 
 ## References

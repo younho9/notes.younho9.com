@@ -6,6 +6,8 @@ created: 2021-12-30 13:06
 updated: 2021-12-30 13:16
 ---
 
+# slots
+
 [슬롯(Slots) — Vue.js (vuejs.org)](https://kr.vuejs.org/v2/guide/components-slots.html)
 
 ## 슬롯 콘텐츠
@@ -15,9 +17,9 @@ updated: 2021-12-30 13:16
 ```vue
 <!-- NavigationLink.vue -->
 <template>
-  <a v-bind:href="url" class="nav-link">
-    <slot></slot>
-  </a>
+	<a v-bind:href="url" class="nav-link">
+		<slot></slot>
+	</a>
 </template>
 ```
 
@@ -77,4 +79,3 @@ TBD ...
 ```
 
 v-slot 으로 데이터를 가져올 수 있다.
-

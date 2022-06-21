@@ -9,12 +9,14 @@ created: 2022-01-06 13:59
 updated: 2022-01-06 13:59
 ---
 
+# 데코레이터(Decorator)
+
 > 아직 JS의 정식 기능이 아니다. ECMA TC39의 표준화 절차를 진행하고 있다.
 >
 > Babel을 사용해서 사용할 수 있다.
 
 - 새 함수를 반환하여 전달된 **함수 또는 메서드의 동작을 수정하는 함수**
-- 함수를 [[일급 시민(First-class citizen)]]으로서의 기능을 지원하는 모든 언어는 데코레이터를 구현할 수 있다.
+- 함수를 [[일급-시민(First-class-citizen)|일급 시민(First-class citizen)]]으로서의 기능을 지원하는 모든 언어는 데코레이터를 구현할 수 있다.
 - 파이썬 예제
 
   > 파이썬의 데코레이터가 JS의 데코레이터 작동 방식보다 단순하여 설명하기 좋다.
@@ -48,8 +50,8 @@ updated: 2022-01-06 13:59
 
   ```javascript
   const oatmeal = {
-    viscosity: 20,
-    flavor: 'Brown Sugar Cinnamon',
+  	viscosity: 20,
+  	flavor: 'Brown Sugar Cinnamon',
   };
 
   console.log(Object.getOwnPropertyDescriptor(oatmeal, 'viscosity'));
@@ -75,16 +77,16 @@ updated: 2022-01-06 13:59
 
 ```javascript
 function readOnly(target, key, descriptor) {
-  return {...descriptor, writable: false};
+	return {...descriptor, writable: false};
 }
 
 class Oatmeal extends Porridge {
-  @readOnly viscosity = 20;
+	@readOnly viscosity = 20;
 
-  constructor(flavor) {
-    super();
-    this.flavor = flavor;
-  }
+	constructor(flavor) {
+		super();
+		this.flavor = flavor;
+	}
 }
 ```
 

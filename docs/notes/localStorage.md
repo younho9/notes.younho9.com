@@ -9,12 +9,14 @@ created: 2021-12-30 16:13
 updated: 2021-12-30 16:13
 ---
 
+# localStorage
+
 - 브라우저를 닫고 새로 열어도 데이터가 유지된다.
 - 자바스크립트를 통해서 조작하거나 브라우저 캐시를 지워야 데이터가 사라진다.
 
 ## Related
 
-- [[웹 스토리지(Web Storage)]]
+- [[웹-스토리지(Web-Storage)|웹 스토리지(Web Storage)]]
 - [[sessionStorage]]
 
 ## References
