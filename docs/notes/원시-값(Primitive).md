@@ -39,13 +39,13 @@ updated: 2022-01-06 13:52
 
 ## JavaScript의 원시 값
 
-- string
-- number
-- bigint
-- boolean
-- symbol
-- undefined
-- null
+- **Undefined** (undefined), used for unintentionally missing values.
+- **Null** (null), used for intentionally missing values.
+- **Booleans** (true and false), used for logical operations.
+- **Numbers** (-100, 3.14, and others), used for math calculations.
+- **BigInts** (uncommon and new), used for math on big numbers.
+- **Strings** ("hello", "abracadabra", and others), used for text.
+- **Symbols** (uncommon), used to perform rituals and hide secrets.
 
 ## Related
 
