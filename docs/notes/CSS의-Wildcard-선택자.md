@@ -14,9 +14,8 @@ updated: 2022-07-08 13:38
 - `[attribute^="str"]` : 속성 값이 문자열 `"str"` 으로 시작하는 모든 요소
 - `[attribute$="str"]` : 속성 값이 문자열 `"str"` 으로 끝나는 모든 요소
 
-
 ## Related
 
 ## References
 
-- [Wildcard Selectors (*, ^ and $) in CSS for classes - GeeksforGeeks](https://www.geeksforgeeks.org/wildcard-selectors-and-in-css-for-classes/)
+- [Wildcard Selectors (\*, ^ and $) in CSS for classes - GeeksforGeeks](https://www.geeksforgeeks.org/wildcard-selectors-and-in-css-for-classes/)
