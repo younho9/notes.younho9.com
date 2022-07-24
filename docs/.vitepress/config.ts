@@ -5,15 +5,6 @@ import {defineConfig} from 'vitepress';
 import path from 'path';
 import fs from 'fs';
 
-const isPublic = (file: string) => !file.startsWith('.');
-const isMarkdown = (file: string) => path.extname(file) === '.md';
-
-const directoryPath = path.join(__dirname, '../notes');
-const files = fs.readdirSync(directoryPath);
-const notes = files
-	.filter((file) => isPublic(file) && isMarkdown(file))
-	.map((publicFile) => publicFile.replace(/.md/, ''));
-
 export default defineConfig({
 	lang: 'ko-KR',
 	title: 'Younho9 Notes',
@@ -29,18 +20,9 @@ export default defineConfig({
 
 		logo: 'https://raw.githubusercontent.com/younho9/younho9.dev/main/src/assets/logo.png',
 
-		sidebar: {
-			'/notes/': [
-				{
-					text: 'Notes',
-					collapsible: true,
-					items: notes.map((note) => ({
-						text: note.replace(/-/g, ' '),
-						link: `/notes/${note}`,
-					})),
-				},
-			],
-		},
+		nav: nav(),
+
+		sidebar: sidebar(),
 
 		editLink: {
 			pattern: 'https://github.com/younho9/notes/edit/main/docs/:path',
@@ -70,14 +52,72 @@ export default defineConfig({
 
 			md.use(
 				wikilinks({
+					htmlAttributes: {
+						class: 'wikilink',
+					},
+					makeAllLinksAbsolute: true,
 					postProcessPageName: (pageName) => {
 						pageName = pageName.trim();
 						pageName = pageName.split('/').map(sanitize).join('/');
 
-						return pageName;
+						const isJournal = /^\d{4}-\d{2}-\d{2}$/.test(pageName);
+
+						return isJournal ? `/journals/${pageName}` : `/notes/${pageName}`;
 					},
 				}),
 			);
 		},
 	},
 });
+
+function getDocs(pathname: string) {
+	const isPublic = (file: string) => !file.startsWith('.');
+	const isMarkdown = (file: string) => path.extname(file) === '.md';
+
+	return fs
+		.readdirSync(path.join(__dirname, '../', pathname))
+		.filter((file) => isPublic(file) && isMarkdown(file))
+		.map((publicFile) => publicFile.replace(/.md/, ''));
+}
+
+function nav() {
+	return [
+		{
+			text: 'Notes',
+			link: '/notes/index.html',
+			activeMatch: '/notes/',
+		},
+		{
+			text: 'Journals',
+			link: `/journals/${getDocs('journals').reverse().at(0)}`,
+			activeMatch: '/journals/',
+		},
+	];
+}
+
+function sidebar() {
+	return {
+		'/notes/': [
+			{
+				text: 'Notes',
+				collapsible: true,
+				items: getDocs('notes').map((note) => ({
+					text: note.replace(/-/g, ' '),
+					link: `/notes/${note}`,
+				})),
+			},
+		],
+		'/journals/': [
+			{
+				text: 'Journals',
+				collapsible: true,
+				items: getDocs('journals')
+					.reverse()
+					.map((journal) => ({
+						text: journal,
+						link: `/journals/${journal}`,
+					})),
+			},
+		],
+	};
+}
