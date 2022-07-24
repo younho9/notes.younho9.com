@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 더 읽어보기
-      link: /notes/index
+      link: /notes/index.html
     - theme: alt
       text: GitHub에서 보기
       link: https://github.com/younho9/notes.younho9.com
