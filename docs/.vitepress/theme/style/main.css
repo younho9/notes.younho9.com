@@ -1,3 +1,9 @@
+/* Overrides */
+
+.VPSocialLink {
+	transform: scale(0.9);
+}
+
 .external-link::after {
 	content: '\2197';
 	margin-left: 4px;
