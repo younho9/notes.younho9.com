@@ -17,12 +17,16 @@ hero:
       link: https://github.com/younho9/notes.younho9.com
 
 features:
-  - title: Learning
+  - icon: 📝
+    title: Learning
     details: 새로 알게 된 것이나 배운 것들을 기록하고 공유합니다.
-  - title: Journals
+  - icon: 📆
+    title: Journals
     details: 하루 일지를 기록하고 회고합니다. 계획, 마일스톤, 목표를 세우고, 생산성에 대해 회고합니다.
-  - title: Thoughts
+  - icon: 💭
+    title: Thoughts
     details: 기술과 개발에 대한 개인적인 생각을 기록합니다.
-  - title: Glossary
+  - icon: 📕
+    title: Glossary
     details: 용어 사전을 정리합니다.
 ---
