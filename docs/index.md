@@ -8,6 +8,9 @@ hero:
   name: Younho9 Notes
   text: The Digital Garden 🌳
   tagline: 새로 알게 된 것과 생각을 기록하는 개인적인 노트입니다. 완벽이 아니라 시간이 지남에 따라 조금씩 자라는 것을 목표로 하는 디지털 정원입니다.
+  image:
+    src: /hero.png
+    alt: digital garden
   actions:
     - theme: brand
       text: 더 읽어보기

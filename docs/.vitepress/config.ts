@@ -4,21 +4,46 @@ import sanitize from 'sanitize-filename';
 import {defineConfig} from 'vitepress';
 import path from 'path';
 import fs from 'fs';
+import {
+	description,
+	facebook,
+	github,
+	instagram,
+	linkedin,
+	logo,
+	ogImage,
+	ogUrl,
+	title,
+	twitter,
+	author,
+	keywords,
+} from './meta';
 
 export default defineConfig({
 	lang: 'ko-KR',
-	title: 'Younho9 Notes',
-	description: '',
+	title,
+	description,
 	head: [
-		['link', { rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', sizes: '16x16' }], // prettier-ignore
+		['meta', {name: 'theme-color', content: '#ffffff'}],
+		['link', {rel: 'icon', href: logo, type: 'image/svg+xml'}],
+		['link', {rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', sizes: '16x16'}], // prettier-ignore
+		['meta', {name: 'author', content: author}],
+		['meta', {name: 'keywords', content: keywords.join(', ')}], // prettier-ignore
+		['meta', {property: 'og:title', content: title}],
+		['meta', {property: 'og:description', content: description}],
+		['meta', {property: 'og:url', content: ogUrl}],
+		['meta', {property: 'og:image', content: ogImage}],
+		['meta', {name: 'twitter:title', content: title}],
+		['meta', {name: 'twitter:description', content: description}],
+		['meta', {name: 'twitter:image', content: ogImage}],
+		['meta', {name: 'twitter:card', content: 'summary_large_image'}],
+		['link', {rel: 'mask-icon', href: logo, color: '#ffffff'}],
+		['link', {rel: 'apple-touch-icon', href: logo, sizes: '180x180'}],
 	],
-
 	lastUpdated: true,
-
 	themeConfig: {
-		siteTitle: 'Younho9 Notes',
-
-		logo: 'https://raw.githubusercontent.com/younho9/younho9.dev/main/src/assets/logo.png',
+		siteTitle: title,
+		logo,
 
 		nav: nav(),
 
@@ -30,16 +55,16 @@ export default defineConfig({
 		},
 
 		socialLinks: [
-			{icon: 'github', link: 'https://github.com/younho9'},
-			{icon: 'twitter', link: 'https://twitter.com/younho_9'},
-			{icon: 'linkedin', link: 'https://www.linkedin.com/in/younho9'},
-			{icon: 'facebook', link: 'https://www.facebook.com/younho9.choo'},
-			{icon: 'instagram', link: 'https://www.instagram.com/younho_9/'},
+			{icon: 'github', link: github},
+			{icon: 'twitter', link: twitter},
+			{icon: 'linkedin', link: linkedin},
+			{icon: 'facebook', link: facebook},
+			{icon: 'instagram', link: instagram},
 		],
 
 		footer: {
 			message: 'Released under the MIT License.',
-			copyright: 'Copyright © 2022-present Younho Choo',
+			copyright: `Copyright © 2022-present ${author}`,
 		},
 	},
 
