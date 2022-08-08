@@ -1,5 +1,5 @@
 /* Texts */
-export const title = 'Younho9 Note';
+export const title = 'Younho9 Notes';
 export const description =
 	'새로 알게 된 것과 생각을 기록하는 개인적인 노트입니다. 완벽이 아니라 시간이 지남에 따라 조금씩 자라는 것을 목표로 하는 디지털 정원입니다.';
 export const author = 'Younho Choo';
