@@ -4,6 +4,7 @@ import sanitize from 'sanitize-filename';
 import {defineConfig} from 'vitepress';
 import path from 'path';
 import fs from 'fs';
+import matter from 'gray-matter';
 import {
 	description,
 	facebook,
@@ -96,13 +97,11 @@ export default defineConfig({
 });
 
 function getDocs(pathname: string) {
-	const isPublic = (file: string) => !file.startsWith('.');
 	const isMarkdown = (file: string) => path.extname(file) === '.md';
 
 	return fs
 		.readdirSync(path.join(__dirname, '../', pathname))
-		.filter((file) => isPublic(file) && isMarkdown(file))
-		.map((publicFile) => publicFile.replace(/.md/, ''));
+		.filter((file) => isMarkdown(file));
 }
 
 function nav() {
@@ -122,22 +121,14 @@ function nav() {
 
 function sidebar() {
 	return {
-		'/notes/': [
-			{
-				text: 'Notes',
-				collapsible: true,
-				items: getDocs('notes').map((note) => ({
-					text: note.replace(/-/g, ' '),
-					link: `/notes/${note}`,
-				})),
-			},
-		],
+		'/notes/': notes(),
 		'/journals/': [
 			{
 				text: 'Journals',
 				collapsible: true,
 				items: getDocs('journals')
 					.reverse()
+					.map((filename) => filename.replace(/.md/, ''))
 					.map((journal) => ({
 						text: journal,
 						link: `/journals/${journal}`,
@@ -145,4 +136,47 @@ function sidebar() {
 			},
 		],
 	};
+}
+
+function notes() {
+	const noteInfos: Record<string, any> = getDocs('notes').map((note) => {
+		const content = fs
+			.readFileSync(path.join(__dirname, '../notes', note))
+			.toString();
+
+		return {
+			...matter(content).data,
+			filename: note,
+		};
+	});
+
+	const categories = noteInfos
+		.map(({category}) => category)
+		.filter((category) => category !== 'Introduction')
+		.sort()
+		.reduce((acc, cur) => (acc.includes(cur) ? acc : [...acc, cur]), []);
+
+	return [
+		{
+			text: 'Introduction',
+			collapsible: true,
+			items: [
+				{
+					text: 'Hello',
+					link: '/notes/index.html',
+				},
+			],
+		},
+		...categories.map((category) => ({
+			text: category,
+			collapsible: true,
+			items: noteInfos
+				.filter((noteInfo) => noteInfo.category === category)
+				.sort((a, b) => a.title.localeCompare(b.title))
+				.map(({title, filename}) => ({
+					text: title,
+					link: `/notes/${filename.replace(/.md/, '')}`,
+				})),
+		})),
+	];
 }
