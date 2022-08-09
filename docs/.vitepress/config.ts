@@ -123,19 +123,6 @@ function sidebar() {
 	return {
 		'/notes/': notes(),
 		'/journals/': journals(),
-		// [
-		// 	{
-		// 		text: 'Journals',
-		// 		collapsible: true,
-		// 		items: getDocs('journals')
-		// 			.reverse()
-		// 			.map((filename) => filename.replace(/.md/, ''))
-		// 			.map((journal) => ({
-		// 				text: journal,
-		// 				link: `/journals/${journal}`,
-		// 			})),
-		// 	},
-		// ],
 	};
 }
 
