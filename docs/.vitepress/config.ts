@@ -122,19 +122,20 @@ function nav() {
 function sidebar() {
 	return {
 		'/notes/': notes(),
-		'/journals/': [
-			{
-				text: 'Journals',
-				collapsible: true,
-				items: getDocs('journals')
-					.reverse()
-					.map((filename) => filename.replace(/.md/, ''))
-					.map((journal) => ({
-						text: journal,
-						link: `/journals/${journal}`,
-					})),
-			},
-		],
+		'/journals/': journals(),
+		// [
+		// 	{
+		// 		text: 'Journals',
+		// 		collapsible: true,
+		// 		items: getDocs('journals')
+		// 			.reverse()
+		// 			.map((filename) => filename.replace(/.md/, ''))
+		// 			.map((journal) => ({
+		// 				text: journal,
+		// 				link: `/journals/${journal}`,
+		// 			})),
+		// 	},
+		// ],
 	};
 }
 
@@ -179,4 +180,32 @@ function notes() {
 				})),
 		})),
 	];
+}
+
+function journals() {
+	const journalInfos: Record<string, any> = getDocs('journals').map(
+		(journal) =>
+			matter(
+				fs
+					.readFileSync(path.join(__dirname, '../journals', journal))
+					.toString(),
+			).data,
+	);
+
+	const categories = journalInfos
+		.map(({category}) => category)
+		.reverse()
+		.reduce((acc, cur) => (acc.includes(cur) ? acc : [...acc, cur]), []);
+
+	return categories.map((category) => ({
+		text: category,
+		collapsible: true,
+		items: journalInfos
+			.filter((journalInfo) => journalInfo.category === category)
+			.sort((a, b) => b.title.localeCompare(a.title))
+			.map(({title}) => ({
+				text: title,
+				link: `/journals/${title}`,
+			})),
+	}));
 }
