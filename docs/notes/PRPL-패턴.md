@@ -1,0 +1,25 @@
+---
+title: PRPL 패턴
+category: Web
+tags:
+  - web
+  - performance
+aliases:
+  - PRPL Pattern
+publish: true
+created: 2022-01-08 15:44
+updated: 2022-01-08 15:44
+---
+
+# {{ $frontmatter.title }}
+
+- Preload(또는 Push라고도 함) : 중요한 자원들을 먼저 가져옴.
+- Render : 가능한 빠르게 렌더링
+- Pre-cache : 나머지 리소스들을 캐시함.
+- Lazy load : 다른 경로나 중요하지 않은 리소스를 나중에 로드함.
+
+## Related
+
+## References
+
+- [Apply instant loading with the PRPL pattern (web.dev)](https://web.dev/apply-instant-loading-with-prpl/)
