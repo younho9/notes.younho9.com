@@ -12,8 +12,8 @@ aliases:
   - Separation of Concerns
   - SoC
 publish: true
-created: 2022-08-09 15:28
-updated: 2022-08-09 15:29
+created: 2022-08-09T15:28:00.000+09:00
+updated: 2022-08-09T15:29:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

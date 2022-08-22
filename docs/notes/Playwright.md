@@ -7,8 +7,8 @@ tags:
 aliases:
   - Playwright
 publish: true
-created: 2022-08-09 11:20
-updated: 2022-08-09 11:20
+created: 2022-08-09T11:20:00.000+09:00
+updated: 2022-08-09T11:20:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

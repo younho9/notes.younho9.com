@@ -3,8 +3,8 @@ title: CSS 속성 14 animation
 category: CSS
 tags:
   - css
-created: 2020-02-03
-updated: 2021-02-15
+created: 2020-02-03T00:00:00.000+09:00
+updated: 2021-02-15T00:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

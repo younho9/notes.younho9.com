@@ -7,8 +7,8 @@ aliases:
   - CSR과 SSR
   - 클라이언트 사이드 렌더링과 서버 사이드 렌더링의 차이점
 publish: true
-created: 2022-01-05 20:20
-updated: 2022-01-09 01:12
+created: 2022-01-05T20:20:00.000+09:00
+updated: 2022-01-09T01:12:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

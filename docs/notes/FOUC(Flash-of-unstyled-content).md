@@ -8,8 +8,8 @@ tags:
 aliases:
   - FOUC
 publish: true
-created: 2022-01-10 15:13
-updated: 2022-01-10 15:13
+created: 2022-01-10T15:13:00.000+09:00
+updated: 2022-01-10T15:13:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

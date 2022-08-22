@@ -7,8 +7,8 @@ tags:
 aliases:
   - useState와 useReducer의 차이점
 publish: true
-created: 2022-01-02 14:14
-updated: 2022-01-02 14:14
+created: 2022-01-02T14:14:00.000+09:00
+updated: 2022-01-02T14:14:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

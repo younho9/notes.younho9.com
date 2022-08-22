@@ -9,8 +9,8 @@ aliases:
   - FP(First Paint) vs FCP(First Contentful Paint) vs FMP(First Meaningful Paint) vs LCP(Largest Contentful Paint)
   - First Paint vs First Contentful Paint vs First Meaningful Paint vs Largest Contentful Paint
 publish: true
-created: 2022-01-08 15:47
-updated: 2022-01-08 15:47
+created: 2022-01-08T15:47:00.000+09:00
+updated: 2022-01-08T15:47:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

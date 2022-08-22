@@ -7,8 +7,8 @@ tags:
   - glossary
   - terms
 publish: true
-created: 2021-12-31 11:43
-updated: 2021-12-31 11:43
+created: 2021-12-31T11:43:00.000+09:00
+updated: 2021-12-31T11:43:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

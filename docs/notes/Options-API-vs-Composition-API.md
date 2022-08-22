@@ -6,8 +6,8 @@ tags:
 aliases:
   - Options API vs Composition API
 publish: true
-created: 2022-08-09 15:40
-updated: 2022-08-09 15:40
+created: 2022-08-09T15:40:00.000+09:00
+updated: 2022-08-09T15:40:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

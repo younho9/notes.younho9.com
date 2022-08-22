@@ -13,8 +13,8 @@ tags:
 aliases:
   - alias
 publish: true
-created: 2022-01-11 13:45
-updated: 2022-01-11 13:45
+created: 2022-01-11T13:45:00.000+09:00
+updated: 2022-01-11T13:45:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

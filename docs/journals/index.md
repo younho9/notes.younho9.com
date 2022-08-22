@@ -1,8 +1,8 @@
 ---
 title: Home
 category: Introduction
-created: 2021-12-30 13:06
-updated: 2022-08-18 20:21
+created: 2021-12-30T13:06:00.000+09:00
+updated: 2022-08-18T20:21:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

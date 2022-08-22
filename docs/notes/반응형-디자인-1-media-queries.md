@@ -3,8 +3,8 @@ title: 반응형 디자인 1 media queries
 category: CSS
 tags:
   - css
-created: 2020-02-28
-updated: 2021-02-15
+created: 2020-02-28T00:00:00.000+09:00
+updated: 2021-02-15T00:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

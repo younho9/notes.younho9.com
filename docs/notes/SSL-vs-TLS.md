@@ -10,8 +10,8 @@ aliases:
   - SSL과 TLS의 차이점
   - SSL과 TLS 비교
 publish: true
-created: 2021-12-30 18:08
-updated: 2021-12-30 18:08
+created: 2021-12-30T18:08:00.000+09:00
+updated: 2021-12-30T18:08:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

@@ -6,8 +6,8 @@ tags:
 aliases:
   - how to build vue component library
 publish: true
-created: 2022-01-18 17:18
-updated: 2022-01-18 17:18
+created: 2022-01-18T17:18:00.000+09:00
+updated: 2022-01-18T17:18:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

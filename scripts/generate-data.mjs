@@ -18,8 +18,8 @@ function getDocInfo(pathname) {
 		filePath: pathname,
 		fileName: path.basename(docfile, '.md'),
 		...data,
-		created: new Date(data.created).toISOString(),
-		updated: new Date(data.updated).toISOString(),
+		created: new Date(data.created.replace(/\s/, 'T') + '+09:00').toISOString(),
+		updated: new Date(data.updated.replace(/\s/, 'T') + '+09:00').toISOString(),
 	};
 
 	return docInfo;

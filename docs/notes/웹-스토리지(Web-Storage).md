@@ -8,8 +8,8 @@ aliases:
   - 웹 스토리지
   - Web Storage
   - Modern Storage API
-created: 2021-12-30 13:06
-updated: 2021-12-30 13:14
+created: 2021-12-30T13:06:00.000+09:00
+updated: 2021-12-30T13:14:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

@@ -1,8 +1,8 @@
 ---
 title: NodeJS Jest VS Code Debugging
 category: Troubleshooting
-created: 2020-09-11
-updated: 2021-02-15
+created: 2020-09-11T00:00:00.000+09:00
+updated: 2021-02-15T00:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

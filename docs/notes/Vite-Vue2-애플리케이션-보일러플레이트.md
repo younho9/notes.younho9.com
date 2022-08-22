@@ -4,8 +4,8 @@ category: Vue
 tags:
   - vue
 publish: true
-created: 2022-01-20 15:16
-updated: 2022-01-20 15:16
+created: 2022-01-20T15:16:00.000+09:00
+updated: 2022-01-20T15:16:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

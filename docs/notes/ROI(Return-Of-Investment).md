@@ -6,8 +6,8 @@ tags:
 aliases:
   - ROI(Return Of Investment)
 publish: true
-created: 2022-08-09 10:05
-updated: 2022-08-09 10:05
+created: 2022-08-09T10:05:00.000+09:00
+updated: 2022-08-09T10:05:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

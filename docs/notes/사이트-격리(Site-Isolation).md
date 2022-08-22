@@ -5,8 +5,8 @@ tags:
   - web
   - browser
 publish: true
-created: 2022-01-06 12:01
-updated: 2022-01-06 12:01
+created: 2022-01-06T12:01:00.000+09:00
+updated: 2022-01-06T12:01:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

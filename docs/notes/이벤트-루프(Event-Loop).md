@@ -6,8 +6,8 @@ tags:
 aliases:
   - 이벤트 루프
 publish: true
-created: 2022-01-05 21:35
-updated: 2022-01-05 21:35
+created: 2022-01-05T21:35:00.000+09:00
+updated: 2022-01-05T21:35:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

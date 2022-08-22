@@ -8,8 +8,8 @@ aliases:
   - 프로미스
   - Promise
 publish: true
-created: 2022-08-12 10:17
-updated: 2022-08-12 10:17
+created: 2022-08-12T10:17:00.000+09:00
+updated: 2022-08-12T10:17:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

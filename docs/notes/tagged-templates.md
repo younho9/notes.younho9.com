@@ -3,8 +3,8 @@ title: Tagged Templates
 category: JavaScript
 tags:
   - javascript
-created: 2021-03-17
-updated: 2021-03-17
+created: 2021-03-17T00:00:00.000+09:00
+updated: 2021-03-17T00:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

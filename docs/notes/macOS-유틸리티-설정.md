@@ -4,8 +4,8 @@ category: macOS
 tags:
   - macos
   - settings
-created: 2021-03-05
-updated: 2021-03-05
+created: 2021-03-05T00:00:00.000+09:00
+updated: 2021-03-05T00:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

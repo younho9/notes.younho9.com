@@ -4,8 +4,8 @@ category: React
 tags:
   - react
 publish: true
-created: 2022-01-04 01:22
-updated: 2022-01-04 01:22
+created: 2022-01-04T01:22:00.000+09:00
+updated: 2022-01-04T01:22:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

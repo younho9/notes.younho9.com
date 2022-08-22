@@ -8,8 +8,8 @@ tags:
 aliases:
   - 통합(Integration) 테스트
 publish: true
-created: 2022-08-09 13:52
-updated: 2022-08-09 13:52
+created: 2022-08-09T13:52:00.000+09:00
+updated: 2022-08-09T13:52:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}
