@@ -9,4 +9,4 @@ updated: 2022-08-18T20:21:00.000+09:00
 
 ## 최근 업데이트된 문서
 
-<LatestJournals />
+<LatestDocs docType="journal" />
