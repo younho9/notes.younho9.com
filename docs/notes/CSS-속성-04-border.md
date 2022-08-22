@@ -1,10 +1,10 @@
 ---
-title: CSS 속성 04 border
+title: CSS 속성 04. border
 category: CSS
 tags:
   - css
 created: 2020-02-03T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+updated: 2022-08-22T12:56:19.369+09:00
 ---
 
 # {{ $frontmatter.title }}

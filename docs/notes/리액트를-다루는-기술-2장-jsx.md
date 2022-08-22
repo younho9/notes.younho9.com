@@ -4,7 +4,7 @@ category: React
 tags:
   - react
 created: 2020-03-23T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+updated: 2022-08-22T11:43:26.294+09:00
 ---
 
 # {{ $frontmatter.title }}
@@ -80,7 +80,7 @@ create-react-app으로 프로젝트를 생성한 후 `src/App.js` 를 열어보�
 
 `import logo from './logo.svg';` , `import './App.css';` 이 코드를 보면 리액트뿐만 아니라 css, svg 또한 모듈로 가져오는 것을 확인할 수 있다. 이처럼 js, 스타일시트, 이미지 등 모든 것을 모듈로 로딩해서 사용하도록 할 수 있다. 이렇게 모듈 시스템을 사용하면, 파일 단위로 관리할 수 있어서 프로젝트의 규모가 커질 때 관리하기용이해진다.
 
-그런데 이렇게 모듈을 불러와 사용하는 것은 원래 브라우저에는 없던 기능이고, Node.js에서 지원하는 기능이다. 이러한 기능을 브라우저에서 사용하기 위해 번들러 (bundler)를 사용하는 것이다. 리액트에서 주로 사용하는 번들러가 바로 웹팩 (Webpack)이다. 이 번들러 도구를 사용하면 불러온 여러 개의 모듈을 모두 합쳐서 하나의 파일을 생성할 수 있기 때문에 모든 브라우저에서 사용할 수 있다.
+그런데 이렇게 모듈을 불러와 사용하는 것은 원래 브라우저에는 없던 기능이고, Node.js에서 지원하는 기능이다. 이러한 기능을 브라우저에서 사용하기 위해 번들러 (bundler)를 사용하는 것이다. 리액트에서 주로 사용하는 번들러가 바로 웹팩 (webpack)이다. 이 번들러 도구를 사용하면 불러온 여러 개의 모듈을 모두 합쳐서 하나의 파일을 생성할 수 있기 때문에 모든 브라우저에서 사용할 수 있다.
 
 원래 웹팩을 사용하기 위해서 직접 설치하고 설정하는 과정을 거쳐야 하지만 create-react-app은 이 번거로운 작업을 모두 대신해주기 때문에 편리하다. (하지만직접 설치하고 설정하는 과정을 경험해볼 필요가 있다.)
 
@@ -404,10 +404,10 @@ Prettier를 사용하면 코드를 자동 정리 할 수 있다. 특히 스타�
 
 ## 같이 읽기
 
-[React 개발 환경을 구축하면서 배우는 웹팩(Webpack) 기초](https://velog.io/@jeff0720/React-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD%EC%9D%84-%EA%B5%AC%EC%B6%95%ED%95%98%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-Webpack-%EA%B8%B0%EC%B4%88)
+[React 개발 환경을 구축하면서 배우는 웹팩(webpack) 기초](https://velog.io/@jeff0720/React-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD%EC%9D%84-%EA%B5%AC%EC%B6%95%ED%95%98%EB%A9%B4%EC%84%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-webpack-%EA%B8%B0%EC%B4%88)
 
 [웹팩의 기본 개념](http://jeonghwan-kim.github.io/js/2017/05/15/webpack.html)
 
 [SPA(single page app)에서 webpack을 사용하는 이유](https://medium.com/@ljs0705/spa-single-page-app-%EC%97%90%EC%84%9C-webpack%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0-ce7d3f82fe9)
 
-[Webpack 같은 모듈 번들러를 만들어 보자 - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/write-you-a-webpack-for-great-good/)
+[webpack 같은 모듈 번들러를 만들어 보자 - LINE ENGINEERING](https://engineering.linecorp.com/ko/blog/write-you-a-webpack-for-great-good/)

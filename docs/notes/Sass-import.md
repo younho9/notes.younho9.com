@@ -4,7 +4,7 @@ category: CSS
 tags:
   - css
 created: 2020-03-21T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+updated: 2022-08-22T11:43:26.189+09:00
 ---
 
 # {{ $frontmatter.title }}
@@ -110,7 +110,7 @@ $ node-sass scss --output css
 Sass-App# ...├─css│  └─main.css  # main + header + side-menu├─scss│  ├─header.scss│  ├─side-menu.scss│  └─main.scss# ...
 ```
 
-> ☝️ Webpack 이나 Parcel , Gulp 같은 일반적인 빌드툴에서는 Partials 기능을 사용할 필요 없이, 설정된 값에 따라 빌드되지만 되도록 \_ 를 사용할 것을 권장
+> ☝️ webpack 이나 Parcel , Gulp 같은 일반적인 빌드툴에서는 Partials 기능을 사용할 필요 없이, 설정된 값에 따라 빌드되지만 되도록 \_ 를 사용할 것을 권장
 
 ### Reference
 

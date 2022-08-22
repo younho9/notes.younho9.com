@@ -1,10 +1,10 @@
 ---
-title: 선택자 selector 1편
+title: 선택자(selector) - 1편
 category: CSS
 tags:
   - css
 created: 2020-01-22T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+updated: 2022-08-22T12:04:56.138+09:00
 ---
 
 # {{ $frontmatter.title }}

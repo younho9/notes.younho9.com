@@ -1,6 +1,6 @@
 ---
 title: 캐럿(caret) vs 틸드(tilde)
-category: NPM
+category: npm
 tags:
   - npm
   - vs
@@ -9,7 +9,7 @@ aliases:
   - caret vs tilde
 publish: true
 created: 2022-01-06T19:55:00.000+09:00
-updated: 2022-01-06T19:55:00.000+09:00
+updated: 2022-08-22T11:54:45.270+09:00
 ---
 
 # {{ $frontmatter.title }}
