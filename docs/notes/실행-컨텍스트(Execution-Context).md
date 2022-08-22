@@ -6,8 +6,8 @@ tags:
 aliases:
   - alias
 publish: true
-created: 2021-12-31 21:55
-updated: 2021-12-31 21:55
+created: 2021-12-31T21:55:00.000+09:00
+updated: 2021-12-31T21:55:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

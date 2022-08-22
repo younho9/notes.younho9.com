@@ -1,7 +1,7 @@
 ---
 title: '<% tp.file.title %>'
-category: Journals
-publish: false
+category: <% tp.file.creation_date("YYYY") %>
+publish: true
 created: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
 updated: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm") %>
 ---

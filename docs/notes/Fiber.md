@@ -9,8 +9,8 @@ aliases:
   - React Fiber
   - fibers
 publish: true
-created: 2022-01-02 13:15
-updated: 2022-01-02 13:15
+created: 2022-01-02T13:15:00.000+09:00
+updated: 2022-01-02T13:15:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

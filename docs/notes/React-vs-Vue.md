@@ -9,8 +9,8 @@ aliases:
   - Vue vs React
   - React vs Vue
 publish: true
-created: 2022-01-02 16:29
-updated: 2022-01-02 16:29
+created: 2022-01-02T16:29:00.000+09:00
+updated: 2022-01-02T16:29:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

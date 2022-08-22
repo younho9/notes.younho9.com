@@ -6,8 +6,8 @@ tags:
 aliases:
   - 일렉트론(Electron)
 publish: true
-created: 2022-08-10 10:07
-updated: 2022-08-10 10:07
+created: 2022-08-10T10:07:00.000+09:00
+updated: 2022-08-10T10:07:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

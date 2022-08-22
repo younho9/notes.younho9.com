@@ -7,8 +7,8 @@ aliases:
   - 가상 돔
   - Virtual DOM
 publish: true
-created: 2022-01-02 13:10
-updated: 2022-01-02 13:10
+created: 2022-01-02T13:10:00.000+09:00
+updated: 2022-01-02T13:10:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

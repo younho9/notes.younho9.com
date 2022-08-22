@@ -7,8 +7,8 @@ tags:
 aliases:
   - JQL(Jira Query Language)
 publish: true
-created: 2022-08-11 11:54
-updated: 2022-08-11 11:54
+created: 2022-08-11T11:54:00.000+09:00
+updated: 2022-08-11T11:54:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

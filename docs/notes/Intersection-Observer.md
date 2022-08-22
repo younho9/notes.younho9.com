@@ -6,8 +6,8 @@ tags:
   - web-api
   - javascript
 publish: true
-created: 2022-01-12 12:18
-updated: 2022-01-12 12:18
+created: 2022-01-12T12:18:00.000+09:00
+updated: 2022-01-12T12:18:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

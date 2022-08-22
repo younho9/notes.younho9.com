@@ -9,8 +9,8 @@ tags:
 aliases:
   - CORB
 publish: true
-created: 2022-01-05 22:06
-updated: 2022-01-05 22:06
+created: 2022-01-05T22:06:00.000+09:00
+updated: 2022-01-05T22:06:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

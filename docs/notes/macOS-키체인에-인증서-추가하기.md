@@ -6,8 +6,8 @@ tags:
 aliases:
   - macOS 키체인에 인증서 추가하기
 publish: true
-created: 2022-08-11 15:19
-updated: 2022-08-11 15:19
+created: 2022-08-11T15:19:00.000+09:00
+updated: 2022-08-11T15:19:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

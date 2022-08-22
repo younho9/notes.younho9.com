@@ -8,8 +8,8 @@ aliases:
   - DI
   - Dependency Injection
 publish: true
-created: 2022-01-10 18:48
-updated: 2022-01-10 18:48
+created: 2022-01-10T18:48:00.000+09:00
+updated: 2022-01-10T18:48:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

@@ -2,9 +2,6 @@ import wikilinks from 'markdown-it-wikilinks';
 import externalLinks from 'markdown-it-external-links';
 import sanitize from 'sanitize-filename';
 import {defineConfig} from 'vitepress';
-import path from 'path';
-import fs from 'fs';
-import matter from 'gray-matter';
 import {
 	description,
 	facebook,
@@ -19,6 +16,7 @@ import {
 	author,
 	keywords,
 } from './meta';
+import data from '../data.json';
 
 export default defineConfig({
 	lang: 'ko-KR',
@@ -96,14 +94,6 @@ export default defineConfig({
 	},
 });
 
-function getDocs(pathname: string) {
-	const isMarkdown = (file: string) => path.extname(file) === '.md';
-
-	return fs
-		.readdirSync(path.join(__dirname, '../', pathname))
-		.filter((file) => isMarkdown(file));
-}
-
 function nav() {
 	return [
 		{
@@ -113,7 +103,7 @@ function nav() {
 		},
 		{
 			text: 'Journals',
-			link: `/journals/${getDocs('journals').reverse().at(0)}`,
+			link: `/journals/index.html`,
 			activeMatch: '/journals/',
 		},
 	];
@@ -127,22 +117,7 @@ function sidebar() {
 }
 
 function notes() {
-	const noteInfos: Record<string, any> = getDocs('notes').map((note) => {
-		const content = fs
-			.readFileSync(path.join(__dirname, '../notes', note))
-			.toString();
-
-		return {
-			...matter(content).data,
-			filename: note,
-		};
-	});
-
-	const categories = noteInfos
-		.map(({category}) => category)
-		.filter((category) => category !== 'Introduction')
-		.sort()
-		.reduce((acc, cur) => (acc.includes(cur) ? acc : [...acc, cur]), []);
+	const categories = [...new Set(data.notes.map(({category}) => category))];
 
 	return [
 		{
@@ -150,49 +125,55 @@ function notes() {
 			collapsible: true,
 			items: [
 				{
-					text: 'Hello',
+					text: 'Home',
 					link: '/notes/index.html',
 				},
 			],
 		},
-		...categories.map((category) => ({
-			text: category,
-			collapsible: true,
-			items: noteInfos
-				.filter((noteInfo) => noteInfo.category === category)
-				.sort((a, b) => a.title.localeCompare(b.title))
-				.map(({title, filename}) => ({
-					text: title,
-					link: `/notes/${filename.replace(/.md/, '')}`,
-				})),
-		})),
+		...categories
+			.filter((category) => category !== 'Introduction')
+			.sort()
+			.map((category) => ({
+				text: category,
+				collapsible: true,
+				items: data.notes
+					.filter((note) => note.category === category)
+					.sort((a, b) => a.title.localeCompare(b.title))
+					.map(({title, fileName}) => ({
+						text: title,
+						link: `/notes/${fileName.replace(/.md/, '')}`,
+					})),
+			})),
 	];
 }
 
 function journals() {
-	const journalInfos: Record<string, any> = getDocs('journals').map(
-		(journal) =>
-			matter(
-				fs
-					.readFileSync(path.join(__dirname, '../journals', journal))
-					.toString(),
-			).data,
-	);
+	const categories = [...new Set(data.journals.map(({category}) => category))];
 
-	const categories = journalInfos
-		.map(({category}) => category)
-		.reverse()
-		.reduce((acc, cur) => (acc.includes(cur) ? acc : [...acc, cur]), []);
-
-	return categories.map((category) => ({
-		text: category,
-		collapsible: true,
-		items: journalInfos
-			.filter((journalInfo) => journalInfo.category === category)
-			.sort((a, b) => b.title.localeCompare(a.title))
-			.map(({title}) => ({
-				text: title,
-				link: `/journals/${title}`,
+	return [
+		{
+			text: 'Introduction',
+			collapsible: true,
+			items: [
+				{
+					text: 'Home',
+					link: '/journals/index.html',
+				},
+			],
+		},
+		...categories
+			.filter((category) => category !== 'Introduction')
+			.reverse()
+			.map((category) => ({
+				text: String(category),
+				collapsible: true,
+				items: data.journals
+					.filter((journal) => journal.category === category)
+					.sort((a, b) => b.title.localeCompare(a.title))
+					.map(({title}) => ({
+						text: title,
+						link: `/journals/${title}`,
+					})),
 			})),
-	}));
+	];
 }

@@ -8,8 +8,8 @@ aliases:
   - ES modules
   - ESM
 publish: true
-created: 2022-08-12 09:58
-updated: 2022-08-12 09:58
+created: 2022-08-12T09:58:00.000+09:00
+updated: 2022-08-12T09:58:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

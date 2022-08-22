@@ -9,8 +9,8 @@ aliases:
   - JavaScript 애플리케이션 테스트
   - Frontend 애플리케이션 테스트
 publish: true
-created: 2022-08-09 13:08
-updated: 2022-08-09 13:08
+created: 2022-08-09T13:08:00.000+09:00
+updated: 2022-08-09T13:08:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

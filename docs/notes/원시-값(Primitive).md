@@ -10,8 +10,8 @@ aliases:
   - 원시 값
   - 원시 자료형
 publish: true
-created: 2022-01-06 13:52
-updated: 2022-01-06 13:52
+created: 2022-01-06T13:52:00.000+09:00
+updated: 2022-01-06T13:52:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

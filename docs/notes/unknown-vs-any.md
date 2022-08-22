@@ -7,8 +7,8 @@ tags:
 aliases:
   - unknown과 any의 차이점
 publish: true
-created: 2022-01-01 19:24
-updated: 2022-01-01 19:24
+created: 2022-01-01T19:24:00.000+09:00
+updated: 2022-01-01T19:24:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

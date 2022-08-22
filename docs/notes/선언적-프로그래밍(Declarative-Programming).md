@@ -9,8 +9,8 @@ aliases:
   - 선언적 프로그래밍(Declarative Programming)
   - 선언적 렌더링(Declarative Rendering)
 publish: true
-created: 2022-08-09 15:10
-updated: 2022-08-09 15:10
+created: 2022-08-09T15:10:00.000+09:00
+updated: 2022-08-09T15:10:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

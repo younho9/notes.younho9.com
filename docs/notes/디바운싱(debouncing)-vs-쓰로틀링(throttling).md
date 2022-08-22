@@ -9,8 +9,8 @@ aliases:
   - 디바운싱 vs 쓰로틀링
   - debouncing vs throttling
 publish: true
-created: 2022-01-01 18:17
-updated: 2022-01-01 18:17
+created: 2022-01-01T18:17:00.000+09:00
+updated: 2022-01-01T18:17:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

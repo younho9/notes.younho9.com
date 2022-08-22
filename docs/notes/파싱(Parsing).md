@@ -9,8 +9,8 @@ aliases:
   - 파싱
   - Parsing
 publish: true
-created: 2021-12-31 11:03
-updated: 2021-12-31 11:03
+created: 2021-12-31T11:03:00.000+09:00
+updated: 2021-12-31T11:03:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

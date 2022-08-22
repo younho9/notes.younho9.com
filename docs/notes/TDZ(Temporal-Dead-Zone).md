@@ -9,8 +9,8 @@ aliases:
   - TDZ
   - 일시적 사각 지대
 publish: true
-created: 2021-12-31 23:48
-updated: 2021-12-31 23:48
+created: 2021-12-31T23:48:00.000+09:00
+updated: 2021-12-31T23:48:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

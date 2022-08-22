@@ -7,8 +7,8 @@ tags:
 aliases:
   - Ref 전달
 publish: true
-created: 2022-01-09 16:27
-updated: 2022-01-09 16:27
+created: 2022-01-09T16:27:00.000+09:00
+updated: 2022-01-09T16:27:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

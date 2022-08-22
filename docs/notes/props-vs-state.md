@@ -11,8 +11,8 @@ aliases:
   - 속성(props)
   - 상태(state)
 publish: true
-created: 2022-01-01 20:55
-updated: 2022-01-01 20:55
+created: 2022-01-01T20:55:00.000+09:00
+updated: 2022-01-01T20:55:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

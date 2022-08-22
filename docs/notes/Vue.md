@@ -6,8 +6,8 @@ tags:
 aliases:
   - Vue
 publish: true
-created: 2022-01-18 18:06
-updated: 2022-01-18 18:06
+created: 2022-01-18T18:06:00.000+09:00
+updated: 2022-01-18T18:06:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

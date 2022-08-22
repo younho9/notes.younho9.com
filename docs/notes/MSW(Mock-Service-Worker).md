@@ -7,8 +7,8 @@ tags:
 aliases:
   - MSW(Mock Service Worker)
 publish: true
-created: 2022-08-10 09:31
-updated: 2022-08-10 09:31
+created: 2022-08-10T09:31:00.000+09:00
+updated: 2022-08-10T09:31:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

@@ -6,8 +6,8 @@ tags:
 aliases:
   - Cypress vs Testing Library
 publish: true
-created: 2022-08-09 10:37
-updated: 2022-08-09 10:37
+created: 2022-08-09T10:37:00.000+09:00
+updated: 2022-08-09T10:37:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

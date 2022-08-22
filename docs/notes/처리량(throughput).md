@@ -7,8 +7,8 @@ tags:
 aliases:
   - 스루풋
 publish: true
-created: 2022-01-08 15:22
-updated: 2022-01-08 15:22
+created: 2022-01-08T15:22:00.000+09:00
+updated: 2022-01-08T15:22:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

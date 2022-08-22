@@ -6,8 +6,8 @@ tags:
   - glossary
   - vs
 publish: true
-created: 2022-01-06 13:39
-updated: 2022-01-06 16:22
+created: 2022-01-06T13:39:00.000+09:00
+updated: 2022-01-06T16:22:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

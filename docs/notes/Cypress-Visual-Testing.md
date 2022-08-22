@@ -7,8 +7,8 @@ tags:
 aliases:
   - Cypress Visual Testing
 publish: true
-created: 2022-07-13 10:38
-updated: 2022-07-13 10:38
+created: 2022-07-13T10:38:00.000+09:00
+updated: 2022-07-13T10:38:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

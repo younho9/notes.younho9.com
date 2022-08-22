@@ -7,8 +7,8 @@ tags:
 aliases:
   - PRPL Pattern
 publish: true
-created: 2022-01-08 15:44
-updated: 2022-01-08 15:44
+created: 2022-01-08T15:44:00.000+09:00
+updated: 2022-01-08T15:44:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

@@ -9,8 +9,8 @@ aliases:
   - 대칭키와 비대칭키(공개키)
   - 대칭키와 공개키(비대칭키)
 publish: true
-created: 2021-12-31 12:24
-updated: 2021-12-31 12:24
+created: 2021-12-31T12:24:00.000+09:00
+updated: 2021-12-31T12:24:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}
