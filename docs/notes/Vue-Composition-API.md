@@ -6,8 +6,8 @@ tags:
 aliases:
   - Vue Composition API
 publish: true
-created: 2022-07-13 09:33
-updated: 2022-07-13 09:33
+created: 2022-07-13T09:33:00.000+09:00
+updated: 2022-07-13T09:33:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

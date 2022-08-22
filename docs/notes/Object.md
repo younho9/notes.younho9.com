@@ -6,8 +6,8 @@ tags:
 aliases:
   - Object.create
 publish: true
-created: 2022-01-01 12:11
-updated: 2022-01-01 12:11
+created: 2022-01-01T12:11:00.000+09:00
+updated: 2022-01-01T12:11:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

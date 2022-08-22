@@ -6,8 +6,8 @@ tags:
 aliases:
   - 시맨틱 마크업
 publish: true
-created: 2022-01-07 17:01
-updated: 2022-01-07 17:30
+created: 2022-01-07T17:01:00.000+09:00
+updated: 2022-01-07T17:30:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

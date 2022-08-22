@@ -5,8 +5,8 @@ tags:
   - web
   - http
 publish: true
-created: 2021-12-30 14:06
-updated: 2021-12-30 14:06
+created: 2021-12-30T14:06:00.000+09:00
+updated: 2021-12-30T14:06:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

@@ -6,8 +6,8 @@ tags:
   - performance
   - lighthouse
 publish: true
-created: 2022-01-08 15:38
-updated: 2022-01-08 15:38
+created: 2022-01-08T15:38:00.000+09:00
+updated: 2022-01-08T15:38:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

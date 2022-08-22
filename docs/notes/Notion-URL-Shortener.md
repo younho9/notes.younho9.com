@@ -4,8 +4,8 @@ category: Project
 tags:
   - project
 publish: true
-created: 2022-02-03 22:15
-updated: 2022-02-04 08:02
+created: 2022-02-03T22:15:00.000+09:00
+updated: 2022-02-04T08:02:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

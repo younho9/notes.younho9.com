@@ -6,8 +6,8 @@ tags:
 aliases:
   - v-show와 v-if의 차이점
   - v-show와 v-if
-created: 2021-12-30 13:06
-updated: 2022-01-14 00:12
+created: 2021-12-30T13:06:00.000+09:00
+updated: 2022-01-14T00:12:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

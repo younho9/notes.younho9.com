@@ -4,8 +4,8 @@ category: Tools
 tags:
   - macos
   - settings
-created: 2020-03-26
-updated: 2021-02-15
+created: 2020-03-26T00:00:00.000+09:00
+updated: 2021-02-15T00:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

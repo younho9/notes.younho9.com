@@ -10,8 +10,8 @@ aliases:
   - 구문 설탕
   - Syntax sugar
 publish: true
-created: 2022-01-01 17:02
-updated: 2022-01-01 17:02
+created: 2022-01-01T17:02:00.000+09:00
+updated: 2022-01-01T17:02:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

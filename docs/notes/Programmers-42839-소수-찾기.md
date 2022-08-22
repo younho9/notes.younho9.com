@@ -3,8 +3,8 @@ title: Programmers 42839. 소수 찾기
 category: Algorithm
 tags:
   - algorithm
-created: 2020-10-08
-updated: 2021-02-15
+created: 2020-10-08T00:00:00.000+09:00
+updated: 2021-02-15T00:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

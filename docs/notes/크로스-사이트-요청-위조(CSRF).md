@@ -12,8 +12,8 @@ aliases:
   - CSRF(교차 요청 위조)
   - XSRF
 publish: true
-created: 2021-12-31 15:18
-updated: 2021-12-31 15:18
+created: 2021-12-31T15:18:00.000+09:00
+updated: 2021-12-31T15:18:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

@@ -4,8 +4,8 @@ category: TypeScript
 tags:
   - typescript
 publish: true
-created: 2022-01-01 20:50
-updated: 2022-01-01 20:50
+created: 2022-01-01T20:50:00.000+09:00
+updated: 2022-01-01T20:50:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

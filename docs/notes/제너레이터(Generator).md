@@ -7,8 +7,8 @@ aliases:
   - 제너레이터
   - Generator
 publish: true
-created: 2022-01-01 17:16
-updated: 2022-01-01 17:16
+created: 2022-01-01T17:16:00.000+09:00
+updated: 2022-01-01T17:16:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

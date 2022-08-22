@@ -9,8 +9,8 @@ tags:
 aliases:
   - FID
 publish: true
-created: 2022-01-13 09:36
-updated: 2022-01-13 09:36
+created: 2022-01-13T09:36:00.000+09:00
+updated: 2022-01-13T09:36:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

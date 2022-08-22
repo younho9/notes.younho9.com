@@ -3,8 +3,8 @@ title: python pip 패키지 관리
 category: Python
 tags:
   - python
-created: 2021-03-27
-updated: 2021-03-27
+created: 2021-03-27T00:00:00.000+09:00
+updated: 2021-03-27T00:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

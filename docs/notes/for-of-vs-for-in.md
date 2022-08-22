@@ -8,8 +8,8 @@ aliases:
   - for-of
   - for-in
 publish: true
-created: 2022-01-01 14:50
-updated: 2022-01-01 14:50
+created: 2022-01-01T14:50:00.000+09:00
+updated: 2022-01-01T14:50:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

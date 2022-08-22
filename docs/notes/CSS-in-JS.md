@@ -7,8 +7,8 @@ tags:
 aliases:
   - JSS
 publish: true
-created: 2022-01-10 15:06
-updated: 2022-01-10 15:06
+created: 2022-01-10T15:06:00.000+09:00
+updated: 2022-01-10T15:06:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

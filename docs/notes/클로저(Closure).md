@@ -7,8 +7,8 @@ aliases:
   - 클로저
   - Closure
 publish: true
-created: 2021-12-31 21:54
-updated: 2021-12-31 21:54
+created: 2021-12-31T21:54:00.000+09:00
+updated: 2021-12-31T21:54:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

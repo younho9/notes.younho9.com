@@ -9,8 +9,8 @@ aliases:
   - Single File Component(SFC)
   - SFC
 publish: true
-created: 2022-08-09 15:25
-updated: 2022-08-09 15:25
+created: 2022-08-09T15:25:00.000+09:00
+updated: 2022-08-09T15:25:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

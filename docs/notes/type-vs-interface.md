@@ -6,8 +6,8 @@ tags:
 aliases:
   - type과 interface의 차이점
 publish: true
-created: 2022-01-01 18:27
-updated: 2022-01-01 18:27
+created: 2022-01-01T18:27:00.000+09:00
+updated: 2022-01-01T18:27:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

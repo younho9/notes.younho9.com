@@ -8,8 +8,8 @@ tags:
 aliases:
   - beforeunload vs unload
 publish: true
-created: 2022-01-05 22:59
-updated: 2022-01-05 23:00
+created: 2022-01-05T22:59:00.000+09:00
+updated: 2022-01-05T23:00:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

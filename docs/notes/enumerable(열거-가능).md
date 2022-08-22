@@ -9,8 +9,8 @@ aliases:
   - enumerable
   - 열거 가능
 publish: true
-created: 2022-01-01 14:32
-updated: 2022-01-01 14:32
+created: 2022-01-01T14:32:00.000+09:00
+updated: 2022-01-01T14:32:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

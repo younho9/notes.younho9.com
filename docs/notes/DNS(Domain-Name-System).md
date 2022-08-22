@@ -7,8 +7,8 @@ tags:
 aliases:
   - DNS
 publish: true
-created: 2022-01-07 17:40
-updated: 2022-01-07 17:40
+created: 2022-01-07T17:40:00.000+09:00
+updated: 2022-01-07T17:40:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

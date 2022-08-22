@@ -7,8 +7,8 @@ aliases:
   - 재조정
   - Reconcilication
 publish: true
-created: 2022-01-02 13:01
-updated: 2022-01-02 13:01
+created: 2022-01-02T13:01:00.000+09:00
+updated: 2022-01-02T13:01:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

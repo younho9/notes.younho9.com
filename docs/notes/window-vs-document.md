@@ -7,8 +7,8 @@ tags:
 aliases:
   - window 객체와 document 객체
 publish: true
-created: 2022-01-13 15:51
-updated: 2022-01-13 15:51
+created: 2022-01-13T15:51:00.000+09:00
+updated: 2022-01-13T15:51:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}

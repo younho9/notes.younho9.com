@@ -4,8 +4,8 @@ category: JavaScript
 tags:
   - javascript
 publish: true
-created: 2021-12-31 17:30
-updated: 2022-01-10 00:19
+created: 2021-12-31T17:30:00.000+09:00
+updated: 2022-01-10T00:19:00.000+09:00
 ---
 
 # {{ $frontmatter.title }}
