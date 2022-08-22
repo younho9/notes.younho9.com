@@ -8,7 +8,7 @@ tags:
   - glossary
 publish: true
 created: 2022-01-05T21:02:00.000+09:00
-updated: 2022-01-12T11:35:00.000+09:00
+updated: 2022-08-22T11:43:26.360+09:00
 ---
 
 # {{ $frontmatter.title }}
@@ -53,5 +53,5 @@ updated: 2022-01-12T11:35:00.000+09:00
 - [Tree Shaking | webpack](https://webpack.js.org/guides/tree-shaking/)
 - [트리 쉐이킹으로 자바스크립트 페이로드 줄이기 | TOAST UI :: Make Your Web Delicious!](https://ui.toast.com/weekly-pick/ko_20180716)
 - [Tree Shaking과 Module System | SOSOLOG (so-so.dev)](https://so-so.dev/web/tree-shaking-module-system/)
-- [Webpack and Rollup: the same but different | by Rich Harris | webpack | Medium](https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c)
+- [webpack and Rollup: the same but different | by Rich Harris | webpack | Medium](https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c)
 - [How CommonJS is making your bundles larger (web.dev)](https://web.dev/commonjs-larger-bundles/)

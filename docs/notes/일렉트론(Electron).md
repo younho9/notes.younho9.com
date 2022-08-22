@@ -7,7 +7,7 @@ aliases:
   - 일렉트론(Electron)
 publish: true
 created: 2022-08-10T10:07:00.000+09:00
-updated: 2022-08-10T10:07:00.000+09:00
+updated: 2022-08-22T11:43:26.359+09:00
 ---
 
 # {{ $frontmatter.title }}
@@ -123,7 +123,7 @@ app.whenReady().then(() => {
 > ESM은 현재 Electron에서 지원되지 않는다. [electron/electron#21457](https://github.com/electron/electron/issues/21457)에서 현재ESM 지원 상태에 대한 정보를 확인할 수 있다.
 
 - 앱이 윈도우에 표시하는 각 웹 페이지는 **렌더러(renderer)** 라고 불리는 별개의 프로세스에서 실행된다.
-- 렌더러는 JavaScript API에 접근 가능하고, Webpack, React 등 필요한 프론트엔드 툴링을 사용할 수 있다.
+- 렌더러는 JavaScript API에 접근 가능하고, webpack, React 등 필요한 프론트엔드 툴링을 사용할 수 있다.
 
 #### 앱의 윈도우 라이프사이클을 관리하기
 

@@ -8,7 +8,7 @@ aliases:
   - MSW(Mock Service Worker)
 publish: true
 created: 2022-08-10T09:31:00.000+09:00
-updated: 2022-08-10T09:31:00.000+09:00
+updated: 2022-08-22T11:40:20.755+09:00
 ---
 
 # {{ $frontmatter.title }}
@@ -27,5 +27,6 @@ updated: 2022-08-10T09:31:00.000+09:00
 ## References
 
 - [MSW – Seamless API mocking library for browser and Node | Mock Service Worker (mswjs.io)](https://mswjs.io/)
+<!-- @case-police-ignore Seo -->
 - [MSW로 백앤드 API 모킹하기 | Engineering Blog by Dale Seo](https://www.daleseo.com/mock-service-worker/)
 - [Mocking으로 생산성까지 챙기는 FE 개발 – tech.kakao.com](https://tech.kakao.com/2021/09/29/mocking-fe/)

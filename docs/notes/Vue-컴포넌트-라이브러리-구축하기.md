@@ -7,7 +7,7 @@ aliases:
   - how to build vue component library
 publish: true
 created: 2022-01-18T17:18:00.000+09:00
-updated: 2022-01-18T17:18:00.000+09:00
+updated: 2022-08-22T11:54:30.371+09:00
 ---
 
 # {{ $frontmatter.title }}
@@ -21,7 +21,7 @@ updated: 2022-01-18T17:18:00.000+09:00
 
 [Introduction | Rollup Plugin Vue (vuejs.org)](https://rollup-plugin-vue.vuejs.org/)
 
-- [Quick Publishing of Redistributable Single File Component on NPM Mike - YouTube](https://www.youtube.com/watch?v=iDCt8DtJr3s)
+- [Quick Publishing of Redistributable Single File Component on npm Mike - YouTube](https://www.youtube.com/watch?v=iDCt8DtJr3s)
 - [team-innovation/vue-sfc-rollup: Quickly generate redistributable Vue components with Rollup (github.com)](https://github.com/team-innovation/vue-sfc-rollup)
 
 ## 모노레포
@@ -49,8 +49,8 @@ updated: 2022-01-18T17:18:00.000+09:00
   - ...
 
 - 인프라 지원이 필요한 것.
-  - NPM Package Registry
-    - NPM Private Registry (Best)
+  - npm Package Registry
+    - npm Private Registry (Best)
     - GitLab Registry (Not Bad)
     - Git URL (현재, 모노레포 사용 불가)
 

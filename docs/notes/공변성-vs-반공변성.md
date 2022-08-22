@@ -7,7 +7,7 @@ aliases:
   - covariant vs contravariant
 publish: true
 created: 2022-01-14T09:28:00.000+09:00
-updated: 2022-01-14T09:28:00.000+09:00
+updated: 2022-08-22T11:43:11.110+09:00
 ---
 
 # {{ $frontmatter.title }}
@@ -31,5 +31,7 @@ bar = foo;
 ## Related
 
 ## References
+
+<!-- @case-police-ignore Seo -->
 
 - [TypeScript 에서의 공변성과 반공변성 (strictFunctionTypes) | by Seo Yeon, Lee | Medium](https://iamssen.medium.com/typescript-%EC%97%90%EC%84%9C%EC%9D%98-%EA%B3%B5%EB%B3%80%EC%84%B1%EA%B3%BC-%EB%B0%98%EA%B3%B5%EB%B3%80%EC%84%B1-strictfunctiontypes-a82400e67f2)
