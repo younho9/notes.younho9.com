@@ -1,11 +1,11 @@
 ---
-title: react import 스타일
+title: React import 스타일
 category: React
 tags:
   - react
 publish: true
 created: 2022-01-04T01:22:00.000+09:00
-updated: 2022-01-04T01:22:00.000+09:00
+updated: 2022-08-22T12:03:19.133+09:00
 ---
 
 # {{ $frontmatter.title }}

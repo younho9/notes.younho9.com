@@ -1,13 +1,13 @@
 ---
 title: window.open
-category: category
+category: Web API
 tags:
-  - tag
+  - web-api
 aliases:
   - window.open
 publish: true
 created: 2022-08-09T14:53:00.000+09:00
-updated: 2022-08-09T14:53:00.000+09:00
+updated: 2022-08-22T11:59:46.788+09:00
 ---
 
 # {{ $frontmatter.title }}

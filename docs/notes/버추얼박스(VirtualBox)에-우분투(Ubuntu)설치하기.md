@@ -1,11 +1,11 @@
 ---
-title: 버추얼박스(virtualbox)에 우분투(ubuntu)설치하기
+title: 버추얼박스(VirtualBox)에 우분투(Ubuntu)설치하기
 category: Tools
 tags:
   - macos
   - settings
 created: 2020-03-25T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+updated: 2022-08-22T12:53:21.210+09:00
 ---
 
 # {{ $frontmatter.title }}
