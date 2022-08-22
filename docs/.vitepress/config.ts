@@ -132,13 +132,13 @@ function notes() {
 		},
 		...categories
 			.filter((category) => category !== 'Introduction')
-			.sort()
+			.sort((a, b) => a.toLowerCase().localeCompare(b))
 			.map((category) => ({
 				text: category,
 				collapsible: true,
 				items: data.notes
 					.filter((note) => note.category === category)
-					.sort((a, b) => a.title.localeCompare(b.title))
+					.sort((a, b) => a.title.toLowerCase().localeCompare(b.title))
 					.map(({title, fileName}) => ({
 						text: title,
 						link: `/notes/${fileName.replace(/.md/, '')}`,
@@ -169,7 +169,7 @@ function journals() {
 				collapsible: true,
 				items: data.journals
 					.filter((journal) => journal.category === category)
-					.sort((a, b) => b.title.localeCompare(a.title))
+					.sort((a, b) => b.title.toLowerCase().localeCompare(a.title))
 					.map(({title}) => ({
 						text: title,
 						link: `/journals/${title}`,
