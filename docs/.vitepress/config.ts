@@ -97,6 +97,11 @@ export default defineConfig({
 function nav() {
 	return [
 		{
+			text: 'Graph',
+			link: '/graph.html',
+			activeMatch: 'graph',
+		},
+		{
 			text: 'Notes',
 			link: '/notes/index.html',
 			activeMatch: '/notes/',
