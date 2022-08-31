@@ -39,7 +39,7 @@ export default defineConfig({
 		['link', {rel: 'mask-icon', href: logo, color: '#ffffff'}],
 		['link', {rel: 'apple-touch-icon', href: logo, sizes: '180x180'}],
 	],
-	lastUpdated: true,
+	lastUpdated: false,
 	themeConfig: {
 		siteTitle: title,
 		logo,
