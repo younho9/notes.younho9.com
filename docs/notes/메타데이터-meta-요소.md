@@ -3,8 +3,8 @@ title: 메타데이터 meta 요소
 category: HTML
 tags:
   - html
-created: 2020-01-20T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+created: 2020-01-19T15:00:00.000Z
+updated: 2021-02-14T15:00:00.000Z
 ---
 
 # {{ $frontmatter.title }}

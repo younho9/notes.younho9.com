@@ -7,8 +7,8 @@ aliases:
   - 프로토타입
   - Prototype
 publish: true
-created: 2021-12-31T20:25:00.000+09:00
-updated: 2021-12-31T20:25:00.000+09:00
+created: 2021-12-31T11:25:00.000Z
+updated: 2021-12-31T11:25:00.000Z
 ---
 
 # {{ $frontmatter.title }}

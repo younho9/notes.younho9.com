@@ -3,8 +3,8 @@ title: 리액트를 다루는 기술 2장 jsx
 category: React
 tags:
   - react
-created: 2020-03-23T00:00:00.000+09:00
-updated: 2022-08-22T11:43:26.294+09:00
+created: 2020-03-22T15:00:00.000Z
+updated: 2022-08-22T02:43:26.294Z
 ---
 
 # {{ $frontmatter.title }}

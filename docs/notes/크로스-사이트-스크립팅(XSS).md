@@ -12,8 +12,8 @@ aliases:
   - 크로스 사이트 스크립팅 공격
   - XSS 공격
 publish: true
-created: 2021-12-31T15:18:00.000+09:00
-updated: 2021-12-31T15:18:00.000+09:00
+created: 2021-12-31T06:18:00.000Z
+updated: 2021-12-31T06:18:00.000Z
 ---
 
 # {{ $frontmatter.title }}

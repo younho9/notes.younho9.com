@@ -10,8 +10,8 @@ aliases:
   - 브라우저 이벤트
   - Event
 publish: true
-created: 2021-12-31T16:29:00.000+09:00
-updated: 2021-12-31T16:29:00.000+09:00
+created: 2021-12-31T07:29:00.000Z
+updated: 2021-12-31T07:29:00.000Z
 ---
 
 # {{ $frontmatter.title }}

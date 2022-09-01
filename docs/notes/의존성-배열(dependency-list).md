@@ -10,8 +10,8 @@ aliases:
   - 종속성 목록
   - 종속성 배열
 publish: true
-created: 2022-01-02T17:28:00.000+09:00
-updated: 2022-01-02T17:28:00.000+09:00
+created: 2022-01-02T08:28:00.000Z
+updated: 2022-01-02T08:28:00.000Z
 ---
 
 # {{ $frontmatter.title }}

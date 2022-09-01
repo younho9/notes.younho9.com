@@ -12,8 +12,8 @@ aliases:
   - Top Level Domain
   - Public Suffix
   - Suffix
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2022-01-13T23:01:00.000+09:00
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-01-13T14:01:00.000Z
 ---
 
 # {{ $frontmatter.title }}

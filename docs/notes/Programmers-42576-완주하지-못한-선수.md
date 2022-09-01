@@ -3,8 +3,8 @@ title: Programmers 42576. 완주하지 못한 선수
 category: Algorithm
 tags:
   - algorithm
-created: 2020-09-22T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+created: 2020-09-21T15:00:00.000Z
+updated: 2021-02-14T15:00:00.000Z
 ---
 
 # {{ $frontmatter.title }}

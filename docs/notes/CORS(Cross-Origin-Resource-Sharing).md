@@ -9,8 +9,8 @@ aliases:
   - CORS
   - Cross Origin Resource Sharing
   - 교차 출처 리소스 공유
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+created: 2021-12-30T04:06:00.000Z
+updated: 2021-12-30T04:15:00.000Z
 ---
 
 # {{ $frontmatter.title }}

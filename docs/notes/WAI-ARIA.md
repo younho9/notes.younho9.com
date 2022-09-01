@@ -5,8 +5,8 @@ tags:
   - web
   - a11y
 publish: true
-created: 2022-08-03T05:39:00.000+09:00
-updated: 2022-08-03T05:39:00.000+09:00
+created: 2022-08-02T20:39:00.000Z
+updated: 2022-08-02T20:39:00.000Z
 ---
 
 # {{ $frontmatter.title }}

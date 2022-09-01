@@ -3,8 +3,8 @@ title: Programmers 42587. 프린터
 category: Algorithm
 tags:
   - algorithm
-created: 2020-10-03T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+created: 2020-10-02T15:00:00.000Z
+updated: 2021-02-14T15:00:00.000Z
 ---
 
 # {{ $frontmatter.title }}

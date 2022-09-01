@@ -7,8 +7,8 @@ tags:
 aliases:
   - 점진적 향상 vs 우아한 성능저하
 publish: true
-created: 2022-01-09T00:28:00.000+09:00
-updated: 2022-01-09T00:28:00.000+09:00
+created: 2022-01-08T15:28:00.000Z
+updated: 2022-01-08T15:28:00.000Z
 ---
 
 # {{ $frontmatter.title }}

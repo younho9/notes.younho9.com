@@ -9,8 +9,8 @@ aliases:
   - parameter vs argument
   - 매개변수(parameter) vs 인수(argument)
 publish: true
-created: 2022-01-06T17:37:00.000+09:00
-updated: 2022-01-06T17:37:00.000+09:00
+created: 2022-01-06T08:37:00.000Z
+updated: 2022-01-06T08:37:00.000Z
 ---
 
 # {{ $frontmatter.title }}

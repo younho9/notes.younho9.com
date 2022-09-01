@@ -4,10 +4,10 @@ category: JavaScript
 tags:
   - javascript
 aliases:
-  - var, let, const의 차이점
+  - 'var, let, const의 차이점'
 publish: true
-created: 2021-12-31T21:51:00.000+09:00
-updated: 2021-12-31T21:51:00.000+09:00
+created: 2021-12-31T12:51:00.000Z
+updated: 2021-12-31T12:51:00.000Z
 ---
 
 # {{ $frontmatter.title }}

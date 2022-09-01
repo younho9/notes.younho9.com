@@ -13,8 +13,8 @@ aliases:
   - 웹 쿠키
   - 브라우저 쿠키
 publish: true
-created: 2021-12-30T15:38:00.000+09:00
-updated: 2021-12-30T15:38:00.000+09:00
+created: 2021-12-30T06:38:00.000Z
+updated: 2021-12-30T06:38:00.000Z
 ---
 
 # {{ $frontmatter.title }}

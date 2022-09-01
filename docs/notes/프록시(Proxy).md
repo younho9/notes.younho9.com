@@ -9,8 +9,8 @@ aliases:
   - 프록시
   - Proxy
 publish: true
-created: 2021-12-31T11:18:00.000+09:00
-updated: 2021-12-31T11:18:00.000+09:00
+created: 2021-12-31T02:18:00.000Z
+updated: 2021-12-31T02:18:00.000Z
 ---
 
 # {{ $frontmatter.title }}

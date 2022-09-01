@@ -10,8 +10,8 @@ aliases:
   - HTTP(HyperText Transfer Protocol)
   - HyperText Transfer Protocol
 publish: true
-created: 2021-12-30T18:06:00.000+09:00
-updated: 2021-12-30T18:06:00.000+09:00
+created: 2021-12-30T09:06:00.000Z
+updated: 2021-12-30T09:06:00.000Z
 ---
 
 # {{ $frontmatter.title }}

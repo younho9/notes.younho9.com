@@ -10,8 +10,8 @@ aliases:
   - 쿠키 vs 웹 스토리지
   - cookie vs Web Storage
   - cookie vs localStoarge vs sessionStorage
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+created: 2021-12-30T04:06:00.000Z
+updated: 2021-12-30T04:15:00.000Z
 ---
 
 # {{ $frontmatter.title }}

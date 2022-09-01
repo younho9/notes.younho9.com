@@ -10,8 +10,8 @@ aliases:
   - 세션 쿠키
   - Session Cookie
 publish: true
-created: 2021-12-30T16:28:00.000+09:00
-updated: 2021-12-30T17:49:00.000+09:00
+created: 2021-12-30T07:28:00.000Z
+updated: 2021-12-30T08:49:00.000Z
 ---
 
 # {{ $frontmatter.title }}

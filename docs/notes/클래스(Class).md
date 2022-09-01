@@ -7,8 +7,8 @@ aliases:
   - class
   - 클래스
 publish: true
-created: 2022-01-01T12:14:00.000+09:00
-updated: 2022-01-01T17:01:00.000+09:00
+created: 2022-01-01T03:14:00.000Z
+updated: 2022-01-01T08:01:00.000Z
 ---
 
 # {{ $frontmatter.title }}

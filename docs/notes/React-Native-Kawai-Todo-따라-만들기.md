@@ -1,8 +1,8 @@
 ---
 title: kawai-todo 따라 만들기
 category: React Native
-created: 2020-03-22T00:00:00.000+09:00
-updated: 2022-08-22T12:02:13.179+09:00
+created: 2020-03-21T15:00:00.000Z
+updated: 2022-08-22T03:02:13.179Z
 ---
 
 # {{ $frontmatter.title }}

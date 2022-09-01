@@ -6,8 +6,8 @@ tags:
   - Git
   - docker
 publish: true
-created: 2022-03-24T14:17:00.000+09:00
-updated: 2022-03-24T14:17:00.000+09:00
+created: 2022-03-24T05:17:00.000Z
+updated: 2022-03-24T05:17:00.000Z
 ---
 
 # {{ $frontmatter.title }}

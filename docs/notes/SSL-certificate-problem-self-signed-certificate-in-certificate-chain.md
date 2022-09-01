@@ -7,8 +7,8 @@ tags:
 aliases:
   - SSL certificate problem: self signed certificate in certificate chain
 publish: true
-created: 2022-08-10T10:37:00.000+09:00
-updated: 2022-08-10T10:37:00.000+09:00
+created: 2022-08-10T01:37:00.000Z
+updated: 2022-08-10T01:37:00.000Z
 ---
 
 # {{ $frontmatter.title }}

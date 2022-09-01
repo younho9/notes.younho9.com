@@ -8,8 +8,8 @@ aliases:
   - First-class object
   - 일급 객체
 publish: true
-created: 2022-01-06T13:06:00.000+09:00
-updated: 2022-01-06T13:06:00.000+09:00
+created: 2022-01-06T04:06:00.000Z
+updated: 2022-01-06T04:06:00.000Z
 ---
 
 # {{ $frontmatter.title }}

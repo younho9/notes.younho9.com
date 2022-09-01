@@ -6,8 +6,8 @@ tags:
 aliases:
   - covariant vs contravariant
 publish: true
-created: 2022-01-14T09:28:00.000+09:00
-updated: 2022-08-22T11:43:11.110+09:00
+created: 2022-01-14T00:28:00.000Z
+updated: 2022-08-22T02:43:11.110Z
 ---
 
 # {{ $frontmatter.title }}

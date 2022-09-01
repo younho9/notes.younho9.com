@@ -7,8 +7,8 @@ tags:
 aliases:
   - SSO 인증
 publish: true
-created: 2022-08-11T14:16:00.000+09:00
-updated: 2022-08-11T14:16:00.000+09:00
+created: 2022-08-11T05:16:00.000Z
+updated: 2022-08-11T05:16:00.000Z
 ---
 
 # {{ $frontmatter.title }}

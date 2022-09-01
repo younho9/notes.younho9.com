@@ -6,8 +6,8 @@ tags:
   - react
   - react
 publish: true
-created: 2022-01-02T17:27:00.000+09:00
-updated: 2022-01-02T18:07:00.000+09:00
+created: 2022-01-02T08:27:00.000Z
+updated: 2022-01-02T09:07:00.000Z
 ---
 
 # {{ $frontmatter.title }}

@@ -5,8 +5,8 @@ tags:
   - web
   - web-api
 publish: true
-created: 2022-01-05T23:05:00.000+09:00
-updated: 2022-01-05T23:05:00.000+09:00
+created: 2022-01-05T14:05:00.000Z
+updated: 2022-01-05T14:05:00.000Z
 ---
 
 # {{ $frontmatter.title }}

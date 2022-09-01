@@ -6,8 +6,8 @@ tags:
 aliases:
   - window.open
 publish: true
-created: 2022-08-09T14:53:00.000+09:00
-updated: 2022-08-22T11:59:46.788+09:00
+created: 2022-08-09T05:53:00.000Z
+updated: 2022-08-22T02:59:46.788Z
 ---
 
 # {{ $frontmatter.title }}

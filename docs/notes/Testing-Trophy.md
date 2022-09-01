@@ -10,8 +10,8 @@ aliases:
   - 테스팅 트로피
   - 테스트 트로피
 publish: true
-created: 2022-08-09T13:11:00.000+09:00
-updated: 2022-08-09T13:11:00.000+09:00
+created: 2022-08-09T04:11:00.000Z
+updated: 2022-08-09T04:11:00.000Z
 ---
 
 # {{ $frontmatter.title }}

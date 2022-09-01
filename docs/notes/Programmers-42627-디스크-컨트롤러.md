@@ -3,8 +3,8 @@ title: Programmers 42627. 디스크 컨트롤러
 category: Algorithm
 tags:
   - algorithm
-created: 2020-10-04T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+created: 2020-10-03T15:00:00.000Z
+updated: 2021-02-14T15:00:00.000Z
 ---
 
 # {{ $frontmatter.title }}

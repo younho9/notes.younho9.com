@@ -9,8 +9,8 @@ aliases:
   - 세션
   - Session
 publish: true
-created: 2021-12-30T16:09:00.000+09:00
-updated: 2021-12-30T16:09:00.000+09:00
+created: 2021-12-30T07:09:00.000Z
+updated: 2021-12-30T07:09:00.000Z
 ---
 
 # {{ $frontmatter.title }}

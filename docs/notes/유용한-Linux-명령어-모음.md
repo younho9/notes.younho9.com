@@ -8,8 +8,8 @@ tags:
 aliases:
   - 유용한 Linux 명령어 모음
 publish: true
-created: 2022-08-12T16:42:00.000+09:00
-updated: 2022-08-12T16:42:00.000+09:00
+created: 2022-08-12T07:42:00.000Z
+updated: 2022-08-12T07:42:00.000Z
 ---
 
 # {{ $frontmatter.title }}

@@ -9,8 +9,8 @@ aliases:
   - value
   - 값
 publish: true
-created: 2022-01-06T14:01:00.000+09:00
-updated: 2022-01-06T14:01:00.000+09:00
+created: 2022-01-06T05:01:00.000Z
+updated: 2022-01-06T05:01:00.000Z
 ---
 
 # {{ $frontmatter.title }}

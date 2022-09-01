@@ -6,8 +6,8 @@ tags:
 aliases:
   - Pseudo Classes
 publish: true
-created: 2022-01-04T15:07:00.000+09:00
-updated: 2022-01-04T15:07:00.000+09:00
+created: 2022-01-04T06:07:00.000Z
+updated: 2022-01-04T06:07:00.000Z
 ---
 
 # {{ $frontmatter.title }}

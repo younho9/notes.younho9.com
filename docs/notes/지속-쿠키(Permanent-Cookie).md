@@ -11,8 +11,8 @@ aliases:
   - 영속적인 쿠키
   - Permanent Cookie
 publish: true
-created: 2021-12-30T16:28:00.000+09:00
-updated: 2021-12-30T16:28:00.000+09:00
+created: 2021-12-30T07:28:00.000Z
+updated: 2021-12-30T07:28:00.000Z
 ---
 
 # {{ $frontmatter.title }}

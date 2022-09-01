@@ -6,8 +6,8 @@ tags:
   - jetbrains
   - idea
 publish: true
-created: 2022-01-27T10:29:00.000+09:00
-updated: 2022-01-27T10:29:00.000+09:00
+created: 2022-01-27T01:29:00.000Z
+updated: 2022-01-27T01:29:00.000Z
 ---
 
 # {{ $frontmatter.title }}

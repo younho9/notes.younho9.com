@@ -3,8 +3,8 @@ title: CSS 속성 05. box sizing
 category: CSS
 tags:
   - css
-created: 2020-02-03T00:00:00.000+09:00
-updated: 2022-08-22T12:56:22.684+09:00
+created: 2020-02-02T15:00:00.000Z
+updated: 2022-08-22T03:56:22.684Z
 ---
 
 # {{ $frontmatter.title }}

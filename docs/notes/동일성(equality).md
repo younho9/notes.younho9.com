@@ -7,8 +7,8 @@ aliases:
   - 참조 동일성
   - 비교
 publish: true
-created: 2022-01-02T17:32:00.000+09:00
-updated: 2022-01-06T17:19:00.000+09:00
+created: 2022-01-02T08:32:00.000Z
+updated: 2022-01-06T08:19:00.000Z
 ---
 
 # {{ $frontmatter.title }}

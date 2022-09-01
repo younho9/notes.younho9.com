@@ -10,8 +10,8 @@ aliases:
   - 테스팅 피라미드
   - 테스트 피라미드
 publish: true
-created: 2022-08-09T13:17:00.000+09:00
-updated: 2022-08-09T13:17:00.000+09:00
+created: 2022-08-09T04:17:00.000Z
+updated: 2022-08-09T04:17:00.000Z
 ---
 
 # {{ $frontmatter.title }}

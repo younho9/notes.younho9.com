@@ -4,8 +4,8 @@ category: Web API
 tags:
   - web
   - web-api
-created: 2022-07-27T13:06:00.000+09:00
-updated: 2022-07-27T13:14:00.000+09:00
+created: 2022-07-27T04:06:00.000Z
+updated: 2022-07-27T04:14:00.000Z
 ---
 
 # {{ $frontmatter.title }}

@@ -4,8 +4,8 @@ category: RxJS
 tags:
   - rxjs
 publish: true
-created: 2022-02-10T14:57:00.000+09:00
-updated: 2022-02-10T14:57:00.000+09:00
+created: 2022-02-10T05:57:00.000Z
+updated: 2022-02-10T05:57:00.000Z
 ---
 
 # {{ $frontmatter.title }}

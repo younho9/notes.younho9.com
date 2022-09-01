@@ -6,8 +6,8 @@ tags:
 aliases:
   - Invalid Date in Safari
 publish: true
-created: 2022-08-21T15:00:00.000+09:00
-updated: 2022-08-22T09:58:09.093+09:00
+created: 2022-08-21T06:00:00.000Z
+updated: 2022-08-22T00:58:09.093Z
 ---
 
 # {{ $frontmatter.title }}

@@ -7,8 +7,8 @@ aliases:
   - 데코레이터
   - Decorator
 publish: true
-created: 2022-01-06T13:59:00.000+09:00
-updated: 2022-01-06T13:59:00.000+09:00
+created: 2022-01-06T04:59:00.000Z
+updated: 2022-01-06T04:59:00.000Z
 ---
 
 # {{ $frontmatter.title }}

@@ -9,8 +9,8 @@ tags:
 aliases:
   - HTML(HyperText Markup Language)
   - HyperText Markup Language
-created: 2022-04-05T20:14:00.000+09:00
-updated: 2022-04-05T20:14:00.000+09:00
+created: 2022-04-05T11:14:00.000Z
+updated: 2022-04-05T11:14:00.000Z
 ---
 
 # {{ $frontmatter.title }}

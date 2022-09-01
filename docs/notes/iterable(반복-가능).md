@@ -9,8 +9,8 @@ aliases:
   - 반복 가능
   - 반복 가능한 객체
 publish: true
-created: 2022-01-01T14:46:00.000+09:00
-updated: 2022-01-01T14:46:00.000+09:00
+created: 2022-01-01T05:46:00.000Z
+updated: 2022-01-01T05:46:00.000Z
 ---
 
 # {{ $frontmatter.title }}
