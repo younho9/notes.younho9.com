@@ -4830,7 +4830,7 @@ export const data = {
 			title: '2020-02-29',
 			properties: {
 				title: '2020-02-29',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-02-29T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -4852,7 +4852,7 @@ export const data = {
 			title: '2020-02-28',
 			properties: {
 				title: '2020-02-28',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-02-25T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -4874,7 +4874,7 @@ export const data = {
 			title: '2020-02-25',
 			properties: {
 				title: '2020-02-25',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-02-25T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -4896,7 +4896,7 @@ export const data = {
 			title: '2020-03-01',
 			properties: {
 				title: '2020-03-01',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-03-01T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -4918,7 +4918,7 @@ export const data = {
 			title: '2020-01-13',
 			properties: {
 				title: '2020-01-13',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-01-13T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -4940,7 +4940,7 @@ export const data = {
 			title: '2020-03-03',
 			properties: {
 				title: '2020-03-03',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-03-02T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -4962,7 +4962,7 @@ export const data = {
 			title: '2020-03-09',
 			properties: {
 				title: '2020-03-09',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-03-09T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -4984,7 +4984,7 @@ export const data = {
 			title: '2020-03-02',
 			properties: {
 				title: '2020-03-02',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-03-02T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5006,7 +5006,7 @@ export const data = {
 			title: '2020-03-10',
 			properties: {
 				title: '2020-03-10',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-03-09T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5028,7 +5028,7 @@ export const data = {
 			title: '2020-03-11',
 			properties: {
 				title: '2020-03-11',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-03-11T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5050,7 +5050,7 @@ export const data = {
 			title: '2020-03-16',
 			properties: {
 				title: '2020-03-16',
-				category: 2020,
+				category: '2020',
 				tags: ['react'],
 				created: '2020-03-16T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5091,7 +5091,7 @@ export const data = {
 			title: '2020-03-14',
 			properties: {
 				title: '2020-03-14',
-				category: 2020,
+				category: '2020',
 				tags: ['javascript', 'react'],
 				created: '2020-03-14T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5149,7 +5149,7 @@ export const data = {
 			title: '2020-03-13',
 			properties: {
 				title: '2020-03-13',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				created: '2020-03-13T00:00:00.000+09:00',
 				updated: '2022-08-22T12:02:51.102+09:00',
@@ -5171,7 +5171,7 @@ export const data = {
 			title: '2020-03-15',
 			properties: {
 				title: '2020-03-15',
-				category: 2020,
+				category: '2020',
 				tags: ['react'],
 				created: '2020-03-15T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5212,7 +5212,7 @@ export const data = {
 			title: '2020-03-20',
 			properties: {
 				title: '2020-03-20',
-				category: 2020,
+				category: '2020',
 				tags: ['javascript'],
 				created: '2020-03-20T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5269,7 +5269,7 @@ export const data = {
 			title: '2020-07-03',
 			properties: {
 				title: '2020-07-03',
-				category: 2020,
+				category: '2020',
 				tags: ['thought', '공부법', 'JavaScript', 'woowa-techcamp'],
 				created: '2020-07-03T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5361,7 +5361,7 @@ export const data = {
 			title: '2020-07-01',
 			properties: {
 				title: '2020-07-01',
-				category: 2020,
+				category: '2020',
 				tags: ['thought', '프로젝트', 'Git', 'woowa-techcamp'],
 				created: '2020-07-01T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5453,7 +5453,7 @@ export const data = {
 			title: '2020-03-17',
 			properties: {
 				title: '2020-03-17',
-				category: 2020,
+				category: '2020',
 				tags: ['javascript', 'react'],
 				created: '2020-03-17T00:00:00.000+09:00',
 				updated: '2022-08-22T11:47:32.987+09:00',
@@ -5511,7 +5511,7 @@ export const data = {
 			title: '2020-07-06',
 			properties: {
 				title: '2020-07-06',
-				category: 2020,
+				category: '2020',
 				tags: ['project', 'thought', 'woowa-techcamp'],
 				created: '2020-07-06T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5586,7 +5586,7 @@ export const data = {
 			title: '2020-07-12',
 			properties: {
 				title: '2020-07-12',
-				category: 2020,
+				category: '2020',
 				tags: ['css'],
 				created: '2020-07-12T00:00:00.000+09:00',
 				updated: '2022-08-22T11:43:26.137+09:00',
@@ -5627,7 +5627,7 @@ export const data = {
 			title: '2020-07-15',
 			properties: {
 				title: '2020-07-15',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				tags: ['woowa-techcamp'],
 				created: '2020-07-15T00:00:00.000+09:00',
@@ -5669,7 +5669,7 @@ export const data = {
 			title: '2020-07-11',
 			properties: {
 				title: '2020-07-11',
-				category: 2020,
+				category: '2020',
 				tags: ['HTTP', 'computer-science'],
 				created: '2020-07-11T00:00:00.000+09:00',
 				updated: '2022-08-22T17:22:56.941+09:00',
@@ -5727,7 +5727,7 @@ export const data = {
 			title: '2020-07-10',
 			properties: {
 				title: '2020-07-10',
-				category: 2020,
+				category: '2020',
 				tags: ['project', 'woowa-techcamp'],
 				created: '2020-07-10T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5785,7 +5785,7 @@ export const data = {
 			title: '2020-11-06',
 			properties: {
 				title: '2020-11-06',
-				category: 2020,
+				category: '2020',
 				tags: ['javascript', 'interview'],
 				created: '2020-11-06T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5843,7 +5843,7 @@ export const data = {
 			title: '2020-11-07',
 			properties: {
 				title: '2020-11-07',
-				category: 2020,
+				category: '2020',
 				tags: ['javascript', 'interview'],
 				created: '2020-11-07T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -5901,7 +5901,7 @@ export const data = {
 			title: '2020-09-11',
 			properties: {
 				title: '2020-09-11',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				tags: ['project', 'github'],
 				created: '2020-09-11T00:00:00.000+09:00',
@@ -5960,7 +5960,7 @@ export const data = {
 			title: '2020-09-25',
 			properties: {
 				title: '2020-09-25',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				tags: ['python', '프로젝트'],
 				created: '2020-09-25T00:00:00.000+09:00',
@@ -6019,7 +6019,7 @@ export const data = {
 			title: '2020-09-15',
 			properties: {
 				title: '2020-09-15',
-				category: 2020,
+				category: '2020',
 				publish: true,
 				tags: ['python', '프로젝트'],
 				created: '2020-09-15T00:00:00.000+09:00',
@@ -6078,7 +6078,7 @@ export const data = {
 			title: '2020-11-12',
 			properties: {
 				title: '2020-11-12',
-				category: 2020,
+				category: '2020',
 				tags: ['interview'],
 				created: '2020-11-11T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6119,7 +6119,7 @@ export const data = {
 			title: '2020-11-09',
 			properties: {
 				title: '2020-11-09',
-				category: 2020,
+				category: '2020',
 				tags: ['javascript', 'interview'],
 				created: '2020-11-08T00:00:00.000+09:00',
 				updated: '2022-08-22T11:43:26.138+09:00',
@@ -6177,7 +6177,7 @@ export const data = {
 			title: '2020-11-10',
 			properties: {
 				title: '2020-11-10',
-				category: 2020,
+				category: '2020',
 				tags: ['javascript', 'interview', 'React'],
 				created: '2020-11-10T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6252,7 +6252,7 @@ export const data = {
 			title: '2020-11-11',
 			properties: {
 				title: '2020-11-11',
-				category: 2020,
+				category: '2020',
 				tags: ['typescript', 'interview', 'seminar'],
 				created: '2020-11-11T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6327,7 +6327,7 @@ export const data = {
 			title: '2020-11-20',
 			properties: {
 				title: '2020-11-20',
-				category: 2020,
+				category: '2020',
 				tags: ['HTTP'],
 				created: '2020-11-20T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6368,7 +6368,7 @@ export const data = {
 			title: '2020-11-17',
 			properties: {
 				title: '2020-11-17',
-				category: 2020,
+				category: '2020',
 				tags: ['project'],
 				created: '2020-11-17T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6409,7 +6409,7 @@ export const data = {
 			title: '2020-11-21',
 			properties: {
 				title: '2020-11-21',
-				category: 2020,
+				category: '2020',
 				tags: ['eslint', 'settings'],
 				created: '2020-11-21T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6467,7 +6467,7 @@ export const data = {
 			title: '2020-12-04',
 			properties: {
 				title: '2020-12-04',
-				category: 2020,
+				category: '2020',
 				tags: ['storybook'],
 				created: '2020-12-04T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6508,7 +6508,7 @@ export const data = {
 			title: '2020-12-05',
 			properties: {
 				title: '2020-12-05',
-				category: 2020,
+				category: '2020',
 				tags: ['jest', 'testing-library'],
 				created: '2020-12-05T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6566,7 +6566,7 @@ export const data = {
 			title: '2020-11-24',
 			properties: {
 				title: '2020-11-24',
-				category: 2020,
+				category: '2020',
 				tags: ['typescript'],
 				created: '2020-11-23T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6607,7 +6607,7 @@ export const data = {
 			title: '2020-12-07',
 			properties: {
 				title: '2020-12-07',
-				category: 2020,
+				category: '2020',
 				tags: ['thought'],
 				created: '2020-12-07T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6648,7 +6648,7 @@ export const data = {
 			title: '2020-12-08',
 			properties: {
 				title: '2020-12-08',
-				category: 2020,
+				category: '2020',
 				tags: ['project'],
 				created: '2020-12-08T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6689,7 +6689,7 @@ export const data = {
 			title: '2020-12-15',
 			properties: {
 				title: '2020-12-15',
-				category: 2020,
+				category: '2020',
 				tags: ['React', 'typescript', 'settings'],
 				created: '2020-12-15T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6764,7 +6764,7 @@ export const data = {
 			title: '2020-12-17',
 			properties: {
 				title: '2020-12-17',
-				category: 2020,
+				category: '2020',
 				created: '2020-12-17T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
 			},
@@ -6785,7 +6785,7 @@ export const data = {
 			title: '2020-12-16',
 			properties: {
 				title: '2020-12-16',
-				category: 2020,
+				category: '2020',
 				tags: ['authentication', 'storybook', 'styled-components'],
 				created: '2020-12-16T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6860,7 +6860,7 @@ export const data = {
 			title: '2020-12-18',
 			properties: {
 				title: '2020-12-18',
-				category: 2020,
+				category: '2020',
 				tags: ['project'],
 				created: '2020-12-18T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6901,7 +6901,7 @@ export const data = {
 			title: '2020-12-19',
 			properties: {
 				title: '2020-12-19',
-				category: 2020,
+				category: '2020',
 				created: '2020-12-19T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
 			},
@@ -6922,7 +6922,7 @@ export const data = {
 			title: '2020-12-21',
 			properties: {
 				title: '2020-12-21',
-				category: 2020,
+				category: '2020',
 				tags: ['authentication'],
 				created: '2020-12-21T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -6963,7 +6963,7 @@ export const data = {
 			title: '2020-11-08',
 			properties: {
 				title: '2020-11-08',
-				category: 2020,
+				category: '2020',
 				tags: ['javascript', 'interview'],
 				created: '2020-11-08T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -7021,7 +7021,7 @@ export const data = {
 			title: '2021-01-01',
 			properties: {
 				title: '2021-01-01',
-				category: 2021,
+				category: '2021',
 				tags: ['typescript', 'storybook', 'React'],
 				created: '2021-01-01T00:00:00.000+09:00',
 				updated: '2022-08-22T11:43:26.138+09:00',
@@ -7096,7 +7096,7 @@ export const data = {
 			title: '2020-12-24',
 			properties: {
 				title: '2020-12-24',
-				category: 2020,
+				category: '2020',
 				created: '2020-12-24T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
 			},
@@ -7117,7 +7117,7 @@ export const data = {
 			title: '2021-01-03',
 			properties: {
 				title: '2021-01-03',
-				category: 2021,
+				category: '2021',
 				tags: ['project', 'gitlab', 'jira', 'git'],
 				created: '2021-01-03T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -7209,7 +7209,7 @@ export const data = {
 			title: '2021-01-10',
 			properties: {
 				title: '2021-01-10',
-				category: 2021,
+				category: '2021',
 				tags: ['생산성', 'macos', 'shell'],
 				created: '2021-01-10T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -7284,7 +7284,7 @@ export const data = {
 			title: '2021-01-11',
 			properties: {
 				title: '2021-01-11',
-				category: 2021,
+				category: '2021',
 				tags: ['shell'],
 				created: '2021-01-11T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -7325,7 +7325,7 @@ export const data = {
 			title: '2021-02-15',
 			properties: {
 				title: '2021-02-15',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				tags: ['python'],
 				created: '2021-02-15T00:00:00.000+09:00',
@@ -7367,7 +7367,7 @@ export const data = {
 			title: '2021-02-26',
 			properties: {
 				title: '2021-02-26',
-				category: 2021,
+				category: '2021',
 				tags: ['Git'],
 				created: '2021-02-26T00:00:00.000+09:00',
 				updated: '2021-02-26T00:00:00.000+09:00',
@@ -7408,7 +7408,7 @@ export const data = {
 			title: '2021-07-06',
 			properties: {
 				title: '2021-07-06',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				tags: ['git'],
 				created: '2021-07-06T00:00:00.000+09:00',
@@ -7450,7 +7450,7 @@ export const data = {
 			title: '2021-07-08',
 			properties: {
 				title: '2021-07-08',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				tags: ['git'],
 				created: '2021-07-08T00:00:00.000+09:00',
@@ -7492,7 +7492,7 @@ export const data = {
 			title: '2021-07-12',
 			properties: {
 				title: '2021-07-12',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				tags: ['nuxt'],
 				created: '2021-07-12T00:00:00.000+09:00',
@@ -7534,7 +7534,7 @@ export const data = {
 			title: '2021-01-15',
 			properties: {
 				title: '2021-01-15',
-				category: 2021,
+				category: '2021',
 				tags: ['shell', 'linux'],
 				created: '2021-01-16T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -7592,7 +7592,7 @@ export const data = {
 			title: '2021-01-13',
 			properties: {
 				title: '2021-01-13',
-				category: 2021,
+				category: '2021',
 				tags: ['shell', 'linux'],
 				created: '2021-01-16T00:00:00.000+09:00',
 				updated: '2021-02-15T00:00:00.000+09:00',
@@ -7650,7 +7650,7 @@ export const data = {
 			title: '2021-07-15',
 			properties: {
 				title: '2021-07-15',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				tags: ['javascript'],
 				created: '2021-07-15T00:00:00.000+09:00',
@@ -7692,7 +7692,7 @@ export const data = {
 			title: '2021-12-07',
 			properties: {
 				title: '2021-12-07',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:53:00.000+09:00',
 				updated: '2021-12-30T12:53:00.000+09:00',
@@ -7723,7 +7723,7 @@ export const data = {
 			title: '2021-07-07',
 			properties: {
 				title: '2021-07-07',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				tags: ['vue', 'nuxt'],
 				created: '2021-07-07T00:00:00.000+09:00',
@@ -7782,7 +7782,7 @@ export const data = {
 			title: '2021-12-09',
 			properties: {
 				title: '2021-12-09',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:53:00.000+09:00',
 				updated: '2021-12-30T12:53:00.000+09:00',
@@ -7804,7 +7804,7 @@ export const data = {
 			title: '2021-07-16',
 			properties: {
 				title: '2021-07-16',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				tags: ['javascript'],
 				created: '2021-07-16T00:00:00.000+09:00',
@@ -7846,7 +7846,7 @@ export const data = {
 			title: '2021-12-13',
 			properties: {
 				title: '2021-12-13',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:53:00.000+09:00',
 				updated: '2021-12-30T12:53:00.000+09:00',
@@ -7873,7 +7873,7 @@ export const data = {
 			title: '2021-12-14',
 			properties: {
 				title: '2021-12-14',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:53:00.000+09:00',
 				updated: '2021-12-30T12:53:00.000+09:00',
@@ -7918,7 +7918,7 @@ export const data = {
 			title: '2021-12-08',
 			properties: {
 				title: '2021-12-08',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:53:00.000+09:00',
 				updated: '2021-12-30T12:53:00.000+09:00',
@@ -7952,7 +7952,7 @@ export const data = {
 			title: '2021-12-20',
 			properties: {
 				title: '2021-12-20',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-20T09:00:00.000+09:00',
 				updated: '2022-08-21T15:26:00.000+09:00',
@@ -7979,7 +7979,7 @@ export const data = {
 			title: '2021-12-22',
 			properties: {
 				title: '2021-12-22',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:54:00.000+09:00',
 				updated: '2021-12-30T12:54:00.000+09:00',
@@ -8006,7 +8006,7 @@ export const data = {
 			title: '2021-12-23',
 			properties: {
 				title: '2021-12-23',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:54:00.000+09:00',
 				updated: '2021-12-30T12:54:00.000+09:00',
@@ -8028,7 +8028,7 @@ export const data = {
 			title: '2021-12-12',
 			properties: {
 				title: '2021-12-12',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:53:00.000+09:00',
 				updated: '2021-12-30T12:53:00.000+09:00',
@@ -8050,7 +8050,7 @@ export const data = {
 			title: '2021-12-27',
 			properties: {
 				title: '2021-12-27',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:55:00.000+09:00',
 				updated: '2021-12-30T12:55:00.000+09:00',
@@ -8072,7 +8072,7 @@ export const data = {
 			title: '2021-12-21',
 			properties: {
 				title: '2021-12-21',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:53:00.000+09:00',
 				updated: '2021-12-30T12:53:00.000+09:00',
@@ -8121,7 +8121,7 @@ export const data = {
 			title: '2022-01-03',
 			properties: {
 				title: '2022-01-03',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-01-03T22:09:00.000+09:00',
 				updated: '2022-01-03T22:09:00.000+09:00',
@@ -8143,7 +8143,7 @@ export const data = {
 			title: '2021-12-25',
 			properties: {
 				title: '2021-12-25',
-				category: 2021,
+				category: '2021',
 				publish: true,
 				created: '2021-12-30T12:54:00.000+09:00',
 				updated: '2021-12-30T12:54:00.000+09:00',
@@ -8165,7 +8165,7 @@ export const data = {
 			title: '2022-01-04',
 			properties: {
 				title: '2022-01-04',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-01-04T10:00:00.000+09:00',
 				updated: '2022-01-04T10:00:00.000+09:00',
@@ -8192,7 +8192,7 @@ export const data = {
 			title: '2022-01-09',
 			properties: {
 				title: '2022-01-09',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-01-09T13:09:00.000+09:00',
 				updated: '2022-01-09T13:09:00.000+09:00',
@@ -8219,7 +8219,7 @@ export const data = {
 			title: '2022-01-26',
 			properties: {
 				title: '2022-01-26',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-01-26T10:34:00.000+09:00',
 				updated: '2022-01-27T09:40:00.000+09:00',
@@ -8241,7 +8241,7 @@ export const data = {
 			title: '2022-01-27',
 			properties: {
 				title: '2022-01-27',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-01-27T09:40:00.000+09:00',
 				updated: '2022-01-27T09:40:00.000+09:00',
@@ -8268,7 +8268,7 @@ export const data = {
 			title: '2022-01-21',
 			properties: {
 				title: '2022-01-21',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-01-21T16:21:00.000+09:00',
 				updated: '2022-08-22T11:53:55.689+09:00',
@@ -8295,7 +8295,7 @@ export const data = {
 			title: '2022-01-18',
 			properties: {
 				title: '2022-01-18',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-01-18T09:10:00.000+09:00',
 				updated: '2022-01-18T09:10:00.000+09:00',
@@ -8322,7 +8322,7 @@ export const data = {
 			title: '2022-02-04',
 			properties: {
 				title: '2022-02-04',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-02-04T08:02:00.000+09:00',
 				updated: '2022-02-04T08:02:00.000+09:00',
@@ -8349,7 +8349,7 @@ export const data = {
 			title: '2022-02-17',
 			properties: {
 				title: '2022-02-17',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-02-17T09:59:00.000+09:00',
 				updated: '2022-02-17T09:59:00.000+09:00',
@@ -8376,7 +8376,7 @@ export const data = {
 			title: '2022-05-26',
 			properties: {
 				title: '2022-05-26',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-05-26T14:21:00.000+09:00',
 				updated: '2022-05-26T14:21:00.000+09:00',
@@ -8398,7 +8398,7 @@ export const data = {
 			title: '2022-07-01',
 			properties: {
 				title: '2022-07-01',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-01T09:40:00.000+09:00',
 				updated: '2022-07-01T09:40:00.000+09:00',
@@ -8420,7 +8420,7 @@ export const data = {
 			title: '2022-06-26',
 			properties: {
 				title: '2022-06-26',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-06-26T14:21:00.000+09:00',
 				updated: '2022-06-26T14:21:00.000+09:00',
@@ -8442,7 +8442,7 @@ export const data = {
 			title: '2022-07-06',
 			properties: {
 				title: '2022-07-06',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-06T09:12:00.000+09:00',
 				updated: '2022-07-06T09:12:00.000+09:00',
@@ -8469,7 +8469,7 @@ export const data = {
 			title: '2022-07-07',
 			properties: {
 				title: '2022-07-07',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-07T10:03:00.000+09:00',
 				updated: '2022-08-22T11:54:04.072+09:00',
@@ -8491,7 +8491,7 @@ export const data = {
 			title: '2022-07-04',
 			properties: {
 				title: '2022-07-04',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-04T09:36:00.000+09:00',
 				updated: '2022-07-04T09:36:00.000+09:00',
@@ -8513,7 +8513,7 @@ export const data = {
 			title: '2022-07-11',
 			properties: {
 				title: '2022-07-11',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-11T13:26:00.000+09:00',
 				updated: '2022-07-11T13:26:00.000+09:00',
@@ -8535,7 +8535,7 @@ export const data = {
 			title: '2022-07-13',
 			properties: {
 				title: '2022-07-13',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-13T09:33:00.000+09:00',
 				updated: '2022-07-13T09:33:00.000+09:00',
@@ -8579,7 +8579,7 @@ export const data = {
 			title: '2022-07-12',
 			properties: {
 				title: '2022-07-12',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-12T10:14:00.000+09:00',
 				updated: '2022-07-12T10:25:00.000+09:00',
@@ -8601,7 +8601,7 @@ export const data = {
 			title: '2022-07-14',
 			properties: {
 				title: '2022-07-14',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-14T09:41:00.000+09:00',
 				updated: '2022-07-14T09:41:00.000+09:00',
@@ -8623,7 +8623,7 @@ export const data = {
 			title: '2022-07-22',
 			properties: {
 				title: '2022-07-22',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-22T09:17:00.000+09:00',
 				updated: '2022-07-22T09:17:00.000+09:00',
@@ -8645,7 +8645,7 @@ export const data = {
 			title: '2022-07-25',
 			properties: {
 				title: '2022-07-25',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-25T21:28:00.000+09:00',
 				updated: '2022-07-25T21:29:00.000+09:00',
@@ -8672,7 +8672,7 @@ export const data = {
 			title: '2022-07-19',
 			properties: {
 				title: '2022-07-19',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-19T09:56:00.000+09:00',
 				updated: '2022-07-19T09:56:00.000+09:00',
@@ -8694,7 +8694,7 @@ export const data = {
 			title: '2022-07-27',
 			properties: {
 				title: '2022-07-27',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-27T09:09:00.000+09:00',
 				updated: '2022-07-27T09:09:00.000+09:00',
@@ -8725,7 +8725,7 @@ export const data = {
 			title: '2022-07-28',
 			properties: {
 				title: '2022-07-28',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-28T09:06:00.000+09:00',
 				updated: '2022-07-28T09:06:00.000+09:00',
@@ -8752,7 +8752,7 @@ export const data = {
 			title: '2022-08-01',
 			properties: {
 				title: '2022-08-01',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-01T09:13:00.000+09:00',
 				updated: '2022-08-01T09:13:00.000+09:00',
@@ -8774,7 +8774,7 @@ export const data = {
 			title: '2022-07-26',
 			properties: {
 				title: '2022-07-26',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-07-26T09:06:00.000+09:00',
 				updated: '2022-07-26T09:06:00.000+09:00',
@@ -8796,7 +8796,7 @@ export const data = {
 			title: '2022-08-03',
 			properties: {
 				title: '2022-08-03',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-03T05:14:00.000+09:00',
 				updated: '2022-08-22T11:54:14.672+09:00',
@@ -8823,7 +8823,7 @@ export const data = {
 			title: '2022-08-02',
 			properties: {
 				title: '2022-08-02',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-02T10:08:00.000+09:00',
 				updated: '2022-08-02T10:08:00.000+09:00',
@@ -8845,7 +8845,7 @@ export const data = {
 			title: '2022-08-09',
 			properties: {
 				title: '2022-08-09',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-09T10:00:00.000+09:00',
 				updated: '2022-08-09T10:00:00.000+09:00',
@@ -8909,7 +8909,7 @@ export const data = {
 			title: '2022-08-04',
 			properties: {
 				title: '2022-08-04',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-04T10:38:00.000+09:00',
 				updated: '2022-08-04T10:38:00.000+09:00',
@@ -8931,7 +8931,7 @@ export const data = {
 			title: '2022-08-08',
 			properties: {
 				title: '2022-08-08',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-08T09:14:00.000+09:00',
 				updated: '2022-08-08T09:14:00.000+09:00',
@@ -8953,7 +8953,7 @@ export const data = {
 			title: '2022-08-10',
 			properties: {
 				title: '2022-08-10',
-				category: 2022,
+				category: '2022',
 				publish: false,
 				created: '2022-08-10T09:11:00.000+09:00',
 				updated: '2022-08-10T09:12:00.000+09:00',
@@ -8993,7 +8993,7 @@ export const data = {
 			title: '2022-08-22',
 			properties: {
 				title: '2022-08-22',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-22T11:24:08.618+09:00',
 				updated: '2022-08-22T17:25:23.926+09:00',
@@ -9051,7 +9051,7 @@ export const data = {
 			title: '2022-08-11',
 			properties: {
 				title: '2022-08-11',
-				category: 2022,
+				category: '2022',
 				publish: false,
 				created: '2022-08-11T09:38:00.000+09:00',
 				updated: '2022-08-11T09:38:00.000+09:00',
@@ -9100,7 +9100,7 @@ export const data = {
 			title: '2022-08-18',
 			properties: {
 				title: '2022-08-18',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-18T11:50:00.000+09:00',
 				updated: '2022-08-18T16:32:00.000+09:00',
@@ -9122,7 +9122,7 @@ export const data = {
 			title: '2022-08-12',
 			properties: {
 				title: '2022-08-12',
-				category: 2022,
+				category: '2022',
 				publish: false,
 				created: '2022-08-12T09:08:00.000+09:00',
 				updated: '2022-08-18T16:31:00.000+09:00',
@@ -9153,7 +9153,7 @@ export const data = {
 			title: '2022-08-21',
 			properties: {
 				title: '2022-08-21',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-21T14:59:00.000+09:00',
 				updated: '2022-08-22T09:58:09.351+09:00',
@@ -9201,7 +9201,7 @@ export const data = {
 			title: '2022-08-19',
 			properties: {
 				title: '2022-08-19',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-19T09:21:00.000+09:00',
 				updated: '2022-08-19T10:35:00.000+09:00',
@@ -34327,7 +34327,7 @@ export const data = {
 			title: '2022-08-23',
 			properties: {
 				title: '2022-08-23',
-				category: 2022,
+				category: '2022',
 				publish: true,
 				created: '2022-08-23T09:42:41.904+09:00',
 				updated: '2022-08-23T09:42:41.904+09:00',

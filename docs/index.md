@@ -14,10 +14,10 @@ hero:
   actions:
     - theme: brand
       text: 더 읽어보기
-      link: /notes/index.html
+      link: /references.html
     - theme: alt
-      text: GitHub에서 보기
-      link: https://github.com/younho9/notes.younho9.com
+      text: 그래프 보기
+      link: /graph.html
 
 features:
   - icon: 📝
