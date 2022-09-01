@@ -1,7 +1,6 @@
 <script setup lang="ts">
+import pluralize from 'pluralize';
 import data from '../../../data.json';
-
-type DocType = 'note' | 'journal';
 
 const props = defineProps({
 	docType: {
@@ -14,16 +13,11 @@ const props = defineProps({
 	},
 });
 
-const dataKeyByDocType: Record<DocType, string> = {
-	note: 'notes',
-	journal: 'journals',
-};
-
-const docs = data[dataKeyByDocType[props.docType]]
-	.sort((a, b) => new Date(b.updated) - new Date(a.updated))
+const docs = data[pluralize(props.docType)]
+	.sort((a, b) => new Date(b.updated).getTime() - new Date(a.updated).getTime())
 	.slice(0, props.length);
 
-const localeStringOption = {
+const localeStringOption: Intl.DateTimeFormatOptions = {
 	weekday: 'long',
 	year: 'numeric',
 	month: 'long',

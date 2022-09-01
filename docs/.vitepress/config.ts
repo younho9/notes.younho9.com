@@ -39,7 +39,7 @@ export default defineConfig({
 		['link', {rel: 'mask-icon', href: logo, color: '#ffffff'}],
 		['link', {rel: 'apple-touch-icon', href: logo, sizes: '180x180'}],
 	],
-	lastUpdated: true,
+	lastUpdated: false,
 	themeConfig: {
 		siteTitle: title,
 		logo,
@@ -97,11 +97,6 @@ export default defineConfig({
 function nav() {
 	return [
 		{
-			text: 'Graph',
-			link: '/graph.html',
-			activeMatch: 'graph',
-		},
-		{
 			text: 'Notes',
 			link: '/notes/index.html',
 			activeMatch: '/notes/',
@@ -110,6 +105,16 @@ function nav() {
 			text: 'Journals',
 			link: `/journals/index.html`,
 			activeMatch: '/journals/',
+		},
+		{
+			text: 'Graph',
+			link: '/graph.html',
+			activeMatch: 'graph',
+		},
+		{
+			text: 'References',
+			link: '/references.html',
+			activeMatch: 'references',
 		},
 	];
 }
