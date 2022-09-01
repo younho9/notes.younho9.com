@@ -13,6 +13,8 @@ import {
 	ogUrl,
 	title,
 	twitter,
+	unsplash,
+	spotify,
 	author,
 	keywords,
 } from './meta';
@@ -59,6 +61,8 @@ export default defineConfig({
 			{icon: 'linkedin', link: linkedin},
 			{icon: 'facebook', link: facebook},
 			{icon: 'instagram', link: instagram},
+			{icon: 'unsplash', link: unsplash},
+			{icon: 'spotify', link: spotify},
 		],
 
 		footer: {
