@@ -23,6 +23,9 @@ export const twitter = 'https://twitter.com/younho_9';
 export const linkedin = 'https://www.linkedin.com/in/younho9';
 export const facebook = 'https://www.facebook.com/younho9.choo';
 export const instagram = 'https://www.instagram.com/younho_9/';
+export const unsplash = 'https://unsplash.com/@younho9';
+export const spotify =
+	'https://open.spotify.com/user/31fhy5x4mxjfzeqrdacp2r22qwd4';
 
 /* Images */
 export const logo =
