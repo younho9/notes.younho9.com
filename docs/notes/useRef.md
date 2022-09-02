@@ -3,12 +3,11 @@ title: useRef
 category: React
 tags:
   - react
-  - react
 aliases:
   - alias
 publish: true
 created: 2022-01-13T13:15:00.000Z
-updated: 2022-01-13T13:15:00.000Z
+updated: 2022-09-02T00:54:31.641Z
 ---
 
 # {{ $frontmatter.title }}

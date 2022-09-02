@@ -3,15 +3,13 @@ title: 의존성 배열(dependency list)
 category: React
 tags:
   - react
-  - react
-  - react
 aliases:
   - 의존성 목록
   - 종속성 목록
   - 종속성 배열
 publish: true
 created: 2022-01-02T08:28:00.000Z
-updated: 2022-01-02T08:28:00.000Z
+updated: 2022-09-02T00:54:31.643Z
 ---
 
 # {{ $frontmatter.title }}

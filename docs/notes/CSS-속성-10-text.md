@@ -3,8 +3,9 @@ title: CSS 속성 10. text
 category: CSS
 tags:
   - css
+  - ffffff
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:56:40.768Z
+updated: 2022-09-02T00:54:31.637Z
 ---
 
 # {{ $frontmatter.title }}

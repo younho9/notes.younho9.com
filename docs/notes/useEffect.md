@@ -3,11 +3,9 @@ title: useEffect
 category: React
 tags:
   - react
-  - react
-  - react
 publish: true
 created: 2022-01-02T08:27:00.000Z
-updated: 2022-01-02T09:07:00.000Z
+updated: 2022-09-02T00:54:31.640Z
 ---
 
 # {{ $frontmatter.title }}

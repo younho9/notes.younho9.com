@@ -4,8 +4,10 @@ category: Web API
 tags:
   - javascript
   - web-api
+  - document
+  - text
 created: 2020-05-14T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-02T00:54:31.638Z
 ---
 
 # {{ $frontmatter.title }}

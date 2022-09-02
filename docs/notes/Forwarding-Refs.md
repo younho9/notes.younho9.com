@@ -3,12 +3,11 @@ title: Forwarding Refs
 category: React
 tags:
   - react
-  - react
 aliases:
   - Ref 전달
 publish: true
 created: 2022-01-09T07:27:00.000Z
-updated: 2022-01-09T07:27:00.000Z
+updated: 2022-09-02T00:54:31.646Z
 ---
 
 # {{ $frontmatter.title }}
