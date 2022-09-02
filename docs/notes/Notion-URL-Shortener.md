@@ -3,9 +3,11 @@ title: Notion URL Shortener
 category: Project
 tags:
   - project
+aliases:
+  - Notion URL Shortener
 publish: true
 created: 2022-02-03T13:15:00.000Z
-updated: 2022-02-03T23:02:00.000Z
+updated: 2022-09-02T00:28:17.831Z
 ---
 
 # {{ $frontmatter.title }}
