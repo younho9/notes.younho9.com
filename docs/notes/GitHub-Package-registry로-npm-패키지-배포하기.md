@@ -2,12 +2,12 @@
 title: GitHub Package registry로 npm 패키지 배포하기
 category: GitHub & GitLab
 tags:
-  - tag
+  - git
+  - github
 aliases:
-  - alias
-publish: true
+  - GitHub Package registry로 npm 패키지 배포하기
 created: 2022-01-20T08:39:00.000Z
-updated: 2022-01-20T08:39:00.000Z
+updated: 2022-09-05T05:04:21.815Z
 ---
 
 # {{ $frontmatter.title }}

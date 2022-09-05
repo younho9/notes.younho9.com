@@ -3,8 +3,10 @@ title: Sass built in functions
 category: CSS
 tags:
   - css
+aliases:
+  - Sass built in functions
 created: 2020-03-20T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.966Z
 ---
 
 # {{ $frontmatter.title }}

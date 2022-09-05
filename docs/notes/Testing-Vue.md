@@ -6,9 +6,8 @@ tags:
   - testing
 aliases:
   - Testing Vue
-publish: true
 created: 2022-08-09T05:05:00.000Z
-updated: 2022-08-09T05:05:00.000Z
+updated: 2022-09-05T05:04:22.055Z
 ---
 
 # {{ $frontmatter.title }}

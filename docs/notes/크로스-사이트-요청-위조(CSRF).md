@@ -7,17 +7,17 @@ tags:
   - glossary
   - security
 aliases:
+  - 크로스 사이트 요청 위조(CSRF)
   - 교차 요청 위조
   - CSRF
   - CSRF(교차 요청 위조)
   - XSRF
-publish: true
-created: 2021-12-31T06:18:00.000Z
-updated: 2022-09-05T03:06:18.076Z
 related:
   - 세션(Session)
   - 쿠키(cookie)
   - 동일-사이트(Same-Site)
+created: 2021-12-31T06:18:00.000Z
+updated: 2022-09-05T05:04:22.338Z
 ---
 
 # {{ $frontmatter.title }}

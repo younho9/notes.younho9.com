@@ -5,14 +5,14 @@ tags:
   - javascript
   - type
 aliases:
+  - 형 변환(Type conversion)
   - 형 변환
   - Type conversion
   - 암묵적 형 변환(Type coercion)
-publish: true
-created: 2022-01-06T07:46:00.000Z
-updated: 2022-09-05T03:06:18.093Z
 related:
   - 동일성(equality)
+created: 2022-01-06T07:46:00.000Z
+updated: 2022-09-05T05:04:22.372Z
 ---
 
 # {{ $frontmatter.title }}

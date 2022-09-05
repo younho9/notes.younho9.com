@@ -3,8 +3,10 @@ title: 리액트를 다루는 기술 3장 component
 category: React
 tags:
   - react
+aliases:
+  - 리액트를 다루는 기술 3장 component
 created: 2020-03-27T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:22.224Z
 ---
 
 # {{ $frontmatter.title }}

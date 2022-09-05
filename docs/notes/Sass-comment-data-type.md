@@ -3,8 +3,10 @@ title: Sass comment data type
 category: CSS
 tags:
   - css
+aliases:
+  - Sass comment data type
 created: 2020-03-20T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.960Z
 ---
 
 # {{ $frontmatter.title }}
@@ -54,7 +56,7 @@ CSS와 호환이 쉽다.
 | -------- | ------------------------------------- | ---------------------------------------- |
 | Numbers  | 숫자                                  | 1, .82, 20px, 2em…                       |
 | Strings  | 문자                                  | bold, relative, "/images/a.png", "dotum" |
-| Colors   | 색상 표현                             | red, blue, #FFFF00, rgba(255,0,0,.5)     |
+| Colors   | 색상 표현                             | red, blue, `#FFFF00`, rgba(255,0,0,.5)   |
 | Booleans | 논리                                  | true, false                              |
 | Nulls    | 아무것도 없음                         | null                                     |
 | Lists    | 공백이나 ,로 구분된 값의 목록         | (apple, orange, banana), apple orange    |

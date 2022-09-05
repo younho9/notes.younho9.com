@@ -4,12 +4,12 @@ category: CSS
 tags:
   - css
 aliases:
+  - CSS 박스 모델
   - Box Model
-publish: true
-created: 2022-01-09T14:19:00.000Z
-updated: 2022-09-05T03:06:17.849Z
 related:
   - block-vs-inline-vs-inline-block
+created: 2022-01-09T14:19:00.000Z
+updated: 2022-09-05T05:04:21.740Z
 ---
 
 # {{ $frontmatter.title }}

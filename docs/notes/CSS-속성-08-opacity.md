@@ -3,8 +3,10 @@ title: CSS 속성 08. opacity
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 08. opacity
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:56:33.378Z
+updated: 2022-09-05T05:04:21.754Z
 ---
 
 # {{ $frontmatter.title }}

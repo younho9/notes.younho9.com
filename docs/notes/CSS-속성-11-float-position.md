@@ -3,8 +3,10 @@ title: CSS 속성 11. float position
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 11. float position
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:56:44.969Z
+updated: 2022-09-05T05:04:21.766Z
 ---
 
 # {{ $frontmatter.title }}

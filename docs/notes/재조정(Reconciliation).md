@@ -4,16 +4,16 @@ category: React
 tags:
   - react
 aliases:
+  - 재조정(Reconciliation)
   - 재조정
   - Reconcilication
-publish: true
-created: 2022-01-02T04:01:00.000Z
-updated: 2022-09-05T03:06:18.063Z
 related:
   - 가상-돔(Virtual-DOM)
   - 브라우저-렌더링-원리
   - DOM(Document-Object-Model)
   - props-vs-state
+created: 2022-01-02T04:01:00.000Z
+updated: 2022-09-05T05:04:22.306Z
 ---
 
 # {{ $frontmatter.title }}

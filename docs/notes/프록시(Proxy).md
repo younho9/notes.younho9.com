@@ -5,15 +5,15 @@ tags:
   - web
   - http
 aliases:
+  - 프록시(Proxy)
   - 프록시 서버
   - 프록시
   - Proxy
-publish: true
-created: 2021-12-31T02:18:00.000Z
-updated: 2022-09-05T03:06:18.088Z
 related:
   - HTTP-Request
   - HTTP-Response
+created: 2021-12-31T02:18:00.000Z
+updated: 2022-09-05T05:04:22.356Z
 ---
 
 # {{ $frontmatter.title }}

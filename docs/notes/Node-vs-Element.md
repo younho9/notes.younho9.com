@@ -2,13 +2,13 @@
 title: Node vs Element
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
 aliases:
+  - Node vs Element
   - Node와 Element의 차이점
-publish: true
 created: 2022-01-06T03:43:00.000Z
-updated: 2022-01-06T03:43:00.000Z
+updated: 2022-09-05T05:04:21.853Z
 ---
 
 # {{ $frontmatter.title }}

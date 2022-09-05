@@ -2,9 +2,12 @@
 title: 어셈블러 asembler
 category: Programming
 tags:
-  - system-programming
+  - programming
+  - system_programming
+aliases:
+  - 어셈블러 asembler
 created: 2020-04-05T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:22.282Z
 ---
 
 # {{ $frontmatter.title }}

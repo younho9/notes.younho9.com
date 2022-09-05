@@ -7,9 +7,8 @@ aliases:
   - CSS 의사 클래스(Pseudo Classes)
   - CSS 의사 클래스
   - Pseudo Classes
-publish: true
 created: 2022-01-04T06:07:00.000Z
-updated: 2022-09-05T03:06:17.850Z
+updated: 2022-09-05T05:04:21.777Z
 ---
 
 # {{ $frontmatter.title }}

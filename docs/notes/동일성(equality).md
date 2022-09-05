@@ -4,14 +4,14 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - 동일성(equality)
   - 참조 동일성
   - 비교
-publish: true
-created: 2022-01-02T08:32:00.000Z
-updated: 2022-09-05T03:06:18.015Z
 related:
   - 형-변환(Type-conversion)
   - pass-by-reference-vs-pass-by-value
+created: 2022-01-02T08:32:00.000Z
+updated: 2022-09-05T05:04:22.214Z
 ---
 
 # {{ $frontmatter.title }}

@@ -3,8 +3,10 @@ title: Programmers 43165. 타겟 넘버
 category: Algorithm
 tags:
   - algorithm
+aliases:
+  - Programmers 43165. 타겟 넘버
 created: 2020-10-15T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.915Z
 ---
 
 # {{ $frontmatter.title }}

@@ -3,8 +3,10 @@ title: CSS 속성 09. font
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 09. font
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:56:36.889Z
+updated: 2022-09-05T05:04:21.757Z
 ---
 
 # {{ $frontmatter.title }}

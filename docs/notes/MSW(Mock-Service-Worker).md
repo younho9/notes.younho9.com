@@ -2,15 +2,14 @@
 title: MSW(Mock Service Worker)
 category: Tooling
 tags:
-  - test
   - tooling
+  - test
 aliases:
   - MSW(Mock Service Worker)
-publish: true
-created: 2022-08-10T00:31:00.000Z
-updated: 2022-09-05T03:06:17.893Z
 related:
   - 통합(Integration)-테스트
+created: 2022-08-10T00:31:00.000Z
+updated: 2022-09-05T05:04:21.838Z
 ---
 
 # {{ $frontmatter.title }}

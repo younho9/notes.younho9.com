@@ -2,18 +2,18 @@
 title: 파싱(Parsing)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 파싱(Parsing)
   - 구문 분석
   - 파싱
   - Parsing
-publish: true
-created: 2021-12-31T02:03:00.000Z
-updated: 2022-09-05T03:06:18.086Z
 related:
   - 토큰(Token)
   - 브라우저-렌더링-1
+created: 2021-12-31T02:03:00.000Z
+updated: 2022-09-05T05:04:22.345Z
 ---
 
 # {{ $frontmatter.title }}

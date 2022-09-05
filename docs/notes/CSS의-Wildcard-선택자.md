@@ -5,9 +5,8 @@ tags:
   - css
 aliases:
   - CSS의 Wildcard 선택자
-publish: true
 created: 2022-07-08T04:21:00.000Z
-updated: 2022-07-08T04:38:00.000Z
+updated: 2022-09-05T05:04:21.778Z
 ---
 
 # {{ $frontmatter.title }}

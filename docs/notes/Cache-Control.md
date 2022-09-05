@@ -2,13 +2,14 @@
 title: Cache-Control
 category: HTTP
 tags:
-  - web
   - http
-publish: true
-created: 2021-12-30T06:12:00.000Z
-updated: 2022-09-05T03:06:17.851Z
+  - web
+aliases:
+  - Cache-Control
 related:
   - HTTP-헤더
+created: 2021-12-30T06:12:00.000Z
+updated: 2022-09-05T05:04:21.780Z
 ---
 
 # {{ $frontmatter.title }}

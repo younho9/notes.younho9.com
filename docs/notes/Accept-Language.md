@@ -2,17 +2,18 @@
 title: Accept-Language
 category: HTTP
 tags:
-  - web
   - http
-publish: true
-created: 2021-12-30T05:06:00.000Z
-updated: 2022-09-05T03:06:17.841Z
+  - web
+aliases:
+  - Accept-Language
 related:
   - window.navigator.language
   - HTTP-헤더
   - HTTP-Request
   - Content-Language
   - 다국어-사이트를-디자인하거나-개발할-때-주의해야-할-사항
+created: 2021-12-30T05:06:00.000Z
+updated: 2022-09-05T05:04:21.719Z
 ---
 
 # {{ $frontmatter.title }}

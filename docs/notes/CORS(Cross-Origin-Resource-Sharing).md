@@ -6,11 +6,10 @@ tags:
   - terms
   - glossary
 aliases:
+  - CORS(Cross Origin Resource Sharing)
   - CORS
   - Cross Origin Resource Sharing
   - 교차 출처 리소스 공유
-created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:17.846Z
 related:
   - 크로스-사이트(Cross-Site)
   - HTTP-Request
@@ -20,6 +19,8 @@ related:
   - W3C
   - 부수-효과(Side-Effect)
   - CORB(Cross-Origin-Read-Blocking)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:21.729Z
 ---
 
 # {{ $frontmatter.title }}

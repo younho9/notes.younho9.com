@@ -3,8 +3,10 @@ title: html 속의 자바스크립트
 category: JavaScript
 tags:
   - javascript
+aliases:
+  - html 속의 자바스크립트
 created: 2020-04-19T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.866Z
 ---
 
 # {{ $frontmatter.title }}

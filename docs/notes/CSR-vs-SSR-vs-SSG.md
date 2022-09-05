@@ -4,11 +4,9 @@ category: Web
 tags:
   - web
 aliases:
+  - CSR vs SSR vs SSG
   - CSR과 SSR
   - 클라이언트 사이드 렌더링과 서버 사이드 렌더링의 차이점
-publish: true
-created: 2022-01-05T11:20:00.000Z
-updated: 2022-09-05T03:06:17.844Z
 related:
   - FP-vs-FCP-vs-FMP-vs-LCP
   - TTI(Time-To-Interactive)
@@ -16,6 +14,8 @@ related:
   - 처리량(throughput)
   - CDN(Content-Delivery-Network)
   - 검색-엔진-최적화(SEO)
+created: 2022-01-05T11:20:00.000Z
+updated: 2022-09-05T05:04:21.726Z
 ---
 
 # {{ $frontmatter.title }}

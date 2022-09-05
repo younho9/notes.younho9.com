@@ -2,15 +2,14 @@
 title: 선언적 프로그래밍(Declarative Programming)
 category: Glossary
 tags:
-  - programming
   - glossary
+  - programming
   - terms
 aliases:
   - 선언적 프로그래밍(Declarative Programming)
   - 선언적 렌더링(Declarative Rendering)
-publish: true
 created: 2022-08-09T06:10:00.000Z
-updated: 2022-08-09T06:10:00.000Z
+updated: 2022-09-05T05:04:22.256Z
 ---
 
 # {{ $frontmatter.title }}

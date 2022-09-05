@@ -6,9 +6,8 @@ tags:
   - framework
 aliases:
   - Nuxt3
-publish: true
 created: 2022-08-31T08:15:42.802Z
-updated: 2022-08-31T08:15:42.802Z
+updated: 2022-09-05T05:04:21.851Z
 ---
 
 # {{ $frontmatter.title }}

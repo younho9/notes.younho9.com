@@ -4,10 +4,10 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - 이벤트 루프(Event Loop)
   - 이벤트 루프
-publish: true
 created: 2022-01-05T12:35:00.000Z
-updated: 2022-01-05T12:35:00.000Z
+updated: 2022-09-05T05:04:22.303Z
 ---
 
 # {{ $frontmatter.title }}

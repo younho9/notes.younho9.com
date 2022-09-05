@@ -2,15 +2,16 @@
 title: 트리 쉐이킹(Tree Shaking)
 category: Glossary
 tags:
+  - glossary
   - javascript
   - module
   - terms
-  - glossary
-publish: true
-created: 2022-01-05T12:02:00.000Z
-updated: 2022-09-05T03:06:18.085Z
+aliases:
+  - 트리 쉐이킹(Tree Shaking)
 related:
   - 부수-효과(Side-Effect)
+created: 2022-01-05T12:02:00.000Z
+updated: 2022-09-05T05:04:22.343Z
 ---
 
 # {{ $frontmatter.title }}

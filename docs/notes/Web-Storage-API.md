@@ -2,9 +2,11 @@
 title: Web Storage API
 category: Web API
 tags:
-  - web-api
+  - web_api
+aliases:
+  - Web Storage API
 created: 2020-06-11T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:22.104Z
 ---
 
 # {{ $frontmatter.title }}

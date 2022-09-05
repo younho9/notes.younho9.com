@@ -6,13 +6,13 @@ tags:
   - redux
   - vs
 aliases:
+  - Context API vs Redux
   - Context API와 Redux의 차이점
-publish: true
-created: 2022-01-05T12:24:00.000Z
-updated: 2022-09-05T03:06:17.859Z
 related:
   - useState-vs-useReducer
   - Context-API
+created: 2022-01-05T12:24:00.000Z
+updated: 2022-09-05T05:04:21.786Z
 ---
 
 # {{ $frontmatter.title }}

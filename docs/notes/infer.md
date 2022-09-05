@@ -3,9 +3,10 @@ title: infer
 category: TypeScript
 tags:
   - typescript
-publish: true
+aliases:
+  - infer
 created: 2022-01-01T11:50:00.000Z
-updated: 2022-01-01T11:50:00.000Z
+updated: 2022-09-05T05:04:22.142Z
 ---
 
 # {{ $frontmatter.title }}

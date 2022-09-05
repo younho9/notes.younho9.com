@@ -2,14 +2,14 @@
 title: 의존성 주입(Dependency Injection)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 의존성 주입(Dependency Injection)
   - DI
   - Dependency Injection
-publish: true
 created: 2022-01-10T09:48:00.000Z
-updated: 2022-01-10T09:48:00.000Z
+updated: 2022-09-05T05:04:22.297Z
 ---
 
 # {{ $frontmatter.title }}

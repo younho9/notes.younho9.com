@@ -2,15 +2,15 @@
 title: 토큰(Token)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 토큰(Token)
   - 토큰
   - Token
   - token
-publish: true
 created: 2021-12-31T02:05:00.000Z
-updated: 2021-12-31T02:05:00.000Z
+updated: 2022-09-05T05:04:22.339Z
 ---
 
 # {{ $frontmatter.title }}

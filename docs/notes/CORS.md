@@ -1,8 +1,12 @@
 ---
 title: CORS(Cross Origin Resource Sharing)
 category: Web
+tags:
+  - web
+aliases:
+  - CORS(Cross Origin Resource Sharing)
 created: 2020-11-08T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.739Z
 ---
 
 # {{ $frontmatter.title }}

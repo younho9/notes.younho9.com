@@ -2,10 +2,12 @@
 title: window
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
+aliases:
+  - window
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T05:47:00.000Z
+updated: 2022-09-05T05:04:22.196Z
 ---
 
 # {{ $frontmatter.title }}

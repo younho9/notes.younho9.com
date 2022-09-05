@@ -6,12 +6,12 @@ tags:
   - terms
   - glossary
 aliases:
+  - FOUC(Flash of unstyled content)
   - FOUC
-publish: true
-created: 2022-01-10T06:13:00.000Z
-updated: 2022-09-05T03:06:17.865Z
 related:
   - CSS-in-JS
+created: 2022-01-10T06:13:00.000Z
+updated: 2022-09-05T05:04:21.808Z
 ---
 
 # {{ $frontmatter.title }}

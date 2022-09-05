@@ -2,22 +2,23 @@
 title: 최상위 도메인(Top Level Domain)
 category: Glossary
 tags:
+  - glossary
   - web
   - terms
-  - glossary
   - url
 aliases:
+  - 최상위 도메인(Top Level Domain)
   - TLD
   - 최상위 도메인
   - Top Level Domain
   - Public Suffix
   - Suffix
-created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:18.067Z
 related:
   - 동일-사이트(Same-Site)
   - 도메인(Domain)
   - 서브도메인(Subdomain)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.319Z
 ---
 
 # {{ $frontmatter.title }}

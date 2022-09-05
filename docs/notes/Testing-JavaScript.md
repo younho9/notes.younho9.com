@@ -8,15 +8,14 @@ aliases:
   - Testing JavaScript
   - JavaScript 애플리케이션 테스트
   - Frontend 애플리케이션 테스트
-publish: true
-created: 2022-08-09T04:08:00.000Z
-updated: 2022-09-05T03:06:17.911Z
 related:
   - End-to-End(E2E)
   - 통합(Integration)-테스트
   - 단위(Unit)-테스트
   - 정적(Static)-테스트
   - Testing-Trophy
+created: 2022-08-09T04:08:00.000Z
+updated: 2022-09-05T05:04:22.052Z
 ---
 
 # {{ $frontmatter.title }}

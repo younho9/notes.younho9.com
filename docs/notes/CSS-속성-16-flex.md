@@ -3,8 +3,10 @@ title: CSS 속성 16. flex
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 16. flex
 created: 2020-02-02T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:22.049Z
 ---
 
 # {{ $frontmatter.title }}

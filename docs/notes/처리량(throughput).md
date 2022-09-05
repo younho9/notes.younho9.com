@@ -2,15 +2,15 @@
 title: 처리량(throughput)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 처리량(throughput)
   - 스루풋
-publish: true
-created: 2022-01-08T06:22:00.000Z
-updated: 2022-09-05T03:06:18.066Z
 related:
   - CSR-vs-SSR-vs-SSG
+created: 2022-01-08T06:22:00.000Z
+updated: 2022-09-05T05:04:22.317Z
 ---
 
 # {{ $frontmatter.title }}

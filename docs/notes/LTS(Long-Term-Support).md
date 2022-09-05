@@ -6,9 +6,8 @@ tags:
 aliases:
   - LTS(Long Term Support)
   - LTS
-publish: true
 created: 2022-09-02T07:40:00.366Z
-updated: 2022-09-05T03:06:17.883Z
+updated: 2022-09-05T05:04:21.834Z
 ---
 
 # {{ $frontmatter.title }}

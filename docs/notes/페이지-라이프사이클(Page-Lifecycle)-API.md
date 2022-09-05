@@ -2,13 +2,12 @@
 title: 페이지 라이프사이클(Page Lifecycle) API
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
 aliases:
-  - alias
-publish: true
+  - 페이지 라이프사이클(Page Lifecycle) API
 created: 2022-01-05T14:09:00.000Z
-updated: 2022-01-05T14:09:00.000Z
+updated: 2022-09-05T05:04:22.347Z
 ---
 
 # {{ $frontmatter.title }}

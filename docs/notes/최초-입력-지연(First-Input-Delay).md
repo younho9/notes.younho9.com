@@ -7,16 +7,16 @@ tags:
   - vitals
   - metrics
 aliases:
+  - 최초 입력 지연(First Input Delay)
   - FID
-publish: true
-created: 2022-01-13T00:36:00.000Z
-updated: 2022-09-05T03:06:18.068Z
 related:
   - FP-vs-FCP-vs-FMP-vs-LCP
   - 트리-쉐이킹(Tree-Shaking)
   - script-태그의-async와-defer-속성
   - 코드-스플리팅(Code-Splitting)
   - 웹-워커(Web-Worker)
+created: 2022-01-13T00:36:00.000Z
+updated: 2022-09-05T05:04:22.321Z
 ---
 
 # {{ $frontmatter.title }}

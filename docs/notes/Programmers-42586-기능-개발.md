@@ -3,8 +3,10 @@ title: Programmers 42586. 기능 개발
 category: Algorithm
 tags:
   - algorithm
+aliases:
+  - Programmers 42586. 기능 개발
 created: 2020-09-25T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.893Z
 ---
 
 # {{ $frontmatter.title }}

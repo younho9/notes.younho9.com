@@ -2,16 +2,16 @@
 title: 구문적 설탕(Syntatic sugar)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 구문적 설탕(Syntatic sugar)
   - 구문적 설탕
   - Syntatic sugar
   - 구문 설탕
   - Syntax sugar
-publish: true
 created: 2022-01-01T08:02:00.000Z
-updated: 2022-01-01T08:02:00.000Z
+updated: 2022-09-05T05:04:22.203Z
 ---
 
 # {{ $frontmatter.title }}

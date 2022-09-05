@@ -4,10 +4,9 @@ category: Vue
 tags:
   - vue
 aliases:
-  - alias
-publish: true
+  - Vue School Vue
 created: 2022-02-18T06:23:00.000Z
-updated: 2022-02-18T06:23:00.000Z
+updated: 2022-09-05T05:04:22.097Z
 ---
 
 # {{ $frontmatter.title }}

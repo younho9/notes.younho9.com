@@ -2,22 +2,23 @@
 title: 크로스 사이트(Cross Site)
 category: Glossary
 tags:
+  - glossary
   - web
   - terms
-  - glossary
   - url
 aliases:
+  - 크로스 사이트(Cross Site)
   - Cross Site(크로스 사이트)
   - Cross Site
   - cross-site
   - 크로스 사이트
   - 사이트 간
   - 다른 사이트
-created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:18.077Z
 related:
   - 동일-사이트(Same-Site)
   - 동일-출처(Same-Origin)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.328Z
 ---
 
 # {{ $frontmatter.title }}

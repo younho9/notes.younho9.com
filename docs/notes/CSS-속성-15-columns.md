@@ -3,8 +3,10 @@ title: CSS 속성 15. columns
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 15. columns
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:57:00.495Z
+updated: 2022-09-05T05:04:21.779Z
 ---
 
 # {{ $frontmatter.title }}

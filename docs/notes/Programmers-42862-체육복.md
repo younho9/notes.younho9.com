@@ -3,8 +3,10 @@ title: Programmers 42862. 체육복
 category: Algorithm
 tags:
   - algorithm
+aliases:
+  - Programmers 42862. 체육복
 created: 2020-10-08T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.909Z
 ---
 
 # {{ $frontmatter.title }}

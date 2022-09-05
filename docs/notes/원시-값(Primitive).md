@@ -6,16 +6,16 @@ tags:
   - glossary
   - terms
 aliases:
+  - 원시 값(Primitive)
   - Primitive
   - 원시 값
   - 원시 자료형
-publish: true
-created: 2022-01-06T04:52:00.000Z
-updated: 2022-09-05T03:06:18.049Z
 related:
   - 변성(Mutable)-vs-불변성(Immutable)
   - JavaScript-객체(Object)
   - 값(Value)
+created: 2022-01-06T04:52:00.000Z
+updated: 2022-09-05T05:04:22.283Z
 ---
 
 # {{ $frontmatter.title }}

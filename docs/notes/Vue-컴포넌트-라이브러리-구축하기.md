@@ -4,12 +4,12 @@ category: Vue
 tags:
   - vue
 aliases:
+  - Vue 컴포넌트 라이브러리 구축하기
   - how to build vue component library
-publish: true
-created: 2022-01-18T08:18:00.000Z
-updated: 2022-09-05T03:06:17.921Z
 related:
   - FEConf-2021-Can-I-use-Vue3
+created: 2022-01-18T08:18:00.000Z
+updated: 2022-09-05T05:04:22.100Z
 ---
 
 # {{ $frontmatter.title }}

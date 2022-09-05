@@ -4,8 +4,10 @@ category: macOS
 tags:
   - macos
   - settings
+aliases:
+  - macOS 유틸리티 설정
 created: 2021-03-04T15:00:00.000Z
-updated: 2021-03-04T15:00:00.000Z
+updated: 2022-09-05T05:04:22.149Z
 ---
 
 # {{ $frontmatter.title }}

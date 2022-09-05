@@ -5,12 +5,11 @@ tags:
   - glossary
 aliases:
   - ROI(Return Of Investment)
-publish: true
-created: 2022-08-09T01:05:00.000Z
-updated: 2022-09-05T03:06:17.908Z
 related:
   - Testing-Trophy
   - Testing-JavaScript
+created: 2022-08-09T01:05:00.000Z
+updated: 2022-09-05T05:04:21.913Z
 ---
 
 # {{ $frontmatter.title }}

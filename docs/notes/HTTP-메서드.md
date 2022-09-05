@@ -2,18 +2,19 @@
 title: HTTP 메서드
 category: HTTP
 tags:
-  - web
   - http
+  - web
 aliases:
+  - HTTP 메서드
   - HTTP Method
-created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:17.873Z
 related:
   - Content-Type
   - 멱등성
   - 부수-효과(Side-Effect)
   - CORS(Cross-Origin-Resource-Sharing)
   - HTTP-헤더
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:21.826Z
 ---
 
 # {{ $frontmatter.title }}

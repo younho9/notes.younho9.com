@@ -9,7 +9,7 @@ tags:
 aliases:
   - yeoman generator 만들기
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:17.977Z
+updated: 2022-09-05T05:04:22.195Z
 ---
 
 # {{ $frontmatter.title }}

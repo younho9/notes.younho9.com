@@ -2,18 +2,19 @@
 title: 세션(Session)
 category: Web API
 tags:
+  - web_api
   - web
   - terms
   - glossary
 aliases:
+  - 세션(Session)
   - 세션
   - Session
-publish: true
-created: 2021-12-30T07:09:00.000Z
-updated: 2022-09-05T03:06:18.035Z
 related:
   - sessionStorage
   - 세션-쿠키(Session-Cookie)
+created: 2021-12-30T07:09:00.000Z
+updated: 2022-09-05T05:04:22.265Z
 ---
 
 # {{ $frontmatter.title }}

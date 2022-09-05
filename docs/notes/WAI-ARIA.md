@@ -2,11 +2,13 @@
 title: WAI-ARIA
 category: Glossary
 tags:
+  - glossary
   - web
   - a11y
-publish: true
+aliases:
+  - WAI-ARIA
 created: 2022-08-02T20:39:00.000Z
-updated: 2022-08-02T20:39:00.000Z
+updated: 2022-09-05T05:04:22.100Z
 ---
 
 # {{ $frontmatter.title }}

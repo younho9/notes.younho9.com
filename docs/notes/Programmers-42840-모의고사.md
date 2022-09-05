@@ -3,8 +3,10 @@ title: Programmers 42840. 모의고사
 category: Algorithm
 tags:
   - algorithm
+aliases:
+  - Programmers 42840. 모의고사
 created: 2020-10-07T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.905Z
 ---
 
 # {{ $frontmatter.title }}

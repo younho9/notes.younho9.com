@@ -2,16 +2,16 @@
 title: localStorage
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
 aliases:
+  - localStorage
   - 로컬 스토리지
-publish: true
-created: 2021-12-30T07:13:00.000Z
-updated: 2022-09-05T03:06:17.932Z
 related:
   - 웹-스토리지(Web-Storage)
   - sessionStorage
+created: 2021-12-30T07:13:00.000Z
+updated: 2022-09-05T05:04:22.148Z
 ---
 
 # {{ $frontmatter.title }}

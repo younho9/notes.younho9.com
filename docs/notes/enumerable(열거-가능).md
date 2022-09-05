@@ -6,16 +6,16 @@ tags:
   - terms
   - glossary
 aliases:
+  - enumerable(열거 가능)
   - enumerable
   - 열거 가능
-publish: true
-created: 2022-01-01T05:32:00.000Z
-updated: 2022-09-05T03:06:17.931Z
 related:
   - JavaScript-객체(Object)
   - for-of-vs-for-in
   - 프로토타입(prototype)
   - iterable(반복-가능)
+created: 2022-01-01T05:32:00.000Z
+updated: 2022-09-05T05:04:22.138Z
 ---
 
 # {{ $frontmatter.title }}

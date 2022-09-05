@@ -2,12 +2,13 @@
 title: CDN(Content Delivery Network)
 category: Glossary
 tags:
+  - glossary
   - web
   - terms
-  - glossary
-publish: true
+aliases:
+  - CDN(Content Delivery Network)
 created: 2022-01-08T15:13:00.000Z
-updated: 2022-01-08T15:13:00.000Z
+updated: 2022-09-05T05:04:21.717Z
 ---
 
 # {{ $frontmatter.title }}

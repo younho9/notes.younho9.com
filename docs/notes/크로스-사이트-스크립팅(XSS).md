@@ -7,16 +7,16 @@ tags:
   - glossary
   - security
 aliases:
+  - 크로스 사이트 스크립팅(XSS)
   - 크로스 사이트 스크립팅
   - XSS
   - 크로스 사이트 스크립팅 공격
   - XSS 공격
-publish: true
-created: 2021-12-31T06:18:00.000Z
-updated: 2022-09-05T03:06:18.075Z
 related:
   - 쿠키(cookie)
   - 크로스-사이트(Cross-Site)
+created: 2021-12-31T06:18:00.000Z
+updated: 2022-09-05T05:04:22.329Z
 ---
 
 # {{ $frontmatter.title }}

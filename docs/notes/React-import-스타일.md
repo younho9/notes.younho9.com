@@ -3,9 +3,10 @@ title: React import 스타일
 category: React
 tags:
   - react
-publish: true
+aliases:
+  - React import 스타일
 created: 2022-01-03T16:22:00.000Z
-updated: 2022-08-22T03:03:19.133Z
+updated: 2022-09-05T05:04:21.943Z
 ---
 
 # {{ $frontmatter.title }}

@@ -2,13 +2,13 @@
 title: 점진적 향상(Progressive enhancement) vs 우아한 성능저하(Graceful degradation)
 category: Glossary
 tags:
+  - glossary
   - vs
-  - Glossary
 aliases:
+  - 점진적 향상(Progressive enhancement) vs 우아한 성능저하(Graceful degradation)
   - 점진적 향상 vs 우아한 성능저하
-publish: true
 created: 2022-01-08T15:28:00.000Z
-updated: 2022-01-08T15:28:00.000Z
+updated: 2022-09-05T05:04:22.307Z
 ---
 
 # {{ $frontmatter.title }}

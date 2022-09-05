@@ -4,12 +4,11 @@ category: Glossary
 tags:
   - glossary
 aliases:
-  - alias
-publish: true
-created: 2022-01-06T04:07:00.000Z
-updated: 2022-09-05T03:06:18.057Z
+  - 일급 시민(First class citizen)
 related:
   - 일급-객체(First-class-object)
+created: 2022-01-06T04:07:00.000Z
+updated: 2022-09-05T05:04:22.304Z
 ---
 
 # {{ $frontmatter.title }}

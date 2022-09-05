@@ -2,9 +2,12 @@
 title: sic xe machine architecture
 category: Programming
 tags:
-  - system-programming
+  - programming
+  - system_programming
+aliases:
+  - sic xe machine architecture
 created: 2020-04-05T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:22.177Z
 ---
 
 # {{ $frontmatter.title }}

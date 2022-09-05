@@ -5,12 +5,11 @@ tags:
   - javascript
   - vs
 aliases:
-  - alias
-publish: true
-created: 2022-01-10T13:23:00.000Z
-updated: 2022-09-05T03:06:17.929Z
+  - export default vs export
 related:
   - pass-by-reference-vs-pass-by-value
+created: 2022-01-10T13:23:00.000Z
+updated: 2022-09-05T05:04:22.140Z
 ---
 
 # {{ $frontmatter.title }}

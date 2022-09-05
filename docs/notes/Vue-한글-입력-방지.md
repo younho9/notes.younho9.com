@@ -5,9 +5,8 @@ tags:
   - vue
 aliases:
   - Vue 한글 입력 방지
-publish: true
 created: 2022-07-13T09:56:00.000Z
-updated: 2022-07-13T09:56:00.000Z
+updated: 2022-09-05T05:04:22.095Z
 ---
 
 # {{ $frontmatter.title }}

@@ -5,9 +5,8 @@ tags:
   - project
 aliases:
   - Link Preview
-publish: true
 created: 2022-08-09T08:46:00.000Z
-updated: 2022-08-09T08:46:00.000Z
+updated: 2022-09-05T05:04:21.835Z
 ---
 
 # {{ $frontmatter.title }}

@@ -4,10 +4,10 @@ category: TypeScript
 tags:
   - typescript
 aliases:
+  - 공변성 vs 반공변성
   - covariant vs contravariant
-publish: true
 created: 2022-01-14T00:28:00.000Z
-updated: 2022-08-22T02:43:11.110Z
+updated: 2022-09-05T05:04:22.203Z
 ---
 
 # {{ $frontmatter.title }}

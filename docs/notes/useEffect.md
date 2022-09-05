@@ -3,15 +3,16 @@ title: useEffect
 category: React
 tags:
   - react
-publish: true
-created: 2022-01-02T08:27:00.000Z
-updated: 2022-09-05T03:06:17.961Z
+aliases:
+  - useEffect
 related:
   - 부수-효과(Side-Effect)
   - 의존성-배열(dependency-list)
   - 브라우저-렌더링-3
   - 브라우저-렌더링-4
   - 브라우저-렌더링-1
+created: 2022-01-02T08:27:00.000Z
+updated: 2022-09-05T05:04:22.182Z
 ---
 
 # {{ $frontmatter.title }}

@@ -4,11 +4,9 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - 클래스(Class)
   - class
   - 클래스
-publish: true
-created: 2022-01-01T03:14:00.000Z
-updated: 2022-09-05T03:06:18.079Z
 related:
   - 클래스(Class)
   - 구문적-설탕(Syntatic-sugar)
@@ -18,6 +16,8 @@ related:
   - 엄격-모드(strict-mode)
   - 프로토타입(prototype)
   - Object.create()
+created: 2022-01-01T03:14:00.000Z
+updated: 2022-09-05T05:04:22.340Z
 ---
 
 # {{ $frontmatter.title }}

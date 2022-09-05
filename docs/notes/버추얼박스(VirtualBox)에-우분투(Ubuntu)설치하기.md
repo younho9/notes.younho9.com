@@ -2,10 +2,13 @@
 title: 버추얼박스(VirtualBox)에 우분투(Ubuntu)설치하기
 category: Tools
 tags:
+  - tools
   - macos
   - settings
+aliases:
+  - 버추얼박스(VirtualBox)에 우분투(Ubuntu)설치하기
 created: 2020-03-24T15:00:00.000Z
-updated: 2022-08-22T03:53:21.210Z
+updated: 2022-09-05T05:04:22.246Z
 ---
 
 # {{ $frontmatter.title }}

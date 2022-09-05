@@ -4,10 +4,10 @@ category: Conference
 tags:
   - conference
 aliases:
+  - FEConf 2021 - Can I use Vue3
   - FEConf - 2021 Can I use Vue3
-publish: true
 created: 2022-01-22T11:02:00.000Z
-updated: 2022-09-05T03:06:17.870Z
+updated: 2022-09-05T05:04:21.818Z
 ---
 
 # {{ $frontmatter.title }}

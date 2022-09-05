@@ -3,8 +3,10 @@ title: Programmers 42885. 구명보트
 category: Algorithm
 tags:
   - algorithm
+aliases:
+  - Programmers 42885. 구명보트
 created: 2020-10-14T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.910Z
 ---
 
 # {{ $frontmatter.title }}

@@ -3,8 +3,10 @@ title: CSS 속성 12. background
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 12. background
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:56:48.065Z
+updated: 2022-09-05T05:04:21.768Z
 ---
 
 # {{ $frontmatter.title }}

@@ -2,14 +2,17 @@
 title: script 태그의 async와 defer 속성
 category: Browser
 tags:
+  - browser
   - html
   - web
   - javascript
-created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:17.954Z
+aliases:
+  - script 태그의 async와 defer 속성
 related:
   - 브라우저-렌더링-1
   - DOMContentLoaded-vs-load
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.175Z
 ---
 
 # {{ $frontmatter.title }}

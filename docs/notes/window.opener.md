@@ -2,14 +2,13 @@
 title: window.opener
 category: Web API
 tags:
-  - web-api
+  - web_api
 aliases:
   - window.opener
-publish: true
-created: 2022-08-09T05:47:00.000Z
-updated: 2022-09-05T03:06:17.975Z
 related:
   - window.open
+created: 2022-08-09T05:47:00.000Z
+updated: 2022-09-05T05:04:22.194Z
 ---
 
 # {{ $frontmatter.title }}

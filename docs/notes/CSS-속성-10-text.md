@@ -3,9 +3,10 @@ title: CSS 속성 10. text
 category: CSS
 tags:
   - css
-  - ffffff
+aliases:
+  - CSS 속성 10. text
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-09-02T00:54:31.637Z
+updated: 2022-09-05T05:04:21.759Z
 ---
 
 # {{ $frontmatter.title }}
@@ -29,7 +30,7 @@ updated: 2022-09-02T00:54:31.637Z
 | 표현         | 의미                              | 예시                     |
 | ------------ | --------------------------------- | ------------------------ |
 | 색상이름     | 브라우저에서 제공하는 색상의 이름 | red , blue , …           |
-| Hex 색상코드 | 16 진수 색상 (Hexadecimal Colors) | #000000 ~ #ffffff        |
+| Hex 색상코드 | 16 진수 색상 (Hexadecimal Colors) | `#000000` ~ `#ffffff`    |
 | RGB          | 빛의 3원색                        | rgb(255, 255, 255)       |
 | RGBA         | 빛의 3원색 + 투명도               | rgba(255, 0, 0, .5)      |
 | HSL          | 색상, 채도, 명도                  | hsl(120, 100%, 50%)      |

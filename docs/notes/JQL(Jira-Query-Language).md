@@ -6,9 +6,8 @@ tags:
   - tips
 aliases:
   - JQL(Jira Query Language)
-publish: true
 created: 2022-08-11T02:54:00.000Z
-updated: 2022-08-11T02:54:00.000Z
+updated: 2022-09-05T05:04:21.829Z
 ---
 
 # {{ $frontmatter.title }}

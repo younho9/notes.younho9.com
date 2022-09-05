@@ -6,15 +6,15 @@ tags:
   - terms
   - glossary
 aliases:
+  - Fiber
   - React Fiber
   - fibers
-publish: true
-created: 2022-01-02T04:15:00.000Z
-updated: 2022-09-05T03:06:17.871Z
 related:
   - 가상-돔(Virtual-DOM)
   - 리액트(React)
   - 재조정(Reconciliation)
+created: 2022-01-02T04:15:00.000Z
+updated: 2022-09-05T05:04:21.812Z
 ---
 
 # {{ $frontmatter.title }}

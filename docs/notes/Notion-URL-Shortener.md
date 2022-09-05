@@ -5,9 +5,6 @@ tags:
   - project
 aliases:
   - Notion URL Shortener
-publish: true
-created: 2022-02-03T13:15:00.000Z
-updated: 2022-09-05T03:06:17.891Z
 related:
   - '2022-02-03'
   - '2022-02-05'
@@ -19,6 +16,8 @@ related:
   - '2022-02-28'
   - '2022-03-05'
   - '2022-03-07'
+created: 2022-02-03T13:15:00.000Z
+updated: 2022-09-05T05:04:21.850Z
 ---
 
 # {{ $frontmatter.title }}

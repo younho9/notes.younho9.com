@@ -2,16 +2,16 @@
 title: requestAnimationFrame
 category: Web API
 tags:
+  - web_api
   - javascript
   - web
-  - web-api
 aliases:
+  - requestAnimationFrame
   - window.requestAnimationFrame()
-publish: true
-created: 2022-01-01T09:13:00.000Z
-updated: 2022-09-05T03:06:17.952Z
 related:
   - 리플로우(Reflow)-vs-리페인트(Repaint)
+created: 2022-01-01T09:13:00.000Z
+updated: 2022-09-05T05:04:22.170Z
 ---
 
 # {{ $frontmatter.title }}

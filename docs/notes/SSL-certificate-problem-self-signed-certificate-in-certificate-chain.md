@@ -2,13 +2,13 @@
 title: 'SSL certificate problem: self signed certificate in certificate chain'
 category: Troubleshooting
 tags:
-  - npm
   - troubleshooting
+  - npm
 aliases:
+  - 'SSL certificate problem: self signed certificate in certificate chain'
   - SSL certificate problem: self signed certificate in certificate chain
-publish: true
 created: 2022-08-10T01:37:00.000Z
-updated: 2022-08-10T01:37:00.000Z
+updated: 2022-09-05T05:04:21.948Z
 ---
 
 # {{ $frontmatter.title }}

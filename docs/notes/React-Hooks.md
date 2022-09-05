@@ -3,9 +3,10 @@ title: React Hooks
 category: React
 tags:
   - react
-publish: true
+aliases:
+  - React Hooks
 created: 2022-01-02T07:58:00.000Z
-updated: 2022-09-02T00:54:31.644Z
+updated: 2022-09-05T05:04:21.915Z
 ---
 
 # {{ $frontmatter.title }}

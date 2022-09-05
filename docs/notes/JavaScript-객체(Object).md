@@ -4,11 +4,9 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - JavaScript 객체(Object)
   - 객체
   - Object
-publish: true
-created: 2022-01-01T02:13:00.000Z
-updated: 2022-09-05T03:06:17.886Z
 related:
   - Object.create()
   - 프로토타입-객체
@@ -16,6 +14,8 @@ related:
   - for-of-vs-for-in
   - enumerable(열거-가능)
   - 프로토타입(prototype)
+created: 2022-01-01T02:13:00.000Z
+updated: 2022-09-05T05:04:21.840Z
 ---
 
 # {{ $frontmatter.title }}

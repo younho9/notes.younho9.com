@@ -3,17 +3,17 @@ title: 누적 레이아웃 이동(Cumulative Layout Shift)
 category: Web
 tags:
   - web
-  - web-vitals
+  - web_vitals
   - metric
   - ux
 aliases:
+  - 누적 레이아웃 이동(Cumulative Layout Shift)
   - 레이아웃 시프트
   - CLS
-publish: true
-created: 2022-01-12T02:06:00.000Z
-updated: 2022-09-05T03:06:18.002Z
 related:
   - Core-Web-Vitals
+created: 2022-01-12T02:06:00.000Z
+updated: 2022-09-05T05:04:22.207Z
 ---
 
 # {{ $frontmatter.title }}

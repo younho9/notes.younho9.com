@@ -4,10 +4,9 @@ category: React
 tags:
   - react
 aliases:
-  - alias
-publish: true
+  - useRef
 created: 2022-01-13T13:15:00.000Z
-updated: 2022-09-02T00:54:31.641Z
+updated: 2022-09-05T05:04:22.184Z
 ---
 
 # {{ $frontmatter.title }}

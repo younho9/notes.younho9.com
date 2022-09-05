@@ -3,8 +3,10 @@ title: CSS 단위
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 단위
 created: 2020-02-02T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.736Z
 ---
 
 # {{ $frontmatter.title }}

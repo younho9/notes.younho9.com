@@ -8,7 +8,7 @@ aliases:
   - 타입 레벨 동일성
   - Type Level Equality
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-02T00:28:17.833Z
+updated: 2022-09-05T05:04:22.336Z
 ---
 
 # {{ $frontmatter.title }}

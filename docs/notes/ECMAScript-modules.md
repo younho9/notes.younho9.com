@@ -7,9 +7,8 @@ aliases:
   - ECMAScript modules
   - ES modules
   - ESM
-publish: true
 created: 2022-08-12T00:58:00.000Z
-updated: 2022-08-12T00:58:00.000Z
+updated: 2022-09-05T05:04:21.796Z
 ---
 
 # {{ $frontmatter.title }}

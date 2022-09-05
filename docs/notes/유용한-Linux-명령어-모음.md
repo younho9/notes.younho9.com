@@ -7,9 +7,8 @@ tags:
   - shell
 aliases:
   - 유용한 Linux 명령어 모음
-publish: true
 created: 2022-08-12T07:42:00.000Z
-updated: 2022-08-12T07:42:00.000Z
+updated: 2022-09-05T05:04:22.284Z
 ---
 
 # {{ $frontmatter.title }}

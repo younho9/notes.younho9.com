@@ -3,8 +3,10 @@ title: Python pip 패키지 관리
 category: Python
 tags:
   - python
+aliases:
+  - Python pip 패키지 관리
 created: 2021-03-26T15:00:00.000Z
-updated: 2022-08-22T03:06:58.077Z
+updated: 2022-09-05T05:04:22.170Z
 ---
 
 # {{ $frontmatter.title }}

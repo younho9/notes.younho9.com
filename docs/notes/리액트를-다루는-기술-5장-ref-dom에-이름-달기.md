@@ -3,8 +3,10 @@ title: 리액트를 다루는 기술 5장 ref dom에 이름 달기
 category: React
 tags:
   - react
+aliases:
+  - 리액트를 다루는 기술 5장 ref dom에 이름 달기
 created: 2020-04-01T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:22.227Z
 ---
 
 # {{ $frontmatter.title }}

@@ -3,9 +3,10 @@ title: 선택자(selector) - 2편
 category: CSS
 tags:
   - css
-  - submit
+aliases:
+  - 선택자(selector) - 2편
 created: 2020-01-21T15:00:00.000Z
-updated: 2022-09-02T00:54:31.642Z
+updated: 2022-09-05T05:04:22.262Z
 ---
 
 # {{ $frontmatter.title }}

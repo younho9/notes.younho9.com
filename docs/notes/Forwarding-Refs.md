@@ -4,10 +4,10 @@ category: React
 tags:
   - react
 aliases:
+  - Forwarding Refs
   - Ref 전달
-publish: true
 created: 2022-01-09T07:27:00.000Z
-updated: 2022-09-02T00:54:31.646Z
+updated: 2022-09-05T05:04:21.813Z
 ---
 
 # {{ $frontmatter.title }}

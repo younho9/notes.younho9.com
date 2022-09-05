@@ -3,8 +3,10 @@ title: CSS 속성 04. border
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 04. border
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:56:19.369Z
+updated: 2022-09-05T05:04:21.749Z
 ---
 
 # {{ $frontmatter.title }}

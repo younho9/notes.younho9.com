@@ -5,13 +5,14 @@ tags:
   - web
   - performance
   - lighthouse
-publish: true
-created: 2022-01-08T06:38:00.000Z
-updated: 2022-09-05T03:06:17.909Z
+aliases:
+  - TTI(Time To Interactive)
 related:
   - 코드-스플리팅(Code-Splitting)
   - PRPL-패턴
   - JavaScript-최적화
+created: 2022-01-08T06:38:00.000Z
+updated: 2022-09-05T05:04:22.092Z
 ---
 
 # {{ $frontmatter.title }}

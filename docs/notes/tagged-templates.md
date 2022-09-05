@@ -3,8 +3,10 @@ title: Tagged Templates
 category: JavaScript
 tags:
   - javascript
+aliases:
+  - Tagged Templates
 created: 2021-03-16T15:00:00.000Z
-updated: 2021-03-16T15:00:00.000Z
+updated: 2022-09-05T05:04:22.179Z
 ---
 
 # {{ $frontmatter.title }}

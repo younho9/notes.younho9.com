@@ -2,12 +2,11 @@
 title: Pass by Reference vs Pass by Value
 category: Programming
 tags:
+  - programming
   - vs
 aliases:
+  - Pass by Reference vs Pass by Value
   - 참조로 전달 vs 값으로 전달
-publish: true
-created: 2022-01-06T04:11:00.000Z
-updated: 2022-09-05T03:06:17.947Z
 related:
   - 매개변수(parameter)-vs-인자(argument)
   - 값(Value)
@@ -15,6 +14,8 @@ related:
   - JavaScript-객체(Object)
   - 부수-효과(Side-Effect)
   - 변성(Mutable)-vs-불변성(Immutable)
+created: 2022-01-06T04:11:00.000Z
+updated: 2022-09-05T05:04:22.169Z
 ---
 
 # {{ $frontmatter.title }}

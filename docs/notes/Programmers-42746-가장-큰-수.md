@@ -3,8 +3,10 @@ title: Programmers 42746. 가장 큰 수
 category: Algorithm
 tags:
   - algorithm
+aliases:
+  - Programmers 42746. 가장 큰 수
 created: 2020-10-05T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.898Z
 ---
 
 # {{ $frontmatter.title }}

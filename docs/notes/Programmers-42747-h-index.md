@@ -3,8 +3,10 @@ title: Programmers 42747. h-index
 category: Algorithm
 tags:
   - algorithm
+aliases:
+  - Programmers 42747. h-index
 created: 2020-10-06T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.902Z
 ---
 
 # {{ $frontmatter.title }}

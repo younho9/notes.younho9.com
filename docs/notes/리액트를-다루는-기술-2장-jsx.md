@@ -3,8 +3,10 @@ title: 리액트를 다루는 기술 2장 jsx
 category: React
 tags:
   - react
+aliases:
+  - 리액트를 다루는 기술 2장 jsx
 created: 2020-03-22T15:00:00.000Z
-updated: 2022-08-22T02:43:26.294Z
+updated: 2022-09-05T05:04:22.221Z
 ---
 
 # {{ $frontmatter.title }}

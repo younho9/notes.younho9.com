@@ -4,17 +4,17 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - iterable(반복 가능)
   - iterable
   - 이터러블
   - 반복 가능
   - 반복 가능한 객체
-publish: true
-created: 2022-01-01T05:46:00.000Z
-updated: 2022-09-05T03:06:17.933Z
 related:
   - 제너레이터(Generator)
   - for-of-vs-for-in
   - enumerable(열거-가능)
+created: 2022-01-01T05:46:00.000Z
+updated: 2022-09-05T05:04:22.147Z
 ---
 
 # {{ $frontmatter.title }}

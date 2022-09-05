@@ -2,16 +2,16 @@
 title: 순수 함수(Pure Functions)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 순수 함수(Pure Functions)
   - Pure Functions
-publish: true
-created: 2022-01-06T04:36:00.000Z
-updated: 2022-09-05T03:06:18.042Z
 related:
   - 부수-효과(Side-Effect)
   - 변성(Mutable)-vs-불변성(Immutable)
+created: 2022-01-06T04:36:00.000Z
+updated: 2022-09-05T05:04:22.268Z
 ---
 
 # {{ $frontmatter.title }}

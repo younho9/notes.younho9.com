@@ -5,7 +5,9 @@ tags:
   - browser
   - terms
   - glossary
-publish: true
+aliases:
+  - 뷰포트(Viewport)
 created: 2021-12-30T07:09:00.000Z
-updated: 2022-09-05T03:06:18.024Z
+updated: 2022-09-05T05:04:22.248Z
 ---
+

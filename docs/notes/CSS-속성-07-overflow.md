@@ -3,8 +3,10 @@ title: CSS 속성 07. overflow
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 07. overflow
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:56:30.327Z
+updated: 2022-09-05T05:04:21.746Z
 ---
 
 # {{ $frontmatter.title }}

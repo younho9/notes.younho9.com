@@ -2,13 +2,14 @@
 title: visibilitychange
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
-publish: true
-created: 2022-01-05T14:05:00.000Z
-updated: 2022-09-05T03:06:17.971Z
+aliases:
+  - visibilitychange
 related:
   - visibiltyState
+created: 2022-01-05T14:05:00.000Z
+updated: 2022-09-05T05:04:22.188Z
 ---
 
 # {{ $frontmatter.title }}

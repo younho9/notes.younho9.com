@@ -5,10 +5,10 @@ tags:
   - typescript
   - vs
 aliases:
+  - unknown vs any
   - unknown과 any의 차이점
-publish: true
 created: 2022-01-01T10:24:00.000Z
-updated: 2022-01-01T10:24:00.000Z
+updated: 2022-09-05T05:04:22.180Z
 ---
 
 # {{ $frontmatter.title }}

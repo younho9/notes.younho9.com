@@ -4,10 +4,9 @@ category: npm
 tags:
   - npm
 aliases:
-  - alias
-publish: true
+  - package-lock.json
 created: 2022-01-13T01:05:00.000Z
-updated: 2022-08-22T02:54:45.268Z
+updated: 2022-09-05T05:04:22.167Z
 ---
 
 # {{ $frontmatter.title }}

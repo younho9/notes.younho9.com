@@ -4,16 +4,16 @@ category: React
 tags:
   - react
 aliases:
+  - 의존성 배열(dependency list)
   - 의존성 목록
   - 종속성 목록
   - 종속성 배열
-publish: true
-created: 2022-01-02T08:28:00.000Z
-updated: 2022-09-05T03:06:18.054Z
 related:
   - useEffect
   - 부수-효과(Side-Effect)
   - 동일성(equality)
+created: 2022-01-02T08:28:00.000Z
+updated: 2022-09-05T05:04:22.295Z
 ---
 
 # {{ $frontmatter.title }}

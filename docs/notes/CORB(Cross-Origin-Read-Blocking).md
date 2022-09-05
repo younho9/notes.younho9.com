@@ -7,16 +7,16 @@ tags:
   - terms
   - glossary
 aliases:
+  - CORB(Cross Origin Read Blocking)
   - CORB
-publish: true
-created: 2022-01-05T13:06:00.000Z
-updated: 2022-09-05T03:06:17.839Z
 related:
   - 동일-출처(Same-Origin)
   - 교차-출처(Cross-Origin)
   - Content-Type
   - CORS(Cross-Origin-Resource-Sharing)
   - 사이트-격리(Site-Isolation)
+created: 2022-01-05T13:06:00.000Z
+updated: 2022-09-05T05:04:21.722Z
 ---
 
 # {{ $frontmatter.title }}

@@ -4,13 +4,13 @@ category: Browser
 tags:
   - browser
 aliases:
+  - WebKit(웹킷)
   - WebKit
   - 웹킷
-publish: true
-created: 2022-08-09T02:30:00.000Z
-updated: 2022-09-05T03:06:17.924Z
 related:
   - Chromium(크로미움)
+created: 2022-08-09T02:30:00.000Z
+updated: 2022-09-05T05:04:22.101Z
 ---
 
 # {{ $frontmatter.title }}

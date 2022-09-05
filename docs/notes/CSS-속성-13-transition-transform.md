@@ -3,8 +3,10 @@ title: CSS 속성 13. transition transform
 category: CSS
 tags:
   - css
+aliases:
+  - CSS 속성 13. transition transform
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-08-22T03:56:52.017Z
+updated: 2022-09-05T05:04:21.773Z
 ---
 
 # {{ $frontmatter.title }}

@@ -3,11 +3,12 @@ title: useCallback과 useMemo
 category: React
 tags:
   - react
-publish: true
-created: 2022-01-02T07:27:00.000Z
-updated: 2022-09-05T03:06:17.965Z
+aliases:
+  - useCallback과 useMemo
 related:
   - React.memo
+created: 2022-01-02T07:27:00.000Z
+updated: 2022-09-05T05:04:22.183Z
 ---
 
 # {{ $frontmatter.title }}

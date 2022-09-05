@@ -2,18 +2,17 @@
 title: beforeunload vs unload
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
   - vs
 aliases:
   - beforeunload vs unload
-publish: true
-created: 2022-01-05T13:59:00.000Z
-updated: 2022-09-05T03:06:17.926Z
 related:
   - visibilitychange
   - DOMContentLoaded-vs-load
   - 페이지-라이프사이클(Page-Lifecycle)-API
+created: 2022-01-05T13:59:00.000Z
+updated: 2022-09-05T05:04:22.102Z
 ---
 
 # {{ $frontmatter.title }}
@@ -36,4 +35,4 @@ related:
 
 ## References
 
-- https://developers.google.com/web/updates/2018/07/page-lifecycle-api?hl=ko#the-unload-event
+- [Page Lifecycle API - The Unload Event](https://developers.google.com/web/updates/2018/07/page-lifecycle-api?hl=ko#the-unload-event)

@@ -4,16 +4,16 @@ title: >-
   차이점
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
 aliases:
   - >-
     window.localtion.href vs window.location.replace vs window.location.assign의
     차이점
-created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:17.974Z
 related:
   - href
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.191Z
 ---
 
 # {{ $frontmatter.title }}

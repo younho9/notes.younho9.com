@@ -2,14 +2,13 @@
 title: readyState
 category: Web API
 tags:
-  - web-api
+  - web_api
 aliases:
-  - alias
-publish: true
-created: 2022-01-05T15:02:00.000Z
-updated: 2022-09-05T03:06:17.949Z
+  - readyState
 related:
   - DOMContentLoaded-vs-load
+created: 2022-01-05T15:02:00.000Z
+updated: 2022-09-05T05:04:22.169Z
 ---
 
 # {{ $frontmatter.title }}

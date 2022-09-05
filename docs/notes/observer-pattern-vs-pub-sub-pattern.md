@@ -2,14 +2,15 @@
 title: Observer Pattern vs PubSub Pattern
 category: Programming
 tags:
+  - programming
   - vs
   - glossary
   - terms
 aliases:
+  - Observer Pattern vs PubSub Pattern
   - 옵저버 패턴 vs PubSub 패턴
-publish: true
 created: 2020-10-29T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:22.166Z
 ---
 
 # {{ $frontmatter.title }}

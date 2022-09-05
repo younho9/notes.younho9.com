@@ -4,10 +4,9 @@ category: RxJS
 tags:
   - rxjs
 aliases:
-  - alias
-publish: true
+  - RxJS 퀵스타트
 created: 2022-03-11T01:11:00.000Z
-updated: 2022-03-14T08:31:00.000Z
+updated: 2022-09-05T05:04:21.955Z
 ---
 
 # {{ $frontmatter.title }}

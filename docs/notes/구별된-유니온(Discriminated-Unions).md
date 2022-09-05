@@ -4,10 +4,10 @@ category: TypeScript
 tags:
   - typescript
 aliases:
+  - 구별된 유니온(Discriminated Unions)
   - 서로소 유니온
-publish: true
 created: 2022-01-09T01:15:00.000Z
-updated: 2022-01-09T01:15:00.000Z
+updated: 2022-09-05T05:04:22.205Z
 ---
 
 # {{ $frontmatter.title }}

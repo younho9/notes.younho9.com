@@ -2,16 +2,15 @@
 title: 쿠키(cookie)와 웹 스토리지(Web Storage)의 차이점
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
   - cookie
 aliases:
+  - 쿠키(cookie)와 웹 스토리지(Web Storage)의 차이점
   - 쿠키(cookie) vs 웹 스토리지(Web Storage)
   - 쿠키 vs 웹 스토리지
   - cookie vs Web Storage
   - cookie vs localStoarge vs sessionStorage
-created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:18.074Z
 related:
   - 쿠키(cookie)
   - 웹-스토리지(Web-Storage)
@@ -20,6 +19,8 @@ related:
   - 서브도메인(Subdomain)
   - 동일-사이트(Same-Site)
   - 동일-출처(Same-Origin)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.326Z
 ---
 
 # {{ $frontmatter.title }}

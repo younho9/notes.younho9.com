@@ -3,16 +3,18 @@ title: npm update
 category: npm
 tags:
   - npm
-created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T03:06:17.943Z
+aliases:
+  - npm update
 related:
-  - semver
+  - SemVer
   - 캐럿(caret)-vs-틸드(tilde)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.166Z
 ---
 
 # {{ $frontmatter.title }}
 
-- 패키지의 [[semver]] 제약을 준수하며 최신 버전으로 업데이트
+- 패키지의 [[SemVer]] 제약을 준수하며 최신 버전으로 업데이트
 
 ## Related
 

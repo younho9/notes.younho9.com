@@ -3,8 +3,10 @@ title: Programmers 42579. 베스트 앨범
 category: Algorithm
 tags:
   - algorithm
+aliases:
+  - Programmers 42579. 베스트 앨범
 created: 2020-09-21T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.888Z
 ---
 
 # {{ $frontmatter.title }}

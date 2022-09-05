@@ -2,14 +2,16 @@
 title: 부수 효과(Side Effect)
 category: Glossary
 tags:
+  - glossary
   - terms
   - react
   - npm
 aliases:
+  - 부수 효과(Side Effect)
   - Side Effect
   - 부수효과
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:14:00.000Z
+updated: 2022-09-05T05:04:22.247Z
 ---
 
 # {{ $frontmatter.title }}

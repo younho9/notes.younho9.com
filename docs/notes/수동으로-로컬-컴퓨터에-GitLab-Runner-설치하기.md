@@ -3,13 +3,14 @@ title: 수동으로 로컬 컴퓨터에 GitLab Runner 설치하기
 category: GitHub & GitLab
 tags:
   - gitlab
-  - Git
+  - git
   - docker
-publish: true
-created: 2022-03-24T05:17:00.000Z
-updated: 2022-09-05T03:06:18.041Z
+aliases:
+  - 수동으로 로컬 컴퓨터에 GitLab Runner 설치하기
 related:
   - Windows에-WSL-설치
+created: 2022-03-24T05:17:00.000Z
+updated: 2022-09-05T05:04:22.267Z
 ---
 
 # {{ $frontmatter.title }}

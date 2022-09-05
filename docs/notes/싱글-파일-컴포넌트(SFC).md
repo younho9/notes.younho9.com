@@ -8,11 +8,10 @@ aliases:
   - Vue SFC
   - Single File Component(SFC)
   - SFC
-publish: true
-created: 2022-08-09T06:25:00.000Z
-updated: 2022-09-05T03:06:18.047Z
 related:
   - 관심사의-분리(Separation-of-Concerns)
+created: 2022-08-09T06:25:00.000Z
+updated: 2022-09-05T05:04:22.271Z
 ---
 
 # {{ $frontmatter.title }}

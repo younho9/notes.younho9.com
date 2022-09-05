@@ -3,8 +3,10 @@ title: html 시작하기
 category: HTML
 tags:
   - html
+aliases:
+  - html 시작하기
 created: 2020-01-19T15:00:00.000Z
-updated: 2021-02-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.823Z
 ---
 
 # {{ $frontmatter.title }}

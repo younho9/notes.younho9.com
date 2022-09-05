@@ -5,13 +5,13 @@ tags:
   - npm
   - vs
 aliases:
+  - 캐럿(caret) vs 틸드(tilde)
   - 캐럿과 틸드의 차이
   - caret vs tilde
-publish: true
-created: 2022-01-06T10:55:00.000Z
-updated: 2022-09-05T03:06:18.072Z
 related:
   - npm-update
+created: 2022-01-06T10:55:00.000Z
+updated: 2022-09-05T05:04:22.325Z
 ---
 
 # {{ $frontmatter.title }}

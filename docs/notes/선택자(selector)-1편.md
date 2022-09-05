@@ -3,9 +3,10 @@ title: 선택자(selector) - 1편
 category: CSS
 tags:
   - css
-  - orange
+aliases:
+  - 선택자(selector) - 1편
 created: 2020-01-21T15:00:00.000Z
-updated: 2022-09-02T00:54:31.642Z
+updated: 2022-09-05T05:04:22.261Z
 ---
 
 # {{ $frontmatter.title }}
