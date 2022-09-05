@@ -8,7 +8,10 @@ aliases:
   - 로컬 스토리지
 publish: true
 created: 2021-12-30T07:13:00.000Z
-updated: 2021-12-30T07:13:00.000Z
+updated: 2022-09-05T03:06:17.932Z
+related:
+  - 웹-스토리지(Web-Storage)
+  - sessionStorage
 ---
 
 # {{ $frontmatter.title }}

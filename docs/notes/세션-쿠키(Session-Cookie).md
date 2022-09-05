@@ -11,7 +11,13 @@ aliases:
   - Session Cookie
 publish: true
 created: 2021-12-30T07:28:00.000Z
-updated: 2021-12-30T08:49:00.000Z
+updated: 2022-09-05T03:06:18.037Z
+related:
+  - 쿠키(cookie)
+  - 세션(Session)
+  - sessionStorage
+  - 도메인(Domain)
+  - 지속-쿠키(Permanent-Cookie)
 ---
 
 # {{ $frontmatter.title }}

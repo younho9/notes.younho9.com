@@ -7,7 +7,9 @@ tags:
   - docker
 publish: true
 created: 2022-03-24T05:17:00.000Z
-updated: 2022-03-24T05:17:00.000Z
+updated: 2022-09-05T03:06:18.041Z
+related:
+  - Windows에-WSL-설치
 ---
 
 # {{ $frontmatter.title }}

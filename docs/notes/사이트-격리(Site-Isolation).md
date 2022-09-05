@@ -6,7 +6,9 @@ tags:
   - browser
 publish: true
 created: 2022-01-06T03:01:00.000Z
-updated: 2022-01-06T03:01:00.000Z
+updated: 2022-09-05T03:06:18.031Z
+related:
+  - CORB(Cross-Origin-Read-Blocking)
 ---
 
 # {{ $frontmatter.title }}

@@ -8,7 +8,10 @@ aliases:
   - Generator
 publish: true
 created: 2022-01-01T08:16:00.000Z
-updated: 2022-01-01T08:16:00.000Z
+updated: 2022-09-05T03:06:18.065Z
+related:
+  - iterable(반복-가능)
+  - for-of-vs-for-in
 ---
 
 # {{ $frontmatter.title }}

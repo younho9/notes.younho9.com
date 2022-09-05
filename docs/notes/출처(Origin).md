@@ -12,7 +12,11 @@ aliases:
   - 오리진
   - 출처
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:15:00.000Z
+updated: 2022-09-05T03:06:18.070Z
+related:
+  - 교차-출처(Cross-Origin)
+  - 동일-출처(Same-Origin)
+  - CORS(Cross-Origin-Resource-Sharing)
 ---
 
 # {{ $frontmatter.title }}

@@ -8,7 +8,10 @@ aliases:
   - Pure Functions
 publish: true
 created: 2022-01-06T04:36:00.000Z
-updated: 2022-01-06T04:36:00.000Z
+updated: 2022-09-05T03:06:18.042Z
+related:
+  - 부수-효과(Side-Effect)
+  - 변성(Mutable)-vs-불변성(Immutable)
 ---
 
 # {{ $frontmatter.title }}

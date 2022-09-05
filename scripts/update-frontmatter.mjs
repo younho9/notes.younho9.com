@@ -3,6 +3,8 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import {omitBy} from 'lodash-es';
 import is from '@sindresorhus/is';
+import MarkdownIt from 'markdown-it';
+import Plugin from 'markdown-it-regexp';
 
 function updateUpdated(frontmatter) {
 	return omitBy(
@@ -34,11 +36,41 @@ function updateTags(frontmatter, content) {
 	);
 }
 
+function updateRelated(frontmatter, content) {
+	const relatedDocs = getRelatedDocs(content);
+
+	return omitBy(
+		{
+			...frontmatter,
+			related: relatedDocs.size > 0 ? [...relatedDocs] : undefined,
+		},
+		is.undefined,
+	);
+
+	function getRelatedDocs(content) {
+		const relatedDocs = new Set();
+		const wikilinkPlugin = Plugin(
+			/\[\[([^|\]\n]+)(\|([^\]\n]+))?\]\]/,
+			(match) => {
+				relatedDocs.add(match[1]);
+
+				return match[0];
+			},
+		);
+
+		new MarkdownIt().use(wikilinkPlugin).render(content);
+
+		return relatedDocs;
+	}
+}
+
 async function updateFrontatter(path) {
 	const file = await readFile(path, 'utf-8');
 	const {data: frontmatter, content} = matter(file);
 
-	const newFrontmatter = updateUpdated(updateTags(frontmatter, content));
+	const newFrontmatter = updateUpdated(
+		updateTags(updateRelated(frontmatter, content), content),
+	);
 
 	await writeFile(path, matter.stringify(content, newFrontmatter));
 

@@ -12,7 +12,9 @@ aliases:
   - 상태(state)
 publish: true
 created: 2022-01-01T11:55:00.000Z
-updated: 2022-01-01T11:55:00.000Z
+updated: 2022-09-05T03:06:17.948Z
+related:
+  - 매개변수(parameter)-vs-인자(argument)
 ---
 
 # {{ $frontmatter.title }}

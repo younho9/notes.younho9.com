@@ -5,10 +5,11 @@ tags:
   - terms
   - glossary
 aliases:
-  - 카멜케이스
+  - 카멜 케이스
   - camelCase
+  - 카멜 케이스(camelCase)
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:15:00.000Z
+updated: 2022-09-05T03:06:18.071Z
 ---
 
 # {{ $frontmatter.title }}

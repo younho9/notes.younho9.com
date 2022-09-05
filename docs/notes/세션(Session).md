@@ -10,7 +10,10 @@ aliases:
   - Session
 publish: true
 created: 2021-12-30T07:09:00.000Z
-updated: 2021-12-30T07:09:00.000Z
+updated: 2022-09-05T03:06:18.035Z
+related:
+  - sessionStorage
+  - 세션-쿠키(Session-Cookie)
 ---
 
 # {{ $frontmatter.title }}

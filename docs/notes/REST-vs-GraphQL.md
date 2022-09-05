@@ -7,7 +7,9 @@ aliases:
   - alias
 publish: true
 created: 2022-01-05T12:39:00.000Z
-updated: 2022-01-05T12:39:00.000Z
+updated: 2022-09-05T03:06:17.901Z
+related:
+  - 클라이언트-서버-모델
 ---
 
 # {{ $frontmatter.title }}

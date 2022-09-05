@@ -12,7 +12,11 @@ aliases:
   - Permanent Cookie
 publish: true
 created: 2021-12-30T07:28:00.000Z
-updated: 2021-12-30T07:28:00.000Z
+updated: 2022-09-05T03:06:18.064Z
+related:
+  - 세션-쿠키(Session-Cookie)
+  - 세션(Session)
+  - 쿠키(cookie)
 ---
 
 # {{ $frontmatter.title }}

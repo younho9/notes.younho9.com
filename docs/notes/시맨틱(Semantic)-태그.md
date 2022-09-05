@@ -7,7 +7,10 @@ aliases:
   - 시맨틱 마크업
 publish: true
 created: 2022-01-07T08:01:00.000Z
-updated: 2022-01-07T08:30:00.000Z
+updated: 2022-09-05T03:06:18.044Z
+related:
+  - 검색-엔진-최적화(SEO)
+  - article-vs-section
 ---
 
 # {{ $frontmatter.title }}
@@ -36,7 +39,7 @@ updated: 2022-01-07T08:30:00.000Z
 
 ## Related
 
-- [[article_vs_section|article vs section]]
+- [[article-vs-section|article vs section]]
 
 ## References
 

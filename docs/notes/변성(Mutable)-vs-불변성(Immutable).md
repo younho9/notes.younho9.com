@@ -7,7 +7,13 @@ tags:
   - vs
 publish: true
 created: 2022-01-06T04:39:00.000Z
-updated: 2022-01-06T07:22:00.000Z
+updated: 2022-09-05T03:06:18.022Z
+related:
+  - pass-by-reference-vs-pass-by-value
+  - 원시-값(Primitive)
+  - JavaScript-객체(Object)
+  - 엄격-모드(strict-mode)
+  - 순수-함수(Pure-Functions)
 ---
 
 # {{ $frontmatter.title }}

@@ -11,7 +11,9 @@ aliases:
   - 테스트 피라미드
 publish: true
 created: 2022-08-09T04:17:00.000Z
-updated: 2022-08-09T04:17:00.000Z
+updated: 2022-09-05T03:06:17.912Z
+related:
+  - Testing-Trophy
 ---
 
 # {{ $frontmatter.title }}

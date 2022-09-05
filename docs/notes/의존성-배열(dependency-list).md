@@ -9,7 +9,11 @@ aliases:
   - 종속성 배열
 publish: true
 created: 2022-01-02T08:28:00.000Z
-updated: 2022-09-02T00:54:31.643Z
+updated: 2022-09-05T03:06:18.054Z
+related:
+  - useEffect
+  - 부수-효과(Side-Effect)
+  - 동일성(equality)
 ---
 
 # {{ $frontmatter.title }}

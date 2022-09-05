@@ -10,7 +10,9 @@ aliases:
   - RTL
 publish: true
 created: 2022-08-09T01:47:00.000Z
-updated: 2022-08-09T01:47:00.000Z
+updated: 2022-09-05T03:06:17.913Z
+related:
+  - Cypress-vs-Testing-Library
 ---
 
 # {{ $frontmatter.title }}

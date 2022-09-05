@@ -12,7 +12,10 @@ aliases:
   - Subdomain
   - subdomain
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:14:00.000Z
+updated: 2022-09-05T03:06:18.039Z
+related:
+  - 도메인(Domain)
+  - 동일-사이트(Same-Site)
 ---
 
 # {{ $frontmatter.title }}

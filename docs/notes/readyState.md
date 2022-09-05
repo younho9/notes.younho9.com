@@ -7,7 +7,9 @@ aliases:
   - alias
 publish: true
 created: 2022-01-05T15:02:00.000Z
-updated: 2022-01-05T15:02:00.000Z
+updated: 2022-09-05T03:06:17.949Z
+related:
+  - DOMContentLoaded-vs-load
 ---
 
 # {{ $frontmatter.title }}

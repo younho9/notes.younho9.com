@@ -11,7 +11,9 @@ aliases:
   - CLS
 publish: true
 created: 2022-01-12T02:06:00.000Z
-updated: 2022-01-12T02:06:00.000Z
+updated: 2022-09-05T03:06:18.002Z
+related:
+  - Core-Web-Vitals
 ---
 
 # {{ $frontmatter.title }}

@@ -14,7 +14,10 @@ aliases:
   - 사이트 간
   - 다른 사이트
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:15:00.000Z
+updated: 2022-09-05T03:06:18.077Z
+related:
+  - 동일-사이트(Same-Site)
+  - 동일-출처(Same-Origin)
 ---
 
 # {{ $frontmatter.title }}

@@ -10,7 +10,11 @@ aliases:
   - React vs Vue
 publish: true
 created: 2022-01-02T07:29:00.000Z
-updated: 2022-01-02T07:29:00.000Z
+updated: 2022-09-05T03:06:17.905Z
+related:
+  - v-model
+  - React.memo
+  - React-Hooks
 ---
 
 # {{ $frontmatter.title }}

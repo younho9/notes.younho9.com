@@ -13,7 +13,9 @@ aliases:
   - SoC
 publish: true
 created: 2022-08-09T06:28:00.000Z
-updated: 2022-08-09T06:29:00.000Z
+updated: 2022-09-05T03:06:17.995Z
+related:
+  - 추상화(Abstraction)
 ---
 
 # {{ $frontmatter.title }}

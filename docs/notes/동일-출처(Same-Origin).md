@@ -11,7 +11,14 @@ aliases:
   - Same Origin
 publish: true
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:14:00.000Z
+updated: 2022-09-05T03:06:18.007Z
+related:
+  - 도메인(Domain)
+  - 서브도메인(Subdomain)
+  - HTTP-Request
+  - 출처(Origin)
+  - 교차-출처(Cross-Origin)
+  - 동일-사이트(Same-Site)
 ---
 
 # {{ $frontmatter.title }}

@@ -7,7 +7,10 @@ aliases:
   - alias
 publish: true
 created: 2022-01-09T01:55:00.000Z
-updated: 2022-01-09T01:55:00.000Z
+updated: 2022-09-05T03:06:18.090Z
+related:
+  - this
+  - 매개변수(parameter)-vs-인자(argument)
 ---
 
 # {{ $frontmatter.title }}

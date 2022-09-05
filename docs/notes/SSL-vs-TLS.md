@@ -11,7 +11,10 @@ aliases:
   - SSL과 TLS 비교
 publish: true
 created: 2021-12-30T09:08:00.000Z
-updated: 2021-12-30T09:08:00.000Z
+updated: 2022-09-05T03:06:17.903Z
+related:
+  - HTTPS-프로토콜
+  - 디지털-인증서
 ---
 
 # {{ $frontmatter.title }}

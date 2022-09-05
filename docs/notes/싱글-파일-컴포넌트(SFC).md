@@ -10,7 +10,9 @@ aliases:
   - SFC
 publish: true
 created: 2022-08-09T06:25:00.000Z
-updated: 2022-08-09T06:25:00.000Z
+updated: 2022-09-05T03:06:18.047Z
+related:
+  - 관심사의-분리(Separation-of-Concerns)
 ---
 
 # {{ $frontmatter.title }}

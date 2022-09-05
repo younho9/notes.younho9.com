@@ -8,7 +8,9 @@ aliases:
   - Closure
 publish: true
 created: 2021-12-31T12:54:00.000Z
-updated: 2021-12-31T12:54:00.000Z
+updated: 2022-09-05T03:06:18.078Z
+related:
+  - 스코프(Scope)
 ---
 
 # {{ $frontmatter.title }}

@@ -8,7 +8,9 @@ aliases:
   - 스루풋
 publish: true
 created: 2022-01-08T06:22:00.000Z
-updated: 2022-01-08T06:22:00.000Z
+updated: 2022-09-05T03:06:18.066Z
+related:
+  - CSR-vs-SSR-vs-SSG
 ---
 
 # {{ $frontmatter.title }}

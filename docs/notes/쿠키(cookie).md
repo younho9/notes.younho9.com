@@ -14,7 +14,16 @@ aliases:
   - 브라우저 쿠키
 publish: true
 created: 2021-12-30T06:38:00.000Z
-updated: 2021-12-30T06:38:00.000Z
+updated: 2022-09-05T03:06:18.073Z
+related:
+  - 세션(Session)
+  - 웹-스토리지(Web-Storage)
+  - 세션-쿠키(Session-Cookie)
+  - 지속-쿠키(Permanent-Cookie)
+  - HTTPS-프로토콜
+  - 크로스-사이트-스크립팅(XSS)
+  - 도메인(Domain)
+  - 서브도메인(Subdomain)
 ---
 
 # {{ $frontmatter.title }}

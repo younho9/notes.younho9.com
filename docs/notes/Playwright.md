@@ -8,7 +8,10 @@ aliases:
   - Playwright
 publish: true
 created: 2022-08-09T02:20:00.000Z
-updated: 2022-08-09T02:20:00.000Z
+updated: 2022-09-05T03:06:17.899Z
+related:
+  - Chromium(크로미움)
+  - Cypress
 ---
 
 # {{ $frontmatter.title }}

@@ -7,7 +7,9 @@ aliases:
   - Vue Composition API
 publish: true
 created: 2022-07-13T00:33:00.000Z
-updated: 2022-07-13T00:33:00.000Z
+updated: 2022-09-05T03:06:17.918Z
+related:
+  - Options-API-vs-Composition-API
 ---
 
 # {{ $frontmatter.title }}

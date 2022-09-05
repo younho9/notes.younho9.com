@@ -7,7 +7,9 @@ aliases:
   - window.opener
 publish: true
 created: 2022-08-09T05:47:00.000Z
-updated: 2022-08-09T05:47:00.000Z
+updated: 2022-09-05T03:06:17.975Z
+related:
+  - window.open
 ---
 
 # {{ $frontmatter.title }}

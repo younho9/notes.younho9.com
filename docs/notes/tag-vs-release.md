@@ -8,7 +8,9 @@ aliases:
   - tag와 release의 차이
 publish: true
 created: 2022-01-06T04:03:00.000Z
-updated: 2022-01-06T04:03:00.000Z
+updated: 2022-09-05T03:06:17.955Z
+related:
+  - 일급-객체(First-class-object)
 ---
 
 # {{ $frontmatter.title }}

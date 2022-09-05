@@ -6,7 +6,9 @@ tags:
   - performance
 publish: true
 created: 2022-01-08T15:05:00.000Z
-updated: 2022-01-08T15:05:00.000Z
+updated: 2022-09-05T03:06:17.907Z
+related:
+  - CSR-vs-SSR-vs-SSG
 ---
 
 # {{ $frontmatter.title }}

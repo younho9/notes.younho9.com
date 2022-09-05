@@ -5,7 +5,9 @@ tags:
   - react
 publish: true
 created: 2022-01-02T07:27:00.000Z
-updated: 2022-09-02T00:54:31.640Z
+updated: 2022-09-05T03:06:17.965Z
+related:
+  - React.memo
 ---
 
 # {{ $frontmatter.title }}

@@ -8,7 +8,9 @@ tags:
   - glossary
 publish: true
 created: 2022-01-05T12:02:00.000Z
-updated: 2022-08-22T02:43:26.360Z
+updated: 2022-09-05T03:06:18.085Z
+related:
+  - 부수-효과(Side-Effect)
 ---
 
 # {{ $frontmatter.title }}

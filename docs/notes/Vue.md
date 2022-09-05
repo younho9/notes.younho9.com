@@ -7,7 +7,11 @@ aliases:
   - Vue
 publish: true
 created: 2022-01-18T09:06:00.000Z
-updated: 2022-01-18T09:06:00.000Z
+updated: 2022-09-05T03:06:17.927Z
+related:
+  - 선언적-프로그래밍(Declarative-Programming)
+  - 반응성(Reactivity)
+  - React-vs-Vue
 ---
 
 # {{ $frontmatter.title }}

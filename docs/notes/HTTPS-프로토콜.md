@@ -8,7 +8,12 @@ aliases:
   - HTTP Secure
 publish: true
 created: 2021-12-30T09:06:00.000Z
-updated: 2021-12-31T05:08:00.000Z
+updated: 2022-09-05T03:06:17.880Z
+related:
+  - HTTP-프로토콜
+  - SSL-vs-TLS
+  - 디지털-인증서
+  - 대칭키-vs-비대칭키
 ---
 
 # {{ $frontmatter.title }}

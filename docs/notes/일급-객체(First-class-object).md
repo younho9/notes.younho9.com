@@ -9,7 +9,9 @@ aliases:
   - 일급 객체
 publish: true
 created: 2022-01-06T04:06:00.000Z
-updated: 2022-01-06T04:06:00.000Z
+updated: 2022-09-05T03:06:18.056Z
+related:
+  - 일급-시민(First-class-citizen)
 ---
 
 # {{ $frontmatter.title }}

@@ -7,7 +7,10 @@ aliases:
   - Cypress vs Testing Library
 publish: true
 created: 2022-08-09T01:37:00.000Z
-updated: 2022-08-09T01:37:00.000Z
+updated: 2022-09-05T03:06:17.862Z
+related:
+  - Cypress
+  - Testing-Library
 ---
 
 # {{ $frontmatter.title }}

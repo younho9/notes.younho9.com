@@ -10,7 +10,10 @@ aliases:
   - Parsing
 publish: true
 created: 2021-12-31T02:03:00.000Z
-updated: 2021-12-31T02:03:00.000Z
+updated: 2022-09-05T03:06:18.086Z
+related:
+  - 토큰(Token)
+  - 브라우저-렌더링-1
 ---
 
 # {{ $frontmatter.title }}
@@ -20,7 +23,7 @@ updated: 2021-12-31T02:03:00.000Z
 
 ## Related
 
-- [[브라우저-렌더링---1.-파싱(Parsing)-단계|브라우저 렌더링 - 1. 파싱(Parsing) 단계]]
+- [[브라우저-렌더링-1|브라우저 렌더링 - 1. 파싱(Parsing) 단계]]
 
 ## References
 

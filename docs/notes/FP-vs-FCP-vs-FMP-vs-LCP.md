@@ -14,7 +14,10 @@ aliases:
     Contentful Paint
 publish: true
 created: 2022-01-08T06:47:00.000Z
-updated: 2022-01-08T06:47:00.000Z
+updated: 2022-09-05T03:06:17.867Z
+related:
+  - TTFB(Time-To-First-Byte)
+  - CSR-vs-SSR-vs-SSG
 ---
 
 # {{ $frontmatter.title }}

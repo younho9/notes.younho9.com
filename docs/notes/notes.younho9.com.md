@@ -7,7 +7,9 @@ aliases:
   - notes.younho9.com
 publish: true
 created: 2022-08-26T00:14:05.826Z
-updated: 2022-08-26T00:14:05.826Z
+updated: 2022-09-05T03:06:17.938Z
+related:
+  - blog.younho9.com
 ---
 
 # {{ $frontmatter.title }}

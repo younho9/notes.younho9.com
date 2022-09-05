@@ -7,7 +7,10 @@ aliases:
   - v-show와 v-if의 차이점
   - v-show와 v-if
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-01-13T15:12:00.000Z
+updated: 2022-09-05T03:06:17.968Z
+related:
+  - vue-라이프사이클
+  - display-vs-visibillity
 ---
 
 # {{ $frontmatter.title }}

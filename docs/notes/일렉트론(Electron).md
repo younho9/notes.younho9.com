@@ -7,7 +7,13 @@ aliases:
   - 일렉트론(Electron)
 publish: true
 created: 2022-08-10T01:07:00.000Z
-updated: 2022-08-22T02:43:26.359Z
+updated: 2022-09-05T03:06:18.059Z
+related:
+  - Chromium(크로미움)
+  - Node.js
+  - 진입점(Entry-point)
+  - 프로미스(Promise)
+  - ECMAScript-modules
 ---
 
 # {{ $frontmatter.title }}

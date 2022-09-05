@@ -10,7 +10,9 @@ aliases:
   - 대칭키와 공개키(비대칭키)
 publish: true
 created: 2021-12-31T03:24:00.000Z
-updated: 2021-12-31T03:24:00.000Z
+updated: 2022-09-05T03:06:18.005Z
+related:
+  - SSL-vs-TLS
 ---
 
 # {{ $frontmatter.title }}

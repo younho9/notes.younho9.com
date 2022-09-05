@@ -8,7 +8,11 @@ aliases:
   - Prototype
 publish: true
 created: 2021-12-31T11:25:00.000Z
-updated: 2021-12-31T11:25:00.000Z
+updated: 2022-09-05T03:06:18.089Z
+related:
+  - Object.create()
+  - 클래스(Class)
+  - 프로토타입-객체
 ---
 
 # {{ $frontmatter.title }}

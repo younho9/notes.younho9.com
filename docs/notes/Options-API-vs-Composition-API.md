@@ -7,7 +7,9 @@ aliases:
   - Options API vs Composition API
 publish: true
 created: 2022-08-09T06:40:00.000Z
-updated: 2022-08-09T06:40:00.000Z
+updated: 2022-09-05T03:06:17.902Z
+related:
+  - 객체지향-프로그래밍
 ---
 
 # {{ $frontmatter.title }}

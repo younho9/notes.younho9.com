@@ -7,7 +7,10 @@ aliases:
   - SEO
 publish: true
 created: 2022-01-08T04:55:00.000Z
-updated: 2022-01-08T04:55:00.000Z
+updated: 2022-09-05T03:06:17.994Z
+related:
+  - CSR-vs-SSR-vs-SSG
+  - 사이트가-Google-색인에-포함되어-있는지-확인하기
 ---
 
 # {{ $frontmatter.title }}

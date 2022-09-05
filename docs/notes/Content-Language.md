@@ -6,7 +6,11 @@ tags:
   - http
 publish: true
 created: 2021-12-30T05:55:00.000Z
-updated: 2021-12-30T06:11:00.000Z
+updated: 2022-09-05T03:06:17.853Z
+related:
+  - lang-속성
+  - Accept-Language
+  - HTTP-헤더
 ---
 
 # {{ $frontmatter.title }}

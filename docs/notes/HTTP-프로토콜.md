@@ -11,7 +11,11 @@ aliases:
   - HyperText Transfer Protocol
 publish: true
 created: 2021-12-30T09:06:00.000Z
-updated: 2021-12-30T09:06:00.000Z
+updated: 2022-09-05T03:06:17.875Z
+related:
+  - OSI-7-Layer-vs-TCP-IP-4-Layer
+  - 클라이언트-서버-모델
+  - HTTPS-프로토콜
 ---
 
 # {{ $frontmatter.title }}

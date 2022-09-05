@@ -10,7 +10,9 @@ aliases:
   - E2E 테스트
 publish: true
 created: 2022-08-09T01:43:00.000Z
-updated: 2022-08-09T01:43:00.000Z
+updated: 2022-09-05T03:06:17.866Z
+related:
+  - Cypress
 ---
 
 # {{ $frontmatter.title }}

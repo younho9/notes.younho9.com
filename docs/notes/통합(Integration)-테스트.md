@@ -9,7 +9,10 @@ aliases:
   - 통합(Integration) 테스트
 publish: true
 created: 2022-08-09T04:52:00.000Z
-updated: 2022-08-22T02:43:26.361Z
+updated: 2022-09-05T03:06:18.084Z
+related:
+  - End-to-End(E2E)
+  - MSW(Mock-Service-Worker)
 ---
 
 # {{ $frontmatter.title }}

@@ -8,7 +8,14 @@ aliases:
   - Object
 publish: true
 created: 2022-01-01T02:13:00.000Z
-updated: 2022-01-01T02:13:00.000Z
+updated: 2022-09-05T03:06:17.886Z
+related:
+  - Object.create()
+  - 프로토타입-객체
+  - 정수-프로퍼티
+  - for-of-vs-for-in
+  - enumerable(열거-가능)
+  - 프로토타입(prototype)
 ---
 
 # {{ $frontmatter.title }}

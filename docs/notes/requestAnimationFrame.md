@@ -9,7 +9,9 @@ aliases:
   - window.requestAnimationFrame()
 publish: true
 created: 2022-01-01T09:13:00.000Z
-updated: 2022-01-01T09:13:00.000Z
+updated: 2022-09-05T03:06:17.952Z
+related:
+  - 리플로우(Reflow)-vs-리페인트(Repaint)
 ---
 
 # {{ $frontmatter.title }}

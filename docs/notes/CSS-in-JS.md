@@ -8,7 +8,9 @@ aliases:
   - JSS
 publish: true
 created: 2022-01-10T06:06:00.000Z
-updated: 2022-01-10T06:06:00.000Z
+updated: 2022-09-05T03:06:17.848Z
+related:
+  - FOUC(Flash-of-unstyled-content)
 ---
 
 # {{ $frontmatter.title }}

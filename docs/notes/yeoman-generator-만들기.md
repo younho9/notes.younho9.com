@@ -6,8 +6,10 @@ tags:
   - scaffold
   - boilerplate
   - yeoman
+aliases:
+  - yeoman generator 만들기
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:16:00.000Z
+updated: 2022-09-05T03:06:17.977Z
 ---
 
 # {{ $frontmatter.title }}

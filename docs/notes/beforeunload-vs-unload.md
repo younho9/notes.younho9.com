@@ -9,7 +9,11 @@ aliases:
   - beforeunload vs unload
 publish: true
 created: 2022-01-05T13:59:00.000Z
-updated: 2022-01-05T14:00:00.000Z
+updated: 2022-09-05T03:06:17.926Z
+related:
+  - visibilitychange
+  - DOMContentLoaded-vs-load
+  - 페이지-라이프사이클(Page-Lifecycle)-API
 ---
 
 # {{ $frontmatter.title }}

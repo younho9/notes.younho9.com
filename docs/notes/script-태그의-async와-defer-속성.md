@@ -6,13 +6,16 @@ tags:
   - web
   - javascript
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:16:00.000Z
+updated: 2022-09-05T03:06:17.954Z
+related:
+  - 브라우저-렌더링-1
+  - DOMContentLoaded-vs-load
 ---
 
 # {{ $frontmatter.title }}
 
 - 브라우저는 HTML을 읽다가 `<script>` 태그를 만나면 파싱을 멈추고, 스크립트를 먼저 실행한다.
-  - [[브라우저-렌더링---1.-파싱(Parsing)-단계|브라우저 렌더링 - 1. 파싱(Parsing) 단계]]
+  - [[브라우저-렌더링-1|브라우저 렌더링 1. 파싱(Parsing) 단계]]
 - `async`와 `defer` 속성은 비동기적으로 스크립트를 로드할 수 있는 속성이다.
 
 ## defer

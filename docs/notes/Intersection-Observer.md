@@ -7,7 +7,9 @@ tags:
   - javascript
 publish: true
 created: 2022-01-12T03:18:00.000Z
-updated: 2022-01-12T03:18:00.000Z
+updated: 2022-09-05T03:06:17.882Z
+related:
+  - 뷰포트(Viewport)
 ---
 
 # {{ $frontmatter.title }}

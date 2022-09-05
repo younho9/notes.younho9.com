@@ -8,7 +8,12 @@ aliases:
   - Scope
 publish: true
 created: 2021-12-31T12:53:00.000Z
-updated: 2021-12-31T12:53:00.000Z
+updated: 2022-09-05T03:06:18.046Z
+related:
+  - 실행-컨텍스트(Execution-Context)
+  - 클로저(Closure)
+  - 호이스팅(hoisting)
+  - var-vs-let-vs-const
 ---
 
 # {{ $frontmatter.title }}

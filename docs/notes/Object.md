@@ -7,7 +7,9 @@ aliases:
   - Object.create
 publish: true
 created: 2022-01-01T03:11:00.000Z
-updated: 2022-01-01T03:11:00.000Z
+updated: 2022-09-05T03:06:17.897Z
+related:
+  - 클래스(Class)
 ---
 
 # {{ $frontmatter.title }}

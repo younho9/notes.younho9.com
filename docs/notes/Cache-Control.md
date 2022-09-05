@@ -6,7 +6,9 @@ tags:
   - http
 publish: true
 created: 2021-12-30T06:12:00.000Z
-updated: 2021-12-30T06:12:00.000Z
+updated: 2022-09-05T03:06:17.851Z
+related:
+  - HTTP-헤더
 ---
 
 # {{ $frontmatter.title }}

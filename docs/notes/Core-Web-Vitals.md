@@ -14,7 +14,11 @@ aliases:
   - alias
 publish: true
 created: 2022-01-11T04:45:00.000Z
-updated: 2022-01-11T04:45:00.000Z
+updated: 2022-09-05T03:06:17.861Z
+related:
+  - FP-vs-FCP-vs-FMP-vs-LCP
+  - 최초-입력-지연(First-Input-Delay)
+  - 누적-레이아웃-이동(Cumulative-Layout-Shift)
 ---
 
 # {{ $frontmatter.title }}

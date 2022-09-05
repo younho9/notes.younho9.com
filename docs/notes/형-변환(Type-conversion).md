@@ -10,7 +10,9 @@ aliases:
   - 암묵적 형 변환(Type coercion)
 publish: true
 created: 2022-01-06T07:46:00.000Z
-updated: 2022-01-06T07:59:00.000Z
+updated: 2022-09-05T03:06:18.093Z
+related:
+  - 동일성(equality)
 ---
 
 # {{ $frontmatter.title }}

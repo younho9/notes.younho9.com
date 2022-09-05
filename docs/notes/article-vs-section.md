@@ -10,7 +10,9 @@ aliases:
   - article 태그와 section 태그의 차이점
 publish: true
 created: 2022-01-07T08:01:00.000Z
-updated: 2022-01-07T08:01:00.000Z
+updated: 2022-09-05T03:06:17.925Z
+related:
+  - 시맨틱(Semantic)-태그
 ---
 
 # {{ $frontmatter.title }}

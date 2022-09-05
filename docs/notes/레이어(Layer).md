@@ -11,7 +11,9 @@ aliases:
   - 브라우저 렌더링 - 레이어
 publish: true
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:14:00.000Z
+updated: 2022-09-05T03:06:18.019Z
+related:
+  - will-change
 ---
 
 # {{ $frontmatter.title }}

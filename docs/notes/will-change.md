@@ -4,7 +4,10 @@ category: CSS
 tags:
   - css
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:16:00.000Z
+updated: 2022-09-05T03:06:17.988Z
+related:
+  - 리플로우(Reflow)-vs-리페인트(Repaint)
+  - 하드웨어-가속
 ---
 
 # {{ $frontmatter.title }}

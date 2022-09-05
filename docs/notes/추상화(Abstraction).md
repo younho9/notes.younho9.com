@@ -10,7 +10,9 @@ aliases:
   - 추상화(Abstraction)
 publish: true
 created: 2022-08-09T06:33:00.000Z
-updated: 2022-08-09T06:33:00.000Z
+updated: 2022-09-05T03:06:18.069Z
+related:
+  - 관심사의-분리(Separation-of-Concerns)
 ---
 
 # {{ $frontmatter.title }}

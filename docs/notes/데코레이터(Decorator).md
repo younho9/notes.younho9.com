@@ -8,7 +8,9 @@ aliases:
   - Decorator
 publish: true
 created: 2022-01-06T04:59:00.000Z
-updated: 2022-01-06T04:59:00.000Z
+updated: 2022-09-05T03:06:18.008Z
+related:
+  - 일급-시민(First-class-citizen)
 ---
 
 # {{ $frontmatter.title }}

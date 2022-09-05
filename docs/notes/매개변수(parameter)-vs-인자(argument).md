@@ -10,7 +10,9 @@ aliases:
   - 매개변수(parameter) vs 인수(argument)
 publish: true
 created: 2022-01-06T08:37:00.000Z
-updated: 2022-01-06T08:37:00.000Z
+updated: 2022-09-05T03:06:18.020Z
+related:
+  - 값(Value)
 ---
 
 # {{ $frontmatter.title }}

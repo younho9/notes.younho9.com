@@ -9,7 +9,11 @@ aliases:
   - DOMContentLoaded와 load
 publish: true
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:15:00.000Z
+updated: 2022-09-05T03:06:17.864Z
+related:
+  - script-태그의-async와-defer-속성
+  - readyState
+  - beforeunload-vs-unload
 ---
 
 # {{ $frontmatter.title }}
@@ -37,4 +41,4 @@ updated: 2021-12-30T04:15:00.000Z
 ## Related
 
 - [[readyState]]
-- [[beforeunload_vs_unload|beforeunload vs unload]]
+- [[beforeunload-vs-unload|beforeunload vs unload]]

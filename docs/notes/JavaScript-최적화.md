@@ -7,7 +7,10 @@ tags:
   - performance
 publish: true
 created: 2022-01-08T06:45:00.000Z
-updated: 2022-01-08T16:41:00.000Z
+updated: 2022-09-05T03:06:17.895Z
+related:
+  - PRPL-패턴
+  - 코드-스플리팅(Code-Splitting)
 ---
 
 # {{ $frontmatter.title }}

@@ -13,7 +13,11 @@ aliases:
   - XSRF
 publish: true
 created: 2021-12-31T06:18:00.000Z
-updated: 2021-12-31T06:18:00.000Z
+updated: 2022-09-05T03:06:18.076Z
+related:
+  - 세션(Session)
+  - 쿠키(cookie)
+  - 동일-사이트(Same-Site)
 ---
 
 # {{ $frontmatter.title }}

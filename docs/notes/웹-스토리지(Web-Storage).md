@@ -9,7 +9,11 @@ aliases:
   - Web Storage
   - Modern Storage API
 created: 2021-12-30T04:06:00.000Z
-updated: 2021-12-30T04:14:00.000Z
+updated: 2022-09-05T03:06:18.053Z
+related:
+  - 쿠키(cookie)
+  - sessionStorage
+  - localStorage
 ---
 
 # {{ $frontmatter.title }}

@@ -4,7 +4,9 @@ category: npm
 tags:
   - npm
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-08-22T02:54:45.167Z
+updated: 2022-09-05T03:06:17.941Z
+related:
+  - npm-deprecate
 ---
 
 # {{ $frontmatter.title }}
