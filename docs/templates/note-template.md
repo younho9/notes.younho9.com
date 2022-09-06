@@ -1,5 +1,5 @@
 ---
-title: '<% tp.file.title.split('-').join(' ') %>'
+title: <% tp.file.title.split('-').join(' ') %>
 category: category
 aliases:
   - <% tp.file.title.split('-').join(' ') %>
