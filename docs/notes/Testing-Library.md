@@ -11,7 +11,7 @@ aliases:
 related:
   - Cypress-vs-Testing-Library
 created: 2022-08-09T01:47:00.000Z
-updated: 2022-09-05T05:04:22.053Z
+updated: 2022-09-06T02:59:43.774Z
 ---
 
 # {{ $frontmatter.title }}
@@ -21,5 +21,3 @@ updated: 2022-09-05T05:04:22.053Z
 ## Related
 
 - [[Cypress-vs-Testing-Library|Cypress vs Testing Library]]
-
-## References

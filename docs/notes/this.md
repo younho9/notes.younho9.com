@@ -6,7 +6,7 @@ tags:
 aliases:
   - this
 created: 2021-12-31T08:30:00.000Z
-updated: 2022-09-05T05:04:22.181Z
+updated: 2022-09-06T02:59:43.893Z
 ---
 
 # {{ $frontmatter.title }}
@@ -55,8 +55,6 @@ outerFunc();
 // => 'hello'
 // => Uncaught TypeError: this.innerFunc is not a function
 ```
-
-## Related
 
 ## References
 

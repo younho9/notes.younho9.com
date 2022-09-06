@@ -11,7 +11,7 @@ related:
   - PRPL-패턴
   - 코드-스플리팅(Code-Splitting)
 created: 2022-01-08T06:45:00.000Z
-updated: 2022-09-05T05:04:21.836Z
+updated: 2022-09-06T02:59:43.740Z
 ---
 
 # {{ $frontmatter.title }}
@@ -28,8 +28,6 @@ updated: 2022-09-05T05:04:21.836Z
       <script type="module" src="main.mjs"></script>
       <script nomodule src="compiled.js" defer></script>
       ```
-
-## Related
 
 ## References
 

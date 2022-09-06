@@ -16,7 +16,7 @@ related:
   - 코드-스플리팅(Code-Splitting)
   - 웹-워커(Web-Worker)
 created: 2022-01-13T00:36:00.000Z
-updated: 2022-09-05T05:04:22.321Z
+updated: 2022-09-06T02:59:44.013Z
 ---
 
 # {{ $frontmatter.title }}
@@ -34,8 +34,6 @@ updated: 2022-09-05T05:04:22.321Z
     - 사용하지 않는 JavaScript에 [[script-태그의-async와-defer-속성|script 태그의 async와 defer 속성]]를 사용한다.
     - [[코드-스플리팅(Code-Splitting)|코드 스플리팅(Code Splitting)]]
   - [[웹-워커(Web-Worker)|웹 워커(Web Worker)]]
-
-## Related
 
 ## References
 

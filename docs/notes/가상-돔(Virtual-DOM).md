@@ -13,7 +13,7 @@ related:
   - DOM(Document-Object-Model)
   - 재조정(Reconciliation)
 created: 2022-01-02T04:10:00.000Z
-updated: 2022-09-05T05:04:22.199Z
+updated: 2022-09-06T02:59:43.942Z
 ---
 
 # {{ $frontmatter.title }}
@@ -23,8 +23,6 @@ updated: 2022-09-05T05:04:22.199Z
   - React는 컴포넌트 트리에 대한 추가 정보를 포함하기 위해 [[Fiber]]라는 내부 객체를 사용한다.
 - [[리액트(React)]]는 이 가상 돔을 **메모리에 저장**하고, ReactDOM과 같은 라이브러리에 의해 **[[DOM(Document-Object-Model)|DOM(Document Object Model)]]과 동기화** 한다.
   - 이 과정을 [[재조정(Reconciliation)]]이라고 한다.
-
-## Related
 
 ## References
 

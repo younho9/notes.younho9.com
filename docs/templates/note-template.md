@@ -8,7 +8,3 @@ updated: <% moment(tp.file.last_modified_date("YYYY-MM-DDTHH:mm:ss.SSSZ")).toISO
 ---
 
 # {{ $frontmatter.title }}
-
-## Related
-
-## References

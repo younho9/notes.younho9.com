@@ -12,7 +12,7 @@ aliases:
 related:
   - Cypress
 created: 2022-08-09T01:43:00.000Z
-updated: 2022-09-05T05:04:21.798Z
+updated: 2022-09-06T02:59:43.688Z
 ---
 
 # {{ $frontmatter.title }}
@@ -22,5 +22,3 @@ updated: 2022-09-05T05:04:21.798Z
 ## Related
 
 - [[Cypress]]
-
-## References

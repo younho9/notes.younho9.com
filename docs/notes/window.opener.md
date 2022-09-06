@@ -8,7 +8,7 @@ aliases:
 related:
   - window.open
 created: 2022-08-09T05:47:00.000Z
-updated: 2022-09-05T05:04:22.194Z
+updated: 2022-09-06T02:59:43.939Z
 ---
 
 # {{ $frontmatter.title }}
@@ -29,4 +29,4 @@ console.log(google.opener.location.href);
 
 ## References
 
-[Window.opener - Web APIs | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/API/Window/opener)
+- [Window.opener - Web APIs | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/API/Window/opener)

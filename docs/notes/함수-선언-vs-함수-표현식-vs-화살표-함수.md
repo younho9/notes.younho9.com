@@ -9,7 +9,7 @@ related:
   - this
   - 매개변수(parameter)-vs-인자(argument)
 created: 2022-01-09T01:55:00.000Z
-updated: 2022-09-05T05:04:22.359Z
+updated: 2022-09-06T02:59:44.038Z
 ---
 
 # {{ $frontmatter.title }}
@@ -42,8 +42,6 @@ const greet = (who) => {
 - 일반 함수는 함수 안에서 arguments 객체를 통해 [[매개변수(parameter)-vs-인자(argument)|매개변수(parameter) vs 인자(argument)]] 정보를 볼 수 있다.
 - 화살표 함수는 this와 마찬가지로 arguments 객체가 없다.
   - 외부 함수의 arguments와 같다. (Lexical Scope)
-
-## Related
 
 ## References
 

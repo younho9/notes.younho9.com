@@ -13,7 +13,7 @@ related:
   - HTTP-Request
   - HTTP-Response
 created: 2021-12-31T02:18:00.000Z
-updated: 2022-09-05T05:04:22.356Z
+updated: 2022-09-06T02:59:44.033Z
 ---
 
 # {{ $frontmatter.title }}
@@ -42,8 +42,6 @@ p.b = undefined;
 console.log(p.a, p.b); // 1, undefined
 console.log('c' in p, p.c); // false, 37
 ```
-
-## Related
 
 ## References
 

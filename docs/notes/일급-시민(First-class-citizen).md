@@ -8,7 +8,7 @@ aliases:
 related:
   - 일급-객체(First-class-object)
 created: 2022-01-06T04:07:00.000Z
-updated: 2022-09-05T05:04:22.304Z
+updated: 2022-09-06T02:59:43.998Z
 ---
 
 # {{ $frontmatter.title }}
@@ -22,5 +22,3 @@ updated: 2022-09-05T05:04:22.304Z
 ## Related
 
 - [[일급-객체(First-class-object)|일급 객체(First-class object)]]
-
-## References

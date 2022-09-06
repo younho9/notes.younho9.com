@@ -7,7 +7,7 @@ tags:
 aliases:
   - JQL(Jira Query Language)
 created: 2022-08-11T02:54:00.000Z
-updated: 2022-09-05T05:04:21.829Z
+updated: 2022-09-06T02:59:43.732Z
 ---
 
 # {{ $frontmatter.title }}
@@ -34,8 +34,6 @@ project = {awesome-project} AND assignee = {awesome-username} AND created >= sta
 ```
 issuefunction in linkedIssuesOf('{awesome-jql}')
 ```
-
-## Related
 
 ## References
 

@@ -6,7 +6,7 @@ tags:
 aliases:
   - React Hooks
 created: 2022-01-02T07:58:00.000Z
-updated: 2022-09-05T05:04:21.915Z
+updated: 2022-09-06T02:59:43.757Z
 ---
 
 # {{ $frontmatter.title }}
@@ -23,7 +23,3 @@ updated: 2022-09-05T05:04:21.915Z
 - 함수 내의 최상위에서만 Hook을 사용해야 한다.
   - 반복문, 조건문, 중첩된 함수에서 Hook을 호출하면 안된다.
   - 매 렌더링마다 모든 Hook들이 같은 순서로 호출되어야 한다.
-
-## Related
-
-## References

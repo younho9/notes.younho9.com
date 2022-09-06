@@ -15,7 +15,7 @@ related:
   - CDN(Content-Delivery-Network)
   - 검색-엔진-최적화(SEO)
 created: 2022-01-05T11:20:00.000Z
-updated: 2022-09-05T05:04:21.726Z
+updated: 2022-09-06T02:59:43.659Z
 ---
 
 # {{ $frontmatter.title }}
@@ -72,8 +72,6 @@ updated: 2022-09-05T05:04:21.726Z
 
 - [ReactDOMServer](https://ko.reactjs.org/docs/react-dom-server.html#gatsby-focus-wrapper) 객체를 통해 Node 서버에서 컴포넌트를 정적 마크업으로 렌더링한다.
 - [ReactDOM.hydrate()](https://ko.reactjs.org/docs/react-dom.html#hydrate) 을 사용하여 렌더링된 컨테이너(서버에서 생성한 마크업)에 이벤트 리스너를 연결한다.
-
-## Related
 
 ## References
 

@@ -11,7 +11,7 @@ aliases:
 related:
   - 부수-효과(Side-Effect)
 created: 2022-01-05T12:02:00.000Z
-updated: 2022-09-05T05:04:22.343Z
+updated: 2022-09-06T02:59:44.027Z
 ---
 
 # {{ $frontmatter.title }}
@@ -46,8 +46,6 @@ updated: 2022-09-05T05:04:22.343Z
 - 항목 파일에서 가져온 모든 종속성 및 하위 종속성을 반복하여 모듈 트리 구성
 - 가져오지 않는 내보내기 문을 각 모듈에 대해 식별
 - UglifyJS 또는 Terser와 같은 축소 도구를 사용하여 사용하지 않는 내보내기 및 관련 코드 제거
-
-## Related
 
 ## References
 

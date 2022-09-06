@@ -9,7 +9,7 @@ aliases:
 related:
   - pass-by-reference-vs-pass-by-value
 created: 2022-01-10T13:23:00.000Z
-updated: 2022-09-05T05:04:22.140Z
+updated: 2022-09-06T02:59:43.869Z
 ---
 
 # {{ $frontmatter.title }}
@@ -40,8 +40,6 @@ export default function thing() {}
 export default thing;
 export default 'hello!';
 ```
-
-## Related
 
 ## References
 

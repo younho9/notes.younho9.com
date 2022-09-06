@@ -7,7 +7,7 @@ tags:
 aliases:
   - GitHub Package registry로 npm 패키지 배포하기
 created: 2022-01-20T08:39:00.000Z
-updated: 2022-09-05T05:04:21.815Z
+updated: 2022-09-06T02:59:43.707Z
 ---
 
 # {{ $frontmatter.title }}
@@ -17,8 +17,6 @@ updated: 2022-09-05T05:04:21.815Z
 ```
 @younho9:registry=https://npm.pkg.github.com/
 ```
-
-## Related
 
 ## References
 

@@ -6,7 +6,7 @@ tags:
 aliases:
   - Vue 한글 입력 방지
 created: 2022-07-13T09:56:00.000Z
-updated: 2022-09-05T05:04:22.095Z
+updated: 2022-09-06T02:59:43.790Z
 ---
 
 # {{ $frontmatter.title }}
@@ -14,8 +14,6 @@ updated: 2022-09-05T05:04:22.095Z
 - 정규식
   - `/\W+/g`
   - `/[^a-zA-Z0-9-]+/g`
-
-## Related
 
 ## References
 

@@ -9,7 +9,7 @@ aliases:
 related:
   - v-show-vs-v-if
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.133Z
+updated: 2022-09-06T02:59:43.866Z
 ---
 
 # {{ $frontmatter.title }}
@@ -20,5 +20,3 @@ updated: 2022-09-05T05:04:22.133Z
 ## Related
 
 - [[v-show-vs-v-if|v-show vs v-if]]
-
-## References

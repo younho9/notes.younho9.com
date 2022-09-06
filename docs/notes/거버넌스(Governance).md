@@ -7,15 +7,13 @@ tags:
 aliases:
   - 거버넌스(Governance)
 created: 2022-08-11T08:09:00.000Z
-updated: 2022-09-05T05:04:22.199Z
+updated: 2022-09-06T02:59:43.943Z
 ---
 
 # {{ $frontmatter.title }}
 
 - 다양한 행위자가 공동의 관심사에 대한 네트워크를 구축하여 문제를 해결하는 새로운 국정운영의 방식
 - 문맥에 따라 "정책, 행정, 관리, 민관 협력, 협치"의 뜻으로 사용됨.
-
-## Related
 
 ## References
 

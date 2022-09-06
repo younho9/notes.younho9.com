@@ -8,7 +8,7 @@ tags:
 aliases:
   - Cypress Visual Testing
 created: 2022-07-13T01:38:00.000Z
-updated: 2022-09-05T05:04:21.784Z
+updated: 2022-09-06T02:59:43.669Z
 ---
 
 # {{ $frontmatter.title }}
@@ -49,8 +49,6 @@ describe('Login Form', () => {
 	});
 });
 ```
-
-## Related
 
 ## References
 

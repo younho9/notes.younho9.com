@@ -8,7 +8,7 @@ aliases:
   - Node vs Element
   - Node와 Element의 차이점
 created: 2022-01-06T03:43:00.000Z
-updated: 2022-09-05T05:04:21.853Z
+updated: 2022-09-06T02:59:43.746Z
 ---
 
 # {{ $frontmatter.title }}
@@ -31,8 +31,6 @@ updated: 2022-09-05T05:04:21.853Z
 
 - Node는 요소 뿐만 아니라, 텍스트 노드, 주석 노드 등까지 포함하는 요소의 상위 클래스이다.
 - Element는 다시 HTMLElement, SVGElement로 나뉘고, HTMLElement는 다시 태그 별로 나뉘며, 각 요소 전용 프로퍼티와 메서드 등을 갖고 있다.
-
-## Related
 
 ## References
 

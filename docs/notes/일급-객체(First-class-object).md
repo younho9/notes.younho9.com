@@ -11,7 +11,7 @@ aliases:
 related:
   - 일급-시민(First-class-citizen)
 created: 2022-01-06T04:06:00.000Z
-updated: 2022-09-05T05:04:22.302Z
+updated: 2022-09-06T02:59:43.996Z
 ---
 
 # {{ $frontmatter.title }}
@@ -21,5 +21,3 @@ updated: 2022-09-05T05:04:22.302Z
 ## Related
 
 - [[일급-시민(First-class-citizen)|일급 시민(First-class citizen)]]
-
-## References

@@ -13,7 +13,7 @@ related:
   - DOM(Document-Object-Model)
   - props-vs-state
 created: 2022-01-02T04:01:00.000Z
-updated: 2022-09-05T05:04:22.306Z
+updated: 2022-09-06T02:59:44.001Z
 ---
 
 # {{ $frontmatter.title }}
@@ -123,8 +123,6 @@ updated: 2022-09-05T05:04:22.306Z
   <li key="2016">Villanova</li>
 </ul>
 ```
-
-## Related
 
 ## References
 

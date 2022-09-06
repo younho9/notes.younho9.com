@@ -6,7 +6,7 @@ tags:
 aliases:
   - Vite Vue2 애플리케이션 보일러플레이트
 created: 2022-01-20T06:16:00.000Z
-updated: 2022-09-05T05:04:22.094Z
+updated: 2022-09-06T02:59:43.778Z
 ---
 
 # {{ $frontmatter.title }}
@@ -18,8 +18,6 @@ updated: 2022-09-05T05:04:22.094Z
 - [[B4] Can I use ... Vue 3? - YouTube](https://www.youtube.com/watch?v=Z0OG00YQeMg)
 
 ## Vite + Vue2
-
-## Related
 
 ## References
 

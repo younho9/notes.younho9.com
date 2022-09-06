@@ -12,7 +12,7 @@ related:
   - 프로미스(Promise)
   - ECMAScript-modules
 created: 2022-08-10T01:07:00.000Z
-updated: 2022-09-05T05:04:22.301Z
+updated: 2022-09-06T02:59:44.006Z
 ---
 
 # {{ $frontmatter.title }}
@@ -183,8 +183,6 @@ app.whenReady().then(() => {
 ### [Publishing and Updating](https://www.electronjs.org/docs/latest/tutorial/tutorial-publishing-updating)
 
 ## Electron
-
-## Related
 
 ## References
 

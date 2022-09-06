@@ -9,7 +9,7 @@ tags:
 aliases:
   - WebStorm 유용한 단축키 모음
 created: 2022-01-27T01:29:00.000Z
-updated: 2022-09-05T05:04:22.102Z
+updated: 2022-09-06T02:59:43.843Z
 ---
 
 # {{ $frontmatter.title }}
@@ -17,8 +17,6 @@ updated: 2022-09-05T05:04:22.102Z
 - <kbd>⌃ G</kbd> : 같은 단어(또는 텍스트) 다중 선택
 - <kbd>⌥ + ⌥ + ↑ or ↓</kbd> : 멀티 커서 생성
 - <kbd>⌥ + ⇧ + drag</kbd> : 텍스트 범위 선택
-
-## Related
 
 ## References
 

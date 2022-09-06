@@ -6,7 +6,7 @@ tags:
 aliases:
   - 쌓임 맥락(Stacking Context)
 created: 2022-01-09T14:35:00.000Z
-updated: 2022-09-05T05:04:22.274Z
+updated: 2022-09-06T02:59:43.983Z
 ---
 
 # {{ $frontmatter.title }}
@@ -20,8 +20,6 @@ updated: 2022-09-05T05:04:22.274Z
 > z-index 값은 부모에게만 의미가 있다.
 >
 > 하나의 쌓임 맥락은 부모 쌓임 맥락 안에서 통째로 하나의 단위로 간주된다.
-
-## Related
 
 ## References
 

@@ -10,7 +10,7 @@ aliases:
 related:
   - 일급-시민(First-class-citizen)
 created: 2022-01-06T04:59:00.000Z
-updated: 2022-09-05T05:04:22.210Z
+updated: 2022-09-06T02:59:43.955Z
 ---
 
 # {{ $frontmatter.title }}
@@ -97,8 +97,6 @@ class Oatmeal extends Porridge {
 ## TypeScript
 
 - `tsconfig.json` 에서 `experimentalDecorators` 컴파일러 옵션을 활성화해야 한다.
-
-## Related
 
 ## References
 

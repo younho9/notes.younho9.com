@@ -9,7 +9,7 @@ aliases:
 related:
   - block-vs-inline-vs-inline-block
 created: 2022-01-09T14:19:00.000Z
-updated: 2022-09-05T05:04:21.740Z
+updated: 2022-09-06T02:59:43.672Z
 ---
 
 # {{ $frontmatter.title }}
@@ -39,8 +39,6 @@ html {
 	box-sizing: inherit;
 }
 ```
-
-## Related
 
 ## References
 

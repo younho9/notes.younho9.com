@@ -8,7 +8,7 @@ aliases:
 related:
   - '2022-02-26'
 created: 2022-02-26T07:34:00.000Z
-updated: 2022-09-05T05:04:21.852Z
+updated: 2022-09-06T02:59:43.742Z
 ---
 
 # {{ $frontmatter.title }}
@@ -36,7 +36,3 @@ updated: 2022-09-05T05:04:21.852Z
 ### manifest.json
 
 - [manifest.json - Mozilla | MDN](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json)
-
-## Related
-
-## References

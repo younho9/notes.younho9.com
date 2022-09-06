@@ -8,7 +8,7 @@ tags:
 aliases:
   - 코드 스플리팅(Code Splitting)
 created: 2022-01-05T12:09:00.000Z
-updated: 2022-09-05T05:04:22.327Z
+updated: 2022-09-06T02:59:44.014Z
 ---
 
 # {{ $frontmatter.title }}
@@ -43,8 +43,6 @@ const someFunction = () => {
 	// uses moduleA
 };
 ```
-
-## Related
 
 ## References
 

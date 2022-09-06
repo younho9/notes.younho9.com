@@ -7,7 +7,7 @@ aliases:
   - 공변성 vs 반공변성
   - covariant vs contravariant
 created: 2022-01-14T00:28:00.000Z
-updated: 2022-09-05T05:04:22.203Z
+updated: 2022-09-06T02:59:43.945Z
 ---
 
 # {{ $frontmatter.title }}
@@ -27,8 +27,6 @@ declare let bar: (a: number, b: string) => void;
 foo = bar; // error! a만 인자로 받는 foo에 a, b를 처리하는 bar를 대입할 수 없다.
 bar = foo;
 ```
-
-## Related
 
 ## References
 

@@ -7,7 +7,7 @@ aliases:
   - type vs interface
   - type과 interface의 차이점
 created: 2022-01-01T09:27:00.000Z
-updated: 2022-09-05T05:04:22.179Z
+updated: 2022-09-06T02:59:43.896Z
 ---
 
 # {{ $frontmatter.title }}
@@ -27,8 +27,6 @@ updated: 2022-09-05T05:04:22.179Z
     - https://github.com/microsoft/TypeScript/issues/15300#issuecomment-332366024
 
 > 휴리스틱으로는, 타입의 기능이 필요해질 때까지 interface를 사용하라.
-
-## Related
 
 ## References
 

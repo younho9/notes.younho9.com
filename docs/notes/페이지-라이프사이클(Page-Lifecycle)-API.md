@@ -7,7 +7,7 @@ tags:
 aliases:
   - 페이지 라이프사이클(Page Lifecycle) API
 created: 2022-01-05T14:09:00.000Z
-updated: 2022-09-05T05:04:22.347Z
+updated: 2022-09-06T02:59:44.023Z
 ---
 
 # {{ $frontmatter.title }}
@@ -22,8 +22,6 @@ updated: 2022-09-05T05:04:22.347Z
   - Frozen : 페이지가 **동결**되었을 때
     - Discarded : 페이지가 브라우저에 의해 **언로드(unload)** 되었을 때
   - Terminated : 페이지가 **언로드(unload)** 되고 메모리에서 지워졌을 때.
-
-## Related
 
 ## References
 

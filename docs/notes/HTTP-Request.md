@@ -10,12 +10,10 @@ aliases:
   - Request
   - 요청
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:21.821Z
+updated: 2022-09-06T02:59:43.713Z
 ---
 
 # {{ $frontmatter.title }}
-
-## Related
 
 ## References
 

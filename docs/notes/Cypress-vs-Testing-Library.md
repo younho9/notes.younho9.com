@@ -10,7 +10,7 @@ related:
   - Cypress
   - Testing-Library
 created: 2022-08-09T01:37:00.000Z
-updated: 2022-09-05T05:04:21.787Z
+updated: 2022-09-06T02:59:43.683Z
 ---
 
 # {{ $frontmatter.title }}
@@ -28,8 +28,6 @@ updated: 2022-09-05T05:04:21.787Z
 - [[Testing-Library|Testing Library]]는 컴포넌트를 테스트하기 위해 빌드된 테스트 유틸리티 세트이며, 더 완전한 테스트 유틸 세트를 얻기 위해 테스트 프레임워크와 함께 사용됨 (Jest + JSDOM)
 
 > Testing Library는 컴포넌트를 테스트하기 위한 매우 가벼운 솔루션입니다. 더 나은 테스트 방법을 권장하는 방식으로 react-dom 및 react-dom/test-utils 위에 가벼운 유틸리티 기능을 제공합니다. — [testing-library.com](https://testing-library.com/docs/react-testing-library/intro/)
-
-## Related
 
 ## References
 

@@ -11,7 +11,7 @@ related:
   - 호이스팅(hoisting)
   - TDZ(Temporal-Dead-Zone)
 created: 2021-12-31T12:51:00.000Z
-updated: 2022-09-05T05:04:22.186Z
+updated: 2022-09-06T02:59:43.935Z
 ---
 
 # {{ $frontmatter.title }}
@@ -92,5 +92,3 @@ sayHi();
 
 - [[스코프(Scope)]]
 - [[호이스팅(hoisting)]]
-
-## References

@@ -7,12 +7,10 @@ tags:
 aliases:
   - Testing Vue
 created: 2022-08-09T05:05:00.000Z
-updated: 2022-09-05T05:04:22.055Z
+updated: 2022-09-06T02:59:43.776Z
 ---
 
 # {{ $frontmatter.title }}
-
-## Related
 
 ## References
 

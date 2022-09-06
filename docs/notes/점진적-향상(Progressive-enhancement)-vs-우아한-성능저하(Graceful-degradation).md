@@ -8,7 +8,7 @@ aliases:
   - 점진적 향상(Progressive enhancement) vs 우아한 성능저하(Graceful degradation)
   - 점진적 향상 vs 우아한 성능저하
 created: 2022-01-08T15:28:00.000Z
-updated: 2022-09-05T05:04:22.307Z
+updated: 2022-09-06T02:59:44.009Z
 ---
 
 # {{ $frontmatter.title }}
@@ -19,8 +19,6 @@ updated: 2022-09-05T05:04:22.307Z
 - 단계적 기능 축소
   - 최신 브라우저에서 동작하는 웹 사이트 / 응용 프로그램 구축에 주력하는 설계 철학이다.
   - 최신 브라우저 사용자에게 풍부한 기능을 제공하지만, 구형 브라우저 사용자에겐 낮은 수준의 사용자 경험으로 여전히 사용할 수 있도록 하는 방법.
-
-## Related
 
 ## References
 

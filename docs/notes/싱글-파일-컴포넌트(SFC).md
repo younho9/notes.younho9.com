@@ -11,7 +11,7 @@ aliases:
 related:
   - 관심사의-분리(Separation-of-Concerns)
 created: 2022-08-09T06:25:00.000Z
-updated: 2022-09-05T05:04:22.271Z
+updated: 2022-09-06T02:59:43.982Z
 ---
 
 # {{ $frontmatter.title }}
@@ -31,7 +31,3 @@ updated: 2022-09-05T05:04:22.271Z
   - 현대적인 UI 개발에서 코드베이스를 서로 얽혀 있는 세 개의 거대한 계층으로 나누는 대신 컴포넌트로 나누고 유연하게 결합하여 구성하는 것이 훨씬 더 합리적이라는 것을 발견했습니다.
     - 컴포넌트의 템플릿, 로직, 스타일은 본질적으로 **"동일한 사용 목적"** 으로 결합되어 있으며, 실제로 컴포넌트가 더 응집력 있고 유지 관리가 용이해 집니다.
   - SFC가 마음에 들지 않는다면 별도의 파일로 분리하여 [Src Imports](https://vuejs.org/api/sfc-spec.html#src-imports) 방식으로 사용할 수 있습니다.
-
-## Related
-
-## References

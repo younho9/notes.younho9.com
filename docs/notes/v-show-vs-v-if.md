@@ -11,7 +11,7 @@ related:
   - vue-라이프사이클
   - display-vs-visibillity
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.185Z
+updated: 2022-09-06T02:59:43.933Z
 ---
 
 # {{ $frontmatter.title }}
@@ -25,5 +25,3 @@ updated: 2022-09-05T05:04:22.185Z
 ## Related
 
 - [[display-vs-visibillity|display vs visibillity]]
-
-## References
