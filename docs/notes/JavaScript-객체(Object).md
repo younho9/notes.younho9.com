@@ -8,7 +8,7 @@ aliases:
   - 객체
   - Object
 related:
-  - Object.create()
+  - Object
   - 프로토타입-객체
   - 정수-프로퍼티
   - for-of-vs-for-in
@@ -29,7 +29,7 @@ updated: 2022-09-05T05:04:21.840Z
 
 1. 객체 리터럴 방식
 2. 생성자 함수 방식
-3. [[Object.create()]]
+3. [[Object|Object.create()]]
    - 인자로 받은 객체를 프로토타입으로 하는 새로운 객체를 리턴한다.
    - constructor를 호출하지 않기 때문에 자체 속성을 갖지 않고, 상속을 위한 prototype에 있는 속성들만 갖고 있다.
    - 프로토타입 기반 상속에 주로 쓰인다.

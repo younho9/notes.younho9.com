@@ -15,7 +15,7 @@ related:
   - JavaScript-객체(Object)
   - 엄격-모드(strict-mode)
   - 프로토타입(prototype)
-  - Object.create()
+  - Object
 created: 2022-01-01T03:14:00.000Z
 updated: 2022-09-05T05:04:22.340Z
 ---
@@ -104,7 +104,7 @@ rabbit.hide(); // 흰 토끼 이/가 숨었습니다!
 ## Related
 
 - [[프로토타입(prototype)]]
-- [[Object.create()]]
+- [[Object|Object.create()]]
 
 ## References
 
