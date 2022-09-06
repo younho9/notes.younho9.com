@@ -9,10 +9,10 @@ aliases:
   - 카멜 케이스
   - camelCase
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.322Z
+updated: 2022-09-06T14:00:07.500Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - `camelCase`
 - "단봉낙타" 표기법

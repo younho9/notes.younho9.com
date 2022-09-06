@@ -14,10 +14,10 @@ related:
   - sessionStorage
   - localStorage
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.285Z
+updated: 2022-09-06T14:00:07.347Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - Web Storage API는 브라우저가 key/value 쌍을 [[쿠키(cookie)|쿠키]]보다 훨씬 직관적인 방식으로 저장할 수 있는 메커니즘을 제공한다.
 - Web Storage에는 [[sessionStorage]] , [[localStorage]] 두 가지 메커니즘이 있다.

@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42579. 베스트 앨범
 created: 2020-09-21T15:00:00.000Z
-updated: 2022-09-05T05:04:21.888Z
+updated: 2022-09-06T14:00:06.834Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
 

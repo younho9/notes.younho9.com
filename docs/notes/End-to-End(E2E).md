@@ -12,10 +12,10 @@ aliases:
 related:
   - Cypress
 created: 2022-08-09T01:43:00.000Z
-updated: 2022-09-06T02:59:43.688Z
+updated: 2022-09-06T14:00:06.606Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 종단 간의
 

@@ -11,10 +11,10 @@ aliases:
 related:
   - FOUC(Flash-of-unstyled-content)
 created: 2022-01-10T06:06:00.000Z
-updated: 2022-09-05T05:04:21.732Z
+updated: 2022-09-06T14:00:06.326Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - [Facebook에서 지적한 규모있는 앱에서 CSS를 사용할 때 겪는 문제](https://blog.vjeux.com/2014/javascript/react-css-in-js-nationjs.html)
 

@@ -11,10 +11,10 @@ aliases:
 related:
   - npm-update
 created: 2022-01-06T10:55:00.000Z
-updated: 2022-09-05T05:04:22.325Z
+updated: 2022-09-06T14:00:07.502Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 캐럿(^) 의존성 : 하위호환성을 지키는 범위에서 업데이트
   - `^1.0.2` : `2.0> x >=1.0.2`

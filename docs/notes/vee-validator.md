@@ -9,10 +9,10 @@ aliases:
 related:
   - slots
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.188Z
+updated: 2022-09-06T14:00:07.106Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## ValidationProvider
 

@@ -8,10 +8,10 @@ aliases:
 related:
   - window.open
 created: 2022-08-09T05:47:00.000Z
-updated: 2022-09-06T02:59:43.939Z
+updated: 2022-09-06T14:00:07.131Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - window `A` 가 window `B`를 열면 `B.opener`는 `A` 이다.
 

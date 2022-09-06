@@ -18,10 +18,10 @@ related:
   - 도메인(Domain)
   - 서브도메인(Subdomain)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.319Z
+updated: 2022-09-06T14:00:07.494Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ```
                     TLD

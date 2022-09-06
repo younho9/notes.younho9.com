@@ -12,10 +12,10 @@ related:
   - End-to-End(E2E)
   - MSW(Mock-Service-Worker)
 created: 2022-08-09T04:52:00.000Z
-updated: 2022-09-05T05:04:22.337Z
+updated: 2022-09-06T14:00:07.582Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 통합 테스트는 단위 테스트보다 더 큰 동작을 달성하기 위해 여러 모듈들을 모아 이들이 의도대로 협력하는지 확인한다.
 - 통합 테스트는 외부와 인터페이스하는 코드의 외부 경계를 테스트한다.

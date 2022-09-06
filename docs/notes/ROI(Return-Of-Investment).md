@@ -9,10 +9,10 @@ related:
   - Testing-Trophy
   - Testing-JavaScript
 created: 2022-08-09T01:05:00.000Z
-updated: 2022-09-05T05:04:21.913Z
+updated: 2022-09-06T14:00:06.938Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 투자 이익률, 투자에 대해 얼마나 이익이 발생했는지를 나타내는 지표.
 

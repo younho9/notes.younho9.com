@@ -11,10 +11,10 @@ aliases:
 related:
   - 일급-시민(First-class-citizen)
 created: 2022-01-06T04:06:00.000Z
-updated: 2022-09-06T02:59:43.996Z
+updated: 2022-09-06T14:00:07.353Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - [[일급-시민(First-class-citizen)|일급 시민(First-class citizen)]]의 조건을 충족하는 객체
 

@@ -13,10 +13,10 @@ aliases:
 related:
   - href
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.191Z
+updated: 2022-09-06T14:00:07.117Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 `window.location` 은 [Location 객체](https://developer.mozilla.org/en-US/docs/Web/API/Location)를 반환하는 속성이다. 이 객체는 문서의 현재 위치(URL)에 대한 정보를 나타낸다.
 

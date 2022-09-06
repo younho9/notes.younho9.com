@@ -6,10 +6,10 @@ tags:
 aliases:
   - html 시작하기
 created: 2020-01-19T15:00:00.000Z
-updated: 2022-09-05T05:04:21.823Z
+updated: 2022-09-06T14:00:06.681Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [HTML 시작하기](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 

@@ -7,10 +7,10 @@ tags:
 aliases:
   - alpine
 created: 2022-03-24T01:39:00.000Z
-updated: 2022-09-06T02:59:43.849Z
+updated: 2022-09-06T14:00:07.025Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## What is Linux alpine
 

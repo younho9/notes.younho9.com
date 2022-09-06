@@ -15,10 +15,10 @@ related:
   - React.memo
   - React-Hooks
 created: 2022-01-02T07:29:00.000Z
-updated: 2022-09-06T02:59:43.765Z
+updated: 2022-09-06T14:00:06.940Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 두 프레임워크 모두 웹 애플리케이션을 제작하기에 충분히 성숙한, 훌륭한 프레임워크이다.
 - 생태계 관점

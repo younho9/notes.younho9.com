@@ -11,9 +11,9 @@ aliases:
   - Side Effect
   - 부수효과
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.247Z
+updated: 2022-09-06T14:00:07.201Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 함수에 드러나지 않은 입력값을 부원인(Side Cause)라고 하고, 이로 인해 발생한 결과를 부작용(Side Effect)이라고 한다.

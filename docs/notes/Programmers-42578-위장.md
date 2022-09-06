@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42578. 위장
 created: 2020-09-21T15:00:00.000Z
-updated: 2022-09-05T05:04:21.889Z
+updated: 2022-09-06T14:00:06.827Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
 

@@ -7,10 +7,10 @@ tags:
 aliases:
   - sic xe machine architecture
 created: 2020-04-05T15:00:00.000Z
-updated: 2022-09-05T05:04:22.177Z
+updated: 2022-09-06T14:00:07.105Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 시스템 소프트웨어와 기계 종속성
 

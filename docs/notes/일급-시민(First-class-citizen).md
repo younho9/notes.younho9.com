@@ -8,10 +8,10 @@ aliases:
 related:
   - 일급-객체(First-class-object)
 created: 2022-01-06T04:07:00.000Z
-updated: 2022-09-06T02:59:43.998Z
+updated: 2022-09-06T14:00:07.396Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 일급 시민은 다음의 조건을 만족한다.
   1.  변수에 담을 수 있다.

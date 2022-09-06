@@ -6,10 +6,10 @@ tags:
 aliases:
   - CSS 속성 17. grid
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-09-05T05:04:21.876Z
+updated: 2022-09-06T14:00:06.518Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 > ❗️ 해당 글은 [패스트캠퍼스 - 프론트엔드 개발 강의](https://www.fastcampus.co.kr/dev_online_react/)에서 HTML & CSS, SASS(SCSS) Part의 [박영웅 강사님](https://github.com/ParkYoungWoong)의 강의자료를 정리한 것입니다.
 

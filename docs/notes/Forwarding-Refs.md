@@ -7,10 +7,10 @@ aliases:
   - Forwarding Refs
   - Ref 전달
 created: 2022-01-09T07:27:00.000Z
-updated: 2022-09-06T02:59:43.710Z
+updated: 2022-09-06T14:00:06.651Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 컴포넌트의 자식 중 하나에 ref를 전달하는 기법.
 - 재사용 가능한 컴포넌트 라이브러리와 같은 컴포넌트에서는 유용할 수 있다.

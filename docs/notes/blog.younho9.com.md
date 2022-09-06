@@ -6,10 +6,10 @@ tags:
 aliases:
   - blog.younho9.com
 created: 2022-08-09T07:54:00.000Z
-updated: 2022-09-06T02:59:43.854Z
+updated: 2022-09-06T14:00:07.035Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Features
 

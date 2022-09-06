@@ -15,10 +15,10 @@ related:
   - 프로토타입(prototype)
   - iterable(반복-가능)
 created: 2022-01-01T05:32:00.000Z
-updated: 2022-09-05T05:04:22.138Z
+updated: 2022-09-06T14:00:07.045Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - [[JavaScript-객체(Object)|JavaScript 객체(Object)]] 중 `enumerable` 이 true로 설정된 속성을 열거 가능한 속성(enumerable property)라고 한다.
 - 열거 가능 속성은 [[for-of-vs-for-in]]로 열거할 수 있다.

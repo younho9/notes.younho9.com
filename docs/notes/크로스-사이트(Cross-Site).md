@@ -18,10 +18,10 @@ related:
   - 동일-사이트(Same-Site)
   - 동일-출처(Same-Origin)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.328Z
+updated: 2022-09-06T14:00:07.555Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Related
 

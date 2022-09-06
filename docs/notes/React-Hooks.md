@@ -6,10 +6,10 @@ tags:
 aliases:
   - React Hooks
 created: 2022-01-02T07:58:00.000Z
-updated: 2022-09-06T02:59:43.757Z
+updated: 2022-09-06T14:00:06.944Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## [동기](https://ko.reactjs.org/docs/hooks-intro.html#motivation)
 

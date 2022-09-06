@@ -6,10 +6,10 @@ tags:
 aliases:
   - React import 스타일
 created: 2022-01-03T16:22:00.000Z
-updated: 2022-09-06T02:59:43.759Z
+updated: 2022-09-06T14:00:06.941Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 기본 가져오기 대신 destructured named imports를 사용하는 것이 앞으로 더 선호된다.
 

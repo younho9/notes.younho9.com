@@ -6,10 +6,10 @@ tags:
 aliases:
   - lang 속성
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.144Z
+updated: 2022-09-06T14:00:07.058Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 웹페이지에 설정된 언어를 선언하는 속성
 - 속성을 다른 언어로 설정해도 화면을 보여주는데는 지장이 없다.

@@ -9,10 +9,10 @@ aliases:
 related:
   - HTTP-헤더
 created: 2021-12-30T06:12:00.000Z
-updated: 2022-09-06T02:59:43.647Z
+updated: 2022-09-06T14:00:06.547Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## no-cache와 no-store
 

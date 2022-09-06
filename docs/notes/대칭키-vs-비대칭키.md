@@ -12,10 +12,10 @@ aliases:
 related:
   - SSL-vs-TLS
 created: 2021-12-31T03:24:00.000Z
-updated: 2022-09-06T02:59:43.953Z
+updated: 2022-09-06T14:00:07.145Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 대칭키 암호화 방식은 암호화(encode)와 복호화(decode)에 사용하는 키가 동일한 방식을 말한다.
   - 즉, 하나의 키로 암호화와 복호화를 모두 할 수 있다.

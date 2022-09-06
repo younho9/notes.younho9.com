@@ -10,10 +10,10 @@ related:
   - 검색-엔진-최적화(SEO)
   - article-vs-section
 created: 2022-01-07T08:01:00.000Z
-updated: 2022-09-05T05:04:22.270Z
+updated: 2022-09-06T14:00:07.298Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 시맨틱 태그를 사용하는 이유
 

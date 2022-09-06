@@ -12,10 +12,10 @@ related:
   - DOMContentLoaded-vs-load
   - 페이지-라이프사이클(Page-Lifecycle)-API
 created: 2022-01-05T13:59:00.000Z
-updated: 2022-09-05T05:04:22.102Z
+updated: 2022-09-06T14:00:07.032Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## beforeunload
 

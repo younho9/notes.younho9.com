@@ -8,10 +8,10 @@ aliases:
   - useState vs useReducer
   - useState와 useReducer의 차이점
 created: 2022-01-02T05:14:00.000Z
-updated: 2022-09-06T02:59:43.932Z
+updated: 2022-09-06T14:00:07.099Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## useState
 

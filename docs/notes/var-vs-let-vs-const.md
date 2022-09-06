@@ -11,10 +11,10 @@ related:
   - 호이스팅(hoisting)
   - TDZ(Temporal-Dead-Zone)
 created: 2021-12-31T12:51:00.000Z
-updated: 2022-09-06T02:59:43.935Z
+updated: 2022-09-06T14:00:07.108Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - var는 [[스코프(Scope)|함수 스코프]]이고 let, const는 [[스코프(Scope)|블록 스코프]]이다.
 

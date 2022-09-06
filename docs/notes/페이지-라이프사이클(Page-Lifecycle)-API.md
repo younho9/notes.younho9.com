@@ -7,10 +7,10 @@ tags:
 aliases:
   - 페이지 라이프사이클(Page Lifecycle) API
 created: 2022-01-05T14:09:00.000Z
-updated: 2022-09-06T02:59:44.023Z
+updated: 2022-09-06T14:00:07.599Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![page lifecycle api event flow](https://developers.google.com/web/updates/images/2018/07/page-lifecycle-api-state-event-flow.png)
 

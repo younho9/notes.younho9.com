@@ -6,10 +6,10 @@ tags:
 aliases:
   - Web Storage API
 created: 2020-06-11T15:00:00.000Z
-updated: 2022-09-05T05:04:22.104Z
+updated: 2022-09-06T14:00:07.016Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Web Storage API
 

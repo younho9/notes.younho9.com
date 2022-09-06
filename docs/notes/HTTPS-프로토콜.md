@@ -14,10 +14,10 @@ related:
   - 디지털-인증서
   - 대칭키-vs-비대칭키
 created: 2021-12-30T09:06:00.000Z
-updated: 2022-09-05T05:04:21.832Z
+updated: 2022-09-06T14:00:06.716Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![HTTP vs HTTPS](https://i.imgur.com/4GHgl0T.png)
 

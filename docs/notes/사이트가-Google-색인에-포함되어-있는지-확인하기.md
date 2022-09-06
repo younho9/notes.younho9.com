@@ -8,10 +8,10 @@ aliases:
 related:
   - 검색-엔진-최적화(SEO)
 created: 2022-01-08T05:01:00.000Z
-updated: 2022-09-05T05:04:22.257Z
+updated: 2022-09-06T14:00:07.248Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 사이트의 홈 URL을 `site:` 검색으로 확인한다.
 

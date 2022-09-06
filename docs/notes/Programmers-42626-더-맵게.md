@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42626. 더 맵게
 created: 2020-10-02T15:00:00.000Z
-updated: 2022-09-05T05:04:21.897Z
+updated: 2022-09-06T14:00:06.852Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
 

@@ -9,10 +9,10 @@ aliases:
   - DI
   - Dependency Injection
 created: 2022-01-10T09:48:00.000Z
-updated: 2022-09-06T02:59:43.992Z
+updated: 2022-09-06T14:00:07.459Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 개체가 **의존하는 다른 개체들을 주입 받는 기술**이다.
 

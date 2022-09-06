@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42584. 주식 가격
 created: 2020-09-23T15:00:00.000Z
-updated: 2022-09-05T05:04:21.895Z
+updated: 2022-09-06T14:00:06.846Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
 

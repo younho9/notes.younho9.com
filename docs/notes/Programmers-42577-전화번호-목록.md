@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42577. 전화번호 목록
 created: 2020-09-21T15:00:00.000Z
-updated: 2022-09-05T05:04:21.880Z
+updated: 2022-09-06T14:00:06.826Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
 

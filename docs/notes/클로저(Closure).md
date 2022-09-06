@@ -10,10 +10,10 @@ aliases:
 related:
   - 스코프(Scope)
 created: 2021-12-31T12:54:00.000Z
-updated: 2022-09-05T05:04:22.336Z
+updated: 2022-09-06T14:00:07.564Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 함수가 선언되었을 때의 렉시컬 환경을 기억하는 것.
 

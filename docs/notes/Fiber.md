@@ -14,10 +14,10 @@ related:
   - 리액트(React)
   - 재조정(Reconciliation)
 created: 2022-01-02T04:15:00.000Z
-updated: 2022-09-05T05:04:21.812Z
+updated: 2022-09-06T14:00:06.648Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - React 16의 새로운 재조정 엔진
 - 이 프로그램의 주요 목표는 [[가상-돔(Virtual-DOM)|가상 돔(Virtual DOM)]]의 증분 렌더링을 활성화하는 것.

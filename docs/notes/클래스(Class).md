@@ -17,10 +17,10 @@ related:
   - 프로토타입(prototype)
   - Object
 created: 2022-01-01T03:14:00.000Z
-updated: 2022-09-05T05:04:22.340Z
+updated: 2022-09-06T14:00:07.563Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Class를 사용한 상속 방법
 

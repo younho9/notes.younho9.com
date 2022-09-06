@@ -6,10 +6,10 @@ tags:
 aliases:
   - Home
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.141Z
+updated: 2022-09-06T14:00:07.054Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 최근 업데이트된 문서
 

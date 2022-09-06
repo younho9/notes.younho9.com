@@ -10,7 +10,7 @@ aliases:
   - AJAX(Asyncronous JavaScript And XML)
   - Asyncronous JavaScript And XML
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:21.709Z
+updated: 2022-09-06T14:00:06.313Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />

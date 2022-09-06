@@ -8,10 +8,10 @@ tags:
 aliases:
   - 버추얼박스(VirtualBox)에 우분투(Ubuntu)설치하기
 created: 2020-03-24T15:00:00.000Z
-updated: 2022-09-05T05:04:22.246Z
+updated: 2022-09-06T14:00:07.213Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Intro...
 

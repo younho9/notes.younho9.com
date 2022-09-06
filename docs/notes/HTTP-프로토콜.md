@@ -15,10 +15,10 @@ related:
   - 클라이언트-서버-모델
   - HTTPS-프로토콜
 created: 2021-12-30T09:06:00.000Z
-updated: 2022-09-05T05:04:21.827Z
+updated: 2022-09-06T14:00:06.704Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![HTTP 레이어](https://mdn.mozillademos.org/files/13673/HTTP%20&%20layers.png)
 

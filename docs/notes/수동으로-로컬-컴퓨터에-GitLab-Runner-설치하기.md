@@ -10,10 +10,10 @@ aliases:
 related:
   - Windows에-WSL-설치
 created: 2022-03-24T05:17:00.000Z
-updated: 2022-09-06T02:59:43.967Z
+updated: 2022-09-06T14:00:07.294Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - Enabling Virtualization in BIOS CPU
 - [[Windows에-WSL-설치|Windows에 WSL 설치]]

@@ -13,10 +13,10 @@ related:
   - JavaScript-객체(Object)
   - enumerable(열거-가능)
 created: 2022-01-01T05:50:00.000Z
-updated: 2022-09-05T05:04:22.137Z
+updated: 2022-09-06T14:00:07.047Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - for ... of 은 [[iterable(반복-가능)|iterable(반복 가능)]] 에 대해서 반복하고, 각 개별 **속성 값(property value)** 에 대해 실행되는 루프이다.
 
