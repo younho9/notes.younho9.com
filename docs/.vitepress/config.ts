@@ -120,6 +120,10 @@ function nav() {
 			link: '/references.html',
 			activeMatch: 'references',
 		},
+		{
+			text: 'Random',
+			link: '/random.html',
+		},
 	];
 }
 
