@@ -7,10 +7,10 @@ tags:
 aliases:
   - JQL(Jira Query Language)
 created: 2022-08-11T02:54:00.000Z
-updated: 2022-09-06T02:59:43.732Z
+updated: 2022-09-06T14:00:06.718Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 날짜
 

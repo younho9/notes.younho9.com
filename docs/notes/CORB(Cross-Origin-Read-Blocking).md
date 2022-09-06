@@ -16,10 +16,10 @@ related:
   - CORS(Cross-Origin-Resource-Sharing)
   - 사이트-격리(Site-Isolation)
 created: 2022-01-05T13:06:00.000Z
-updated: 2022-09-05T05:04:21.722Z
+updated: 2022-09-06T14:00:06.308Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 > 민감한 교차 출처 데이터 자원이 렌더러 프로세스에 도달하지 못하게 하는 보안 기법
 

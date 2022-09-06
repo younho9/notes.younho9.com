@@ -7,10 +7,10 @@ aliases:
   - 구별된 유니온(Discriminated Unions)
   - 서로소 유니온
 created: 2022-01-09T01:15:00.000Z
-updated: 2022-09-06T02:59:43.948Z
+updated: 2022-09-06T14:00:07.137Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 타입스크립트에서 template literal member를 Union을 구분하는데 사용할 수 있다.
 

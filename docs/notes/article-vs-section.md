@@ -12,10 +12,10 @@ aliases:
 related:
   - 시맨틱(Semantic)-태그
 created: 2022-01-07T08:01:00.000Z
-updated: 2022-09-05T05:04:22.123Z
+updated: 2022-09-06T14:00:07.024Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - `<article>`은 다른 요소와 관계 없이, **독립적, 자체적인 의미가 있는 콘텐츠** 블록을 묶는다.
   - ex) 게시판과 블로그의 게시글, 뉴스 기사

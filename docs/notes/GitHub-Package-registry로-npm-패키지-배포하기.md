@@ -7,10 +7,10 @@ tags:
 aliases:
   - GitHub Package registry로 npm 패키지 배포하기
 created: 2022-01-20T08:39:00.000Z
-updated: 2022-09-06T02:59:43.707Z
+updated: 2022-09-06T14:00:06.654Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 `.npmrc`
 

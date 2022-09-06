@@ -6,10 +6,10 @@ tags:
 aliases:
   - 리액트를 다루는 기술 5장 ref dom에 이름 달기
 created: 2020-04-01T15:00:00.000Z
-updated: 2022-09-05T05:04:22.227Z
+updated: 2022-09-06T14:00:07.176Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![react-technique-5-ref-dom-naming-image-0](./images/react-technique-5-ref-dom-naming-image-0.png)
 

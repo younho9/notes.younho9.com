@@ -11,10 +11,10 @@ aliases:
 related:
   - 부수-효과(Side-Effect)
 created: 2022-01-05T12:02:00.000Z
-updated: 2022-09-06T02:59:44.027Z
+updated: 2022-09-06T14:00:07.590Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![](https://i.stack.imgur.com/xtD74.png)
 

@@ -6,10 +6,10 @@ tags:
 aliases:
   - 리액트를 다루는 기술 8장 hooks
 created: 2020-04-07T15:00:00.000Z
-updated: 2022-09-05T05:04:22.228Z
+updated: 2022-09-06T14:00:07.182Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![react-technique-8-hooks-image-0](./images/react-technique-8-hooks-image-0.png)
 

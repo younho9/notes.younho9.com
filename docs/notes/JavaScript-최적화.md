@@ -11,10 +11,10 @@ related:
   - PRPL-패턴
   - 코드-스플리팅(Code-Splitting)
 created: 2022-01-08T06:45:00.000Z
-updated: 2022-09-06T02:59:43.740Z
+updated: 2022-09-06T14:00:06.757Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - [[PRPL-패턴|PRPL 패턴]]
 - [[코드-스플리팅(Code-Splitting)|코드 스플리팅(Code Splitting)]]

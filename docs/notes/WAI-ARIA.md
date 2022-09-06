@@ -8,10 +8,10 @@ tags:
 aliases:
   - WAI-ARIA
 created: 2022-08-02T20:39:00.000Z
-updated: 2022-09-06T02:59:43.845Z
+updated: 2022-09-06T14:00:07.011Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 > Web Accessibility Initiative – Accessible Rich Internet Applications
 >

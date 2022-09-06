@@ -8,10 +8,10 @@ aliases:
 related:
   - blog.younho9.com
 created: 2022-08-26T00:14:05.826Z
-updated: 2022-09-05T05:04:22.159Z
+updated: 2022-09-06T14:00:07.067Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Features
 

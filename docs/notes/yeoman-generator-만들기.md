@@ -9,10 +9,10 @@ tags:
 aliases:
   - yeoman generator 만들기
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.195Z
+updated: 2022-09-06T14:00:07.126Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [The web's scaffolding tool for modern webapps | Yeoman](https://yeoman.io/)
 

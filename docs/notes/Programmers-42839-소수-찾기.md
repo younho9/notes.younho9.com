@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42839. 소수 찾기
 created: 2020-10-07T15:00:00.000Z
-updated: 2022-09-05T05:04:21.907Z
+updated: 2022-09-06T14:00:06.874Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
 

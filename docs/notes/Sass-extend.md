@@ -6,10 +6,10 @@ tags:
 aliases:
   - Sass extend
 created: 2020-03-20T15:00:00.000Z
-updated: 2022-09-05T05:04:21.959Z
+updated: 2022-09-06T14:00:06.967Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Sass(SCSS) Syntax - 7. 확장(Extend)
 

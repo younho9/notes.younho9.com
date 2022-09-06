@@ -17,10 +17,10 @@ related:
   - 쿠키(cookie)
   - 동일-사이트(Same-Site)
 created: 2021-12-31T06:18:00.000Z
-updated: 2022-09-05T05:04:22.338Z
+updated: 2022-09-06T14:00:07.561Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 신뢰할 수 있는 **사용자를 가장**하여 웹 사이트에 원치 않는 명령을 보내는 공격이다.
 

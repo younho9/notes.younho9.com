@@ -6,10 +6,10 @@ tags:
 aliases:
   - Python pip 패키지 관리
 created: 2021-03-26T15:00:00.000Z
-updated: 2022-09-05T05:04:22.170Z
+updated: 2022-09-06T14:00:07.081Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## requirements.txt에 명시된 의존성 설치
 

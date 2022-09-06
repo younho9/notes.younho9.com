@@ -9,10 +9,10 @@ related:
   - 리플로우(Reflow)-vs-리페인트(Repaint)
   - 하드웨어-가속
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.192Z
+updated: 2022-09-06T14:00:07.111Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 > 새 레이어를 생성하는 가장 좋은 방법은 `will-change` CSS 속성을 사용하는 것입니다. - [페인트 복잡성 단순화 및 페인트 영역 줄이기  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/rendering/simplify-paint-complexity-and-reduce-paint-areas?hl=ko#:~:text=%EC%83%88%20%EB%A0%88%EC%9D%B4%EC%96%B4%EB%A5%BC%20%EC%83%9D%EC%84%B1%ED%95%98%EB%8A%94%20%EA%B0%80%EC%9E%A5%20%EC%A2%8B%EC%9D%80%20%EB%B0%A9%EB%B2%95%EC%9D%80%20will%2Dchange%20CSS%20%EC%86%8D%EC%84%B1%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%EA%B2%83%EC%9E%85%EB%8B%88%EB%8B%A4)
 

@@ -11,10 +11,10 @@ aliases:
 related:
   - 관심사의-분리(Separation-of-Concerns)
 created: 2022-08-09T06:33:00.000Z
-updated: 2022-09-05T05:04:22.318Z
+updated: 2022-09-06T14:00:07.496Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 컴퓨터 과학에서 추상화는 복잡한 자료, 모듈, 시스템 등으로부터 핵심적인 개념 또는 기능을 간추려 내는 것을 말한다.
 

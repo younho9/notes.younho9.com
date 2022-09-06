@@ -10,10 +10,10 @@ aliases:
 related:
   - 일급-시민(First-class-citizen)
 created: 2022-01-06T04:59:00.000Z
-updated: 2022-09-06T02:59:43.955Z
+updated: 2022-09-06T14:00:07.146Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 > 아직 JS의 정식 기능이 아니다. ECMA TC39의 표준화 절차를 진행하고 있다.
 >

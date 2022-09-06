@@ -19,6 +19,7 @@ import {
 	keywords,
 } from './meta';
 import data from '../data.json';
+import {isJournal} from './utils';
 
 export default defineConfig({
 	lang: 'ko-KR',
@@ -88,9 +89,9 @@ export default defineConfig({
 						pageName = pageName.trim();
 						pageName = pageName.split('/').map(sanitize).join('/');
 
-						const isJournal = /^\d{4}-\d{2}-\d{2}$/.test(pageName);
-
-						return isJournal ? `/journals/${pageName}` : `/notes/${pageName}`;
+						return isJournal(pageName)
+							? `/journals/${pageName}`
+							: `/notes/${pageName}`;
 					},
 				}),
 			);

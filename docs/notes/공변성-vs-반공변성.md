@@ -7,10 +7,10 @@ aliases:
   - 공변성 vs 반공변성
   - covariant vs contravariant
 created: 2022-01-14T00:28:00.000Z
-updated: 2022-09-06T02:59:43.945Z
+updated: 2022-09-06T14:00:07.134Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ```ts
 declare let foo: {a: number};

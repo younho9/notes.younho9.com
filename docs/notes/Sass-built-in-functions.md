@@ -6,10 +6,10 @@ tags:
 aliases:
   - Sass built in functions
 created: 2020-03-20T15:00:00.000Z
-updated: 2022-09-05T05:04:21.966Z
+updated: 2022-09-06T14:00:06.962Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Sass(SCSS) Syntax - 10. 내장 함수(Built-in Functions)
 

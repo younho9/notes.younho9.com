@@ -9,10 +9,10 @@ aliases:
 related:
   - CSR-vs-SSR-vs-SSG
 created: 2022-01-08T15:05:00.000Z
-updated: 2022-09-05T05:04:22.057Z
+updated: 2022-09-06T14:00:06.986Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 웹 서버나 네트워크 자원에 요청할 때부터 첫 번째 바이트를 응답 받을 때까지의 시간
 - [[CSR-vs-SSR-vs-SSG|CSR vs SSR vs SSG]]에서 서버 사이드 렌더링은 서버에서 페이지를 만드는데 시간이 더 소요되기 때문에 일반적으로 TTFB가 더 느리다.

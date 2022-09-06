@@ -6,10 +6,10 @@ tags:
 aliases:
   - Sass mixins
 created: 2020-03-20T15:00:00.000Z
-updated: 2022-09-05T05:04:21.994Z
+updated: 2022-09-06T14:00:06.983Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Sass(SCSS) Syntax - 6. 재활용(Mixins)
 

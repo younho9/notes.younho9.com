@@ -15,10 +15,10 @@ related:
   - 부수-효과(Side-Effect)
   - 변성(Mutable)-vs-불변성(Immutable)
 created: 2022-01-06T04:11:00.000Z
-updated: 2022-09-05T05:04:22.169Z
+updated: 2022-09-06T14:00:07.080Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![pass-by-reference-vs-pass-by-value-animation](https://blog.penjee.com/wp-content/uploads/2015/02/pass-by-reference-vs-pass-by-value-animation.gif)
 

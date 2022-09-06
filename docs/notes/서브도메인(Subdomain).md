@@ -16,10 +16,10 @@ related:
   - 도메인(Domain)
   - 동일-사이트(Same-Site)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.258Z
+updated: 2022-09-06T14:00:07.284Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![FHnQtAdWUAElUhk (1200×673) (twimg.com)](https://pbs.twimg.com/media/FHnQtAdWUAElUhk?format=jpg&name=medium)
 

@@ -15,10 +15,10 @@ related:
   - enumerable(열거-가능)
   - 프로토타입(prototype)
 created: 2022-01-01T02:13:00.000Z
-updated: 2022-09-05T05:04:21.840Z
+updated: 2022-09-06T14:00:06.724Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![Object Properties](https://user-images.githubusercontent.com/29270715/77065184-e86d9600-6a08-11ea-9a7a-4d699597e1ef.png)
 

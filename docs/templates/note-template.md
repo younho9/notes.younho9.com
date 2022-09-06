@@ -7,4 +7,4 @@ created: <% moment(tp.file.creation_date("YYYY-MM-DDTHH:mm:ss.SSSZ")).toISOStrin
 updated: <% moment(tp.file.last_modified_date("YYYY-MM-DDTHH:mm:ss.SSSZ")).toISOString() %>
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />

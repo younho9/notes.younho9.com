@@ -8,10 +8,10 @@ aliases:
   - Node vs Element
   - Node와 Element의 차이점
 created: 2022-01-06T03:43:00.000Z
-updated: 2022-09-06T02:59:43.746Z
+updated: 2022-09-06T14:00:06.805Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 > 계층 구조상 EventTarget > Node > Element 순으로 상속 관계에 있다.
 

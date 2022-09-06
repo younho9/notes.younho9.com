@@ -6,10 +6,10 @@ tags:
 aliases:
   - Naming Convention
 created: 2022-03-19T04:13:00.000Z
-updated: 2022-09-05T05:04:21.842Z
+updated: 2022-09-06T14:00:06.802Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Key-Value Map
 

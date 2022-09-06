@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42627. 디스크 컨트롤러
 created: 2020-10-03T15:00:00.000Z
-updated: 2022-09-05T05:04:21.899Z
+updated: 2022-09-06T14:00:06.887Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627?language=javascript)
 

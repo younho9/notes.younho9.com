@@ -10,10 +10,10 @@ related:
   - 반응성(Reactivity)
   - React-vs-Vue
 created: 2022-01-18T09:06:00.000Z
-updated: 2022-09-06T02:59:43.793Z
+updated: 2022-09-06T14:00:07.010Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 사용자 인터페이스를 구축하기 위한 **프로그레시브 JavaScript 프레임워크**
   - 프로그레시브

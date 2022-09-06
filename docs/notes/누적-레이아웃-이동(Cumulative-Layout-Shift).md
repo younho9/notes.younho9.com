@@ -13,10 +13,10 @@ aliases:
 related:
   - Core-Web-Vitals
 created: 2022-01-12T02:06:00.000Z
-updated: 2022-09-05T05:04:22.207Z
+updated: 2022-09-06T14:00:07.140Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![Layout Shift](https://storage.googleapis.com/web-dev-assets/layout-instability-api/layout-instability2.webm)
 

@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42883. 큰 수 만들기
 created: 2020-10-12T15:00:00.000Z
-updated: 2022-09-05T05:04:21.912Z
+updated: 2022-09-06T14:00:06.914Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
 

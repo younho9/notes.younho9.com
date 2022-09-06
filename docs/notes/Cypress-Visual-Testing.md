@@ -8,10 +8,10 @@ tags:
 aliases:
   - Cypress Visual Testing
 created: 2022-07-13T01:38:00.000Z
-updated: 2022-09-06T02:59:43.669Z
+updated: 2022-09-06T14:00:06.560Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - Cypress는 _functional_ 테스트 러너다. 즉, 웹 애플리케이션이 유저가 기대한대로 _기능적으로_ 동작하는지 테스트하는 도구다.
   - 문구 노출

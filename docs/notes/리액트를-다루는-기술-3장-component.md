@@ -6,10 +6,10 @@ tags:
 aliases:
   - 리액트를 다루는 기술 3장 component
 created: 2020-03-27T15:00:00.000Z
-updated: 2022-09-05T05:04:22.224Z
+updated: 2022-09-06T14:00:07.170Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![react-technique-3-component-image-0](./images/react-technique-3-component-image-0.png)
 

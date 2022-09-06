@@ -6,10 +6,10 @@ tags:
 aliases:
   - this
 created: 2021-12-31T08:30:00.000Z
-updated: 2022-09-06T02:59:43.893Z
+updated: 2022-09-06T14:00:07.092Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 일반 함수
 

@@ -9,10 +9,10 @@ aliases:
 related:
   - block-vs-inline-vs-inline-block
 created: 2022-01-09T14:19:00.000Z
-updated: 2022-09-06T02:59:43.672Z
+updated: 2022-09-06T14:00:06.351Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - CSS에는 크게 **[[block-vs-inline-vs-inline-block|block, inline, inline-block]]** 유형이 있다.
 - CSS 박스 모델은 블록 박스에 적용되며, 인라인 박스는 일부 동작만 사용한다.

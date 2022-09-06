@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42860. 조이스틱
 created: 2020-10-13T15:00:00.000Z
-updated: 2022-09-05T05:04:21.908Z
+updated: 2022-09-06T14:00:06.889Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
 

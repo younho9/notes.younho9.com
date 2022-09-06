@@ -17,10 +17,10 @@ related:
   - 동일-출처(Same-Origin)
   - CORS(Cross-Origin-Resource-Sharing)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.324Z
+updated: 2022-09-06T14:00:07.498Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![FHnQtAdWUAElUhk (1200×673) (twimg.com)](https://pbs.twimg.com/media/FHnQtAdWUAElUhk?format=jpg&name=medium)
 

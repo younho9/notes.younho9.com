@@ -6,10 +6,10 @@ tags:
 aliases:
   - 이미 커밋된 파일을 gitignore에 추가하기
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.296Z
+updated: 2022-09-06T14:00:07.348Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ```sh
 # index 에서 모든 파일들을 제거한다 (실제 파일시스템에서는 제거되지 않고 남아 있을 것이다

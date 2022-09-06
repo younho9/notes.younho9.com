@@ -7,10 +7,10 @@ aliases:
   - FEConf 2021 - Can I use Vue3
   - FEConf - 2021 Can I use Vue3
 created: 2022-01-22T11:02:00.000Z
-updated: 2022-09-06T02:59:43.697Z
+updated: 2022-09-06T14:00:06.640Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Vue 3의 등장
 

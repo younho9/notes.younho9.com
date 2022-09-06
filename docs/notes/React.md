@@ -6,10 +6,10 @@ tags:
 aliases:
   - React
 created: 2022-01-02T07:52:00.000Z
-updated: 2022-09-06T02:59:43.761Z
+updated: 2022-09-06T14:00:06.946Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 컴포넌트가 동일한 props로 동일한 결과를 렌더링해낸다면,
   - React.memo로 감싸서 메모이징(Memoizing)된 컴포넌트 결과를 사용한다.

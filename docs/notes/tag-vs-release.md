@@ -11,10 +11,10 @@ aliases:
 related:
   - 일급-객체(First-class-object)
 created: 2022-01-06T04:03:00.000Z
-updated: 2022-09-06T02:59:43.888Z
+updated: 2022-09-06T14:00:07.087Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - tag는 Git의 개념이다. release는 GitHub의 개념이다.
 - tag는 특정 커밋에 대한 **포인터**이다.

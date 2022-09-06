@@ -6,10 +6,10 @@ tags:
 aliases:
   - RxJS 퀵스타트
 created: 2022-03-11T01:11:00.000Z
-updated: 2022-09-05T05:04:21.955Z
+updated: 2022-09-06T14:00:06.950Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## RxJS를 시작하기 전에
 

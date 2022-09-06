@@ -15,10 +15,10 @@ related:
   - JavaScript-객체(Object)
   - 값(Value)
 created: 2022-01-06T04:52:00.000Z
-updated: 2022-09-05T05:04:22.283Z
+updated: 2022-09-06T14:00:07.322Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 객체가 아니고, 메서드도 가지지 않는 데이터
 - 원시 값은 [[변성(Mutable)-vs-불변성(Immutable)|변성(Mutable) vs 불변성(Immutable)]]하여 변형할 수 없다.

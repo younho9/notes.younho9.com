@@ -6,10 +6,10 @@ tags:
 aliases:
   - Tagged Templates
 created: 2021-03-16T15:00:00.000Z
-updated: 2022-09-05T05:04:22.179Z
+updated: 2022-09-06T14:00:07.089Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 `func`string`` 처럼 템플릿 리터럴(template literals) 앞에 태그(함수)를 사용하면템플릿 리터럴을 파싱할 수 있다.
 

@@ -15,10 +15,10 @@ related:
   - 정적(Static)-테스트
   - Testing-Trophy
 created: 2022-08-09T04:08:00.000Z
-updated: 2022-09-05T05:04:22.052Z
+updated: 2022-09-06T14:00:06.992Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 테스트의 종류
 

@@ -12,10 +12,10 @@ related:
   - 클래스(Class)
   - 프로토타입-객체
 created: 2021-12-31T11:25:00.000Z
-updated: 2022-09-06T02:59:44.029Z
+updated: 2022-09-06T14:00:07.598Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## TL;DR
 

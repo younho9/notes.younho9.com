@@ -14,10 +14,10 @@ aliases:
 related:
   - 매개변수(parameter)-vs-인자(argument)
 created: 2022-01-01T11:55:00.000Z
-updated: 2022-09-06T02:59:43.878Z
+updated: 2022-09-06T14:00:07.082Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 두 객체 모두 렌더링 결과물에 영향을 주는 정보를 갖고 있다.
   - 둘 다 렌더 업데이트를 트리거한다.

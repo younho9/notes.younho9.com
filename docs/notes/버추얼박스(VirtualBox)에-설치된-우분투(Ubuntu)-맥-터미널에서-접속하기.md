@@ -8,10 +8,10 @@ tags:
 aliases:
   - 버추얼박스(VirtualBox)에 설치된 우분투(Ubuntu) 맥 터미널에서 접속하기
 created: 2020-03-25T15:00:00.000Z
-updated: 2022-09-05T05:04:22.244Z
+updated: 2022-09-06T14:00:07.241Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 가상머신은 느리다.
 
@@ -198,10 +198,10 @@ alias sshu="ssh username@192.168.52.xxx"
 그리고 쉘을 다시 실행해준다.
 
 ```bash
-# {{ $frontmatter.title }}
+<Metadata />
 source ~/.bash_profile
 
-# {{ $frontmatter.title }}
+<Metadata />
 source ~/.zshrc
 ```
 

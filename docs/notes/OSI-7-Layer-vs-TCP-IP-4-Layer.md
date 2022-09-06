@@ -9,10 +9,10 @@ tags:
 aliases:
   - OSI 7 Layer vs TCP IP 4 Layer
 created: 2021-12-31T02:43:00.000Z
-updated: 2022-09-06T02:59:43.748Z
+updated: 2022-09-06T14:00:06.811Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![OSI 7 Layer vs TCP-IP 4 Layer](https://t1.daumcdn.net/cfile/tistory/261CC03358E1B73D32)
 

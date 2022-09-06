@@ -6,10 +6,10 @@ tags:
 aliases:
   - Sass variables
 created: 2020-03-20T15:00:00.000Z
-updated: 2022-09-05T05:04:22.032Z
+updated: 2022-09-06T14:00:06.998Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Sass(SCSS) Syntax - 3. 변수
 
