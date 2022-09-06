@@ -8,10 +8,10 @@ aliases:
 related:
   - DOMContentLoaded-vs-load
 created: 2022-01-05T15:02:00.000Z
-updated: 2022-09-05T05:04:22.169Z
+updated: 2022-09-06T14:00:07.078Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - `loading` – 문서를 불러오는 중일 때
 - `interactive` – 문서가 완전히 불러와졌을 때 ([[DOMContentLoaded-vs-load|DOMContentLoaded vs load]] 이후)

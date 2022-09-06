@@ -10,10 +10,10 @@ related:
   - CSR-vs-SSR-vs-SSG
   - 사이트가-Google-색인에-포함되어-있는지-확인하기
 created: 2022-01-08T04:55:00.000Z
-updated: 2022-09-05T05:04:22.202Z
+updated: 2022-09-06T14:00:07.125Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ※ 검색 엔진을 Google로 특정
 

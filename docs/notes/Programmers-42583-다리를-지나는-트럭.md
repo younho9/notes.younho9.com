@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42583. 다리를 지나는 트럭
 created: 2020-10-01T15:00:00.000Z
-updated: 2022-09-05T05:04:21.892Z
+updated: 2022-09-06T14:00:06.829Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
 

@@ -7,7 +7,7 @@ tags:
 aliases:
   - Nuxt3
 created: 2022-08-31T08:15:42.802Z
-updated: 2022-09-06T02:59:43.744Z
+updated: 2022-09-06T14:00:06.810Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />

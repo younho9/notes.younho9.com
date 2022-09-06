@@ -10,10 +10,10 @@ aliases:
   - 디바운싱 vs 쓰로틀링
   - debouncing vs throttling
 created: 2022-01-01T09:17:00.000Z
-updated: 2022-09-06T02:59:43.958Z
+updated: 2022-09-06T14:00:07.153Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![debounce-vs-throttle.png](./images/debounce-vs-throttle.png)
 

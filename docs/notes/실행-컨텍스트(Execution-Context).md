@@ -10,10 +10,10 @@ related:
   - this
   - 호이스팅(hoisting)
 created: 2021-12-31T12:55:00.000Z
-updated: 2022-09-05T05:04:22.272Z
+updated: 2022-09-06T14:00:07.303Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - **실행 가능한 코드**가 실행되기 위해 **필요한 환경 정보 객체**
   - 실행 가능한 코드

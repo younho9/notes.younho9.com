@@ -10,10 +10,10 @@ aliases:
   - Observer Pattern vs PubSub Pattern
   - 옵저버 패턴 vs PubSub 패턴
 created: 2020-10-29T15:00:00.000Z
-updated: 2022-09-05T05:04:22.166Z
+updated: 2022-09-06T14:00:07.075Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [Observer vs Pub-Sub Pattern](https://medium.com/better-programming/observer-vs-pub-sub-pattern-50d3b27f838c)
 

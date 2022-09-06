@@ -14,10 +14,10 @@ related:
   - 웹-스토리지(Web-Storage)
   - localStorage
 created: 2021-12-30T07:13:00.000Z
-updated: 2022-09-05T05:04:22.171Z
+updated: 2022-09-06T14:00:07.086Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 현재 떠 있는 탭 내에서 데이터를 유지한다.
 - 새로고침, 복원(닫은 탭 다시 열기) 시에도 데이터를 유지한다.

@@ -7,10 +7,10 @@ aliases:
   - 이벤트 루프(Event Loop)
   - 이벤트 루프
 created: 2022-01-05T12:35:00.000Z
-updated: 2022-09-06T02:59:43.995Z
+updated: 2022-09-06T14:00:07.352Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![event loop](https://res.cloudinary.com/practicaldev/image/fetch/s--5iH5BNWm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/lczn4fca41is4vpicr6w.gif)
 

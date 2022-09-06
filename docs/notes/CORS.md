@@ -6,10 +6,10 @@ tags:
 aliases:
   - CORS(Cross Origin Resource Sharing)
 created: 2020-11-08T15:00:00.000Z
-updated: 2022-09-05T05:04:21.739Z
+updated: 2022-09-06T14:00:06.322Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 배경
 

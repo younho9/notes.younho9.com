@@ -12,10 +12,10 @@ related:
   - 브라우저-렌더링-1
   - DOMContentLoaded-vs-load
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.175Z
+updated: 2022-09-06T14:00:07.088Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 브라우저는 HTML을 읽다가 `<script>` 태그를 만나면 파싱을 멈추고, 스크립트를 먼저 실행한다.
   - [[브라우저-렌더링-1|브라우저 렌더링 1. 파싱(Parsing) 단계]]

@@ -10,10 +10,10 @@ related:
   - Chromium(크로미움)
   - Cypress
 created: 2022-08-09T02:20:00.000Z
-updated: 2022-09-05T05:04:21.861Z
+updated: 2022-09-06T14:00:06.831Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Playwright 란?
 

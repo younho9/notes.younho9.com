@@ -8,10 +8,10 @@ aliases:
   - 프로미스
   - Promise
 created: 2022-08-12T01:17:00.000Z
-updated: 2022-09-06T02:59:44.028Z
+updated: 2022-09-06T14:00:07.596Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## References
 

@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42885. 구명보트
 created: 2020-10-14T15:00:00.000Z
-updated: 2022-09-05T05:04:21.910Z
+updated: 2022-09-06T14:00:06.928Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
 

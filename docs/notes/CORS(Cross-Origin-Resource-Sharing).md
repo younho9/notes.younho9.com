@@ -20,10 +20,10 @@ related:
   - 부수-효과(Side-Effect)
   - CORB(Cross-Origin-Read-Blocking)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:21.729Z
+updated: 2022-09-06T14:00:06.330Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 기본적으로 모든 HTTP 요청은 [[크로스-사이트(Cross-Site)|크로스 사이트(Cross Site)]] [[HTTP-Request|HTTP Request]]가 가능하다.
   - 즉, `<img>` 태그의 `src` 속성, `<link>` 태그의 [[href|`href`]] 속성, `<script>` 태그의 `src` 속성으로 **[[크로스-사이트(Cross-Site)|크로스 사이트(Cross Site)]]의 자원을 가져와서 사용하는 것이 가능**하다.

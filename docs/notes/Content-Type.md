@@ -9,10 +9,10 @@ aliases:
 related:
   - media-types
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-06T02:59:43.652Z
+updated: 2022-09-06T14:00:07.356Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 리소스의 [[media-types|Media Types]]을 나타내기 위해 사용된다.
 

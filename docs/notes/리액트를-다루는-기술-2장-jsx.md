@@ -6,10 +6,10 @@ tags:
 aliases:
   - 리액트를 다루는 기술 2장 jsx
 created: 2020-03-22T15:00:00.000Z
-updated: 2022-09-05T05:04:22.221Z
+updated: 2022-09-06T14:00:07.164Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![react-technique-2-jsx-image-0](./images/react-technique-2-jsx-image-0.png)
 

@@ -8,10 +8,10 @@ aliases:
   - 점진적 향상(Progressive enhancement) vs 우아한 성능저하(Graceful degradation)
   - 점진적 향상 vs 우아한 성능저하
 created: 2022-01-08T15:28:00.000Z
-updated: 2022-09-06T02:59:44.009Z
+updated: 2022-09-06T14:00:07.453Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 점진적 향상
   - 가능한 많은 사용자에게 필수 컨텐츠와 기능을 제공하기 위한 설계 철학이다.

@@ -11,10 +11,10 @@ related:
   - vue-라이프사이클
   - display-vs-visibillity
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-06T02:59:43.933Z
+updated: 2022-09-06T14:00:07.101Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - `v-show` 는 해당 요소에 `display: none` 을 적용한다.
 - `v-if` 는 해당 요소를 DOM에 마운트하지 않는다.

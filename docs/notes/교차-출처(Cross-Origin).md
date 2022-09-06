@@ -17,10 +17,10 @@ related:
   - 동일-출처(Same-Origin)
   - 출처(Origin)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.204Z
+updated: 2022-09-06T14:00:07.138Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - URL에서 프로토콜, 도메인(서브 도메인 포함), 포트번호 중 하나라도 일치하지 않은 경우 교차 출처라고 판단한다.
 

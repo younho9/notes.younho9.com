@@ -6,10 +6,10 @@ tags:
 aliases:
   - Link Preview
 created: 2022-08-09T08:46:00.000Z
-updated: 2022-09-06T02:59:43.734Z
+updated: 2022-09-06T14:00:06.764Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## References
 

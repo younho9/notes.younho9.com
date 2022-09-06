@@ -6,10 +6,10 @@ tags:
 aliases:
   - 메타데이터 meta 요소
 created: 2020-01-19T15:00:00.000Z
-updated: 2022-09-05T05:04:22.241Z
+updated: 2022-09-06T14:00:07.194Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [head 태그에는 무엇이 있을까? HTML의 메타데이터](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 

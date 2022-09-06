@@ -7,10 +7,10 @@ aliases:
   - LTS(Long Term Support)
   - LTS
 created: 2022-09-02T07:40:00.366Z
-updated: 2022-09-05T05:04:21.834Z
+updated: 2022-09-06T14:00:06.748Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 > Long Term Support
 

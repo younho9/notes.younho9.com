@@ -6,10 +6,10 @@ tags:
 aliases:
   - Vue 한글 입력 방지
 created: 2022-07-13T09:56:00.000Z
-updated: 2022-09-06T02:59:43.790Z
+updated: 2022-09-06T14:00:07.007Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 정규식
   - `/\W+/g`

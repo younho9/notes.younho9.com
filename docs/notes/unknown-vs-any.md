@@ -8,10 +8,10 @@ aliases:
   - unknown vs any
   - unknown과 any의 차이점
 created: 2022-01-01T10:24:00.000Z
-updated: 2022-09-06T02:59:43.899Z
+updated: 2022-09-06T14:00:07.093Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ![cover-4.webp (708×393) (dmitripavlutin.com)](https://dmitripavlutin.com/static/24fcc5c7e3aaac688fe7ea5ef1ccdc20/aaf91/cover-4.webp)
 

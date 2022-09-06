@@ -8,10 +8,10 @@ aliases:
 related:
   - window.opner
 created: 2022-08-09T05:53:00.000Z
-updated: 2022-09-05T05:04:22.194Z
+updated: 2022-09-06T14:00:07.119Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Related
 

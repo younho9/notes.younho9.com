@@ -14,10 +14,10 @@ related:
   - 엄격-모드(strict-mode)
   - 순수-함수(Pure-Functions)
 created: 2022-01-06T04:39:00.000Z
-updated: 2022-09-05T05:04:22.246Z
+updated: 2022-09-06T14:00:07.199Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 불변성(Immutable)은 객체가 생성된 이후 그 상태를 변경할 수 없는 패턴을 의미한다.
   - 의도하지 않은 객체의 변경을 방지할 수 있다.

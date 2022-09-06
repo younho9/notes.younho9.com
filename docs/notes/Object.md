@@ -9,10 +9,10 @@ aliases:
 related:
   - 클래스(Class)
 created: 2022-01-01T03:11:00.000Z
-updated: 2022-09-05T05:04:21.863Z
+updated: 2022-09-06T14:00:06.814Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Object.create()를 사용한 고전적인 상속 방법
 

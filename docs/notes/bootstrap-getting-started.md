@@ -6,10 +6,10 @@ tags:
 aliases:
   - bootstrap getting started
 created: 2020-03-20T15:00:00.000Z
-updated: 2022-09-05T05:04:22.131Z
+updated: 2022-09-06T14:00:07.042Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Bootstrap 이란?
 

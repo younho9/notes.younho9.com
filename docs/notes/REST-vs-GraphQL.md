@@ -8,10 +8,10 @@ aliases:
 related:
   - 클라이언트-서버-모델
 created: 2022-01-05T12:39:00.000Z
-updated: 2022-09-06T02:59:43.755Z
+updated: 2022-09-06T14:00:06.934Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Rest란?
 

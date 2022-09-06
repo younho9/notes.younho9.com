@@ -14,10 +14,10 @@ related:
   - for-of-vs-for-in
   - enumerable(열거-가능)
 created: 2022-01-01T05:46:00.000Z
-updated: 2022-09-05T05:04:22.147Z
+updated: 2022-09-06T14:00:07.056Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - [반복 프로토콜(iteration protocols)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Iteration_protocols) 을 구현한 객체
   - 내장 iterable에는 Array, Map, Set, String, TypedArray, arguments 객체, [[제너레이터(Generator)|Generator 객체]] 등이 있다.

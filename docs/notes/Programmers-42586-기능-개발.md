@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42586. 기능 개발
 created: 2020-09-25T15:00:00.000Z
-updated: 2022-09-05T05:04:21.893Z
+updated: 2022-09-06T14:00:06.843Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 

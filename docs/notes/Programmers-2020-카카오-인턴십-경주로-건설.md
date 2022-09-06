@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 2020 카카오 인턴십 경주로 건설
 created: 2020-09-08T15:00:00.000Z
-updated: 2022-09-05T05:04:21.879Z
+updated: 2022-09-06T14:00:06.820Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 문제
 

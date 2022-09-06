@@ -6,10 +6,10 @@ tags:
 aliases:
   - Vue School Vue
 created: 2022-02-18T06:23:00.000Z
-updated: 2022-09-06T02:59:43.838Z
+updated: 2022-09-06T14:00:07.005Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Chapter 1. Component Basics
 

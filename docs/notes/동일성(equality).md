@@ -11,10 +11,10 @@ related:
   - 형-변환(Type-conversion)
   - pass-by-reference-vs-pass-by-value
 created: 2022-01-02T08:32:00.000Z
-updated: 2022-09-05T05:04:22.214Z
+updated: 2022-09-06T14:00:07.151Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 JavaScript의 동일성 비교에는 여러 가지 방법이 있다.
 

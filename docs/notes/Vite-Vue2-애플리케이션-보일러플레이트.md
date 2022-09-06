@@ -6,10 +6,10 @@ tags:
 aliases:
   - Vite Vue2 애플리케이션 보일러플레이트
 created: 2022-01-20T06:16:00.000Z
-updated: 2022-09-06T02:59:43.778Z
+updated: 2022-09-06T14:00:07.004Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Vite란?
 

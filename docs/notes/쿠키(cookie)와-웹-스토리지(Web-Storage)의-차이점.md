@@ -20,10 +20,10 @@ related:
   - 동일-사이트(Same-Site)
   - 동일-출처(Same-Origin)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.326Z
+updated: 2022-09-06T14:00:07.505Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - [[쿠키(cookie)]]는 네트워크 요청 시 서버로 전송되지만, [[웹-스토리지(Web-Storage)|웹 스토리지(Web Storage)]]는 서버로 전송되지 않는다.
 - 쿠키는 최대 4KB의 데이터를 저장할 수 있지만, [[웹-스토리지(Web-Storage)|웹 스토리지(Web Storage)]]는 최소 2MB의 데이터를 저장할 수 있다.

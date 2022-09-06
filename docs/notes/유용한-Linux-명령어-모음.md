@@ -8,10 +8,10 @@ tags:
 aliases:
   - 유용한 Linux 명령어 모음
 created: 2022-08-12T07:42:00.000Z
-updated: 2022-09-06T02:59:43.987Z
+updated: 2022-09-06T14:00:07.335Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 디렉토리에 있는 파일 개수 세기
 

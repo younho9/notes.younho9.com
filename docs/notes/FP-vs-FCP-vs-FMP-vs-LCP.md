@@ -17,10 +17,10 @@ related:
   - TTFB(Time-To-First-Byte)
   - CSR-vs-SSR-vs-SSG
 created: 2022-01-08T06:47:00.000Z
-updated: 2022-09-05T05:04:21.810Z
+updated: 2022-09-06T14:00:06.650Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## FCP(First Contentful Paint)
 

@@ -12,10 +12,10 @@ aliases:
 related:
   - 동일성(equality)
 created: 2022-01-06T07:46:00.000Z
-updated: 2022-09-05T05:04:22.372Z
+updated: 2022-09-06T14:00:07.641Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - [형 변환(Type conversion)](https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion)은 어떤 데이터의 타입을 다른 타입으로 변환하는 것이다.
 - JavaScript는 코드를 실행하면서 **암시적(implicit)으로** 유형을 변환하기도 하는데, 이를 [암묵적 형 변환(Type coercion)](https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion) (또는, 타입 강제)

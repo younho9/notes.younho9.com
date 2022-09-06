@@ -13,10 +13,10 @@ related:
   - DOM(Document-Object-Model)
   - 재조정(Reconciliation)
 created: 2022-01-02T04:10:00.000Z
-updated: 2022-09-06T02:59:43.942Z
+updated: 2022-09-06T14:00:07.121Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - UI의 가상적인 표현, UI를 나타내는 객체
   - React Element와 연관된다.

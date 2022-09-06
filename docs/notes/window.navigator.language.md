@@ -7,7 +7,7 @@ tags:
 aliases:
   - window.navigator.language
 created: 2022-07-27T04:06:00.000Z
-updated: 2022-09-05T05:04:22.197Z
+updated: 2022-09-06T14:00:07.118Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />

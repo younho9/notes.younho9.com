@@ -8,10 +8,10 @@ tags:
 aliases:
   - 코드 스플리팅(Code Splitting)
 created: 2022-01-05T12:09:00.000Z
-updated: 2022-09-06T02:59:44.014Z
+updated: 2022-09-06T14:00:07.501Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 사용자가 애플리케이션을 로드할 때 초기 경로에 필요한 코드만 보내도록 JavaScript 번들을 분할하는 것.
 

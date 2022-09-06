@@ -6,10 +6,10 @@ tags:
 aliases:
   - NodeJS Jest VS Code Debugging
 created: 2020-09-10T15:00:00.000Z
-updated: 2022-09-05T05:04:22.163Z
+updated: 2022-09-06T14:00:07.062Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 문제 상황
 

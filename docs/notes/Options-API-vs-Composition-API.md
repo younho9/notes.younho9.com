@@ -8,10 +8,10 @@ aliases:
 related:
   - 객체지향-프로그래밍
 created: 2022-08-09T06:40:00.000Z
-updated: 2022-09-06T02:59:43.751Z
+updated: 2022-09-06T14:00:06.817Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 두 API 스타일 모두 일반적인 사용 사례를 완벽하게 다룰 수 있다.
   - 사실, Options API는 Composition API 위에 구현된다.

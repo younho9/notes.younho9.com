@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42748. k번째 수
 created: 2020-10-04T15:00:00.000Z
-updated: 2022-09-05T05:04:21.903Z
+updated: 2022-09-06T14:00:06.870Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)
 

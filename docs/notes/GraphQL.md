@@ -7,10 +7,10 @@ tags:
 aliases:
   - GraphQL
 created: 2022-01-09T04:25:00.000Z
-updated: 2022-09-06T02:59:43.712Z
+updated: 2022-09-06T14:00:06.656Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 핵심 개념
 

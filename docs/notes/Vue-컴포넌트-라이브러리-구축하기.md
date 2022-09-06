@@ -9,10 +9,10 @@ aliases:
 related:
   - FEConf-2021-Can-I-use-Vue3
 created: 2022-01-18T08:18:00.000Z
-updated: 2022-09-06T02:59:43.789Z
+updated: 2022-09-06T14:00:07.021Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## Vue 컴포넌트를 패키지로 배포하는 기본 원리
 

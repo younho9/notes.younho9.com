@@ -14,10 +14,10 @@ related:
   - ROI(Return-Of-Investment)
   - Test-Pyramid
 created: 2022-08-09T04:11:00.000Z
-updated: 2022-09-05T05:04:22.054Z
+updated: 2022-09-06T14:00:07.000Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - Kent C. Dodds가 소개한 [[Testing-JavaScript|JavaScript 애플리케이션 테스트]]에 관해서 테스트의 종류와 [[ROI(Return-Of-Investment)|ROI(Return Of Investment)]]에 대한 메타포를 제공하는 용어
   - https://twitter.com/kentcdodds/status/960723172591992832

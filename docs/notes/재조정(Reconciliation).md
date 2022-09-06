@@ -13,10 +13,10 @@ related:
   - DOM(Document-Object-Model)
   - props-vs-state
 created: 2022-01-02T04:01:00.000Z
-updated: 2022-09-06T02:59:44.001Z
+updated: 2022-09-06T14:00:07.449Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 리액트에서 "렌더링"은 [[가상-돔(Virtual-DOM)|가상 돔(Virtual DOM)]]을 만드는 것(`render` 함수를 호출하는 것)을 말한다.
   - 렌더링이 완료되고, 리액트가 DOM을 업데이트하면 [[브라우저-렌더링-원리|브라우저 렌더링 원리]] 프로세스가 시작되는데, 혼동을 피하기 위해 리액트에서 "페인팅"이라는 용어로 사용하기도 한다.

@@ -14,10 +14,10 @@ related:
   - HTTPS-프로토콜
   - 디지털-인증서
 created: 2021-12-30T09:08:00.000Z
-updated: 2022-09-05T05:04:21.952Z
+updated: 2022-09-06T14:00:06.951Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - SSL과 TLS 모두 네트워크 상에서 보안을 제공하는 cryptographic 프로토콜을 사용한 프로토콜이다.
   - 과거 [넷스케이프](https://ko.wikipedia.org/wiki/%EB%84%B7%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%94%84)에 의해 SSL이 발명되었고, 이것이 폭넓게 사용되다가 표준화 기구인 [IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)에 관리로 TLS라는 이름으로 대체되었다.

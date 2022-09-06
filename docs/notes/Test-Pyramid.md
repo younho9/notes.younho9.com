@@ -12,10 +12,10 @@ aliases:
 related:
   - Testing-Trophy
 created: 2022-08-09T04:17:00.000Z
-updated: 2022-09-05T05:04:22.033Z
+updated: 2022-09-06T14:00:06.990Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 > [The Practical Test Pyramid (martinfowler.com)](https://martinfowler.com/articles/practical-test-pyramid.html)
 

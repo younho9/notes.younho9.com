@@ -8,10 +8,10 @@ aliases:
 related:
   - Context-API-vs-Redux
 created: 2022-01-01T12:24:00.000Z
-updated: 2022-09-05T05:04:21.789Z
+updated: 2022-09-06T14:00:06.593Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 애플리케이션에서 여러 컴포넌트에 전달해줘야 하는 props의 경우(ex. 선호 언어, UI 테마) 일일이 전달해주는 것이 번거로울 수 있다.
 - Context API를 이용하면 **트리 단계마다 명시적으로 props를 넘겨주지 않아도** 이러한 값을 공유하도록 할 수 있다.

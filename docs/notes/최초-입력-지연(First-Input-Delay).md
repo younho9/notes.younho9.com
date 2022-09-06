@@ -16,10 +16,10 @@ related:
   - 코드-스플리팅(Code-Splitting)
   - 웹-워커(Web-Worker)
 created: 2022-01-13T00:36:00.000Z
-updated: 2022-09-06T02:59:44.013Z
+updated: 2022-09-06T14:00:07.503Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - FID는 사용자가 페이지와 처음 상호 작용할 때(링크를 클릭하거나 버튼을 탭하거나 사용자 지정 JavaScript 기반 컨트롤을 사용할 때)부터 해당 상호 작용에 대한 응답으로 브라우저가 실제로 이벤트 핸들러 처리를 시작하기 까지의 시간을 측정한다.
 - [[FP-vs-FCP-vs-FMP-vs-LCP|FP vs FCP vs FMP vs LCP]]는 사이트가 화면에 픽셀을 얼마나 빨리 칠할 수 있는지에 대한 부분이기 때문에 사이트 반응 속도 역시 중요하다.

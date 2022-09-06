@@ -6,10 +6,10 @@ tags:
 aliases:
   - package-lock.json
 created: 2022-01-13T01:05:00.000Z
-updated: 2022-09-06T02:59:43.875Z
+updated: 2022-09-06T14:00:07.076Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 소스 레포지토리에 커밋하기 위한 것이다.
   - 종속성 트리의 단일 표현을 설명하여, 팀원 간의 배포 및 지속적인 통합을 보장한다.

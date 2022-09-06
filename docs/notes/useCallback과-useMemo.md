@@ -8,10 +8,10 @@ aliases:
 related:
   - React.memo
 created: 2022-01-02T07:27:00.000Z
-updated: 2022-09-06T02:59:43.925Z
+updated: 2022-09-06T14:00:07.096Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - useCallback과 useMemo는 오히려 성능 면에서 더 안좋을 수 있다.
 

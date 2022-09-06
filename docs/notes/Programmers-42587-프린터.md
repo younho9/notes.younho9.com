@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42587. 프린터
 created: 2020-10-02T15:00:00.000Z
-updated: 2022-09-05T05:04:21.894Z
+updated: 2022-09-06T14:00:06.856Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 

@@ -8,10 +8,10 @@ aliases:
   - CSS 의사 클래스
   - Pseudo Classes
 created: 2022-01-04T06:07:00.000Z
-updated: 2022-09-06T02:59:43.639Z
+updated: 2022-09-06T14:00:06.548Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## References
 

@@ -11,10 +11,10 @@ related:
   - Accept-Language
   - HTTP-헤더
 created: 2021-12-30T05:55:00.000Z
-updated: 2022-09-05T05:04:21.783Z
+updated: 2022-09-06T14:00:06.550Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 콘텐츠의 대상 청중을 위한 언어를 설명하기 위해 사용된다.
   - 일본어 컨텐츠여도 한국인에게 일본어를 가르치는 사이트라면 한국어이다.

@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 42840. 모의고사
 created: 2020-10-07T15:00:00.000Z
-updated: 2022-09-05T05:04:21.905Z
+updated: 2022-09-06T14:00:06.905Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
 

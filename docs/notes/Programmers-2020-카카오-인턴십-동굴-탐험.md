@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 2020 카카오 인턴십 동굴 탐험
 created: 2020-09-10T15:00:00.000Z
-updated: 2022-09-05T05:04:21.882Z
+updated: 2022-09-06T14:00:06.822Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ## 문제
 

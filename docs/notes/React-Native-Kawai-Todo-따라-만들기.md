@@ -6,10 +6,10 @@ tags:
 aliases:
   - kawai-todo 따라 만들기
 created: 2020-03-21T15:00:00.000Z
-updated: 2022-09-05T05:04:21.933Z
+updated: 2022-09-06T14:00:06.937Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 ### `Dimensions` API
 

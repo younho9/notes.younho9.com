@@ -15,10 +15,10 @@ related:
   - CDN(Content-Delivery-Network)
   - 검색-엔진-최적화(SEO)
 created: 2022-01-05T11:20:00.000Z
-updated: 2022-09-06T02:59:43.659Z
+updated: 2022-09-06T14:00:06.318Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - SSR은 서버에서 페이지의 정적 마크업(HTML)을 구성하여 사용자에게 페이지를 보여주는 방식이다.
   - 데이터 페칭과 템플릿 및 라우팅이 서버에서 처리된다.

@@ -6,10 +6,10 @@ tags:
 aliases:
   - Programmers 43165. 타겟 넘버
 created: 2020-10-15T15:00:00.000Z
-updated: 2022-09-05T05:04:21.915Z
+updated: 2022-09-06T14:00:06.931Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 [코딩테스트 연습 - 타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)
 

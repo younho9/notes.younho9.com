@@ -6,10 +6,10 @@ tags:
 aliases:
   - 엄격 모드(strict mode)
 created: 2022-01-06T04:46:00.000Z
-updated: 2022-09-06T02:59:43.985Z
+updated: 2022-09-06T14:00:07.316Z
 ---
 
-# {{ $frontmatter.title }}
+<Metadata />
 
 - 기존 JS에서는 허용되지만 실수를 유발할 수 있는 문법을 제한한다.
 
