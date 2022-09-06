@@ -4,10 +4,14 @@ category: Vue
 tags:
   - vue
 aliases:
+  - v-show vs v-if
   - v-show와 v-if의 차이점
   - v-show와 v-if
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2022-01-14T00:12:00.000+09:00
+related:
+  - vue-라이프사이클
+  - display-vs-visibillity
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.185Z
 ---
 
 # {{ $frontmatter.title }}

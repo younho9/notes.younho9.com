@@ -6,9 +6,10 @@ tags:
   - vs
   - glossary
   - terms
-publish: true
-created: 2021-12-31T11:43:00.000+09:00
-updated: 2021-12-31T11:43:00.000+09:00
+aliases:
+  - OSI 7 Layer vs TCP IP 4 Layer
+created: 2021-12-31T02:43:00.000Z
+updated: 2022-09-05T05:04:21.854Z
 ---
 
 # {{ $frontmatter.title }}

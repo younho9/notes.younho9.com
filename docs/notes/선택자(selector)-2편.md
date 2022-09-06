@@ -3,8 +3,10 @@ title: 선택자(selector) - 2편
 category: CSS
 tags:
   - css
-created: 2020-01-22T00:00:00.000+09:00
-updated: 2022-08-22T12:05:24.067+09:00
+aliases:
+  - 선택자(selector) - 2편
+created: 2020-01-21T15:00:00.000Z
+updated: 2022-09-05T05:04:22.262Z
 ---
 
 # {{ $frontmatter.title }}

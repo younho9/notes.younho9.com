@@ -4,11 +4,20 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - 클래스(Class)
   - class
   - 클래스
-publish: true
-created: 2022-01-01T12:14:00.000+09:00
-updated: 2022-01-01T17:01:00.000+09:00
+related:
+  - 클래스(Class)
+  - 구문적-설탕(Syntatic-sugar)
+  - enumerable(열거-가능)
+  - for-of-vs-for-in
+  - JavaScript-객체(Object)
+  - 엄격-모드(strict-mode)
+  - 프로토타입(prototype)
+  - Object
+created: 2022-01-01T03:14:00.000Z
+updated: 2022-09-05T05:04:22.340Z
 ---
 
 # {{ $frontmatter.title }}
@@ -95,7 +104,7 @@ rabbit.hide(); // 흰 토끼 이/가 숨었습니다!
 ## Related
 
 - [[프로토타입(prototype)]]
-- [[Object.create()]]
+- [[Object|Object.create()]]
 
 ## References
 

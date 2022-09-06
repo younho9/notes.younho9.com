@@ -2,18 +2,22 @@
 title: 교차 출처(Cross Origin)
 category: Glossary
 tags:
+  - glossary
   - web
   - terms
-  - glossary
   - url
 aliases:
+  - 교차 출처(Cross Origin)
   - Cross Origin(교차 출처)
   - Cross Origin
   - cross-origin
   - 교차 출처
-publish: true
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:13:00.000+09:00
+related:
+  - CORS(Cross-Origin-Resource-Sharing)
+  - 동일-출처(Same-Origin)
+  - 출처(Origin)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.204Z
 ---
 
 # {{ $frontmatter.title }}

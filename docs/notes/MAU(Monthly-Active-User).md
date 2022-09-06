@@ -2,13 +2,13 @@
 title: MAU(Monthly Active User)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - MAU(Monthly Active User)
   - 월간 활성 사용자
-publish: true
-created: 2022-01-05T19:45:00.000+09:00
-updated: 2022-01-05T19:45:00.000+09:00
+created: 2022-01-05T10:45:00.000Z
+updated: 2022-09-05T05:04:21.837Z
 ---
 
 # {{ $frontmatter.title }}

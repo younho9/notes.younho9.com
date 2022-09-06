@@ -6,9 +6,8 @@ tags:
   - terms
 aliases:
   - 거버넌스(Governance)
-publish: true
-created: 2022-08-11T17:09:00.000+09:00
-updated: 2022-08-11T17:09:00.000+09:00
+created: 2022-08-11T08:09:00.000Z
+updated: 2022-09-05T05:04:22.199Z
 ---
 
 # {{ $frontmatter.title }}

@@ -3,10 +3,10 @@ title: React
 category: React
 tags:
   - react
-  - react
-publish: true
-created: 2022-01-02T16:52:00.000+09:00
-updated: 2022-01-02T16:52:00.000+09:00
+aliases:
+  - React
+created: 2022-01-02T07:52:00.000Z
+updated: 2022-09-05T05:04:21.941Z
 ---
 
 # {{ $frontmatter.title }}

@@ -2,11 +2,12 @@
 title: 정규화(Normalization)
 category: Glossary
 tags:
-  - terms
   - glossary
-publish: true
-created: 2022-01-12T00:36:00.000+09:00
-updated: 2022-01-12T00:36:00.000+09:00
+  - terms
+aliases:
+  - 정규화(Normalization)
+created: 2022-01-11T15:36:00.000Z
+updated: 2022-09-05T05:04:22.308Z
 ---
 
 # {{ $frontmatter.title }}

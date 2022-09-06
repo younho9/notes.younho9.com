@@ -3,8 +3,10 @@ title: Programmers 2020 카카오 인턴십 경주로 건설
 category: Algorithm
 tags:
   - algorithm
-created: 2020-09-09T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+aliases:
+  - Programmers 2020 카카오 인턴십 경주로 건설
+created: 2020-09-08T15:00:00.000Z
+updated: 2022-09-05T05:04:21.879Z
 ---
 
 # {{ $frontmatter.title }}

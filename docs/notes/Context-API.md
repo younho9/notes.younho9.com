@@ -3,9 +3,12 @@ title: Context API
 category: React
 tags:
   - react
-publish: true
-created: 2022-01-01T21:24:00.000+09:00
-updated: 2022-01-01T21:24:00.000+09:00
+aliases:
+  - Context API
+related:
+  - Context-API-vs-Redux
+created: 2022-01-01T12:24:00.000Z
+updated: 2022-09-05T05:04:21.789Z
 ---
 
 # {{ $frontmatter.title }}

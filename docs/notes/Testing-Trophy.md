@@ -9,9 +9,12 @@ aliases:
   - Testing Trophy
   - 테스팅 트로피
   - 테스트 트로피
-publish: true
-created: 2022-08-09T13:11:00.000+09:00
-updated: 2022-08-09T13:11:00.000+09:00
+related:
+  - Testing-JavaScript
+  - ROI(Return-Of-Investment)
+  - Test-Pyramid
+created: 2022-08-09T04:11:00.000Z
+updated: 2022-09-05T05:04:22.054Z
 ---
 
 # {{ $frontmatter.title }}

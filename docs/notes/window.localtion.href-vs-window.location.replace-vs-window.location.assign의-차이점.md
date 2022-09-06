@@ -1,11 +1,19 @@
 ---
-title: window.localtion.href vs window.location.replace vs window.location.assign의 차이점
+title: >-
+  window.localtion.href vs window.location.replace vs window.location.assign의
+  차이점
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:16:00.000+09:00
+aliases:
+  - >-
+    window.localtion.href vs window.location.replace vs window.location.assign의
+    차이점
+related:
+  - href
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.191Z
 ---
 
 # {{ $frontmatter.title }}

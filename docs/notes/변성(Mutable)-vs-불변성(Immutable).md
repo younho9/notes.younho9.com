@@ -2,12 +2,19 @@
 title: 변성(Mutable) vs 불변성(Immutable)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
   - vs
-publish: true
-created: 2022-01-06T13:39:00.000+09:00
-updated: 2022-01-06T16:22:00.000+09:00
+aliases:
+  - 변성(Mutable) vs 불변성(Immutable)
+related:
+  - pass-by-reference-vs-pass-by-value
+  - 원시-값(Primitive)
+  - JavaScript-객체(Object)
+  - 엄격-모드(strict-mode)
+  - 순수-함수(Pure-Functions)
+created: 2022-01-06T04:39:00.000Z
+updated: 2022-09-05T05:04:22.246Z
 ---
 
 # {{ $frontmatter.title }}

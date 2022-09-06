@@ -3,8 +3,10 @@ title: Programmers 42578. 위장
 category: Algorithm
 tags:
   - algorithm
-created: 2020-09-22T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+aliases:
+  - Programmers 42578. 위장
+created: 2020-09-21T15:00:00.000Z
+updated: 2022-09-05T05:04:21.889Z
 ---
 
 # {{ $frontmatter.title }}

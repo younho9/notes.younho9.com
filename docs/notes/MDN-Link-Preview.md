@@ -3,9 +3,12 @@ title: MDN Link Preview
 category: Project
 tags:
   - project
-publish: true
-created: 2022-02-26T16:34:00.000+09:00
-updated: 2022-02-26T16:34:00.000+09:00
+aliases:
+  - MDN Link Preview
+related:
+  - '2022-02-26'
+created: 2022-02-26T07:34:00.000Z
+updated: 2022-09-05T05:04:21.852Z
 ---
 
 # {{ $frontmatter.title }}

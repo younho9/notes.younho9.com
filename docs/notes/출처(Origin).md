@@ -2,17 +2,22 @@
 title: 출처(Origin)
 category: Glossary
 tags:
+  - glossary
   - web
   - terms
-  - glossary
   - url
 aliases:
+  - 출처(Origin)
   - Origin(출처)
   - Origin
   - 오리진
   - 출처
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+related:
+  - 교차-출처(Cross-Origin)
+  - 동일-출처(Same-Origin)
+  - CORS(Cross-Origin-Resource-Sharing)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.324Z
 ---
 
 # {{ $frontmatter.title }}

@@ -2,16 +2,23 @@
 title: 세션 쿠키(Session Cookie)
 category: Web API
 tags:
+  - web_api
   - web
   - browser
   - terms
   - glossary
 aliases:
+  - 세션 쿠키(Session Cookie)
   - 세션 쿠키
   - Session Cookie
-publish: true
-created: 2021-12-30T16:28:00.000+09:00
-updated: 2021-12-30T17:49:00.000+09:00
+related:
+  - 쿠키(cookie)
+  - 세션(Session)
+  - sessionStorage
+  - 도메인(Domain)
+  - 지속-쿠키(Permanent-Cookie)
+created: 2021-12-30T07:28:00.000Z
+updated: 2022-09-05T05:04:22.266Z
 ---
 
 # {{ $frontmatter.title }}

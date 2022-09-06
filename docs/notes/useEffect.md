@@ -3,11 +3,16 @@ title: useEffect
 category: React
 tags:
   - react
-  - react
-  - react
-publish: true
-created: 2022-01-02T17:27:00.000+09:00
-updated: 2022-01-02T18:07:00.000+09:00
+aliases:
+  - useEffect
+related:
+  - 부수-효과(Side-Effect)
+  - 의존성-배열(dependency-list)
+  - 브라우저-렌더링-3
+  - 브라우저-렌더링-4
+  - 브라우저-렌더링-1
+created: 2022-01-02T08:27:00.000Z
+updated: 2022-09-05T05:04:22.182Z
 ---
 
 # {{ $frontmatter.title }}
@@ -21,8 +26,8 @@ updated: 2022-01-02T18:07:00.000+09:00
 
 ![useEffect-vs-useLayoutEffect](./images/useEffect-vs-useLayoutEffect.png)
 
-- useEffect : 브라우저의 [[브라우저-렌더링---3.-레이아웃(Layout)-단계|브라우저 렌더링 - 3. 레이아웃(Layout) 단계]]와 [[브라우저-렌더링---4.-페인트(Paint)-단계|브라우저 렌더링 - 4. 페인트(Paint) 단계]]을 완료한 이후에 발생한다.
-- useLayoutEffect : 모든 [[브라우저-렌더링---1.-파싱(Parsing)-단계|브라우저 렌더링 - 1. 파싱(Parsing) 단계]]에 동기적으로 발생한다.
+- useEffect : 브라우저의 [[브라우저-렌더링-3|브라우저 렌더링 - 3. 레이아웃(Layout) 단계]]와 [[브라우저-렌더링-4|브라우저 렌더링 - 4. 페인트(Paint) 단계]]을 완료한 이후에 발생한다.
+- useLayoutEffect : 모든 [[브라우저-렌더링-1|브라우저 렌더링 - 1. 파싱(Parsing) 단계]]에 동기적으로 발생한다.
 - 이펙트 콜백이 **DOM을 변형**시킨다면, useLayoutEffect를 사용해야 한다.
 
   - DOM이 렌더링 된 이후, 이펙트가 실행되기 전에 DOM에 변형을 해야되는 경우

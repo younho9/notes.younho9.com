@@ -4,10 +4,13 @@ category: JavaScript
 tags:
   - javascript
 aliases:
-  - alias
-publish: true
-created: 2021-12-31T21:55:00.000+09:00
-updated: 2021-12-31T21:55:00.000+09:00
+  - 실행 컨텍스트(Execution Context)
+related:
+  - 스코프(Scope)
+  - this
+  - 호이스팅(hoisting)
+created: 2021-12-31T12:55:00.000Z
+updated: 2022-09-05T05:04:22.272Z
 ---
 
 # {{ $frontmatter.title }}

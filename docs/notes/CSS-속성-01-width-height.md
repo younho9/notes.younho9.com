@@ -3,8 +3,10 @@ title: CSS 속성 01. width height
 category: CSS
 tags:
   - css
-created: 2020-02-03T00:00:00.000+09:00
-updated: 2022-08-22T12:56:04.686+09:00
+aliases:
+  - CSS 속성 01. width height
+created: 2020-02-02T15:00:00.000Z
+updated: 2022-09-05T05:04:21.742Z
 ---
 
 # {{ $frontmatter.title }}

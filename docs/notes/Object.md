@@ -4,10 +4,12 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - Object
   - Object.create
-publish: true
-created: 2022-01-01T12:11:00.000+09:00
-updated: 2022-01-01T12:11:00.000+09:00
+related:
+  - 클래스(Class)
+created: 2022-01-01T03:11:00.000Z
+updated: 2022-09-05T05:04:21.863Z
 ---
 
 # {{ $frontmatter.title }}

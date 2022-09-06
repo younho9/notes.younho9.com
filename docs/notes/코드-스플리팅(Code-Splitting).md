@@ -2,12 +2,13 @@
 title: 코드 스플리팅(Code Splitting)
 category: Glossary
 tags:
+  - glossary
   - webpack
   - terms
-  - glossary
-publish: true
-created: 2022-01-05T21:09:00.000+09:00
-updated: 2022-01-05T21:09:00.000+09:00
+aliases:
+  - 코드 스플리팅(Code Splitting)
+created: 2022-01-05T12:09:00.000Z
+updated: 2022-09-05T05:04:22.327Z
 ---
 
 # {{ $frontmatter.title }}

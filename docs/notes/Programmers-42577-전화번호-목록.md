@@ -3,8 +3,10 @@ title: Programmers 42577. 전화번호 목록
 category: Algorithm
 tags:
   - algorithm
-created: 2020-09-22T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+aliases:
+  - Programmers 42577. 전화번호 목록
+created: 2020-09-21T15:00:00.000Z
+updated: 2022-09-05T05:04:21.880Z
 ---
 
 # {{ $frontmatter.title }}

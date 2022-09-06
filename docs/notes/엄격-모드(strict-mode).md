@@ -4,10 +4,9 @@ category: JavaScript
 tags:
   - javascript
 aliases:
-  - alias
-publish: true
-created: 2022-01-06T13:46:00.000+09:00
-updated: 2022-01-06T13:46:00.000+09:00
+  - 엄격 모드(strict mode)
+created: 2022-01-06T04:46:00.000Z
+updated: 2022-09-05T05:04:22.281Z
 ---
 
 # {{ $frontmatter.title }}

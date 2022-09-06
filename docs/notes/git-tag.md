@@ -4,11 +4,10 @@ category: Git
 tags:
   - git
 aliases:
-  - tag
-  - 태그
   - git tag
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2022-05-19T10:22:00.000+09:00
+  - 태그
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.134Z
 ---
 
 # {{ $frontmatter.title }}

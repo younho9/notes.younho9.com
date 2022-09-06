@@ -3,8 +3,10 @@ title: CSS 속성 17. grid
 category: CSS
 tags:
   - css
-created: 2020-02-03T00:00:00.000+09:00
-updated: 2022-08-22T12:57:07.258+09:00
+aliases:
+  - CSS 속성 17. grid
+created: 2020-02-02T15:00:00.000Z
+updated: 2022-09-05T05:04:21.876Z
 ---
 
 # {{ $frontmatter.title }}

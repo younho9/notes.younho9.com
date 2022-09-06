@@ -2,13 +2,19 @@
 title: sessionStorage
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
 aliases:
+  - sessionStorage
   - 세션 스토리지
-publish: true
-created: 2021-12-30T16:13:00.000+09:00
-updated: 2021-12-30T17:49:00.000+09:00
+related:
+  - 쿠키(cookie)
+  - 도메인(Domain)
+  - 세션(Session)
+  - 웹-스토리지(Web-Storage)
+  - localStorage
+created: 2021-12-30T07:13:00.000Z
+updated: 2022-09-05T05:04:22.171Z
 ---
 
 # {{ $frontmatter.title }}

@@ -2,16 +2,20 @@
 title: HTTP 프로토콜
 category: HTTP
 tags:
-  - web
   - http
+  - web
   - protocol
 aliases:
+  - HTTP 프로토콜
   - HTTP
   - HTTP(HyperText Transfer Protocol)
   - HyperText Transfer Protocol
-publish: true
-created: 2021-12-30T18:06:00.000+09:00
-updated: 2021-12-30T18:06:00.000+09:00
+related:
+  - OSI-7-Layer-vs-TCP-IP-4-Layer
+  - 클라이언트-서버-모델
+  - HTTPS-프로토콜
+created: 2021-12-30T09:06:00.000Z
+updated: 2022-09-05T05:04:21.827Z
 ---
 
 # {{ $frontmatter.title }}

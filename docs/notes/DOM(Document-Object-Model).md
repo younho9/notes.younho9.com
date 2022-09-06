@@ -2,10 +2,12 @@
 title: DOM(Document Object Model)
 category: Web API
 tags:
+  - web_api
   - javascript
-  - web-api
-created: 2020-05-15T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+aliases:
+  - DOM(Document Object Model)
+created: 2020-05-14T15:00:00.000Z
+updated: 2022-09-05T05:04:21.802Z
 ---
 
 # {{ $frontmatter.title }}
@@ -260,10 +262,10 @@ if (elem.hasChildNodes()) {
 
 | 노드                      | 프로퍼티 값              |
 | ------------------------- | ------------------------ |
-| 문서 노드(document node)  | #document                |
+| 문서 노드(document node)  | `#document`              |
 | 요소 노드(element node)   | 태그 이름(영어로 대문자) |
 | 속성 노드(attribute node) | 속성 이름                |
-| 텍스트 노드(text node)    | #text                    |
+| 텍스트 노드(text node)    | `#text`                  |
 
 ### nodeType
 

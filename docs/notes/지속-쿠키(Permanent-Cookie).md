@@ -7,12 +7,16 @@ tags:
   - terms
   - glossary
 aliases:
+  - 지속 쿠키(Permanent Cookie)
   - 지속 쿠키
   - 영속적인 쿠키
   - Permanent Cookie
-publish: true
-created: 2021-12-30T16:28:00.000+09:00
-updated: 2021-12-30T16:28:00.000+09:00
+related:
+  - 세션-쿠키(Session-Cookie)
+  - 세션(Session)
+  - 쿠키(cookie)
+created: 2021-12-30T07:28:00.000Z
+updated: 2022-09-05T05:04:22.315Z
 ---
 
 # {{ $frontmatter.title }}

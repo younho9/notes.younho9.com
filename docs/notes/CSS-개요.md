@@ -3,8 +3,10 @@ title: CSS 개요
 category: CSS
 tags:
   - css
-created: 2020-01-22T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+aliases:
+  - CSS 개요
+created: 2020-01-21T15:00:00.000Z
+updated: 2022-09-05T05:04:21.734Z
 ---
 
 # {{ $frontmatter.title }}

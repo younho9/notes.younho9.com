@@ -4,10 +4,9 @@ category: CSS
 tags:
   - css
 aliases:
-  - alias
-publish: true
-created: 2022-01-09T23:35:00.000+09:00
-updated: 2022-01-09T23:35:00.000+09:00
+  - 쌓임 맥락(Stacking Context)
+created: 2022-01-09T14:35:00.000Z
+updated: 2022-09-05T05:04:22.274Z
 ---
 
 # {{ $frontmatter.title }}

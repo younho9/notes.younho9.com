@@ -1,7 +1,61 @@
 <script setup>
 import {ref, onMounted, onBeforeUnmount} from 'vue';
-import {data} from './graph/data';
+import data from '../../../data.json';
 import * as d3 from 'd3';
+import {values, uniq, fromPairs, toPairs} from 'lodash-es';
+
+const buildNodeInfo = (data) => {
+	const files = values(data).flat();
+	const fileNodes = fromPairs(
+		files.map(({fileName, title, tags = [], related = []}) => [
+			fileName,
+			{
+				id: fileName,
+				type: 'note',
+				title,
+				tags,
+				related,
+				neighbors: [...tags, ...related],
+				links: [
+					...tags.map((tag) => ({source: tag, target: fileName})),
+					...related.map((relate) => ({source: fileName, target: relate})),
+				],
+			},
+		]),
+	);
+	const tagNodes = fromPairs(
+		uniq(files.map((file) => file?.tags ?? []).flat()).map((tag) => [
+			tag,
+			{
+				id: tag,
+				type: 'tag',
+				title: tag,
+				neighbors: [],
+				links: [],
+			},
+		]),
+	);
+
+	toPairs(fileNodes).map(([id, fileNodeInfo]) => {
+		fileNodeInfo.tags.forEach((tag) => {
+			tagNodes[tag].neighbors.push(id);
+			tagNodes[tag].links.push({source: tag, target: id});
+		});
+		fileNodeInfo.related.forEach((relate) => {
+			if (fileNodes[relate]) {
+				fileNodes[relate].neighbors.push(id);
+				fileNodes[relate].links.push({source: id, target: relate});
+			}
+		});
+	});
+
+	const nodeInfo = {...fileNodes, ...tagNodes};
+	const links = values(nodeInfo)
+		.map((node) => node.links)
+		.flat();
+
+	return {nodeInfo, links};
+};
 
 const checkDark = () => document.documentElement.classList.contains('dark');
 const isDark = ref(checkDark());
@@ -19,8 +73,8 @@ onMounted(async () => {
 	graph = (await import('force-graph')).default();
 
 	initDataviz();
+	const graphData = buildNodeInfo(data);
 
-	const graphData = augmentGraphInfo(data);
 	Actions.refreshWorkspaceData(graphData);
 
 	window.addEventListener('resize', resizeGraph);
@@ -218,39 +272,6 @@ function initDataviz() {
 		.zoom(1.2);
 }
 
-function augmentGraphInfo(graph) {
-	Object.values(graph.nodeInfo).forEach((node) => {
-		node.neighbors = [];
-		node.links = [];
-		if (node.tags && node.tags.length > 0) {
-			node.tags.forEach((tag) => {
-				const tagNode = {
-					id: tag.label,
-					title: tag.label,
-					type: 'tag',
-					properties: {},
-					neighbors: [],
-					links: [],
-				};
-				graph.nodeInfo[tag.label] = tagNode;
-				graph.links.push({
-					source: tagNode.id,
-					target: node.id,
-				});
-			});
-		}
-	});
-	graph.links.forEach((link) => {
-		const a = graph.nodeInfo[link.source];
-		const b = graph.nodeInfo[link.target];
-		a.neighbors.push(b.id);
-		b.neighbors.push(a.id);
-		a.links.push(link);
-		b.links.push(link);
-	});
-	return graph;
-}
-
 function updateForceGraphDataFromModel(m) {
 	const nodeIdsToAdd = new Set(
 		Object.values(m.graph.nodeInfo ?? {})
@@ -319,9 +340,7 @@ function getNodeTypeColor(type, model) {
 function getNodeColor(nodeId, model) {
 	const info = model.graph.nodeInfo[nodeId];
 	const style = model.style;
-	const typeFill = info.properties.color
-		? d3.rgb(info.properties.color)
-		: d3.rgb(getNodeTypeColor(info.type, model));
+	const typeFill = d3.rgb(getNodeTypeColor(info.type, model));
 	switch (getNodeState(nodeId, model)) {
 		case 'regular':
 			return {fill: typeFill, border: typeFill};

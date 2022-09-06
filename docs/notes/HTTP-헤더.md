@@ -2,13 +2,15 @@
 title: HTTP 헤더
 category: HTTP
 tags:
-  - web
   - http
+  - web
 aliases:
-  - HTTP Header
   - HTTP 헤더
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+  - HTTP Header
+related:
+  - HTTP-Request
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:21.824Z
 ---
 
 # {{ $frontmatter.title }}

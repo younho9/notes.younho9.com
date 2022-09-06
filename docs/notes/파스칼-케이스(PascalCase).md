@@ -2,13 +2,16 @@
 title: 파스칼 케이스(PascalCase)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 파스칼 케이스(PascalCase)
   - 파스칼 케이스
   - PascalCase
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+related:
+  - 카멜-케이스(camelCase)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.339Z
 ---
 
 # {{ $frontmatter.title }}

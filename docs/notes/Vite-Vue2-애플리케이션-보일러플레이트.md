@@ -3,9 +3,10 @@ title: Vite Vue2 애플리케이션 보일러플레이트
 category: Vue
 tags:
   - vue
-publish: true
-created: 2022-01-20T15:16:00.000+09:00
-updated: 2022-01-20T15:16:00.000+09:00
+aliases:
+  - Vite Vue2 애플리케이션 보일러플레이트
+created: 2022-01-20T06:16:00.000Z
+updated: 2022-09-05T05:04:22.094Z
 ---
 
 # {{ $frontmatter.title }}

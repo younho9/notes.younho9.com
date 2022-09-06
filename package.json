@@ -11,6 +11,7 @@
 		"docs:build": "yarn generate:data && vitepress build docs",
 		"docs:serve": "vitepress serve docs",
 		"docs:format": "yarn format docs",
+		"docs:update-frontmatter": "node scripts/update-frontmatter.mjs",
 		"generate:data": "node scripts/generate-data.mjs",
 		"generate:data:watch": "nodemon --watch docs -e md -x 'yarn generate:data'"
 	},
@@ -19,6 +20,9 @@
 		"*.{js,jsx,ts,tsx,json,css,md,mdx}": [
 			"yarn format",
 			"case-police"
+		],
+		"docs/(notes|journals)/*.md": [
+			"yarn docs:update-frontmatter"
 		]
 	},
 	"dependencies": {
@@ -26,6 +30,7 @@
 		"markdown-it-wikilinks": "^1.2.0"
 	},
 	"devDependencies": {
+		"@sindresorhus/is": "^5.3.0",
 		"@types/node": "^18.0.0",
 		"@younho9/prettier-config": "^2.3.1",
 		"case-police": "^0.5.9",
@@ -37,6 +42,8 @@
 		"husky": "^8.0.1",
 		"lint-staged": "^13.0.3",
 		"lodash-es": "^4.17.21",
+		"markdown-it": "^13.0.1",
+		"markdown-it-regexp": "^0.4.0",
 		"nodemon": "^2.0.19",
 		"patch-package": "^6.4.7",
 		"pluralize": "^8.0.0",

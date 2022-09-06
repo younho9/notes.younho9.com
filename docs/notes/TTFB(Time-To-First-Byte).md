@@ -4,9 +4,12 @@ category: Web
 tags:
   - web
   - performance
-publish: true
-created: 2022-01-09T00:05:00.000+09:00
-updated: 2022-01-09T00:05:00.000+09:00
+aliases:
+  - TTFB(Time To First Byte)
+related:
+  - CSR-vs-SSR-vs-SSG
+created: 2022-01-08T15:05:00.000Z
+updated: 2022-09-05T05:04:22.057Z
 ---
 
 # {{ $frontmatter.title }}

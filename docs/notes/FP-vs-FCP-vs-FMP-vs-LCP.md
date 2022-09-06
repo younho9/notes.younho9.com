@@ -6,11 +6,18 @@ tags:
   - performance
   - lighthouse
 aliases:
-  - FP(First Paint) vs FCP(First Contentful Paint) vs FMP(First Meaningful Paint) vs LCP(Largest Contentful Paint)
-  - First Paint vs First Contentful Paint vs First Meaningful Paint vs Largest Contentful Paint
-publish: true
-created: 2022-01-08T15:47:00.000+09:00
-updated: 2022-01-08T15:47:00.000+09:00
+  - FP vs FCP vs FMP vs LCP
+  - >-
+    FP(First Paint) vs FCP(First Contentful Paint) vs FMP(First Meaningful
+    Paint) vs LCP(Largest Contentful Paint)
+  - >-
+    First Paint vs First Contentful Paint vs First Meaningful Paint vs Largest
+    Contentful Paint
+related:
+  - TTFB(Time-To-First-Byte)
+  - CSR-vs-SSR-vs-SSG
+created: 2022-01-08T06:47:00.000Z
+updated: 2022-09-05T05:04:21.810Z
 ---
 
 # {{ $frontmatter.title }}

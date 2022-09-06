@@ -2,12 +2,14 @@
 title: WebStorm 유용한 단축키 모음
 category: Tools
 tags:
+  - tools
   - webstorm
   - jetbrains
   - idea
-publish: true
-created: 2022-01-27T10:29:00.000+09:00
-updated: 2022-01-27T10:29:00.000+09:00
+aliases:
+  - WebStorm 유용한 단축키 모음
+created: 2022-01-27T01:29:00.000Z
+updated: 2022-09-05T05:04:22.102Z
 ---
 
 # {{ $frontmatter.title }}

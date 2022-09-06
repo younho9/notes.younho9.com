@@ -3,8 +3,10 @@ title: Sass import
 category: CSS
 tags:
   - css
-created: 2020-03-21T00:00:00.000+09:00
-updated: 2022-08-22T11:43:26.189+09:00
+aliases:
+  - Sass import
+created: 2020-03-20T15:00:00.000Z
+updated: 2022-09-05T05:04:21.973Z
 ---
 
 # {{ $frontmatter.title }}

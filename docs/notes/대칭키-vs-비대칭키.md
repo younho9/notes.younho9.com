@@ -4,13 +4,15 @@ category: Authentication
 tags:
   - authentication
 aliases:
+  - 대칭키 vs 비대칭키
   - 대칭키와 비대칭키
   - 대칭키와 공개키
   - 대칭키와 비대칭키(공개키)
   - 대칭키와 공개키(비대칭키)
-publish: true
-created: 2021-12-31T12:24:00.000+09:00
-updated: 2021-12-31T12:24:00.000+09:00
+related:
+  - SSL-vs-TLS
+created: 2021-12-31T03:24:00.000Z
+updated: 2022-09-05T05:04:22.209Z
 ---
 
 # {{ $frontmatter.title }}

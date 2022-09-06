@@ -2,13 +2,12 @@
 title: alpine
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
-  - alias
-publish: true
-created: 2022-03-24T10:39:00.000+09:00
-updated: 2022-03-24T10:39:00.000+09:00
+  - alpine
+created: 2022-03-24T01:39:00.000Z
+updated: 2022-09-05T05:04:22.105Z
 ---
 
 # {{ $frontmatter.title }}

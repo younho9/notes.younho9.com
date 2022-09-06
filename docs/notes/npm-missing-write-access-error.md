@@ -2,11 +2,12 @@
 title: npm missing write access error
 category: Troubleshooting
 tags:
+  - troubleshooting
   - npm
-  - troubleshooting
-  - troubleshooting
-created: 2021-03-09T00:00:00.000+09:00
-updated: 2022-08-22T11:54:20.391+09:00
+aliases:
+  - npm missing write access error
+created: 2021-03-08T15:00:00.000Z
+updated: 2022-09-05T05:04:22.163Z
 ---
 
 # {{ $frontmatter.title }}

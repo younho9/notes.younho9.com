@@ -4,15 +4,17 @@ category: CSS
 tags:
   - css
 aliases:
+  - CSS 박스 모델
   - Box Model
-publish: true
-created: 2022-01-09T23:19:00.000+09:00
-updated: 2022-01-09T23:19:00.000+09:00
+related:
+  - block-vs-inline-vs-inline-block
+created: 2022-01-09T14:19:00.000Z
+updated: 2022-09-05T05:04:21.740Z
 ---
 
 # {{ $frontmatter.title }}
 
-- CSS에는 크게 **[[block,-inline,-inline-block의-차이점|block, inline, inline-block의 차이점]]** 유형이 있다.
+- CSS에는 크게 **[[block-vs-inline-vs-inline-block|block, inline, inline-block]]** 유형이 있다.
 - CSS 박스 모델은 블록 박스에 적용되며, 인라인 박스는 일부 동작만 사용한다.
 
 ![box-model](https://mdn.mozillademos.org/files/16558/box-model.png)
