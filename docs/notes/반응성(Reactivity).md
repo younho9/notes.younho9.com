@@ -6,13 +6,9 @@ tags:
 aliases:
   - 반응성(Reactivity)
 created: 2022-08-09T06:17:00.000Z
-updated: 2022-09-05T05:04:22.238Z
+updated: 2022-09-06T02:59:43.960Z
 ---
 
 # {{ $frontmatter.title }}
 
 - Vue는 JavaScript 상태(State) 변경을 추적하고, 변경이 발생하면 DOM을 효율적으로 업데이트하는 것을 자동으로 수행한다.
-
-## Related
-
-## References

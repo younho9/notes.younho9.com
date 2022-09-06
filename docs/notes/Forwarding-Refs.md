@@ -7,7 +7,7 @@ aliases:
   - Forwarding Refs
   - Ref 전달
 created: 2022-01-09T07:27:00.000Z
-updated: 2022-09-05T05:04:21.813Z
+updated: 2022-09-06T02:59:43.710Z
 ---
 
 # {{ $frontmatter.title }}
@@ -32,8 +32,6 @@ const FancyButton = React.forwardRef((props, ref) => (
 const ref = React.createRef();
 <FancyButton ref={ref}>Click me!</FancyButton>;
 ```
-
-## Related
 
 ## References
 

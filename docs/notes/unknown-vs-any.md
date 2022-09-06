@@ -8,7 +8,7 @@ aliases:
   - unknown vs any
   - unknown과 any의 차이점
 created: 2022-01-01T10:24:00.000Z
-updated: 2022-09-05T05:04:22.180Z
+updated: 2022-09-06T02:59:43.899Z
 ---
 
 # {{ $frontmatter.title }}
@@ -17,8 +17,6 @@ updated: 2022-09-05T05:04:22.180Z
 
 - unknown : 무엇이든 할당할 수 있다. 작업을 하려면 유형 검사 또는 유형 어설션을 수행해야 한다.
 - any : 무엇이든 할당할 수 있다. 유형 검사 또는 유형 어설션 없이 모든 작업을 수행할 수 있다.
-
-## Related
 
 ## References
 

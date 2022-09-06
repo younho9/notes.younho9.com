@@ -8,11 +8,7 @@ aliases:
   - MAU(Monthly Active User)
   - 월간 활성 사용자
 created: 2022-01-05T10:45:00.000Z
-updated: 2022-09-05T05:04:21.837Z
+updated: 2022-09-06T02:59:43.743Z
 ---
 
 # {{ $frontmatter.title }}
-
-## Related
-
-## References

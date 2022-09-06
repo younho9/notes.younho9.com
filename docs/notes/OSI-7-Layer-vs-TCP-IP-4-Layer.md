@@ -9,7 +9,7 @@ tags:
 aliases:
   - OSI 7 Layer vs TCP IP 4 Layer
 created: 2021-12-31T02:43:00.000Z
-updated: 2022-09-05T05:04:21.854Z
+updated: 2022-09-06T02:59:43.748Z
 ---
 
 # {{ $frontmatter.title }}
@@ -32,8 +32,6 @@ updated: 2022-09-05T05:04:21.854Z
 ## Network Layer(네트워크 계층)
 
 - IP, ICMP
-
-## Related
 
 ## References
 

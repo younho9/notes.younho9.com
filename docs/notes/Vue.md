@@ -10,7 +10,7 @@ related:
   - 반응성(Reactivity)
   - React-vs-Vue
 created: 2022-01-18T09:06:00.000Z
-updated: 2022-09-05T05:04:22.096Z
+updated: 2022-09-06T02:59:43.793Z
 ---
 
 # {{ $frontmatter.title }}
@@ -31,8 +31,7 @@ updated: 2022-09-05T05:04:22.096Z
 
 ## References
 
-[Vue.js - The Progressive JavaScript Framework | Vue.js (vuejs.org)](https://vuejs.org/)
-
+- [Vue.js - The Progressive JavaScript Framework | Vue.js (vuejs.org)](https://vuejs.org/)
 - [Vue3 한국어 문서](https://v3-docs.vuejs-korea.org/guide/introduction.html)
   - [vuejs-kr/docs-next: Vue 3 한글 번역 (github.com)](https://github.com/vuejs-kr/docs-next)
 - https://www.vuemastery.com/pricing

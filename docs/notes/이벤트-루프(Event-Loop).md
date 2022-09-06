@@ -7,7 +7,7 @@ aliases:
   - 이벤트 루프(Event Loop)
   - 이벤트 루프
 created: 2022-01-05T12:35:00.000Z
-updated: 2022-09-05T05:04:22.303Z
+updated: 2022-09-06T02:59:43.995Z
 ---
 
 # {{ $frontmatter.title }}
@@ -23,8 +23,6 @@ updated: 2022-09-05T05:04:22.303Z
 | (Macro)task | `setTimeout` , `setInterval` , `setImmediate`              |
 | ----------- | ---------------------------------------------------------- |
 | Microtask   | `process.nextTick` , `Promise callback` , `queueMicrotask` |
-
-## Related
 
 ## References
 

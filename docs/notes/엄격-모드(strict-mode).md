@@ -6,7 +6,7 @@ tags:
 aliases:
   - 엄격 모드(strict mode)
 created: 2022-01-06T04:46:00.000Z
-updated: 2022-09-05T05:04:22.281Z
+updated: 2022-09-06T02:59:43.985Z
 ---
 
 # {{ $frontmatter.title }}
@@ -17,8 +17,6 @@ updated: 2022-09-05T05:04:22.281Z
 2. 변수의 할당이 실패했을 때 예외 발생
 3. 삭제할 수 없는 프로퍼티에 예외 발생
 4. 전역에서 this가 undefined가 됨.
-
-## Related
 
 ## References
 

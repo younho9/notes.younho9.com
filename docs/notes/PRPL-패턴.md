@@ -8,7 +8,7 @@ aliases:
   - PRPL 패턴
   - PRPL Pattern
 created: 2022-01-08T06:44:00.000Z
-updated: 2022-09-05T05:04:21.862Z
+updated: 2022-09-06T02:59:43.753Z
 ---
 
 # {{ $frontmatter.title }}
@@ -17,8 +17,6 @@ updated: 2022-09-05T05:04:21.862Z
 - Render : 가능한 빠르게 렌더링
 - Pre-cache : 나머지 리소스들을 캐시함.
 - Lazy load : 다른 경로나 중요하지 않은 리소스를 나중에 로드함.
-
-## Related
 
 ## References
 

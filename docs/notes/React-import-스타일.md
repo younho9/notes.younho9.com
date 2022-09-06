@@ -6,7 +6,7 @@ tags:
 aliases:
   - React import 스타일
 created: 2022-01-03T16:22:00.000Z
-updated: 2022-09-05T05:04:21.943Z
+updated: 2022-09-06T02:59:43.759Z
 ---
 
 # {{ $frontmatter.title }}
@@ -46,8 +46,6 @@ function App() {
 	return <h1>{text}</h1>;
 }
 ```
-
-## Related
 
 ## References
 

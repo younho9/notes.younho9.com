@@ -13,7 +13,7 @@ related:
   - 호이스팅(hoisting)
   - var-vs-let-vs-const
 created: 2021-12-31T12:53:00.000Z
-updated: 2022-09-05T05:04:22.267Z
+updated: 2022-09-06T02:59:43.971Z
 ---
 
 # {{ $frontmatter.title }}
@@ -25,5 +25,3 @@ updated: 2022-09-05T05:04:22.267Z
 - [[클로저(Closure)]]
 - [[호이스팅(hoisting)]]
 - [[var-vs-let-vs-const|var vs let vs const]]
-
-## References

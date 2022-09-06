@@ -12,7 +12,7 @@ related:
   - useState-vs-useReducer
   - Context-API
 created: 2022-01-05T12:24:00.000Z
-updated: 2022-09-05T05:04:21.786Z
+updated: 2022-09-06T02:59:43.663Z
 ---
 
 # {{ $frontmatter.title }}
@@ -43,8 +43,6 @@ updated: 2022-09-05T05:04:21.786Z
   - 개발 중 로직 및 UI의 더 빠른 디버깅
 - Redux + React-Redux
   - Redux의 모든 사용 사례와 React 구성 요소의 Redux 저장소와 상호 작용
-
-## Related
 
 ## References
 

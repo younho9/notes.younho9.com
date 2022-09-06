@@ -11,14 +11,12 @@ aliases:
   - 구문 설탕
   - Syntax sugar
 created: 2022-01-01T08:02:00.000Z
-updated: 2022-09-05T05:04:22.203Z
+updated: 2022-09-06T02:59:43.946Z
 ---
 
 # {{ $frontmatter.title }}
 
 - 기존 프로그래밍 언어의 문법에서, 사람이 쉽게 읽고 표현할 수 있도록, 또는 일부 사람들이 선호하는 대체 스타일로 표현하는 것.
-
-## Related
 
 ## References
 

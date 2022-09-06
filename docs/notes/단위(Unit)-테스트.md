@@ -9,11 +9,7 @@ tags:
 aliases:
   - 단위(Unit) 테스트
 created: 2022-08-09T04:53:00.000Z
-updated: 2022-09-05T05:04:22.206Z
+updated: 2022-09-06T02:59:43.949Z
 ---
 
 # {{ $frontmatter.title }}
-
-## Related
-
-## References

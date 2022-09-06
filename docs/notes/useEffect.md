@@ -12,7 +12,7 @@ related:
   - 브라우저-렌더링-4
   - 브라우저-렌더링-1
 created: 2022-01-02T08:27:00.000Z
-updated: 2022-09-05T05:04:22.182Z
+updated: 2022-09-06T02:59:43.913Z
 ---
 
 # {{ $frontmatter.title }}
@@ -34,7 +34,3 @@ updated: 2022-09-05T05:04:22.182Z
   - 사용자에게 노출되는 DOM 변경은 노출된 내용의 불일치를 경험하지 않도록 화면을 다 그리기 전에 동기화 되어야 한다.
 
 - [Hooks API Reference – React (reactjs.org)](https://ko.reactjs.org/docs/hooks-reference.html#timing-of-effects)
-
-## Related
-
-## References

@@ -7,7 +7,7 @@ tags:
 aliases:
   - Invalid Date in Safari
 created: 2022-08-21T06:00:00.000Z
-updated: 2022-09-05T05:04:21.827Z
+updated: 2022-09-06T02:59:43.726Z
 ---
 
 # {{ $frontmatter.title }}
@@ -48,8 +48,6 @@ new Date('2011-04-12 15:00'.replace(/-/g, '/'));
 ```
 
 - `yyyy/MM/dd` 형식 지원은 ECMA262 스펙에 명시되어 있지 않으나, 대부분의 브라우저에서 지원되는 것으로 보인다.
-
-## Related
 
 ## References
 

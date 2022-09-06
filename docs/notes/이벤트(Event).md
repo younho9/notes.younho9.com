@@ -13,7 +13,7 @@ aliases:
 related:
   - this
 created: 2021-12-31T07:29:00.000Z
-updated: 2022-09-05T05:04:22.299Z
+updated: 2022-09-06T02:59:43.993Z
 ---
 
 # {{ $frontmatter.title }}
@@ -56,7 +56,3 @@ $el.addEventListener(..., true)
 ## 이벤트 위임
 
 - 이벤트 버블링 개념을 활용해서 요소마다 핸들러를 할당하지 않고, 공통 부모 요소에 하나의 핸들러를 할당해서 한꺼번에 다루는 방식입니다.
-
-## Related
-
-## References

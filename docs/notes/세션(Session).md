@@ -14,7 +14,7 @@ related:
   - sessionStorage
   - 세션-쿠키(Session-Cookie)
 created: 2021-12-30T07:09:00.000Z
-updated: 2022-09-05T05:04:22.265Z
+updated: 2022-09-06T02:59:43.964Z
 ---
 
 # {{ $frontmatter.title }}
@@ -28,5 +28,3 @@ updated: 2022-09-05T05:04:22.265Z
 
 - [[세션-쿠키(Session-Cookie)|세션 쿠키(Session Cookie)]]
 - [[sessionStorage]]
-
-## References

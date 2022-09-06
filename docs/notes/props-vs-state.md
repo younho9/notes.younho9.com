@@ -14,7 +14,7 @@ aliases:
 related:
   - 매개변수(parameter)-vs-인자(argument)
 created: 2022-01-01T11:55:00.000Z
-updated: 2022-09-05T05:04:22.168Z
+updated: 2022-09-06T02:59:43.878Z
 ---
 
 # {{ $frontmatter.title }}
@@ -27,8 +27,6 @@ updated: 2022-09-05T05:04:22.168Z
 - state는 컴포넌트의 메모리와 같다.
   - 컴포넌트가 일부 정보를 추적하고, 상호작용에 대한 응답으로 변경할 수 있다.
   - 함수 내의 지역 변수처럼 컴포넌트 안에서 관리된다.
-
-## Related
 
 ## References
 

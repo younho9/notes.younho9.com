@@ -8,7 +8,7 @@ aliases:
   - 'SSL certificate problem: self signed certificate in certificate chain'
   - SSL certificate problem: self signed certificate in certificate chain
 created: 2022-08-10T01:37:00.000Z
-updated: 2022-09-05T05:04:21.948Z
+updated: 2022-09-06T02:59:43.769Z
 ---
 
 # {{ $frontmatter.title }}
@@ -76,8 +76,6 @@ pip install <package_name> --trusted-host pypi.python.org
 ```sh
 pip install --cert /path/to/your/cert.pem
 ```
-
-## Related
 
 ## References
 

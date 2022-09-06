@@ -7,7 +7,7 @@ aliases:
   - FEConf 2021 - Can I use Vue3
   - FEConf - 2021 Can I use Vue3
 created: 2022-01-22T11:02:00.000Z
-updated: 2022-09-05T05:04:21.818Z
+updated: 2022-09-06T02:59:43.697Z
 ---
 
 # {{ $frontmatter.title }}
@@ -175,8 +175,6 @@ export default Vue.extend({
 });
 </script>
 ```
-
-## Related
 
 ## References
 

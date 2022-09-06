@@ -17,7 +17,7 @@ related:
   - 동일-사이트(Same-Site)
   - 동일-출처(Same-Origin)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-05T05:04:22.210Z
+updated: 2022-09-06T02:59:43.956Z
 ---
 
 # {{ $frontmatter.title }}
@@ -30,5 +30,3 @@ updated: 2022-09-05T05:04:22.210Z
 - [[최상위-도메인(Top-Level-Domain)|최상위 도메인(Top Level Domain)]]
 - [[동일-사이트(Same-Site)|동일 사이트(Same Site)]]
 - [[동일-출처(Same-Origin)|동일 출처(Same Origin)]]
-
-## References

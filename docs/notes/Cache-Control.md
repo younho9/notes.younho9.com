@@ -9,7 +9,7 @@ aliases:
 related:
   - HTTP-헤더
 created: 2021-12-30T06:12:00.000Z
-updated: 2022-09-05T05:04:21.780Z
+updated: 2022-09-06T02:59:43.647Z
 ---
 
 # {{ $frontmatter.title }}
@@ -22,5 +22,3 @@ updated: 2022-09-05T05:04:21.780Z
 ## Related
 
 - [[HTTP-헤더|HTTP 헤더]]
-
-## References

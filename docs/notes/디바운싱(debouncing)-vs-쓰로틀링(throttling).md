@@ -10,7 +10,7 @@ aliases:
   - 디바운싱 vs 쓰로틀링
   - debouncing vs throttling
 created: 2022-01-01T09:17:00.000Z
-updated: 2022-09-05T05:04:22.216Z
+updated: 2022-09-06T02:59:43.958Z
 ---
 
 # {{ $frontmatter.title }}
@@ -19,8 +19,6 @@ updated: 2022-09-05T05:04:22.216Z
 
 - 쓰로틀링 : 이벤트 처리기가 일정 시간 동안 한 번 이상 실행되는 것을 막는 것.
 - 디바운싱 : 여러 번의 이벤트를 모아서, 일정 시간이 지난 후 한 번의 이벤트만 처리하도록 하는 것.
-
-## Related
 
 ## References
 

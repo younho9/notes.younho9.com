@@ -8,14 +8,12 @@ aliases:
   - ES modules
   - ESM
 created: 2022-08-12T00:58:00.000Z
-updated: 2022-09-05T05:04:21.796Z
+updated: 2022-09-06T02:59:43.686Z
 ---
 
 # {{ $frontmatter.title }}
 
 - ECMAScript modules는 JavaScript 코드를 패키지하는 [공식적인 표준 형식](https://tc39.es/ecma262/#sec-modules)이다.
-
-## Related
 
 ## References
 

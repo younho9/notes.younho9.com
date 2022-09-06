@@ -8,7 +8,7 @@ tags:
 aliases:
   - 유용한 Linux 명령어 모음
 created: 2022-08-12T07:42:00.000Z
-updated: 2022-09-05T05:04:22.284Z
+updated: 2022-09-06T02:59:43.987Z
 ---
 
 # {{ $frontmatter.title }}
@@ -20,7 +20,3 @@ $ ls [directory-path] | wc -l
 ```
 
 - `wc` : 개행의 수를 계산
-
-## Related
-
-## References

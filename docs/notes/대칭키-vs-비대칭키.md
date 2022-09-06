@@ -12,7 +12,7 @@ aliases:
 related:
   - SSL-vs-TLS
 created: 2021-12-31T03:24:00.000Z
-updated: 2022-09-05T05:04:22.209Z
+updated: 2022-09-06T02:59:43.953Z
 ---
 
 # {{ $frontmatter.title }}
@@ -65,5 +65,3 @@ updated: 2022-09-05T05:04:22.209Z
 ## Related
 
 - [[SSL-vs-TLS|SSL vs TLS]]
-
-## References

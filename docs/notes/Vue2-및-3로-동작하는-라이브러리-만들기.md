@@ -6,12 +6,10 @@ tags:
 aliases:
   - Vue2 및 3로 동작하는 라이브러리 만들기
 created: 2022-03-23T05:54:00.000Z
-updated: 2022-09-05T05:04:22.098Z
+updated: 2022-09-06T02:59:43.794Z
 ---
 
 # {{ $frontmatter.title }}
-
-## Related
 
 ## References
 

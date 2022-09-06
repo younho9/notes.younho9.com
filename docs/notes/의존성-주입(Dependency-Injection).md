@@ -9,7 +9,7 @@ aliases:
   - DI
   - Dependency Injection
 created: 2022-01-10T09:48:00.000Z
-updated: 2022-09-05T05:04:22.297Z
+updated: 2022-09-06T02:59:43.992Z
 ---
 
 # {{ $frontmatter.title }}
@@ -27,8 +27,6 @@ updated: 2022-09-05T05:04:22.297Z
 
 - 프로그래머 대신 의존성을 주입해주는 프로그램(Dependency Injector)을 사용한다.
 - new를 직접하지 않고 IOC 컨테이너가 하는 것이 핵심이다.
-
-## Related
 
 ## References
 

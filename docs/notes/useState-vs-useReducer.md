@@ -8,7 +8,7 @@ aliases:
   - useState vs useReducer
   - useState와 useReducer의 차이점
 created: 2022-01-02T05:14:00.000Z
-updated: 2022-09-05T05:04:22.189Z
+updated: 2022-09-06T02:59:43.932Z
 ---
 
 # {{ $frontmatter.title }}
@@ -233,8 +233,6 @@ updateDOM();
 
 - 다수의 하윗 값을 포함하는 복잡한 정적 로직을 만드는 경우
 - 다음 state가 이전 state에 의존적인 경우
-
-## Related
 
 ## References
 

@@ -6,7 +6,7 @@ tags:
 aliases:
   - Vue School Vue
 created: 2022-02-18T06:23:00.000Z
-updated: 2022-09-05T05:04:22.097Z
+updated: 2022-09-06T02:59:43.838Z
 ---
 
 # {{ $frontmatter.title }}
@@ -146,5 +146,3 @@ new Vue({
 - 컴포넌트 네이밍을 할 때, 공식 문서에 따라 [Vue.js Style Guide](https://vuejs.org/v2/style-guide/) Best Practice를 따르라.
 
 ### Related
-
-### References

@@ -8,7 +8,7 @@ aliases:
 related:
   - 객체지향-프로그래밍
 created: 2022-08-09T06:40:00.000Z
-updated: 2022-09-05T05:04:21.856Z
+updated: 2022-09-06T02:59:43.751Z
 ---
 
 # {{ $frontmatter.title }}
@@ -24,8 +24,6 @@ updated: 2022-09-05T05:04:21.856Z
 - 제품용(Production)으로 사용하는 경우
   - 빌드 도구를 사용하지 않거나 주로 복잡성이 낮은 시나리오에서 사용할 계획이라면, Options API를 사용하세요.
   - 규모가 있는 앱의 전체를 구축하려는 경우 Composition API + SFC를 사용하세요.
-
-## Related
 
 ## References
 

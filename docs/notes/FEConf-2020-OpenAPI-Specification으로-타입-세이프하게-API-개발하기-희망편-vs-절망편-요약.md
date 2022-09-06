@@ -6,7 +6,7 @@ tags:
 aliases:
   - FEConf 2020 OpenAPI Specification으로 타입 세이프하게 API 개발하기 희망편 vs 절망편 요약
 created: 2022-01-24T06:05:00.000Z
-updated: 2022-09-05T05:04:21.805Z
+updated: 2022-09-06T02:59:43.705Z
 ---
 
 # {{ $frontmatter.title }}
@@ -141,8 +141,6 @@ updated: 2022-09-05T05:04:21.805Z
   - ![open-api-specification-6.png](./images/open-api-specification-6.png)
 
 ## 결론
-
-## Related
 
 ## References
 

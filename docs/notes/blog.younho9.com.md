@@ -6,7 +6,7 @@ tags:
 aliases:
   - blog.younho9.com
 created: 2022-08-09T07:54:00.000Z
-updated: 2022-09-05T05:04:22.117Z
+updated: 2022-09-06T02:59:43.854Z
 ---
 
 # {{ $frontmatter.title }}
@@ -37,8 +37,6 @@ updated: 2022-09-05T05:04:22.117Z
 ### Benchmark
 
 - [zachleat/speedlify: Benchmark the web performance and accessibility of sites over time. (github.com)](https://github.com/zachleat/speedlify/)
-
-## Related
 
 ## References
 
