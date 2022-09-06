@@ -9,7 +9,7 @@ function getDocFiles(pathname) {
 	return fs.readdirSync(docsDir).filter((file) => isMarkdown(file));
 }
 
-function getDocInfo(pathname) {
+function getDocInfo(pathname, type) {
 	const docfile = path.join(pathname);
 	const content = fs.readFileSync(docfile, 'utf-8');
 	const {data} = matter(content);
@@ -17,6 +17,7 @@ function getDocInfo(pathname) {
 	const docInfo = {
 		filePath: pathname,
 		fileName: path.basename(docfile, '.md'),
+		type,
 		...data,
 	};
 
@@ -25,10 +26,10 @@ function getDocInfo(pathname) {
 
 const data = {
 	notes: getDocFiles('./docs/notes').map((file) =>
-		getDocInfo(`./docs/notes/${file}`),
+		getDocInfo(`./docs/notes/${file}`, 'note'),
 	),
 	journals: getDocFiles('./docs/journals').map((file) =>
-		getDocInfo(`./docs/journals/${file}`),
+		getDocInfo(`./docs/journals/${file}`, 'journal'),
 	),
 };
 
