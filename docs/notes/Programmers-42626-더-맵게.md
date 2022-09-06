@@ -3,8 +3,10 @@ title: Programmers 42626. 더 맵게
 category: Algorithm
 tags:
   - algorithm
-created: 2020-10-03T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+aliases:
+  - Programmers 42626. 더 맵게
+created: 2020-10-02T15:00:00.000Z
+updated: 2022-09-05T05:04:21.897Z
 ---
 
 # {{ $frontmatter.title }}

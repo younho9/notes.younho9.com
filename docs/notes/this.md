@@ -3,9 +3,10 @@ title: this
 category: JavaScript
 tags:
   - javascript
-publish: true
-created: 2021-12-31T17:30:00.000+09:00
-updated: 2022-01-10T00:19:00.000+09:00
+aliases:
+  - this
+created: 2021-12-31T08:30:00.000Z
+updated: 2022-09-05T05:04:22.181Z
 ---
 
 # {{ $frontmatter.title }}

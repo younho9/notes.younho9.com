@@ -2,15 +2,17 @@
 title: 매개변수(parameter) vs 인자(argument)
 category: Glossary
 tags:
+  - glossary
   - vs
   - terms
-  - glossary
 aliases:
+  - 매개변수(parameter) vs 인자(argument)
   - parameter vs argument
   - 매개변수(parameter) vs 인수(argument)
-publish: true
-created: 2022-01-06T17:37:00.000+09:00
-updated: 2022-01-06T17:37:00.000+09:00
+related:
+  - 값(Value)
+created: 2022-01-06T08:37:00.000Z
+updated: 2022-09-05T05:04:22.237Z
 ---
 
 # {{ $frontmatter.title }}

@@ -4,10 +4,14 @@ category: JavaScript
 tags:
   - javascript
 aliases:
-  - var, let, const의 차이점
-publish: true
-created: 2021-12-31T21:51:00.000+09:00
-updated: 2021-12-31T21:51:00.000+09:00
+  - var vs let vs const
+  - 'var, let, const의 차이점'
+related:
+  - 스코프(Scope)
+  - 호이스팅(hoisting)
+  - TDZ(Temporal-Dead-Zone)
+created: 2021-12-31T12:51:00.000Z
+updated: 2022-09-05T05:04:22.186Z
 ---
 
 # {{ $frontmatter.title }}

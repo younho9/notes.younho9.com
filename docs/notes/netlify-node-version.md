@@ -3,9 +3,10 @@ title: Netlify Node Version
 category: Troubleshooting
 tags:
   - troubleshooting
-  - troubleshooting
-created: 2021-03-28T00:00:00.000+09:00
-updated: 2021-03-28T00:00:00.000+09:00
+aliases:
+  - Netlify Node Version
+created: 2021-03-27T15:00:00.000Z
+updated: 2022-09-05T05:04:22.161Z
 ---
 
 # {{ $frontmatter.title }}

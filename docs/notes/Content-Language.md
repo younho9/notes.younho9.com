@@ -2,11 +2,16 @@
 title: Content-Language
 category: HTTP
 tags:
-  - web
   - http
-publish: true
-created: 2021-12-30T14:55:00.000+09:00
-updated: 2021-12-30T15:11:00.000+09:00
+  - web
+aliases:
+  - Content-Language
+related:
+  - lang-속성
+  - Accept-Language
+  - HTTP-헤더
+created: 2021-12-30T05:55:00.000Z
+updated: 2022-09-05T05:04:21.783Z
 ---
 
 # {{ $frontmatter.title }}

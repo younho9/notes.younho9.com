@@ -4,10 +4,11 @@ category: CSS
 tags:
   - css
 aliases:
+  - 미디어 쿼리(Media Query)
   - 미디어 쿼리
   - Media Query
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:14:00.000+09:00
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.239Z
 ---
 
 # {{ $frontmatter.title }}

@@ -4,15 +4,17 @@ category: React
 tags:
   - react
 aliases:
+  - Props vs State
   - props와 state의 차이점
   - 속성(props)와 상태(state)의 차이점
   - 속성
   - 상태
   - 속성(props)
   - 상태(state)
-publish: true
-created: 2022-01-01T20:55:00.000+09:00
-updated: 2022-01-01T20:55:00.000+09:00
+related:
+  - 매개변수(parameter)-vs-인자(argument)
+created: 2022-01-01T11:55:00.000Z
+updated: 2022-09-05T05:04:22.168Z
 ---
 
 # {{ $frontmatter.title }}

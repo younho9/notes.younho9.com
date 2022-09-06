@@ -2,16 +2,18 @@
 title: 이벤트(Event)
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
   - javascript
 aliases:
+  - 이벤트(Event)
   - 이벤트
   - 브라우저 이벤트
   - Event
-publish: true
-created: 2021-12-31T16:29:00.000+09:00
-updated: 2021-12-31T16:29:00.000+09:00
+related:
+  - this
+created: 2021-12-31T07:29:00.000Z
+updated: 2022-09-05T05:04:22.299Z
 ---
 
 # {{ $frontmatter.title }}

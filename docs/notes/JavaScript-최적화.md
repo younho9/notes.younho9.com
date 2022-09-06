@@ -5,9 +5,13 @@ tags:
   - javascript
   - web
   - performance
-publish: true
-created: 2022-01-08T15:45:00.000+09:00
-updated: 2022-01-09T01:41:00.000+09:00
+aliases:
+  - JavaScript 최적화
+related:
+  - PRPL-패턴
+  - 코드-스플리팅(Code-Splitting)
+created: 2022-01-08T06:45:00.000Z
+updated: 2022-09-05T05:04:21.836Z
 ---
 
 # {{ $frontmatter.title }}

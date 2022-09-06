@@ -2,10 +2,12 @@
 title: GraphQL
 category: Glossary
 tags:
+  - glossary
   - web
-publish: true
-created: 2022-01-09T13:25:00.000+09:00
-updated: 2022-01-09T13:25:00.000+09:00
+aliases:
+  - GraphQL
+created: 2022-01-09T04:25:00.000Z
+updated: 2022-09-05T05:04:21.816Z
 ---
 
 # {{ $frontmatter.title }}

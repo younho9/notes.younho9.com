@@ -5,10 +5,10 @@ tags:
   - glossary
   - web
 aliases:
+  - DNS(Domain Name System)
   - DNS
-publish: true
-created: 2022-01-07T17:40:00.000+09:00
-updated: 2022-01-07T17:40:00.000+09:00
+created: 2022-01-07T08:40:00.000Z
+updated: 2022-09-05T05:04:21.792Z
 ---
 
 # {{ $frontmatter.title }}

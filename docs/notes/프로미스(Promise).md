@@ -7,9 +7,8 @@ aliases:
   - 프로미스(Promise)
   - 프로미스
   - Promise
-publish: true
-created: 2022-08-12T10:17:00.000+09:00
-updated: 2022-08-12T10:17:00.000+09:00
+created: 2022-08-12T01:17:00.000Z
+updated: 2022-09-05T05:04:22.343Z
 ---
 
 # {{ $frontmatter.title }}

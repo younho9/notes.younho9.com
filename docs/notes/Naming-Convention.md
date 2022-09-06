@@ -5,9 +5,8 @@ tags:
   - programming
 aliases:
   - Naming Convention
-publish: true
-created: 2022-03-19T13:13:00.000+09:00
-updated: 2022-03-19T13:13:00.000+09:00
+created: 2022-03-19T04:13:00.000Z
+updated: 2022-09-05T05:04:21.842Z
 ---
 
 # {{ $frontmatter.title }}

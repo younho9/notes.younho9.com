@@ -4,11 +4,16 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - 스코프(Scope)
   - 스코프
   - Scope
-publish: true
-created: 2021-12-31T21:53:00.000+09:00
-updated: 2021-12-31T21:53:00.000+09:00
+related:
+  - 실행-컨텍스트(Execution-Context)
+  - 클로저(Closure)
+  - 호이스팅(hoisting)
+  - var-vs-let-vs-const
+created: 2021-12-31T12:53:00.000Z
+updated: 2022-09-05T05:04:22.267Z
 ---
 
 # {{ $frontmatter.title }}

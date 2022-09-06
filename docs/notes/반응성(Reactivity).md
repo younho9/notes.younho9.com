@@ -5,9 +5,8 @@ tags:
   - vue
 aliases:
   - 반응성(Reactivity)
-publish: true
-created: 2022-08-09T15:17:00.000+09:00
-updated: 2022-08-09T15:17:00.000+09:00
+created: 2022-08-09T06:17:00.000Z
+updated: 2022-09-05T05:04:22.238Z
 ---
 
 # {{ $frontmatter.title }}

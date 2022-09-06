@@ -4,11 +4,14 @@ category: JavaScript
 tags:
   - javascript
 aliases:
+  - 제너레이터(Generator)
   - 제너레이터
   - Generator
-publish: true
-created: 2022-01-01T17:16:00.000+09:00
-updated: 2022-01-01T17:16:00.000+09:00
+related:
+  - iterable(반복-가능)
+  - for-of-vs-for-in
+created: 2022-01-01T08:16:00.000Z
+updated: 2022-09-05T05:04:22.318Z
 ---
 
 # {{ $frontmatter.title }}

@@ -5,10 +5,10 @@ tags:
   - react
   - vs
 aliases:
+  - useState vs useReducer
   - useState와 useReducer의 차이점
-publish: true
-created: 2022-01-02T14:14:00.000+09:00
-updated: 2022-01-02T14:14:00.000+09:00
+created: 2022-01-02T05:14:00.000Z
+updated: 2022-09-05T05:04:22.189Z
 ---
 
 # {{ $frontmatter.title }}

@@ -2,12 +2,15 @@
 title: Intersection Observer
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
   - javascript
-publish: true
-created: 2022-01-12T12:18:00.000+09:00
-updated: 2022-01-12T12:18:00.000+09:00
+aliases:
+  - Intersection Observer
+related:
+  - 뷰포트(Viewport)
+created: 2022-01-12T03:18:00.000Z
+updated: 2022-09-05T05:04:21.833Z
 ---
 
 # {{ $frontmatter.title }}

@@ -2,14 +2,16 @@
 title: 일급 객체(First class object)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 일급 객체(First class object)
   - First-class object
   - 일급 객체
-publish: true
-created: 2022-01-06T13:06:00.000+09:00
-updated: 2022-01-06T13:06:00.000+09:00
+related:
+  - 일급-시민(First-class-citizen)
+created: 2022-01-06T04:06:00.000Z
+updated: 2022-09-05T05:04:22.302Z
 ---
 
 # {{ $frontmatter.title }}

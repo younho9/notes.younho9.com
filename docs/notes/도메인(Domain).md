@@ -2,17 +2,22 @@
 title: 도메인(Domain)
 category: Glossary
 tags:
+  - glossary
   - web
   - terms
-  - glossary
   - url
 aliases:
+  - 도메인(Domain)
   - 도메인
   - Domain
   - domain
-publish: true
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:14:00.000+09:00
+related:
+  - 서브도메인(Subdomain)
+  - 최상위-도메인(Top-Level-Domain)
+  - 동일-사이트(Same-Site)
+  - 동일-출처(Same-Origin)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.210Z
 ---
 
 # {{ $frontmatter.title }}

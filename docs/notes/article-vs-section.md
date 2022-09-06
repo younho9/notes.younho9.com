@@ -7,10 +7,12 @@ tags:
   - web
   - vs
 aliases:
+  - <article> vs <section>
   - article 태그와 section 태그의 차이점
-publish: true
-created: 2022-01-07T17:01:00.000+09:00
-updated: 2022-01-07T17:01:00.000+09:00
+related:
+  - 시맨틱(Semantic)-태그
+created: 2022-01-07T08:01:00.000Z
+updated: 2022-09-05T05:04:22.123Z
 ---
 
 # {{ $frontmatter.title }}

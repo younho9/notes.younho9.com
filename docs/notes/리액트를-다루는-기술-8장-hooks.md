@@ -3,8 +3,10 @@ title: 리액트를 다루는 기술 8장 hooks
 category: React
 tags:
   - react
-created: 2020-04-08T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+aliases:
+  - 리액트를 다루는 기술 8장 hooks
+created: 2020-04-07T15:00:00.000Z
+updated: 2022-09-05T05:04:22.228Z
 ---
 
 # {{ $frontmatter.title }}

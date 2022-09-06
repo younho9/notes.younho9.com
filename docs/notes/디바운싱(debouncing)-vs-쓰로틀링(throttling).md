@@ -2,15 +2,15 @@
 title: 디바운싱(debouncing) vs 쓰로틀링(throttling)
 category: JavaScript
 tags:
-  - web
   - javascript
+  - web
 aliases:
+  - 디바운싱(debouncing) vs 쓰로틀링(throttling)
   - 디바운싱과 쓰로틀링
   - 디바운싱 vs 쓰로틀링
   - debouncing vs throttling
-publish: true
-created: 2022-01-01T18:17:00.000+09:00
-updated: 2022-01-01T18:17:00.000+09:00
+created: 2022-01-01T09:17:00.000Z
+updated: 2022-09-05T05:04:22.216Z
 ---
 
 # {{ $frontmatter.title }}

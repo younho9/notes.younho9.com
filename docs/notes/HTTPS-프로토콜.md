@@ -2,13 +2,19 @@
 title: HTTPS 프로토콜
 category: HTTP
 tags:
+  - http
   - https
 aliases:
+  - HTTPS 프로토콜
   - HTTPS
   - HTTP Secure
-publish: true
-created: 2021-12-30T18:06:00.000+09:00
-updated: 2021-12-31T14:08:00.000+09:00
+related:
+  - HTTP-프로토콜
+  - SSL-vs-TLS
+  - 디지털-인증서
+  - 대칭키-vs-비대칭키
+created: 2021-12-30T09:06:00.000Z
+updated: 2022-09-05T05:04:21.832Z
 ---
 
 # {{ $frontmatter.title }}

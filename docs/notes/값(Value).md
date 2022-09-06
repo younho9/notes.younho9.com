@@ -6,11 +6,14 @@ tags:
   - terms
   - glossary
 aliases:
+  - 값(Value)
   - value
   - 값
-publish: true
-created: 2022-01-06T14:01:00.000+09:00
-updated: 2022-01-06T14:01:00.000+09:00
+related:
+  - 원시-값(Primitive)
+  - JavaScript-객체(Object)
+created: 2022-01-06T05:01:00.000Z
+updated: 2022-09-05T05:04:22.201Z
 ---
 
 # {{ $frontmatter.title }}

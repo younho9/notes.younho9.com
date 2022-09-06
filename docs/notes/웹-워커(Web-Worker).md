@@ -2,13 +2,12 @@
 title: 웹 워커(Web Worker)
 category: Web API
 tags:
+  - web_api
   - web
-  - web-api
 aliases:
-  - alias
-publish: true
-created: 2022-01-13T09:45:00.000+09:00
-updated: 2022-01-13T09:45:00.000+09:00
+  - 웹 워커(Web Worker)
+created: 2022-01-13T00:45:00.000Z
+updated: 2022-09-05T05:04:22.286Z
 ---
 
 # {{ $frontmatter.title }}

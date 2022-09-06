@@ -4,10 +4,13 @@ category: HTML
 tags:
   - html
 aliases:
+  - 시맨틱(Semantic) 태그
   - 시맨틱 마크업
-publish: true
-created: 2022-01-07T17:01:00.000+09:00
-updated: 2022-01-07T17:30:00.000+09:00
+related:
+  - 검색-엔진-최적화(SEO)
+  - article-vs-section
+created: 2022-01-07T08:01:00.000Z
+updated: 2022-09-05T05:04:22.270Z
 ---
 
 # {{ $frontmatter.title }}
@@ -36,7 +39,7 @@ updated: 2022-01-07T17:30:00.000+09:00
 
 ## Related
 
-- [[article_vs_section|article vs section]]
+- [[article-vs-section|article vs section]]
 
 ## References
 

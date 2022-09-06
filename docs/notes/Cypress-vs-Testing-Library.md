@@ -2,12 +2,15 @@
 title: Cypress vs Testing Library
 category: Test
 tags:
+  - test
   - testing
 aliases:
   - Cypress vs Testing Library
-publish: true
-created: 2022-08-09T10:37:00.000+09:00
-updated: 2022-08-09T10:37:00.000+09:00
+related:
+  - Cypress
+  - Testing-Library
+created: 2022-08-09T01:37:00.000Z
+updated: 2022-09-05T05:04:21.787Z
 ---
 
 # {{ $frontmatter.title }}

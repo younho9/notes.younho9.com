@@ -2,13 +2,16 @@
 title: CSS in JS
 category: CSS
 tags:
+  - css
   - terms
   - glossary
 aliases:
+  - CSS in JS
   - JSS
-publish: true
-created: 2022-01-10T15:06:00.000+09:00
-updated: 2022-01-10T15:06:00.000+09:00
+related:
+  - FOUC(Flash-of-unstyled-content)
+created: 2022-01-10T06:06:00.000Z
+updated: 2022-09-05T05:04:21.732Z
 ---
 
 # {{ $frontmatter.title }}

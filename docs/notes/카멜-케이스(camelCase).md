@@ -2,13 +2,14 @@
 title: 카멜 케이스(camelCase)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
-  - 카멜케이스
+  - 카멜 케이스(camelCase)
+  - 카멜 케이스
   - camelCase
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.322Z
 ---
 
 # {{ $frontmatter.title }}

@@ -5,9 +5,10 @@ tags:
   - vue
 aliases:
   - Vue Composition API
-publish: true
-created: 2022-07-13T09:33:00.000+09:00
-updated: 2022-07-13T09:33:00.000+09:00
+related:
+  - Options-API-vs-Composition-API
+created: 2022-07-13T00:33:00.000Z
+updated: 2022-09-05T05:04:22.090Z
 ---
 
 # {{ $frontmatter.title }}

@@ -5,9 +5,8 @@ tags:
   - glossary
 aliases:
   - 진입점(Entry point)
-publish: true
-created: 2022-08-12T09:42:00.000+09:00
-updated: 2022-08-12T09:42:00.000+09:00
+created: 2022-08-12T00:42:00.000Z
+updated: 2022-09-05T05:04:22.314Z
 ---
 
 # {{ $frontmatter.title }}

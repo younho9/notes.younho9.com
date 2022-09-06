@@ -4,11 +4,16 @@ category: React
 tags:
   - react
 aliases:
+  - 가상 돔(Virtual DOM)
   - 가상 돔
   - Virtual DOM
-publish: true
-created: 2022-01-02T13:10:00.000+09:00
-updated: 2022-01-02T13:10:00.000+09:00
+related:
+  - Fiber
+  - 리액트(React)
+  - DOM(Document-Object-Model)
+  - 재조정(Reconciliation)
+created: 2022-01-02T04:10:00.000Z
+updated: 2022-09-05T05:04:22.199Z
 ---
 
 # {{ $frontmatter.title }}

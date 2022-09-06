@@ -4,10 +4,12 @@ category: Vue
 tags:
   - vue
 aliases:
+  - Vue 컴포넌트 라이브러리 구축하기
   - how to build vue component library
-publish: true
-created: 2022-01-18T17:18:00.000+09:00
-updated: 2022-08-22T11:54:30.371+09:00
+related:
+  - FEConf-2021-Can-I-use-Vue3
+created: 2022-01-18T08:18:00.000Z
+updated: 2022-09-05T05:04:22.100Z
 ---
 
 # {{ $frontmatter.title }}
@@ -71,7 +73,7 @@ updated: 2022-08-22T11:54:30.371+09:00
 
 ## Vue 2와 Vue 3
 
-[[FEConf-2021---Can-I-use-...-Vue-3-내용-요약|FEConf 2021 - Can I use ... Vue 3 내용 요약]]
+[[FEConf-2021-Can-I-use-Vue3|FEConf 2021 - Can I use Vue3]]
 
 ## Vue 파일을 그냥 공유하면 안되나요? ([참고](https://kr.vuejs.org/v2/cookbook/packaging-sfc-for-npm.html#Can%E2%80%99t-I-Just-Share-vue-Files-Directly))
 

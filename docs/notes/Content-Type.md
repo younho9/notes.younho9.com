@@ -2,15 +2,19 @@
 title: Content-Type
 category: HTTP
 tags:
-  - web
   - http
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+  - web
+aliases:
+  - Content-Type
+related:
+  - media-types
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:21.782Z
 ---
 
 # {{ $frontmatter.title }}
 
-- 리소스의 [[media-type|media type]]을 나타내기 위해 사용된다.
+- 리소스의 [[media-types|Media Types]]을 나타내기 위해 사용된다.
 
 ## Related
 

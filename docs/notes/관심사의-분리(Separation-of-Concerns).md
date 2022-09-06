@@ -2,18 +2,19 @@
 title: 관심사의 분리(Separation of Concerns)
 category: Computer Science
 tags:
+  - cs
   - glossary
   - terms
   - programming
-  - cs
 aliases:
   - 관심사의 분리(Separation of Concerns)
   - 관심사의 분리
   - Separation of Concerns
   - SoC
-publish: true
-created: 2022-08-09T15:28:00.000+09:00
-updated: 2022-08-09T15:29:00.000+09:00
+related:
+  - 추상화(Abstraction)
+created: 2022-08-09T06:28:00.000Z
+updated: 2022-09-05T05:04:22.200Z
 ---
 
 # {{ $frontmatter.title }}

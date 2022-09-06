@@ -2,19 +2,22 @@
 title: Core Web Vitals
 category: Web
 tags:
+  - web
   - terms
   - glossary
   - vitals
   - metrics
-  - web
   - ux
   - performance
   - browser
 aliases:
-  - alias
-publish: true
-created: 2022-01-11T13:45:00.000+09:00
-updated: 2022-01-11T13:45:00.000+09:00
+  - Core Web Vitals
+related:
+  - FP-vs-FCP-vs-FMP-vs-LCP
+  - 최초-입력-지연(First-Input-Delay)
+  - 누적-레이아웃-이동(Cumulative-Layout-Shift)
+created: 2022-01-11T04:45:00.000Z
+updated: 2022-09-05T05:04:21.791Z
 ---
 
 # {{ $frontmatter.title }}

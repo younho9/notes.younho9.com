@@ -2,10 +2,13 @@
 title: 버추얼박스(VirtualBox)에 설치된 우분투(Ubuntu) 맥 터미널에서 접속하기
 category: Tools
 tags:
+  - tools
   - macos
   - settings
-created: 2020-03-26T00:00:00.000+09:00
-updated: 2022-08-22T12:54:40.833+09:00
+aliases:
+  - 버추얼박스(VirtualBox)에 설치된 우분투(Ubuntu) 맥 터미널에서 접속하기
+created: 2020-03-25T15:00:00.000Z
+updated: 2022-09-05T05:04:22.244Z
 ---
 
 # {{ $frontmatter.title }}

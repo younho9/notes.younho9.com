@@ -5,9 +5,14 @@ tags:
   - tooling
 aliases:
   - 일렉트론(Electron)
-publish: true
-created: 2022-08-10T10:07:00.000+09:00
-updated: 2022-08-22T11:43:26.359+09:00
+related:
+  - Chromium(크로미움)
+  - Node.js
+  - 진입점(Entry-point)
+  - 프로미스(Promise)
+  - ECMAScript-modules
+created: 2022-08-10T01:07:00.000Z
+updated: 2022-09-05T05:04:22.301Z
 ---
 
 # {{ $frontmatter.title }}

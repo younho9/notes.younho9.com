@@ -2,12 +2,13 @@
 title: REST vs GraphQL
 category: Web
 tags:
-  - tag
+  - web
 aliases:
-  - alias
-publish: true
-created: 2022-01-05T21:39:00.000+09:00
-updated: 2022-01-05T21:39:00.000+09:00
+  - REST vs GraphQL
+related:
+  - 클라이언트-서버-모델
+created: 2022-01-05T12:39:00.000Z
+updated: 2022-09-05T05:04:21.921Z
 ---
 
 # {{ $frontmatter.title }}

@@ -2,17 +2,21 @@
 title: 서브도메인(Subdomain)
 category: Glossary
 tags:
+  - glossary
   - web
   - terms
-  - glossary
   - url
 aliases:
+  - 서브도메인(Subdomain)
   - 서브도메인
   - 하위 도메인
   - Subdomain
   - subdomain
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:14:00.000+09:00
+related:
+  - 도메인(Domain)
+  - 동일-사이트(Same-Site)
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.258Z
 ---
 
 # {{ $frontmatter.title }}

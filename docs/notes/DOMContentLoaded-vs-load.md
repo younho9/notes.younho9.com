@@ -2,14 +2,19 @@
 title: DOMContentLoaded vs load
 category: Web API
 tags:
+  - web_api
   - web
   - event
 aliases:
+  - DOMContentLoaded vs load
   - DOMContentLoaded와 load의 차이점
   - DOMContentLoaded와 load
-publish: true
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+related:
+  - script-태그의-async와-defer-속성
+  - readyState
+  - beforeunload-vs-unload
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:21.797Z
 ---
 
 # {{ $frontmatter.title }}
@@ -37,4 +42,4 @@ updated: 2021-12-30T13:15:00.000+09:00
 ## Related
 
 - [[readyState]]
-- [[beforeunload_vs_unload|beforeunload vs unload]]
+- [[beforeunload-vs-unload|beforeunload vs unload]]

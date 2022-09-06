@@ -2,15 +2,20 @@
 title: React vs Vue
 category: Thoughts
 tags:
+  - thoughts
+  - thought
   - react
   - vue
   - interview
 aliases:
-  - Vue vs React
   - React vs Vue
-publish: true
-created: 2022-01-02T16:29:00.000+09:00
-updated: 2022-01-02T16:29:00.000+09:00
+  - Vue vs React
+related:
+  - v-model
+  - React.memo
+  - React-Hooks
+created: 2022-01-02T07:29:00.000Z
+updated: 2022-09-05T05:04:21.922Z
 ---
 
 # {{ $frontmatter.title }}

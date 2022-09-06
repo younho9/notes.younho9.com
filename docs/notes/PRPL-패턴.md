@@ -5,10 +5,10 @@ tags:
   - web
   - performance
 aliases:
+  - PRPL 패턴
   - PRPL Pattern
-publish: true
-created: 2022-01-08T15:44:00.000+09:00
-updated: 2022-01-08T15:44:00.000+09:00
+created: 2022-01-08T06:44:00.000Z
+updated: 2022-09-05T05:04:21.862Z
 ---
 
 # {{ $frontmatter.title }}

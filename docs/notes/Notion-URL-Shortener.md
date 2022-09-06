@@ -3,9 +3,21 @@ title: Notion URL Shortener
 category: Project
 tags:
   - project
-publish: true
-created: 2022-02-03T22:15:00.000+09:00
-updated: 2022-02-04T08:02:00.000+09:00
+aliases:
+  - Notion URL Shortener
+related:
+  - '2022-02-03'
+  - '2022-02-05'
+  - '2022-02-09'
+  - '2022-02-15'
+  - '2022-02-17'
+  - '2022-02-18'
+  - '2022-02-26'
+  - '2022-02-28'
+  - '2022-03-05'
+  - '2022-03-07'
+created: 2022-02-03T13:15:00.000Z
+updated: 2022-09-05T05:04:21.850Z
 ---
 
 # {{ $frontmatter.title }}

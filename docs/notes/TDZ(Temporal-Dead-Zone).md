@@ -6,11 +6,14 @@ tags:
   - terms
   - glossary
 aliases:
+  - TDZ(Temporal Dead Zone)
   - TDZ
   - 일시적 사각 지대
-publish: true
-created: 2021-12-31T23:48:00.000+09:00
-updated: 2021-12-31T23:48:00.000+09:00
+related:
+  - 실행-컨텍스트(Execution-Context)
+  - 호이스팅(hoisting)
+created: 2021-12-31T14:48:00.000Z
+updated: 2022-09-05T05:04:22.079Z
 ---
 
 # {{ $frontmatter.title }}

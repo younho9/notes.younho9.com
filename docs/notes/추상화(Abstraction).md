@@ -2,15 +2,16 @@
 title: 추상화(Abstraction)
 category: Computer Science
 tags:
+  - cs
   - glossary
   - terms
   - programming
-  - computer-science
 aliases:
   - 추상화(Abstraction)
-publish: true
-created: 2022-08-09T15:33:00.000+09:00
-updated: 2022-08-09T15:33:00.000+09:00
+related:
+  - 관심사의-분리(Separation-of-Concerns)
+created: 2022-08-09T06:33:00.000Z
+updated: 2022-09-05T05:04:22.318Z
 ---
 
 # {{ $frontmatter.title }}

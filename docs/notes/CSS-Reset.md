@@ -3,8 +3,10 @@ title: CSS Reset
 category: CSS
 tags:
   - css
-created: 2020-02-03T00:00:00.000+09:00
-updated: 2021-02-15T00:00:00.000+09:00
+aliases:
+  - CSS Reset
+created: 2020-02-02T15:00:00.000Z
+updated: 2022-09-05T05:04:21.727Z
 ---
 
 # {{ $frontmatter.title }}

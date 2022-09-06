@@ -4,12 +4,12 @@ category: Git
 tags:
   - git
 aliases:
+  - git submodule
   - 깃 서브모듈
   - 서브모듈
   - submodule
-  - git submodule
-created: 2021-12-30T13:06:00.000+09:00
-updated: 2021-12-30T13:15:00.000+09:00
+created: 2021-12-30T04:06:00.000Z
+updated: 2022-09-05T05:04:22.134Z
 ---
 
 # {{ $frontmatter.title }}

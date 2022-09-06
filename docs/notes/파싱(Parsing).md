@@ -2,15 +2,18 @@
 title: 파싱(Parsing)
 category: Glossary
 tags:
-  - terms
   - glossary
+  - terms
 aliases:
+  - 파싱(Parsing)
   - 구문 분석
   - 파싱
   - Parsing
-publish: true
-created: 2021-12-31T11:03:00.000+09:00
-updated: 2021-12-31T11:03:00.000+09:00
+related:
+  - 토큰(Token)
+  - 브라우저-렌더링-1
+created: 2021-12-31T02:03:00.000Z
+updated: 2022-09-05T05:04:22.345Z
 ---
 
 # {{ $frontmatter.title }}
@@ -20,7 +23,7 @@ updated: 2021-12-31T11:03:00.000+09:00
 
 ## Related
 
-- [[브라우저-렌더링---1.-파싱(Parsing)-단계|브라우저 렌더링 - 1. 파싱(Parsing) 단계]]
+- [[브라우저-렌더링-1|브라우저 렌더링 - 1. 파싱(Parsing) 단계]]
 
 ## References
 

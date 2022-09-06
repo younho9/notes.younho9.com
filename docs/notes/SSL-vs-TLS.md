@@ -6,12 +6,15 @@ tags:
   - http
   - https
 aliases:
+  - SSL vs TLS
   - SSL과 TLS
   - SSL과 TLS의 차이점
   - SSL과 TLS 비교
-publish: true
-created: 2021-12-30T18:08:00.000+09:00
-updated: 2021-12-30T18:08:00.000+09:00
+related:
+  - HTTPS-프로토콜
+  - 디지털-인증서
+created: 2021-12-30T09:08:00.000Z
+updated: 2022-09-05T05:04:21.952Z
 ---
 
 # {{ $frontmatter.title }}
