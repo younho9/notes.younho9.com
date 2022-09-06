@@ -87,9 +87,7 @@ async function updateFrontatter(path) {
 	const {data: frontmatter, content} = matter(file);
 
 	const newFrontmatter = updateAliases(
-		// updateUpdated(
-		updateTags(updateRelated(frontmatter, content), content),
-		// ),
+		updateUpdated(updateTags(updateRelated(frontmatter, content), content)),
 	);
 
 	await writeFile(
