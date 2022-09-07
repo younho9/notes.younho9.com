@@ -73,6 +73,10 @@ export default defineConfig({
 	},
 
 	markdown: {
+		theme: {
+			light: 'vitesse-light',
+			dark: 'vitesse-dark',
+		},
 		config: (md) => {
 			md.use(externalLinks, {
 				externalClassName: 'external-link',
