@@ -2,7 +2,6 @@
 title: React vs Vue
 category: Thoughts
 tags:
-  - thoughts
   - thought
   - react
   - vue
@@ -15,7 +14,7 @@ related:
   - React.memo
   - React-Hooks
 created: 2022-01-02T07:29:00.000Z
-updated: 2022-09-06T14:00:06.940Z
+updated: 2022-09-08T07:10:13.996Z
 ---
 
 <Metadata />
@@ -48,3 +47,7 @@ updated: 2022-09-06T14:00:06.940Z
       - React Hooks에 대해 잘못 이해하고 사용할 수 있다.
       - 멘탈 모델을 확립하면 라이프사이클에 의존하지 않고 개발할 수 있어서 편하다.
       - Hooks를 통해 컴포넌트 사이에서 상태 로직을 재사용할 수 있다.
+
+## References
+
+- [learn-vuejs/vue-as-a-react-developer: Learn Vue as a React developer (github.com)](https://github.com/learn-vuejs/vue-as-a-react-developer)
