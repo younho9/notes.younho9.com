@@ -31,7 +31,9 @@
 	},
 	"devDependencies": {
 		"@sindresorhus/is": "^5.3.0",
+		"@types/lodash-es": "^4.17.6",
 		"@types/node": "^18.0.0",
+		"@vueuse/core": "^9.2.0",
 		"@younho9/prettier-config": "^2.3.1",
 		"case-police": "^0.5.9",
 		"concurrently": "^7.3.0",
