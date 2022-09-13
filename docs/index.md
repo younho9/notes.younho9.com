@@ -13,8 +13,8 @@ hero:
     alt: digital garden
   actions:
     - theme: brand
-      text: 더 읽어보기
-      link: /references.html
+      text: 찾아보기
+      link: /docs.html
     - theme: alt
       text: 그래프 보기
       link: /graph.html

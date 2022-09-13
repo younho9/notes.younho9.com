@@ -1,6 +1,9 @@
+// @ts-ignore
 import wikilinks from 'markdown-it-wikilinks';
+// @ts-ignore
 import externalLinks from 'markdown-it-external-links';
 import sanitize from 'sanitize-filename';
+import {uniq} from 'lodash';
 import {defineConfig} from 'vitepress';
 import {
 	description,
@@ -89,9 +92,12 @@ export default defineConfig({
 						class: 'wikilink',
 					},
 					makeAllLinksAbsolute: true,
-					postProcessPageName: (pageName) => {
+					postProcessPageName: (pageName: string) => {
 						pageName = pageName.trim();
-						pageName = pageName.split('/').map(sanitize).join('/');
+						pageName = pageName
+							.split('/')
+							.map((pathName) => sanitize(pathName))
+							.join('/');
 
 						return isJournal(pageName)
 							? `/journals/${pageName}`
@@ -106,28 +112,43 @@ export default defineConfig({
 function nav() {
 	return [
 		{
-			text: 'Notes',
-			link: '/notes/index.html',
-			activeMatch: '/notes/',
-		},
-		{
-			text: 'Journals',
-			link: `/journals/index.html`,
-			activeMatch: '/journals/',
+			text: 'Docs',
+			items: [
+				{
+					text: 'References',
+					items: [
+						{
+							text: 'Index',
+							link: '/docs.html',
+							activeMatch: 'docs',
+						},
+						{
+							text: 'Random',
+							link: '/random.html',
+						},
+					],
+				},
+				{
+					text: 'Types',
+					items: [
+						{
+							text: 'Notes',
+							link: notes()[0].items[0].link,
+							activeMatch: '/notes/',
+						},
+						{
+							text: 'Journals',
+							link: journals()[0].items[0].link,
+							activeMatch: '/journals/',
+						},
+					],
+				},
+			],
 		},
 		{
 			text: 'Graph',
 			link: '/graph.html',
 			activeMatch: 'graph',
-		},
-		{
-			text: 'References',
-			link: '/references.html',
-			activeMatch: 'references',
-		},
-		{
-			text: 'Random',
-			link: '/random.html',
 		},
 	];
 }
@@ -140,63 +161,35 @@ function sidebar() {
 }
 
 function notes() {
-	const categories = [...new Set(data.notes.map(({category}) => category))];
+	const categories = uniq(data.notes.map(({category}) => category));
 
-	return [
-		{
-			text: 'Introduction',
+	return categories
+		.sort((a, b) => a.toLowerCase().localeCompare(b))
+		.map((category) => ({
+			text: category,
 			collapsible: true,
-			items: [
-				{
-					text: 'Home',
-					link: '/notes/index.html',
-				},
-			],
-		},
-		...categories
-			.filter((category) => category !== 'Introduction')
-			.sort((a, b) => a.toLowerCase().localeCompare(b))
-			.map((category) => ({
-				text: category,
-				collapsible: true,
-				items: data.notes
-					.filter((note) => note.category === category)
-					.sort((a, b) => a.title.toLowerCase().localeCompare(b.title))
-					.map(({title, fileName}) => ({
-						text: title,
-						link: `/notes/${fileName.replace(/.md/, '')}`,
-					})),
-			})),
-	];
+			items: data.notes
+				.filter((note) => note.category === category)
+				.sort((a, b) => a.title.toLowerCase().localeCompare(b.title))
+				.map(({title, fileName}) => ({
+					text: title,
+					link: `/notes/${fileName.replace(/.md/, '')}`,
+				})),
+		}));
 }
 
 function journals() {
-	const categories = [...new Set(data.journals.map(({category}) => category))];
+	const categories = uniq(data.journals.map(({category}) => category));
 
-	return [
-		{
-			text: 'Introduction',
-			collapsible: true,
-			items: [
-				{
-					text: 'Home',
-					link: '/journals/index.html',
-				},
-			],
-		},
-		...categories
-			.filter((category) => category !== 'Introduction')
-			.reverse()
-			.map((category) => ({
-				text: String(category),
-				collapsible: true,
-				items: data.journals
-					.filter((journal) => journal.category === category)
-					.sort((a, b) => b.title.toLowerCase().localeCompare(a.title))
-					.map(({title}) => ({
-						text: title,
-						link: `/journals/${title}`,
-					})),
+	return categories.reverse().map((category) => ({
+		text: String(category),
+		collapsible: true,
+		items: data.journals
+			.filter((journal) => journal.category === category)
+			.sort((a, b) => b.title.toLowerCase().localeCompare(a.title))
+			.map(({title}) => ({
+				text: title,
+				link: `/journals/${title}`,
 			})),
-	];
+	}));
 }
