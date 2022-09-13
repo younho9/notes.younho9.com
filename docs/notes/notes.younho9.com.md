@@ -8,15 +8,15 @@ aliases:
 related:
   - blog.younho9.com
 created: 2022-08-26T00:14:05.826Z
-updated: 2022-09-06T14:00:07.067Z
+updated: 2022-09-13T11:33:29.998Z
 ---
 
 <Metadata />
 
 ## Features
 
-- [ ] Graph Visualization
-  - [ ] Generate graph data
+- [x] Graph Visualization
+  - [x] Generate graph data
 - [ ] Embed
   - [x] Internal wikilink Embed
     - [Support file embedding · Issue #9 · jsepia/markdown-it-wikilinks (github.com)](https://github.com/jsepia/markdown-it-wikilinks/issues/9)
