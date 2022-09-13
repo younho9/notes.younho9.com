@@ -2,6 +2,8 @@
 import wikilinks from 'markdown-it-wikilinks';
 // @ts-ignore
 import externalLinks from 'markdown-it-external-links';
+// @ts-ignore
+import taskLists from 'markdown-it-task-lists';
 import sanitize from 'sanitize-filename';
 import {uniq} from 'lodash';
 import {defineConfig} from 'vitepress';
@@ -105,6 +107,8 @@ export default defineConfig({
 					},
 				}),
 			);
+
+			md.use(taskLists);
 		},
 	},
 });
