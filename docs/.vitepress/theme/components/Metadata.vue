@@ -20,7 +20,7 @@ const data = useData();
 					<div>{{ value }}</div>
 				</template>
 				<template v-else-if="key === 'category'">
-					<a class="!py-0" :href="`/docs?category=${value}`">
+					<a class="!py-0" :href="`/docs.html?category=${value}`">
 						{{ value }}
 					</a>
 				</template>
@@ -30,7 +30,7 @@ const data = useData();
 							v-for="tag of value"
 							:key="tag"
 							class="!py-0"
-							:href="`/docs?tag=${tag}`"
+							:href="`/docs?tags=${tag}`"
 						>
 							<code>{{ tag }}</code>
 						</a>

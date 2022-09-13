@@ -1,271 +1,307 @@
 <script setup lang="ts">
-import {ref, computed} from 'vue';
+import {useRouter} from 'vitepress';
+import {useUrlSearchParams, useTimeAgo} from '@vueuse/core';
+import is from '@sindresorhus/is';
+import Fuse from 'fuse.js';
+import {computed, toRef, Ref} from 'vue';
 import pluralize from 'pluralize';
-import {startCase} from 'lodash-es';
-import {isPresent} from 'ts-extras';
+import {startCase, values, uniq} from 'lodash-es';
 import data from '../../../data.json';
-import {DocType} from './types';
+import {DocItem} from './types';
 
-const index = Object.entries(data).map(([docType, docs]) => {
-	switch (docType) {
-		case pluralize(DocType.Note):
-			const noteCategories = [...new Set(docs.map(({category}) => category))]
-				.filter((category) => category !== 'Introduction')
-				.sort((a, b) => a.toLowerCase().localeCompare(b))
-				.map((category) => ({
-					text: category,
-					items: docs
-						.filter((note) => note.category === category)
-						.sort((a, b) => a.title.toLowerCase().localeCompare(b.title))
-						.map(({title, fileName}) => ({
-							text: title,
-							link: `/notes/${fileName.replace(/.md/, '')}`,
-						})),
-				}));
+const docs = values(data).flat() as DocItem[];
+const docTypes = uniq(docs.map((doc) => doc.type));
+const categories = uniq(docs.map((doc) => doc.category)).sort();
+const allTags = uniq(docs.map((doc) => doc?.tags ?? []).flat()).sort();
+const sortMethods = ['category', 'name', 'updated'] as const;
+type SortMethod = typeof sortMethods[number];
 
-			return {
-				text: docType,
-				categories: noteCategories,
-			};
-		case pluralize(DocType.Journal):
-			const journalCategories = [...new Set(docs.map(({category}) => category))]
-				.filter((category) => category !== 'Introduction')
-				.sort((a, b) => b.toLowerCase().localeCompare(a))
-				.map((category) => ({
-					text: category,
-					items: docs
-						.filter((journal) => journal.category === category)
-						.sort((a, b) => b.title.toLowerCase().localeCompare(a.title))
-						.map(({title, fileName}) => ({
-							text: title,
-							link: `/journals/${fileName.replace(/.md/, '')}`,
-						})),
-				}));
+const query = useUrlSearchParams<Record<string, string | null>>('history', {
+	removeFalsyValues: true,
+});
+const search = toRef(query, 'search', null);
+const docType = toRef(query, 'type', null);
+const category = toRef(query, 'category', null);
+const tags = toRef(query, 'tags', null);
+const sortMethod = toRef(query, 'sort', 'category') as Ref<SortMethod | null>;
+const result = computed(() => {
+	const index = docs
+		.filter((doc) => is.null_(docType.value) || docType.value === doc.type)
+		.filter(
+			(doc) => is.null_(category.value) || category.value === doc.category,
+		)
+		.filter(
+			(doc) =>
+				is.null_(tags.value) ||
+				tags.value.split(' ').every((tag) => doc.tags?.includes(tag)),
+		);
 
-			return {
-				text: docType,
-				categories: journalCategories,
-			};
+	const fuse = new Fuse(index, {
+		keys: ['title'],
+	});
+
+	if (search.value) {
+		return fuse.search(search.value).map((i) => i.item);
 	}
+
+	if (sortMethod.value === 'updated') {
+		return index.sort(
+			(a, b) => new Date(b.updated).getTime() - new Date(a.updated).getTime(),
+		);
+	}
+
+	if (sortMethod.value === 'name') {
+		return index.sort((a, b) => a.title.toLowerCase().localeCompare(b.title));
+	}
+
+	return index.sort((a, b) =>
+		a.category.toLowerCase().localeCompare(b.category),
+	);
 });
+const availableTags = computed(() =>
+	uniq(result.value.map((item) => item?.tags ?? []).flat()),
+);
+const router = useRouter();
+const getDocItemLink = (item: DocItem) =>
+	`/${pluralize(item.type)}/${item.fileName}.html`;
+const onClickDocItem = (event: Event, item: DocItem) => {
+	if (!(event.target instanceof HTMLElement)) {
+		return;
+	}
 
-const query = ref('');
-const normalize = (s: string) => s.toLowerCase().replace(/-/g, ' ');
+	if (event.target.tagName === 'BUTTON') {
+		return;
+	}
 
-const filtered = computed(() => {
-	const q = normalize(query.value);
-	const matches = (text: string) => normalize(text).includes(q);
+	router.go(getDocItemLink(item));
+};
+const toggleDocType = (t: string) => {
+	docType.value = docType.value === t ? null : t;
+};
+const toggleCategory = (c: string) => {
+	category.value = category.value === c ? null : c;
+};
+const applyTag = (t: string) => {
+	if (is.null_(tags.value)) {
+		tags.value = t;
+		return;
+	}
 
-	return index
-		.filter(isPresent)
-		.map((section) => {
-			if (matches(section.text)) {
-				return section;
-			}
+	const currentTags = tags.value.split(' ');
 
-			const matchedCategories = section.categories
-				.map((category) => {
-					if (matches(category.text)) {
-						return category;
-					}
+	if (currentTags.includes(t)) {
+		tags.value = currentTags.filter((tag) => tag !== t).join(' ') || null;
+		return;
+	}
 
-					const matchedItems = category.items.filter((item) =>
-						matches(item.text),
-					);
-
-					return matchedItems.length
-						? {text: category.text, items: matchedItems}
-						: null;
-				})
-				.filter(isPresent);
-
-			return matchedCategories.length
-				? {text: section.text, categories: matchedCategories}
-				: null;
-		})
-		.filter(isPresent);
-});
-
+	tags.value = [...currentTags, t].join(' ');
+};
+const toggleSort = (method: SortMethod) => {
+	sortMethod.value = method;
+};
+const hasFilters = computed(() =>
+	Boolean(search.value || category.value || tags.value || sortMethod.value),
+);
+const resetFilters = () => {
+	docType.value = null;
+	search.value = null;
+	category.value = null;
+	tags.value = null;
+	sortMethod.value = null;
+};
 const onInputSearch = (event: Event) => {
 	if (event.target instanceof HTMLInputElement) {
-		query.value = event.target.value;
+		search.value = event.target.value;
 	}
 };
 </script>
 
 <template>
-	<div id="doc-index">
-		<div class="header">
-			<h1>References</h1>
-			<div class="doc-filter">
-				<label for="doc-filter">Filter</label>
-				<input
-					type="search"
-					placeholder="Enter keyword"
-					id="doc-filter"
-					:value="query"
-					@input="onInputSearch"
-				/>
-			</div>
+	<div class="max-w-5xl my-0 mx-auto py-10 px-4 md:py-16 md:px-8">
+		<div class="md:flex items-center justify-between mb-9">
+			<h1 class="font-semibold text-4xl">Index</h1>
 		</div>
 
-		<div v-for="section of filtered" :key="section?.text" class="doc-section">
-			<h2 :id="section?.text">{{ startCase(section?.text) }}</h2>
-			<div class="doc-groups">
-				<div
-					v-for="category of section?.categories"
-					:key="category?.text"
-					class="doc-group"
+		<div class="grid grid-cols-[80px_auto] gap-y-2 mt-10">
+			<div class="opacity-80 text-sm">Types</div>
+			<div class="flex flex-wrap gap-2 mb-2">
+				<button
+					v-for="t of docTypes"
+					:key="t"
+					class="select-button"
+					:class="{active: docType === t}"
+					@click="toggleDocType(t)"
 				>
-					<h3>{{ category?.text }}</h3>
-					<ul>
-						<li v-for="item of category?.items" :key="item.text">
-							<a :href="item.link + '.html'">{{ item.text }}</a>
-						</li>
-					</ul>
-				</div>
+					{{ startCase(t) }}
+				</button>
+			</div>
+			<div class="opacity-80 text-sm">Categories</div>
+			<div class="flex flex-wrap gap-2 mb-2">
+				<button
+					v-for="c of categories"
+					:key="c"
+					class="select-button"
+					:class="{active: category === c}"
+					@click="toggleCategory(c)"
+				>
+					{{ c }}
+				</button>
+			</div>
+			<div class="opacity-80 text-sm">Tags</div>
+			<div class="flex flex-wrap gap-2 mb-2">
+				<button
+					v-for="tag of allTags"
+					:key="tag"
+					class="select-button"
+					:class="{
+						active: tags?.split(' ')?.includes(tag),
+						disabled:
+							!tags?.split(' ')?.includes(tag) && !availableTags.includes(tag),
+					}"
+					@click="applyTag(tag)"
+				>
+					{{ tag }}
+				</button>
+			</div>
+			<div class="opacity-80 text-sm">Sort by</div>
+			<div class="flex flex-wrap gap-2 mb-2">
+				<button v-if="search" class="select-button active">Search</button>
+				<button
+					v-for="method of sortMethods"
+					:key="method"
+					class="select-button"
+					:class="{
+						active: method === (sortMethod ?? 'category'),
+						disabled: search,
+					}"
+					@click="toggleSort(method)"
+				>
+					{{ method }}
+				</button>
 			</div>
 		</div>
 
-		<div v-if="!filtered.length" class="no-match">
-			No document matching "{{ query }}" found.
+		<div class="search-bar">
+			<ISearch class="opacity-50 mr-2" />
+			<input
+				:value="search"
+				@input="onInputSearch"
+				class="w-full"
+				type="text"
+				role="search"
+				placeholder="Search..."
+			/>
+		</div>
+		<div class="flex flex-col gap-2 relative pt-5">
+			<div
+				v-if="hasFilters"
+				class="transition mb-2 opacity-90 absolute -top-3 right-0 z-10"
+			>
+				<button
+					class="select-button flex gap-1 items-center !px-2 !py-1"
+					@click="resetFilters()"
+				>
+					<IFilterRemove /> Clear Filters
+				</button>
+			</div>
+			<ul class="mt-4 sm:columns-2 md:columns-3">
+				<li
+					v-for="item of result"
+					:key="item.fileName"
+					class="doc-item group"
+					@click="(event) => onClickDocItem(event, item)"
+				>
+					<article class="space-y-2">
+						<div>
+							<button
+								:class="docType === item.type && 'active'"
+								@click="toggleDocType(item.type)"
+							>
+								{{ startCase(item.type) }} >&nbsp;
+							</button>
+							<button
+								:class="category === item.category && 'active'"
+								@click="toggleCategory(item.category)"
+							>
+								{{ item.category }}
+							</button>
+						</div>
+						<div>
+							<h2
+								class="font-semibold text-lg opacity-80 group-hover:opacity-100"
+							>
+								{{ item.title }}
+							</h2>
+						</div>
+						<div class="flex flex-wrap gap-1">
+							<button
+								v-for="tag of item.tags"
+								:key="tag"
+								:class="{active: tags?.split(' ')?.includes(tag)}"
+								@click="applyTag(tag)"
+							>
+								#{{ tag }}
+							</button>
+						</div>
+						<div class="text-xs opacity-50 flex justify-end">
+							{{ useTimeAgo(new Date(item.updated)).value }}
+						</div>
+					</article>
+				</li>
+			</ul>
+			<div v-if="!result?.length" class="text-center pt-6 opacity-90">
+				<div class="m-2 opacity-50">No result matched</div>
+				<button
+					class="select-button inline-flex gap-1 items-center !px-2 !py-1"
+					@click="resetFilters()"
+				>
+					<IFilterRemove /> Clear Filters
+				</button>
+			</div>
 		</div>
 	</div>
 </template>
 
-<style scoped>
-#doc-index {
-	max-width: 1024px;
-	margin: 0px auto;
-	padding: 64px 32px;
+<style scoped lang="postcss">
+.select-button {
+	@apply rounded text-sm px-2 py-0.5 bg-gray-400/5 hover:text-primary/100 hover:bg-primary/10 transition-colors duration-300;
 }
 
-h1,
-h2,
-h3 {
-	font-weight: 600;
-	line-height: 1;
+.select-button.active:not(.disabled) {
+	@apply text-primary/90 hover:text-primary/100 bg-primary/5 hover:bg-primary/10;
 }
 
-h1,
-h2 {
-	letter-spacing: -0.02em;
+.select-button.disabled {
+	@apply opacity-50 pointer-events-none;
 }
 
-h1 {
-	font-size: 38px;
+.search-bar {
+	border-color: var(--vp-c-divider-light);
+	@apply my-4 border-y-[1px] p-2 flex;
 }
 
-h2 {
-	font-size: 24px;
-	color: var(--vp-c-text-1);
-	margin: 36px 0;
-	transition: color 0.5s;
-	padding-top: 36px;
-	border-top: 1px solid var(--vp-c-divider-light);
-}
-
-h3 {
-	letter-spacing: -0.01em;
-	color: var(--vp-c-brand);
-	font-size: 18px;
-	margin-bottom: 1em;
-	transition: color 0.5s;
-}
-
-.doc-section {
-	margin-bottom: 64px;
-}
-
-.doc-groups a {
-	font-size: 15px;
-	font-weight: 500;
-	line-height: 2;
-	transition: color 0.5s;
-}
-
-.dark doc-groups a {
-	font-weight: 400;
-}
-
-.doc-groups a:hover {
-	color: var(--vp-c-brand);
-	transition: none;
-}
-
-.doc-group {
-	break-inside: avoid;
-	overflow: auto;
-	margin-bottom: 20px;
+.doc-item {
 	background-color: var(--vp-c-bg-soft);
-	border-radius: 8px;
-	padding: 28px 32px;
-	transition: background-color 0.5s;
+	@apply mb-4 break-inside-avoid rounded-lg py-4 px-7 transition duration-300 hover:-translate-y-1 cursor-pointer;
 }
 
-.header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 36px;
-}
-
-.doc-filter {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	gap: 1rem;
-}
-
-.doc-filter input {
-	border: 1px solid var(--vp-c-divider);
-	border-radius: 8px;
-	padding: 6px 12px;
-}
-
-.doc-filter:focus {
-	border-color: var(--vp-c-brand-light);
-}
-
-.no-match {
-	font-size: 1.2em;
-	color: var(--vp-c-text-3);
-	text-align: center;
-	margin-top: 36px;
-	padding-top: 36px;
-	border-top: 1px solid var(--vp-c-divider-light);
-}
-
-@media (max-width: 768px) {
-	#doc-index {
-		padding: 42px 24px;
-	}
-	h1 {
-		font-size: 32px;
-		margin-bottom: 24px;
-	}
-	h2 {
-		font-size: 22px;
-		margin: 42px 0 32px;
-		padding-top: 32px;
-	}
-	.doc-groups a {
-		font-size: 14px;
-	}
-	.header {
-		display: block;
+@media (hover: hover) and (pointer: fine) {
+	.doc-item:hover {
+		background-color: var(--vp-c-bg-mute);
 	}
 }
 
-@media (min-width: 768px) {
-	.doc-groups {
-		columns: 2;
-	}
+.doc-item button {
+	@apply text-sm opacity-60 transition duration-300;
 }
 
-@media (min-width: 1024px) {
-	.doc-groups {
-		columns: 3;
+.doc-item button.active {
+	@apply font-medium text-primary opacity-80;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.doc-item button:hover {
+		@apply opacity-100;
 	}
 }
 </style>
