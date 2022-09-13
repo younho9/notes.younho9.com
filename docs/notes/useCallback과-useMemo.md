@@ -5,10 +5,8 @@ tags:
   - react
 aliases:
   - useCallback과 useMemo
-related:
-  - React.memo
 created: 2022-01-02T07:27:00.000Z
-updated: 2022-09-06T14:00:07.096Z
+updated: 2022-09-13T08:24:08.655Z
 ---
 
 <Metadata />
@@ -39,10 +37,10 @@ updated: 2022-09-06T14:00:07.096Z
 1. 참조 동일성이 유지되어야 할 때
 2. 비용이 많이 드는 계산이 있을 때
 
-- 비용이 많이 드는 계산을 하는 컴포넌트가 props가 변경되지 않으면 다시 렌더링되지 않도록 [[React.memo]]로 감싸진 컴포넌트에 대해 사용할 수 있다.
+- 비용이 많이 드는 계산을 하는 컴포넌트가 props가 변경되지 않으면 다시 렌더링되지 않도록 [React.memo](https://reactjs.org/docs/react-api.html#reactmemo)로 감싸진 컴포넌트에 대해 사용할 수 있다.
 - 성능 개선은 항상 비용이 든다.
 - 성능 개선을 함으로써 얻어지는 이득이 그 비용을 상쇄할 수 있을 때만 해야 한다.
 
 ## References
 
-- [When to useMemo and[]() useCallback (kentcdodds.com)](https://kentcdodds.com/blog/usememo-and-usecallback)
+- [When to useMemo and useCallback (kentcdodds.com)](https://kentcdodds.com/blog/usememo-and-usecallback)

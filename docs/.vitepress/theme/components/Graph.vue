@@ -1,17 +1,45 @@
-<script setup>
+<script setup lang="ts">
+// @ts-nocheck
+import {useRouter} from 'vitepress';
 import {ref, onMounted, onBeforeUnmount} from 'vue';
+import pluralize from 'pluralize';
 import data from '../../../data.json';
 import * as d3 from 'd3';
 import {values, uniq, fromPairs, toPairs} from 'lodash-es';
+import type {DocItem} from './types';
+import {ForceGraphInstance, LinkObject} from 'force-graph';
 
-const buildNodeInfo = (data) => {
-	const files = values(data).flat();
+const router = useRouter();
+
+type Link = {
+	source: string;
+	target: string;
+};
+
+type NodeType = 'note' | 'journal' | 'placeholder' | 'tag';
+
+type Node = {
+	id: string;
+	type: NodeType;
+	title: string;
+	tags: string[];
+	related: string[];
+	neighbors: string[];
+	links: Link[];
+};
+
+type Graph = {
+	nodeInfo: Record<string, Node>;
+	links: Link[];
+};
+
+const buildNodeInfo = (items: DocItem[]): Graph => {
 	const fileNodes = fromPairs(
-		files.map(({fileName, title, tags = [], related = []}) => [
+		items.map(({fileName, type, title, tags = [], related = []}) => [
 			fileName,
 			{
 				id: fileName,
-				type: 'note',
+				type,
 				title,
 				tags,
 				related,
@@ -20,19 +48,19 @@ const buildNodeInfo = (data) => {
 					...tags.map((tag) => ({source: tag, target: fileName})),
 					...related.map((relate) => ({source: fileName, target: relate})),
 				],
-			},
+			} as Node,
 		]),
 	);
 	const tagNodes = fromPairs(
-		uniq(files.map((file) => file?.tags ?? []).flat()).map((tag) => [
+		uniq(items.map((item) => item?.tags ?? []).flat()).map((tag) => [
 			tag,
 			{
 				id: tag,
 				type: 'tag',
 				title: tag,
-				neighbors: [],
-				links: [],
-			},
+				neighbors: [] as string[],
+				links: [] as Link[],
+			} as Node,
 		]),
 	);
 
@@ -67,13 +95,13 @@ const resizeGraph = () => {
 	graph.width(window.innerWidth).height(window.innerHeight);
 };
 
-let graph;
+let graph: ForceGraphInstance;
 
 onMounted(async () => {
 	graph = (await import('force-graph')).default();
 
 	initDataviz();
-	const graphData = buildNodeInfo(data);
+	const graphData = buildNodeInfo(values(data).flat() as DocItem[]);
 
 	Actions.refreshWorkspaceData(graphData);
 
@@ -87,11 +115,13 @@ onMounted(async () => {
 onBeforeUnmount(() => {
 	window.removeEventListener('resize', resizeGraph);
 	darkModeObserver.disconnect();
+	graph._destructor();
+	graph = null;
 });
 
 const CONTAINER_ID = 'graph';
 
-const getStyle = (name) => {
+const getStyle = (name: string) => {
 	return getComputedStyle(document.documentElement).getPropertyValue(name);
 };
 
@@ -104,38 +134,42 @@ const getDefaultStyle = () => ({
 	highlightedForeground: getStyle('--vp-c-brand'),
 	node: {
 		note: getStyle('--vp-c-text-1'),
+		journal: getStyle('--vp-c-text-1'),
 		placeholder: getStyle('--vp-c-text-3'),
 		tag: getStyle('--vp-c-brand'),
 	},
 });
 
 const model = {
-	selectedNodes: new Set(),
-	hoverNode: null,
-	focusNodes: new Set(),
-	focusLinks: new Set(),
+	selectedNodes: new Set<string>(),
+	hoverNode: null as string | null,
+	focusNodes: new Set<string>(),
+	focusLinks: new Set<Link>(),
 	graph: {
-		nodeInfo: {},
-		links: [],
+		nodeInfo: {} as Record<string, Node>,
+		links: [] as Link[],
 	},
 	data: {
-		nodes: [],
-		links: [],
+		nodes: [] as Node[],
+		links: [] as Link[],
 	},
 	style: getDefaultStyle(),
 	showNodesOfType: {
 		placeholder: true,
 		note: true,
+		journal: true,
 		tag: true,
 		image: false,
 	},
 };
 
-function update(patch) {
+type Model = typeof model;
+
+function update(patch: (m: Model) => void) {
 	patch(model);
 
-	const focusNodes = new Set();
-	const focusLinks = new Set();
+	const focusNodes = new Set<string>();
+	const focusLinks = new Set<Link>();
 
 	if (model.hoverNode) {
 		focusNodes.add(model.hoverNode);
@@ -158,17 +192,17 @@ function update(patch) {
 }
 
 const Actions = {
-	refreshWorkspaceData: (graphInfo) =>
-		update((m) => {
+	refreshWorkspaceData: (graphInfo: Graph) =>
+		update((m: Model) => {
 			m.graph = graphInfo;
 
-			let types = new Set();
+			let types = new Set<NodeType>();
 
 			Object.values(model.graph.nodeInfo).forEach((node) =>
 				types.add(node.type),
 			);
 
-			const existingTypes = Object.keys(model.showNodesOfType);
+			const existingTypes = Object.keys(model.showNodesOfType) as NodeType[];
 
 			existingTypes.forEach((exType) => {
 				if (!types.has(exType)) {
@@ -185,8 +219,8 @@ const Actions = {
 			updateForceGraphDataFromModel(m);
 		}),
 
-	selectNode: (nodeId, isAppend) =>
-		update((m) => {
+	selectNode: (nodeId: string, isAppend: boolean) =>
+		update((m: Model) => {
 			if (!isAppend) {
 				m.selectedNodes.clear();
 			}
@@ -195,8 +229,8 @@ const Actions = {
 			}
 		}),
 
-	highlightNode: (nodeId) =>
-		update((m) => {
+	highlightNode: (nodeId: string) =>
+		update((m: Model) => {
 			m.hoverNode = nodeId;
 		}),
 
@@ -216,7 +250,7 @@ const Actions = {
 };
 
 function initDataviz() {
-	const elem = document.getElementById(CONTAINER_ID);
+	const elem = document.getElementById(CONTAINER_ID)!;
 	const painter = new Painter();
 	graph(elem)
 		.graphData(model.data)
@@ -233,7 +267,7 @@ function initDataviz() {
 				: 0,
 		)
 		.nodeCanvasObject((node, ctx, globalScale) => {
-			const info = model.graph.nodeInfo[node.id];
+			const info = model.graph.nodeInfo[node.id!];
 			if (info == null) {
 				console.error(`Could not find info for node ${node.id} - skipping`);
 				return;
@@ -254,17 +288,23 @@ function initDataviz() {
 
 			painter
 				.circle(node.x, node.y, size, fill, border)
-				.text(label, node.x, node.y + size + 1, fontSize, textColor);
+				.text(label, node.x, node.y! + size + 1, fontSize, textColor);
 		})
 		.onRenderFramePost((ctx) => {
 			painter.paint(ctx);
 		})
 		.linkColor((link) => getLinkColor(link, model))
 		.onNodeHover((node) => {
-			Actions.highlightNode(node?.id);
+			Actions.highlightNode(node?.id as string);
 		})
 		.onNodeClick((node, event) => {
-			Actions.selectNode(node.id, event.getModifierState('Shift'));
+			const info = model.graph.nodeInfo[node.id!];
+
+			if (info.type === 'tag') {
+				router.go(`/docs?tags=${info.id}`);
+			} else {
+				router.go(`/${pluralize(info.type)}/${info.id}.html`);
+			}
 		})
 		.onBackgroundClick((event) => {
 			Actions.selectNode(null, event.getModifierState('Shift'));
@@ -272,9 +312,9 @@ function initDataviz() {
 		.zoom(1.2);
 }
 
-function updateForceGraphDataFromModel(m) {
+function updateForceGraphDataFromModel(m: Model) {
 	const nodeIdsToAdd = new Set(
-		Object.values(m.graph.nodeInfo ?? {})
+		values(m.graph.nodeInfo ?? {})
 			.filter((n) => model.showNodesOfType[n.type])
 			.map((n) => n.id),
 	);
@@ -297,7 +337,7 @@ function updateForceGraphDataFromModel(m) {
 	nodeIdsToAdd.forEach((nodeId) => {
 		m.data.nodes.push({
 			id: nodeId,
-		});
+		} as Node);
 	});
 
 	m.data.links = m.graph.links
@@ -312,7 +352,7 @@ function updateForceGraphDataFromModel(m) {
 		})
 		.map((link) => ({...link}));
 
-	m.hoverNode = m.graph.nodeInfo[m.hoverNode] != null ? m.hoverNode : null;
+	m.hoverNode = m.graph.nodeInfo[m.hoverNode!] != null ? m.hoverNode : null;
 	m.selectedNodes = new Set(
 		Array.from(m.selectedNodes).filter((nId) => m.graph.nodeInfo[nId] != null),
 	);
@@ -332,12 +372,12 @@ const getNodeLabelOpacity = d3
 	.range([0, 1])
 	.clamp(true);
 
-function getNodeTypeColor(type, model) {
+function getNodeTypeColor(type: NodeType, model: Model) {
 	const style = model.style;
 	return style.node[type ?? 'note'] ?? style.node['note'];
 }
 
-function getNodeColor(nodeId, model) {
+function getNodeColor(nodeId: string, model: Model) {
 	const info = model.graph.nodeInfo[nodeId];
 	const style = model.style;
 	const typeFill = d3.rgb(getNodeTypeColor(info.type, model));
@@ -357,7 +397,7 @@ function getNodeColor(nodeId, model) {
 	}
 }
 
-function getLinkColor(link, model) {
+function getLinkColor(link: Link, model: Model) {
 	const style = model.style;
 	switch (getLinkState(link, model)) {
 		case 'regular':
@@ -371,7 +411,7 @@ function getLinkColor(link, model) {
 	}
 }
 
-function getNodeState(nodeId, model) {
+function getNodeState(nodeId: string, model: Model) {
 	return model.selectedNodes.has(nodeId) || model.hoverNode === nodeId
 		? 'highlighted'
 		: model.focusNodes.size === 0
@@ -381,7 +421,7 @@ function getNodeState(nodeId, model) {
 		: 'lessened';
 }
 
-function getLinkState(link, model) {
+function getLinkState(link: LinkObject, model: Model) {
 	return model.focusNodes.size === 0
 		? 'regular'
 		: Array.from(model.focusLinks).some(
