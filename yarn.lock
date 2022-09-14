@@ -2020,6 +2020,11 @@ markdown-it-external-links@^0.0.6:
   resolved "https://registry.npmjs.org/markdown-it-external-links/-/markdown-it-external-links-0.0.6.tgz"
   integrity sha512-b0fsXGsf0higb7DEthr8ZKYErRB4ftIw1iklUZz0iN3leZxIZMEiFspfFdKrzpfblleZMnitz6ETTDgphjCSuA==
 
+markdown-it-footnote@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.3.tgz#e0e4c0d67390a4c5f0c75f73be605c7c190ca4d8"
+  integrity sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==
+
 markdown-it-hashtag@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/markdown-it-hashtag/-/markdown-it-hashtag-0.4.0.tgz#99824c44eb06a82167574cc271398fa80d79b631"

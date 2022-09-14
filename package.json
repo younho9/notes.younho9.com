@@ -47,6 +47,7 @@
 		"lodash-es": "^4.17.21",
 		"markdown-it": "^13.0.1",
 		"markdown-it-external-links": "^0.0.6",
+		"markdown-it-footnote": "^3.0.3",
 		"markdown-it-hashtag": "^0.4.0",
 		"markdown-it-regexp": "^0.4.0",
 		"markdown-it-task-lists": "^2.1.1",
