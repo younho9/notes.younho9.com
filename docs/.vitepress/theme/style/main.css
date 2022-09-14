@@ -12,3 +12,11 @@
 	content: '\2197';
 	margin-left: 4px;
 }
+
+/* Embeds */
+
+iframe[src*='twitframe.com'] {
+	width: 100%;
+	color-scheme: light;
+	background-color: transparent;
+}
