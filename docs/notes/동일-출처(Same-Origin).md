@@ -10,6 +10,9 @@ aliases:
   - 동일 출처(Same Origin)
   - 동일 출처
   - Same Origin
+  - 동일 출처 정책(Same Origin Policy)
+  - 동일 출처 정책
+  - Same Origin Policy
 related:
   - 도메인(Domain)
   - 서브도메인(Subdomain)
@@ -18,7 +21,7 @@ related:
   - 교차-출처(Cross-Origin)
   - 동일-사이트(Same-Site)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-06T14:00:07.147Z
+updated: 2022-09-14T09:13:31.704Z
 ---
 
 <Metadata />
@@ -35,3 +38,4 @@ updated: 2022-09-06T14:00:07.147Z
 ## References
 
 - [Understanding "same-site" and "same-origin" (web.dev)](https://web.dev/same-site-same-origin/)
+- [동일 출처 정책 - 웹 보안 | MDN (mozilla.org)](https://developer.mozilla.org/ko/docs/Web/Security/Same-origin_policy)
