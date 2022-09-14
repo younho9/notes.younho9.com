@@ -107,6 +107,7 @@ export default defineConfig({
 
 				return `<a href="/docs?tags=${tag}" class="tag">`;
 			};
+			md.use(require('markdown-it-footnote'));
 		},
 	},
 });
