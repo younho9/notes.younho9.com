@@ -117,14 +117,14 @@ const onInputSearch = (event: Event) => {
 </script>
 
 <template>
-	<div class="max-w-5xl my-0 mx-auto py-10 px-4 md:py-16 md:px-8">
-		<div class="md:flex items-center justify-between mb-9">
-			<h1 class="font-semibold text-4xl">Index</h1>
+	<div class="my-0 mx-auto max-w-5xl py-10 px-4 md:py-16 md:px-8">
+		<div class="mb-9 items-center justify-between md:flex">
+			<h1 class="text-4xl font-semibold">Index</h1>
 		</div>
 
-		<div class="grid grid-cols-[80px_auto] gap-y-2 mt-10">
-			<div class="opacity-80 text-sm">Types</div>
-			<div class="flex flex-wrap gap-2 mb-2">
+		<div class="mt-10 grid grid-cols-[80px_auto] gap-y-2">
+			<div class="text-sm opacity-80">Types</div>
+			<div class="mb-2 flex flex-wrap gap-2">
 				<button
 					v-for="t of docTypes"
 					:key="t"
@@ -135,8 +135,8 @@ const onInputSearch = (event: Event) => {
 					{{ startCase(t) }}
 				</button>
 			</div>
-			<div class="opacity-80 text-sm">Categories</div>
-			<div class="flex flex-wrap gap-2 mb-2">
+			<div class="text-sm opacity-80">Categories</div>
+			<div class="mb-2 flex flex-wrap gap-2">
 				<button
 					v-for="c of categories"
 					:key="c"
@@ -147,8 +147,8 @@ const onInputSearch = (event: Event) => {
 					{{ c }}
 				</button>
 			</div>
-			<div class="opacity-80 text-sm">Tags</div>
-			<div class="flex flex-wrap gap-2 mb-2">
+			<div class="text-sm opacity-80">Tags</div>
+			<div class="mb-2 flex flex-wrap gap-2">
 				<button
 					v-for="tag of allTags"
 					:key="tag"
@@ -163,8 +163,8 @@ const onInputSearch = (event: Event) => {
 					{{ tag }}
 				</button>
 			</div>
-			<div class="opacity-80 text-sm">Sort by</div>
-			<div class="flex flex-wrap gap-2 mb-2">
+			<div class="text-sm opacity-80">Sort by</div>
+			<div class="mb-2 flex flex-wrap gap-2">
 				<button v-if="search" class="select-button active">Search</button>
 				<button
 					v-for="method of sortMethods"
@@ -182,7 +182,7 @@ const onInputSearch = (event: Event) => {
 		</div>
 
 		<div class="search-bar">
-			<ISearch class="opacity-50 mr-2" />
+			<ISearch class="mr-2 opacity-50" />
 			<input
 				:value="search"
 				@input="onInputSearch"
@@ -192,13 +192,13 @@ const onInputSearch = (event: Event) => {
 				placeholder="Search..."
 			/>
 		</div>
-		<div class="flex flex-col gap-2 relative pt-5">
+		<div class="relative flex flex-col gap-2 pt-5">
 			<div
 				v-if="hasFilters"
-				class="transition mb-2 opacity-90 absolute -top-3 right-0 z-10"
+				class="absolute -top-3 right-0 z-10 mb-2 opacity-90 transition"
 			>
 				<button
-					class="select-button flex gap-1 items-center !px-2 !py-1"
+					class="select-button flex items-center gap-1 !px-2 !py-1"
 					@click="resetFilters()"
 				>
 					<IFilterRemove /> Clear Filters
@@ -228,7 +228,7 @@ const onInputSearch = (event: Event) => {
 						</div>
 						<div>
 							<h2
-								class="font-semibold text-lg opacity-80 group-hover:opacity-100"
+								class="text-lg font-semibold opacity-80 group-hover:opacity-100"
 							>
 								{{ item.title }}
 							</h2>
@@ -243,16 +243,16 @@ const onInputSearch = (event: Event) => {
 								#{{ tag }}
 							</button>
 						</div>
-						<div class="text-xs opacity-50 flex justify-end">
+						<div class="flex justify-end text-xs opacity-50">
 							{{ useTimeAgo(new Date(item.updated)).value }}
 						</div>
 					</article>
 				</li>
 			</ul>
-			<div v-if="!result?.length" class="text-center pt-6 opacity-90">
+			<div v-if="!result?.length" class="pt-6 text-center opacity-90">
 				<div class="m-2 opacity-50">No result matched</div>
 				<button
-					class="select-button inline-flex gap-1 items-center !px-2 !py-1"
+					class="select-button inline-flex items-center gap-1 !px-2 !py-1"
 					@click="resetFilters()"
 				>
 					<IFilterRemove /> Clear Filters
@@ -264,25 +264,25 @@ const onInputSearch = (event: Event) => {
 
 <style scoped lang="postcss">
 .select-button {
-	@apply rounded text-sm px-2 py-0.5 bg-gray-400/5 hover:text-primary/100 hover:bg-primary/10 transition-colors duration-300;
+	@apply rounded bg-gray-400/5 px-2 py-0.5 text-sm transition-colors duration-300 hover:bg-primary/10 hover:text-primary/100;
 }
 
 .select-button.active:not(.disabled) {
-	@apply text-primary/90 hover:text-primary/100 bg-primary/5 hover:bg-primary/10;
+	@apply bg-primary/5 text-primary/90 hover:bg-primary/10 hover:text-primary/100;
 }
 
 .select-button.disabled {
-	@apply opacity-50 pointer-events-none;
+	@apply pointer-events-none opacity-50;
 }
 
 .search-bar {
 	border-color: var(--vp-c-divider-light);
-	@apply my-4 border-y-[1px] p-2 flex;
+	@apply my-4 flex border-y-[1px] p-2;
 }
 
 .doc-item {
 	background-color: var(--vp-c-bg-soft);
-	@apply mb-4 break-inside-avoid rounded-lg py-4 px-7 transition duration-300 hover:-translate-y-1 cursor-pointer;
+	@apply mb-4 cursor-pointer break-inside-avoid rounded-lg py-4 px-7 transition duration-300 hover:-translate-y-1;
 }
 
 @media (hover: hover) and (pointer: fine) {
