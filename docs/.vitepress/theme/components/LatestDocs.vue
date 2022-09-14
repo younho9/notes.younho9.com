@@ -39,7 +39,7 @@ const localeStringOption: Intl.DateTimeFormatOptions = {
 						}}</time>
 					</dd>
 				</dl>
-				<h3 class="text-base font-semibold tracking-tight pt-8">
+				<h3 class="pt-8 text-base font-semibold tracking-tight">
 					<a :href="`${doc.fileName}.html`">{{ doc.title }}</a>
 				</h3>
 			</article>

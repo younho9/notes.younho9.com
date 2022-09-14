@@ -604,12 +604,13 @@
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
-"@younho9/prettier-config@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/@younho9/prettier-config/-/prettier-config-2.3.1.tgz"
-  integrity sha512-sI8uk++mw8Dh2xXyiAgCfr3oGz2jSdCVlMEg9oM+Yf4yVCJqKjfHXl2m26HQYJIATHzlXCwFU3Dw0NlbGlSl4A==
+"@younho9/prettier-config@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@younho9/prettier-config/-/prettier-config-2.4.0.tgz#6d83d315d28a04aa2f5b494b17c24ecfcb691cc9"
+  integrity sha512-p8SKt4nHbL7Bfbcx20vhfCT3q2vlLBTlCx/6EjC6PWz79hVJbviNv8AA7L0dLA0lN+rvQYU8PVErHtTvMNkMXw==
   dependencies:
     "@types/prettier" "2.4.1"
+    prettier-plugin-tailwindcss "^0.1.13"
 
 abbrev@1:
   version "1.1.1"
@@ -2340,6 +2341,11 @@ preact@^10.0.0:
   version "10.8.1"
   resolved "https://registry.npmjs.org/preact/-/preact-10.8.1.tgz"
   integrity sha512-p5CKQ0MCEXTGKGOHiFaNE2V2nDq2hvDHykXvIlz+4lbfJ9umLZr8JS/fa1bXUwRcHXK+Ljk8zqmDhr25n0LtVg==
+
+prettier-plugin-tailwindcss@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwindcss/-/prettier-plugin-tailwindcss-0.1.13.tgz#ca1071361dc7e2ed5d95a2ee36825ce45f814942"
+  integrity sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==
 
 prettier@^2.7.1:
   version "2.7.1"

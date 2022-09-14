@@ -10,7 +10,7 @@ const data = useData();
 <template>
 	<h1 class="mb-8">{{ data.frontmatter.value.title }}</h1>
 
-	<div class="grid grid-cols-[100px_auto] gap-2 text-sm mt-4 mb-8 items-start">
+	<div class="mt-4 mb-8 grid grid-cols-[100px_auto] items-start gap-2 text-sm">
 		<template v-for="(value, key) in data.frontmatter.value">
 			<div class="opacity-50">
 				{{ startCase(key) }}
