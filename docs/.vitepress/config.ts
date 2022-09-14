@@ -1,9 +1,3 @@
-// @ts-ignore
-import wikilinks from 'markdown-it-wikilinks';
-// @ts-ignore
-import externalLinks from 'markdown-it-external-links';
-// @ts-ignore
-import taskLists from 'markdown-it-task-lists';
 import sanitize from 'sanitize-filename';
 import {uniq} from 'lodash';
 import {defineConfig} from 'vitepress';
@@ -83,13 +77,12 @@ export default defineConfig({
 			dark: 'vitesse-dark',
 		},
 		config: (md) => {
-			md.use(externalLinks, {
+			md.use(require('markdown-it-external-links'), {
 				externalClassName: 'external-link',
 				internalDomains: ['notes.younho9.com'],
 			});
-
 			md.use(
-				wikilinks({
+				require('markdown-it-wikilinks')({
 					htmlAttributes: {
 						class: 'wikilink',
 					},
@@ -107,8 +100,13 @@ export default defineConfig({
 					},
 				}),
 			);
+			md.use(require('markdown-it-task-lists'));
+			md.use(require('markdown-it-hashtag'));
+			md.renderer.rules.hashtag_open = function (tokens: any, idx: number) {
+				const tag = tokens[idx].content;
 
-			md.use(taskLists);
+				return `<a href="/docs?tags=${tag}" class="tag">`;
+			};
 		},
 	},
 });

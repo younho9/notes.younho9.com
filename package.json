@@ -25,10 +25,6 @@
 			"yarn docs:update-frontmatter"
 		]
 	},
-	"dependencies": {
-		"markdown-it-external-links": "^0.0.6",
-		"markdown-it-wikilinks": "^1.2.0"
-	},
 	"devDependencies": {
 		"@carbon/icons-vue": "^10.49.1",
 		"@sindresorhus/is": "^5.3.0",
@@ -50,8 +46,11 @@
 		"lint-staged": "^13.0.3",
 		"lodash-es": "^4.17.21",
 		"markdown-it": "^13.0.1",
+		"markdown-it-external-links": "^0.0.6",
+		"markdown-it-hashtag": "^0.4.0",
 		"markdown-it-regexp": "^0.4.0",
 		"markdown-it-task-lists": "^2.1.1",
+		"markdown-it-wikilinks": "^1.2.0",
 		"nodemon": "^2.0.19",
 		"patch-package": "^6.4.7",
 		"pluralize": "^8.0.0",
