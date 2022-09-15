@@ -7,7 +7,7 @@
 		"postinstall": "patch-package",
 		"format": "prettier --write --ignore-path ./node_modules/@younho9/prettier-config/.prettierignore",
 		"git:pre-commit": "lint-staged",
-		"docs:dev": "concurrently 'yarn generate:data:watch' 'vitepress dev docs'",
+		"docs:dev": "concurrently 'yarn generate:data' 'vitepress dev docs'",
 		"docs:build": "yarn generate:data && vitepress build docs",
 		"docs:serve": "vitepress serve docs",
 		"docs:format": "yarn format docs",
