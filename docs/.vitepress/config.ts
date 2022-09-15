@@ -1,3 +1,5 @@
+import path from 'path';
+import MarkdownIt from 'markdown-it';
 import sanitize from 'sanitize-filename';
 import {uniq} from 'lodash';
 import {defineConfig} from 'vitepress';
@@ -76,10 +78,19 @@ export default defineConfig({
 			light: 'vitesse-light',
 			dark: 'vitesse-dark',
 		},
-		config: (md) => {
+		config: (md: MarkdownIt) => {
 			md.use(require('markdown-it-external-links'), {
 				externalClassName: 'external-link',
 				internalDomains: ['notes.younho9.com'],
+			});
+			md.use(require('./markdown/plugins/embed-notes'), {
+				resolveFilePath: (fileName: string) =>
+					path.resolve(
+						'./docs',
+						isJournal(fileName)
+							? `journals/${fileName}.md`
+							: `notes/${fileName}.md`,
+					),
 			});
 			md.use(
 				require('markdown-it-wikilinks')({
