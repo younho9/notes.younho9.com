@@ -17,8 +17,6 @@ created: 2022-01-01T05:46:00.000Z
 updated: 2022-09-06T14:00:07.056Z
 ---
 
-<Metadata />
-
 - [반복 프로토콜(iteration protocols)](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Iteration_protocols) 을 구현한 객체
   - 내장 iterable에는 Array, Map, Set, String, TypedArray, arguments 객체, [[제너레이터(Generator)|Generator 객체]] 등이 있다.
   - 객체에 직접 반복 프로토콜을 구현하여 iterable로 만들 수 있다.

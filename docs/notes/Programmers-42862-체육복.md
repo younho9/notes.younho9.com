@@ -9,8 +9,6 @@ created: 2020-10-08T15:00:00.000Z
 updated: 2022-09-06T14:00:06.922Z
 ---
 
-<Metadata />
-
 [코딩테스트 연습 - 체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
 
 | 문제 유형      | 난이도 | 걸린 시간 | 해결 유무(✅/❌) |

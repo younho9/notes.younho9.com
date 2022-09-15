@@ -9,8 +9,6 @@ created: 2020-01-19T15:00:00.000Z
 updated: 2022-09-06T14:00:07.194Z
 ---
 
-<Metadata />
-
 [head 태그에는 무엇이 있을까? HTML의 메타데이터](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
 
 > ❗️해당 글은 [head 태그에는 무엇이 있을까? HTML의 메타데이터](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML) - MDN 문서를 보면서 공부한 기록입니다.

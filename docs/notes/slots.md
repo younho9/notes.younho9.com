@@ -9,8 +9,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:07.085Z
 ---
 
-<Metadata />
-
 [슬롯(Slots) — Vue.js (vuejs.org)](https://kr.vuejs.org/v2/guide/components-slots.html)
 
 ## 슬롯 콘텐츠

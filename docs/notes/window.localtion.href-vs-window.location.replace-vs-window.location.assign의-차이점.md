@@ -16,8 +16,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:07.117Z
 ---
 
-<Metadata />
-
 `window.location` 은 [Location 객체](https://developer.mozilla.org/en-US/docs/Web/API/Location)를 반환하는 속성이다. 이 객체는 문서의 현재 위치(URL)에 대한 정보를 나타낸다.
 
 세 가지 속성(또는 메서드) 모두 현재 페이지에서 다른 페이지로 이동할 때 사용되는데, 브라우저의 [History](https://developer.mozilla.org/en-US/docs/Web/API/History)에 미치는 영향에 차이가 있다.

@@ -10,8 +10,6 @@ created: 2022-01-14T00:28:00.000Z
 updated: 2022-09-06T14:00:07.134Z
 ---
 
-<Metadata />
-
 ```ts
 declare let foo: {a: number};
 declare let bar: {a: number; b: string};

@@ -11,8 +11,6 @@ created: 2022-08-26T00:14:05.826Z
 updated: 2022-09-13T11:33:29.998Z
 ---
 
-<Metadata />
-
 ## Features
 
 - [x] Graph Visualization

@@ -9,8 +9,6 @@ created: 2022-03-23T05:54:00.000Z
 updated: 2022-09-06T14:00:07.017Z
 ---
 
-<Metadata />
-
 ## References
 
 - [Make Libraries Working with Vue 2 and 3 (antfu.me)](https://antfu.me/posts/make-libraries-working-with-vue-2-and-3)

@@ -10,8 +10,6 @@ created: 2022-03-24T01:39:00.000Z
 updated: 2022-09-06T14:00:07.025Z
 ---
 
-<Metadata />
-
 ## What is Linux alpine
 
 리눅스 알파인은 최소(minimal) 설정된 리눅스

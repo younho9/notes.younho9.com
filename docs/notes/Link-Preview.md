@@ -9,8 +9,6 @@ created: 2022-08-09T08:46:00.000Z
 updated: 2022-09-06T14:00:06.764Z
 ---
 
-<Metadata />
-
 ## References
 
 - [How to Create a Link Preview: The Definite Guide [Implementation and Demo Included] - Andrej Gajdos](https://andrejgajdos.com/how-to-create-a-link-preview/)

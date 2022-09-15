@@ -15,8 +15,6 @@ created: 2022-09-14T02:08:32.705Z
 updated: 2022-09-14T09:13:31.692Z
 ---
 
-<Metadata />
-
 ## IE
 
 Swiper 라이브러리는 [5.0.0 버전부터 IE에 대한 지원을 중단](https://github.com/nolimits4web/swiper/blob/master/CHANGELOG.md#620---released-on-september-4rd-2020:~:text=Fully%20removed%20Internet%20Explorer%20support)했다.

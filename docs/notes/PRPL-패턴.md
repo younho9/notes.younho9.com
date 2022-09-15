@@ -11,8 +11,6 @@ created: 2022-01-08T06:44:00.000Z
 updated: 2022-09-06T14:00:06.824Z
 ---
 
-<Metadata />
-
 - Preload(또는 Push라고도 함) : 중요한 자원들을 먼저 가져옴.
 - Render : 가능한 빠르게 렌더링
 - Pre-cache : 나머지 리소스들을 캐시함.

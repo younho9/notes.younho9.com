@@ -11,8 +11,6 @@ created: 2022-08-10T01:37:00.000Z
 updated: 2022-09-06T14:00:06.948Z
 ---
 
-<Metadata />
-
 ## On npm
 
 ### Bypassing (risky!)

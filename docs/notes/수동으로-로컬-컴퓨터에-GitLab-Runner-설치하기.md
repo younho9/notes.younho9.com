@@ -13,8 +13,6 @@ created: 2022-03-24T05:17:00.000Z
 updated: 2022-09-06T14:00:07.294Z
 ---
 
-<Metadata />
-
 - Enabling Virtualization in BIOS CPU
 - [[Windows에-WSL-설치|Windows에 WSL 설치]]
   - 참고 : [WSL2(Windows Subsystem for Linux 2) 설치 및 사용 방법 | 44BITS](https://www.44bits.io/ko/post/wsl2-install-and-basic-usage)

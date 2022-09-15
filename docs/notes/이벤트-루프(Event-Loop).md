@@ -10,8 +10,6 @@ created: 2022-01-05T12:35:00.000Z
 updated: 2022-09-06T14:00:07.352Z
 ---
 
-<Metadata />
-
 ![event loop](https://res.cloudinary.com/practicaldev/image/fetch/s--5iH5BNWm--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/lczn4fca41is4vpicr6w.gif)
 
 - 자바스크립트 런타임은 하나의 콜 스택을 가진다.

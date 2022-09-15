@@ -19,8 +19,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:07.149Z
 ---
 
-<Metadata />
-
 - HTTP 요청 헤더의 [Sec-Fetch-Site](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site#directives) 를 통해 클라이언트와 호스트의 관계를 알 수 있다.
 - 두 주소가 동일 사이트인지 판단하기 위해서는 [공개 접미사 목록(Public Suffix List)](https://publicsuffix.org/list/) 이 필요하다.
 

@@ -18,8 +18,6 @@ created: 2022-01-06T04:11:00.000Z
 updated: 2022-09-06T14:00:07.080Z
 ---
 
-<Metadata />
-
 ![pass-by-reference-vs-pass-by-value-animation](https://blog.penjee.com/wp-content/uploads/2015/02/pass-by-reference-vs-pass-by-value-animation.gif)
 
 함수를 호출할 때, 함수에 전달된 [[매개변수(parameter)-vs-인자(argument)|매개변수(parameter) vs 인자(argument)]]는 매개변수에 복사된다.

@@ -12,8 +12,6 @@ created: 2022-01-01T03:11:00.000Z
 updated: 2022-09-06T14:00:06.814Z
 ---
 
-<Metadata />
-
 ## Object.create()를 사용한 고전적인 상속 방법
 
 ```js

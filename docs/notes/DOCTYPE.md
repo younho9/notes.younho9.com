@@ -9,8 +9,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:06.595Z
 ---
 
-<Metadata />
-
 - Document Type의 약자로, 해당 문서가 어떤 형식으로 정의되었는지 선언한다.
 - 브라우저는 이것을 보고 렌더링 모드([호환 모드와 표준 모드]([호환 모드와 표준 모드 - HTML: Hypertext Markup Language | MDN (mozilla.org)](https://developer.mozilla.org/ko/docs/Web/HTML/Quirks_Mode_and_Standards_Mode))가 있음)를 결정한다.
 - 선언하지 않으면 호환 모드(quirks mode)를 트리거한다.

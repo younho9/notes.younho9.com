@@ -10,8 +10,6 @@ created: 2020-04-05T15:00:00.000Z
 updated: 2022-09-06T14:00:07.315Z
 ---
 
-<Metadata />
-
 ## Assembly Language Statements
 
 ### 3 types of functional statements

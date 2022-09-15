@@ -15,8 +15,6 @@ created: 2021-12-31T11:25:00.000Z
 updated: 2022-09-06T14:00:07.598Z
 ---
 
-<Metadata />
-
 ## TL;DR
 
 ![animal-rabbit-extends](https://ko.javascript.info/article/class-inheritance/animal-rabbit-extends.svg)

@@ -9,8 +9,6 @@ created: 2020-09-10T15:00:00.000Z
 updated: 2022-09-06T14:00:06.822Z
 ---
 
-<Metadata />
-
 ## 문제
 
 [코딩테스트 연습 - 동굴 탐험](https://programmers.co.kr/learn/courses/30/lessons/67260?language=javascript)

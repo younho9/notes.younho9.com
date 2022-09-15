@@ -9,8 +9,6 @@ created: 2022-02-18T06:23:00.000Z
 updated: 2022-09-06T14:00:07.005Z
 ---
 
-<Metadata />
-
 ## Chapter 1. Component Basics
 
 ### 1. Introduction to Components

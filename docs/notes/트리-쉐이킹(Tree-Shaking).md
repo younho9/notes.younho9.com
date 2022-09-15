@@ -14,8 +14,6 @@ created: 2022-01-05T12:02:00.000Z
 updated: 2022-09-06T14:00:07.590Z
 ---
 
-<Metadata />
-
 ![](https://i.stack.imgur.com/xtD74.png)
 
 - **디펜던시 트리 구조**에서 ES6 모듈에서 실제로 가져오지 않은 `export` 를 떨어버려서(shake) 불필요한 코드를 제거하는 과정

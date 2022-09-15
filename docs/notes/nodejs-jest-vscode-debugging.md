@@ -9,8 +9,6 @@ created: 2020-09-10T15:00:00.000Z
 updated: 2022-09-06T14:00:07.062Z
 ---
 
-<Metadata />
-
 ## 문제 상황
 
 ![nodejs-jest-vscode-debugging-image-0](./images/nodejs-jest-vscode-debugging-image-0.png)

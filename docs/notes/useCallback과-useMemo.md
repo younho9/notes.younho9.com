@@ -9,8 +9,6 @@ created: 2022-01-02T07:27:00.000Z
 updated: 2022-09-13T08:24:08.655Z
 ---
 
-<Metadata />
-
 - useCallback과 useMemo는 오히려 성능 면에서 더 안좋을 수 있다.
 
   ```js

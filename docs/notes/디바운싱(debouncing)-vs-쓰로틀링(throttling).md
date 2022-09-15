@@ -13,8 +13,6 @@ created: 2022-01-01T09:17:00.000Z
 updated: 2022-09-06T14:00:07.153Z
 ---
 
-<Metadata />
-
 ![debounce-vs-throttle.png](./images/debounce-vs-throttle.png)
 
 - 쓰로틀링 : 이벤트 처리기가 일정 시간 동안 한 번 이상 실행되는 것을 막는 것.

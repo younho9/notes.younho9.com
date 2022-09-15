@@ -10,8 +10,6 @@ created: 2022-01-01T09:27:00.000Z
 updated: 2022-09-06T14:00:07.091Z
 ---
 
-<Metadata />
-
 - 개념적인 차이
   - type alias는 타입에 별칭을 붙이는 것
     - primitive 타입도 별칭을 붙이는게 가능

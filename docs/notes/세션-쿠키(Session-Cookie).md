@@ -21,8 +21,6 @@ created: 2021-12-30T07:28:00.000Z
 updated: 2022-09-06T14:00:07.290Z
 ---
 
-<Metadata />
-
 - 만료 날짜(Expires) 또는 Max-Age가 지정되지 않은 [[쿠키(cookie)|쿠키]]
 - 현재 [[세션(Session)|세션]]이 종료되면 삭제된다.
   - [[sessionStorage|세션 스토리지]] 와의 차이점

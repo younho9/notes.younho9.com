@@ -20,8 +20,6 @@ created: 2022-01-08T06:47:00.000Z
 updated: 2022-09-06T14:00:06.650Z
 ---
 
-<Metadata />
-
 ## FCP(First Contentful Paint)
 
 - 브라우저가 **처음으로 DOM의 일부분을 렌더링한 시점**을 측정한다.

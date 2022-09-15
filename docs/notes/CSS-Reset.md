@@ -9,8 +9,6 @@ created: 2020-02-02T15:00:00.000Z
 updated: 2022-09-06T14:00:06.324Z
 ---
 
-<Metadata />
-
 > ❗️ 해당 글은 [패스트캠퍼스 - 프론트엔드 개발 강의](https://www.fastcampus.co.kr/dev_online_react/)에서 HTML & CSS, SASS(SCSS) Part의 [박영웅 강사님](https://github.com/ParkYoungWoong)의 강의자료를 정리한 것입니다.
 
 브라우저마다 기본적으로 가지고 있는 스타일이 있기 때문에 브라우저가 갖고 있는 CSS 스타일을 초기화할 필요가 있다.

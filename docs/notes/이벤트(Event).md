@@ -16,8 +16,6 @@ created: 2021-12-31T07:29:00.000Z
 updated: 2022-09-06T14:00:07.350Z
 ---
 
-<Metadata />
-
 ![eventflow.png (480×560) (w3.org)](https://www.w3.org/TR/2003/NOTE-DOM-Level-3-Events-20031107/images/eventflow.png)
 
 - DOM 이벤트 흐름에는 3가지 단계가 있다

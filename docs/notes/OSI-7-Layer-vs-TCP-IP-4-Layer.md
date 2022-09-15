@@ -12,8 +12,6 @@ created: 2021-12-31T02:43:00.000Z
 updated: 2022-09-06T14:00:06.811Z
 ---
 
-<Metadata />
-
 ![OSI 7 Layer vs TCP-IP 4 Layer](https://t1.daumcdn.net/cfile/tistory/261CC03358E1B73D32)
 
 - OSI 7 Layer의 Presentation Layer와 Session Layer가 TCP/IP에서는 Application Layer로 통합되어 있음.

@@ -13,8 +13,6 @@ created: 2020-10-29T15:00:00.000Z
 updated: 2022-09-06T14:00:07.075Z
 ---
 
-<Metadata />
-
 [Observer vs Pub-Sub Pattern](https://medium.com/better-programming/observer-vs-pub-sub-pattern-50d3b27f838c)
 
 ## 옵저버 패턴

@@ -10,8 +10,6 @@ created: 2022-09-02T07:40:00.366Z
 updated: 2022-09-06T14:00:06.748Z
 ---
 
-<Metadata />
-
 > Long Term Support
 
 - 일반적으로 장기간에 걸쳐 치명적인 버그(Critical Bugs)들의 수정을 보장하는 소프트웨어의 버전 또는 에디션

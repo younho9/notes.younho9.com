@@ -1,3 +1,22 @@
+diff --git a/node_modules/vitepress/dist/client/app/components/Content.js b/node_modules/vitepress/dist/client/app/components/Content.js
+index ad9a647..fc45e50 100644
+--- a/node_modules/vitepress/dist/client/app/components/Content.js
++++ b/node_modules/vitepress/dist/client/app/components/Content.js
+@@ -1,11 +1,12 @@
+-import { defineComponent, h } from 'vue';
++import { defineComponent, h, resolveComponent } from 'vue';
+ import { useRoute } from '../router.js';
+ export const Content = defineComponent({
+     name: 'VitePressContent',
+     setup() {
+         const route = useRoute();
++        const Metadata = resolveComponent('Metadata');
+         return () => h('div', { style: { position: 'relative' } }, [
+-            route.component ? h(route.component) : null
++            ['notes', 'journals'].some((path) => route.path.startsWith(`/${path}`)) ? h(Metadata) : null, route.component ? h(route.component) : null
+         ]);
+     }
+ });
 diff --git a/node_modules/vitepress/dist/client/theme-default/support/socialIcons.js b/node_modules/vitepress/dist/client/theme-default/support/socialIcons.js
 index c50c240..b867b9e 100644
 --- a/node_modules/vitepress/dist/client/theme-default/support/socialIcons.js

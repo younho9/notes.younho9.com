@@ -11,8 +11,6 @@ created: 2022-08-09T05:53:00.000Z
 updated: 2022-09-06T14:00:07.119Z
 ---
 
-<Metadata />
-
 ## Related
 
 - [[window.opner]]

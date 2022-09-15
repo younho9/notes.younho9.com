@@ -18,8 +18,6 @@ created: 2021-12-30T09:06:00.000Z
 updated: 2022-09-06T14:00:06.704Z
 ---
 
-<Metadata />
-
 ![HTTP 레이어](https://mdn.mozillademos.org/files/13673/HTTP%20&%20layers.png)
 
 ## 기본

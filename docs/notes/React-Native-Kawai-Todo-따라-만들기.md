@@ -9,8 +9,6 @@ created: 2020-03-21T15:00:00.000Z
 updated: 2022-09-06T14:00:06.937Z
 ---
 
-<Metadata />
-
 ### `Dimensions` API
 
 [Dimensions · React Native](https://reactnative.dev/docs/dimensions)

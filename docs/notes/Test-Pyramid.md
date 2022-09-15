@@ -15,8 +15,6 @@ created: 2022-08-09T04:17:00.000Z
 updated: 2022-09-06T14:00:06.990Z
 ---
 
-<Metadata />
-
 > [The Practical Test Pyramid (martinfowler.com)](https://martinfowler.com/articles/practical-test-pyramid.html)
 
 - Martin Fowler가 소개한 소프트웨어 테스트를 그룹화하라는 메타포를 제공하는 용어

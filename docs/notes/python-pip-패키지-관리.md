@@ -9,8 +9,6 @@ created: 2021-03-26T15:00:00.000Z
 updated: 2022-09-06T14:00:07.081Z
 ---
 
-<Metadata />
-
 ## requirements.txt에 명시된 의존성 설치
 
 ```bash
