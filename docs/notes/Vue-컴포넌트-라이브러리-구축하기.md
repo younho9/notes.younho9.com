@@ -12,8 +12,6 @@ created: 2022-01-18T08:18:00.000Z
 updated: 2022-09-06T14:00:07.021Z
 ---
 
-<Metadata />
-
 ## Vue 컴포넌트를 패키지로 배포하는 기본 원리
 
 - [Packaging Vue Components for npm — Vue.js (vuejs.org)](https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html)

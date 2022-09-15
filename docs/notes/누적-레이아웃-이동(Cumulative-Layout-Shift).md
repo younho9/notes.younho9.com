@@ -16,8 +16,6 @@ created: 2022-01-12T02:06:00.000Z
 updated: 2022-09-06T14:00:07.140Z
 ---
 
-<Metadata />
-
 ![Layout Shift](https://storage.googleapis.com/web-dev-assets/layout-instability-api/layout-instability2.webm)
 
 - 시각적 요소가 렌더링된 프레임에서 다음 프레임으로 위치를 변경할 때마다 발생한다.

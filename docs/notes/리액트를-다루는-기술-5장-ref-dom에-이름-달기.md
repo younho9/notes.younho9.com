@@ -9,8 +9,6 @@ created: 2020-04-01T15:00:00.000Z
 updated: 2022-09-06T14:00:07.176Z
 ---
 
-<Metadata />
-
 ![react-technique-5-ref-dom-naming-image-0](./images/react-technique-5-ref-dom-naming-image-0.png)
 
 > 이 글은 김민준(velopert)님의 [리액트를 다루는 기술](http://www.yes24.com/Product/Goods/78233628?Acode=101)을참조하여 작성한 글입니다.

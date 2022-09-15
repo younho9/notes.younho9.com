@@ -15,8 +15,6 @@ created: 2022-08-09T01:43:00.000Z
 updated: 2022-09-06T14:00:06.606Z
 ---
 
-<Metadata />
-
 - 종단 간의
 
 ## Related

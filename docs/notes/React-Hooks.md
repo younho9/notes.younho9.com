@@ -9,8 +9,6 @@ created: 2022-01-02T07:58:00.000Z
 updated: 2022-09-06T14:00:06.944Z
 ---
 
-<Metadata />
-
 ## [동기](https://ko.reactjs.org/docs/hooks-intro.html#motivation)
 
 - **계층의 변화 없이 상태 관련 로직을 재사용**할 수 있도록 도와준다.

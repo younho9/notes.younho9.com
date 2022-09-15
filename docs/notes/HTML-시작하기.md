@@ -9,8 +9,6 @@ created: 2020-01-19T15:00:00.000Z
 updated: 2022-09-06T14:00:06.681Z
 ---
 
-<Metadata />
-
 [HTML 시작하기](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 
 > ❗️ 해당 글은 [HTML 시작하기](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started) - MDN 문서를 보면서 공부한 기록입니다.

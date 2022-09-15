@@ -9,8 +9,6 @@ created: 2022-01-20T06:16:00.000Z
 updated: 2022-09-06T14:00:07.004Z
 ---
 
-<Metadata />
-
 ## Vite란?
 
 ## Can I use ... Vue 3?

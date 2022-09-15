@@ -17,8 +17,6 @@ created: 2021-12-30T09:06:00.000Z
 updated: 2022-09-06T14:00:06.716Z
 ---
 
-<Metadata />
-
 ![HTTP vs HTTPS](https://i.imgur.com/4GHgl0T.png)
 
 - [[HTTP-프로토콜|HTTP 프로토콜]] 의 암호화된 버전(HTTP Secure)이다.

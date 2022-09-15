@@ -16,8 +16,6 @@ created: 2022-01-06T05:01:00.000Z
 updated: 2022-09-06T14:00:07.123Z
 ---
 
-<Metadata />
-
 JavaScript에는 크게 두 가지 유형의 값, [[원시-값(Primitive)|원시 값(Primitive)]]과 [[JavaScript-객체(Object)|JavaScript 객체(Object)]]이 있다.
 
 - 원시 값은 **'값 그대로'** 저장, 할당, 복사된다.

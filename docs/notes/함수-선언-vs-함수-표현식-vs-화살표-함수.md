@@ -12,8 +12,6 @@ created: 2022-01-09T01:55:00.000Z
 updated: 2022-09-06T14:00:07.610Z
 ---
 
-<Metadata />
-
 ```js
 const greet = function (who) {
 	return `Hello, ${who}!`;

@@ -9,8 +9,6 @@ created: 2022-01-24T06:05:00.000Z
 updated: 2022-09-06T14:00:06.636Z
 ---
 
-<Metadata />
-
 - [발표자료](https://drive.google.com/file/d/1ZrP6yBdGJTDXZuX67TU0aVaSrF_AgQe6/view)
 
 ## OpenAPI Specification?

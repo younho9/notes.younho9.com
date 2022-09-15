@@ -18,8 +18,6 @@ created: 2022-01-01T05:32:00.000Z
 updated: 2022-09-06T14:00:07.045Z
 ---
 
-<Metadata />
-
 - [[JavaScript-객체(Object)|JavaScript 객체(Object)]] 중 `enumerable` 이 true로 설정된 속성을 열거 가능한 속성(enumerable property)라고 한다.
 - 열거 가능 속성은 [[for-of-vs-for-in]]로 열거할 수 있다.
   - [[프로토타입(prototype)|프로토타입 체인]]을 통해 상속된 속성이 열거 가능일 경우에도 열거된다.

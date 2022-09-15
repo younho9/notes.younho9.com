@@ -9,8 +9,6 @@ created: 2020-03-20T15:00:00.000Z
 updated: 2022-09-06T14:00:07.042Z
 ---
 
-<Metadata />
-
 ## Bootstrap 이란?
 
 1. 트위터에서 개발

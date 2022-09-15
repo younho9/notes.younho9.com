@@ -15,8 +15,6 @@ created: 2022-08-10T01:07:00.000Z
 updated: 2022-09-06T14:00:07.445Z
 ---
 
-<Metadata />
-
 - JavaScript, HTML, CSS로 크로스 플랫폼(cross-platform) 데스크탑 앱을 빌드하기 위한 프레임워크
 - [[Chromium(크로미움)]]과 [[Node.js]] 바이너리를 임베드하고 있어서, 하나의 JavaScript 코드베이스를 유지하고, 네이티브 개발 경험이 없어도 Windows, macOS, Linux에서 동작하는 크로스 플랫폼(cross-platform) 앱을 만들 수 있다.
 - 네이티브 개발의 어려운 부분들을 쉽게 해결해준다.

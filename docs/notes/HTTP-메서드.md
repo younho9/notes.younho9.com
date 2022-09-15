@@ -17,8 +17,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:06.695Z
 ---
 
-<Metadata />
-
 ## [GET](https://developer.mozilla.org/ko/docs/Web/HTTP/Methods/GET)
 
 - 특정 리소스의 표시를 요청한다.

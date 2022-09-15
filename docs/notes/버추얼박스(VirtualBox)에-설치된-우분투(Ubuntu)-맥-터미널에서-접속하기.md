@@ -11,8 +11,6 @@ created: 2020-03-25T15:00:00.000Z
 updated: 2022-09-06T14:00:07.241Z
 ---
 
-<Metadata />
-
 ## 가상머신은 느리다.
 
 > 대학생으로서 쓰는 리눅스(Linux) 설치기 - 2편
@@ -198,10 +196,10 @@ alias sshu="ssh username@192.168.52.xxx"
 그리고 쉘을 다시 실행해준다.
 
 ```bash
-<Metadata />
+# bash를 사용할 경우
 source ~/.bash_profile
 
-<Metadata />
+# zsh를 사용할 경우
 source ~/.zshrc
 ```
 

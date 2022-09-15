@@ -12,8 +12,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:07.106Z
 ---
 
-<Metadata />
-
 ## ValidationProvider
 
 - 먼저 `ValidationProvider` 컴포넌트에 등록을 해야 한다.

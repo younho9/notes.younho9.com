@@ -9,8 +9,6 @@ created: 2022-03-19T04:13:00.000Z
 updated: 2022-09-06T14:00:06.802Z
 ---
 
-<Metadata />
-
 ## Key-Value Map
 
 `Map` 에 대한 네이밍 컨벤션

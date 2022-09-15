@@ -10,8 +10,6 @@ created: 2022-01-09T04:25:00.000Z
 updated: 2022-09-06T14:00:06.656Z
 ---
 
-<Metadata />
-
 ## 핵심 개념
 
 ### Schema Definition Language

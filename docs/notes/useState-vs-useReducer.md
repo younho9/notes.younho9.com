@@ -11,8 +11,6 @@ created: 2022-01-02T05:14:00.000Z
 updated: 2022-09-06T14:00:07.099Z
 ---
 
-<Metadata />
-
 ## useState
 
 ### React는 어떤 상태(state)를 반환할 지 어떻게 아는가?

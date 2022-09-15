@@ -9,8 +9,6 @@ created: 2020-03-20T15:00:00.000Z
 updated: 2022-09-06T14:00:06.980Z
 ---
 
-<Metadata />
-
 ## Sass(SCSS) Syntax - 2. 중첩
 
 > ❗️ 해당 글은 패스트캠퍼스 - 프론트엔드 개발 강의에서 HTML & CSS, SASS(SCSS) Part의 박영웅 강사님의 강의자료(Sass(SCSS) 완전 정복!)를 보며 정리한 것입니다.

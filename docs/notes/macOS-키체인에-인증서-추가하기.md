@@ -9,8 +9,6 @@ created: 2022-08-11T06:19:00.000Z
 updated: 2022-09-06T14:00:07.060Z
 ---
 
-<Metadata />
-
 - 키체인 접근(Keychain Access) 앱에 인증서 파일(`.crt` )을 드래그하여 추가
 
 ## References

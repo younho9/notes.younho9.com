@@ -11,8 +11,6 @@ created: 2022-02-26T07:34:00.000Z
 updated: 2022-09-06T14:00:06.771Z
 ---
 
-<Metadata />
-
 ## [[2022-02-26]]
 
 ### Web Extensions

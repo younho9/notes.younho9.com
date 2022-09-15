@@ -19,8 +19,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:07.284Z
 ---
 
-<Metadata />
-
 ![FHnQtAdWUAElUhk (1200×673) (twimg.com)](https://pbs.twimg.com/media/FHnQtAdWUAElUhk?format=jpg&name=medium)
 
 ![Sub Domain vs Sub Directory](https://www.wpbeginner.com/wp-content/uploads/2019/12/Subdomain-vs-subdirectory-for-SEO-e1575318609299.jpg)

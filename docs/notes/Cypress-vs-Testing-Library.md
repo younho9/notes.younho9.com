@@ -13,8 +13,6 @@ created: 2022-08-09T01:37:00.000Z
 updated: 2022-09-06T14:00:06.563Z
 ---
 
-<Metadata />
-
 ## Cypress
 
 - [[Cypress]]는 [[End-to-End(E2E)], 통합 및 컴포넌트 테스트 도구

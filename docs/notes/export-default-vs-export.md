@@ -12,8 +12,6 @@ created: 2022-01-10T13:23:00.000Z
 updated: 2022-09-06T14:00:07.052Z
 ---
 
-<Metadata />
-
 - Import는 [[pass-by-reference-vs-pass-by-value|pass by reference vs pass by value]]된다.
 - export 한 곳에서 모듈 내 값을 업데이트하면 import 한 곳에서 변경사항을 적용 받는다.
 - export default는 유일한 예외이다.

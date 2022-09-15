@@ -11,8 +11,6 @@ created: 2022-08-12T01:17:00.000Z
 updated: 2022-09-06T14:00:07.596Z
 ---
 
-<Metadata />
-
 ## References
 
 - [Promise - JavaScript | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)

@@ -14,8 +14,6 @@ created: 2022-01-08T06:45:00.000Z
 updated: 2022-09-06T14:00:06.757Z
 ---
 
-<Metadata />
-
 - [[PRPL-패턴|PRPL 패턴]]
 - [[코드-스플리팅(Code-Splitting)|코드 스플리팅(Code Splitting)]]
 - 사용하지 않는 코드 제거하기

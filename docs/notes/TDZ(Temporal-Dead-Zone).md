@@ -16,8 +16,6 @@ created: 2021-12-31T14:48:00.000Z
 updated: 2022-09-06T14:00:06.988Z
 ---
 
-<Metadata />
-
 ## var 변수의 라이프 사이클
 
 ![var-lifecycle.png (1016×229) (poiemaweb.com)](https://poiemaweb.com/img/var-lifecycle.png)

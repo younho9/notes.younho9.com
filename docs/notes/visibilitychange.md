@@ -12,8 +12,6 @@ created: 2022-01-05T14:05:00.000Z
 updated: 2022-09-06T14:00:07.110Z
 ---
 
-<Metadata />
-
 ## Related
 
 - [[visibiltyState]]

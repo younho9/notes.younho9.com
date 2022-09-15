@@ -16,8 +16,6 @@ created: 2022-01-02T04:01:00.000Z
 updated: 2022-09-06T14:00:07.449Z
 ---
 
-<Metadata />
-
 - 리액트에서 "렌더링"은 [[가상-돔(Virtual-DOM)|가상 돔(Virtual DOM)]]을 만드는 것(`render` 함수를 호출하는 것)을 말한다.
   - 렌더링이 완료되고, 리액트가 DOM을 업데이트하면 [[브라우저-렌더링-원리|브라우저 렌더링 원리]] 프로세스가 시작되는데, 혼동을 피하기 위해 리액트에서 "페인팅"이라는 용어로 사용하기도 한다.
 - 컴포넌트의 props나 state가 변경되었을 때, React는 [[가상-돔(Virtual-DOM)|가상 돔(Virtual DOM)]]를 이전에 렌더링된 엘리먼트와 비교해서 [[DOM(Document-Object-Model)|DOM(Document Object Model)]] 업데이트가 필요한지 여부를 결정한다.

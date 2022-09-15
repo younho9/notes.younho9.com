@@ -9,8 +9,6 @@ created: 2022-01-03T16:22:00.000Z
 updated: 2022-09-06T14:00:06.941Z
 ---
 
-<Metadata />
-
 - 기본 가져오기 대신 destructured named imports를 사용하는 것이 앞으로 더 선호된다.
 
 ## Example

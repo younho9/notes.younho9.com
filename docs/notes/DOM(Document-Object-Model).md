@@ -10,8 +10,6 @@ created: 2020-05-14T15:00:00.000Z
 updated: 2022-09-06T14:00:06.604Z
 ---
 
-<Metadata />
-
 ## DOM tree
 
 ![dom-image-0](./images/dom-image-0.png)

@@ -18,8 +18,6 @@ created: 2022-01-01T02:13:00.000Z
 updated: 2022-09-06T14:00:06.724Z
 ---
 
-<Metadata />
-
 ![Object Properties](https://user-images.githubusercontent.com/29270715/77065184-e86d9600-6a08-11ea-9a7a-4d699597e1ef.png)
 
 - 객체는 [문자형으로 된 **키(Key)**](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Property_Accessors#%EC%86%8D%EC%84%B1_%EC%9D%B4%EB%A6%84) 와 모든 자료형을 사용할 수 있는 **값(value)** 쌍으로 구성된 여러 **프로퍼티(property)** 의 집합이다.

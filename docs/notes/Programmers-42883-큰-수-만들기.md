@@ -9,8 +9,6 @@ created: 2020-10-12T15:00:00.000Z
 updated: 2022-09-06T14:00:06.914Z
 ---
 
-<Metadata />
-
 [코딩테스트 연습 - 큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
 
 | 문제 유형      | 난이도 | 걸린 시간 | 해결 유무(✅/❌) |

@@ -16,8 +16,6 @@ created: 2021-12-30T05:06:00.000Z
 updated: 2022-09-06T14:00:06.303Z
 ---
 
-<Metadata />
-
 ![accept-language.png](./images/accept-language.png)
 
 - `Accept-Language` 요청 HTTP 헤더는 어떤 언어를 클라이언트가 이해할 수 있는지, 그리고 지역 설정 중 어떤 것이 더 선호되는지를 알려준다.

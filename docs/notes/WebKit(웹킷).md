@@ -13,8 +13,6 @@ created: 2022-08-09T02:30:00.000Z
 updated: 2022-09-06T14:00:07.013Z
 ---
 
-<Metadata />
-
 ## Related
 
 - [[Chromium(크로미움)]]

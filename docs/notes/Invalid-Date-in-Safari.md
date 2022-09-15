@@ -10,8 +10,6 @@ created: 2022-08-21T06:00:00.000Z
 updated: 2022-09-06T14:00:06.709Z
 ---
 
-<Metadata />
-
 ## 문제
 
 - Safari에서 `yyyy-MM-dd hh:mm` 형식의 문자열로 Date 객체를 생성할 때, Invalid Date 에러가 발생함.

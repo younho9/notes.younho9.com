@@ -14,8 +14,6 @@ created: 2021-12-31T13:47:00.000Z
 updated: 2022-09-06T14:00:07.657Z
 ---
 
-<Metadata />
-
 ## Example
 
 ```js

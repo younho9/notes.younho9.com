@@ -20,8 +20,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:07.498Z
 ---
 
-<Metadata />
-
 ![FHnQtAdWUAElUhk (1200×673) (twimg.com)](https://pbs.twimg.com/media/FHnQtAdWUAElUhk?format=jpg&name=medium)
 
 - URL에서 프로토콜, 도메인(서브 도메인 포함), 포트번호까지를 모두 포함한다.

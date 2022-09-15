@@ -19,8 +19,6 @@ created: 2021-12-30T07:28:00.000Z
 updated: 2022-09-06T14:00:07.490Z
 ---
 
-<Metadata />
-
 - 만료 날짜(Expires) 또는 Max-Age가 지정된 쿠키
 - [[세션-쿠키(Session-Cookie)|세션 쿠키(Session Cookie)]]와 달리 [[세션(Session)|세션]]이 종료되어도 쿠키가 유지된다.
   - 브라우저 종료 후 다시 열어도 쿠키가 유지된다.

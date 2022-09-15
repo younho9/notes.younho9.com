@@ -19,8 +19,6 @@ created: 2021-12-30T04:06:00.000Z
 updated: 2022-09-06T14:00:07.064Z
 ---
 
-<Metadata />
-
 - 과거에는 **"MIME type"** 으로 불렸지만 지금은 **"media type"** 으로 사용한다.
 - HTTP에서 [[Content-Type]] 의 [[디렉티브(Directive)]] 중 하나로 사용되기 때문에, 때때로 **"content type"** 으로 불리기도 한다.
 

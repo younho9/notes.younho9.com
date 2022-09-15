@@ -14,8 +14,6 @@ created: 2022-08-09T06:25:00.000Z
 updated: 2022-09-06T14:00:07.305Z
 ---
 
-<Metadata />
-
 ## 작동 방식
 
 - Vue SFC는 프레임워크 파일 형식이며, [@vue/compiler-sfc](https://github.com/vuejs/core/tree/main/packages/compiler-sfc)를 통해 표준 JavaScript와 CSS로 미리 컴파일 되어있어야 합니다.

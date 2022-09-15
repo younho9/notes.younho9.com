@@ -12,8 +12,6 @@ created: 2022-08-10T00:31:00.000Z
 updated: 2022-09-06T14:00:06.780Z
 ---
 
-<Metadata />
-
 ## MSW란?
 
 > API mocking of the next generation

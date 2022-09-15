@@ -11,8 +11,6 @@ created: 2022-01-08T05:01:00.000Z
 updated: 2022-09-06T14:00:07.248Z
 ---
 
-<Metadata />
-
 사이트의 홈 URL을 `site:` 검색으로 확인한다.
 
 ## Related

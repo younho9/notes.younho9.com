@@ -14,8 +14,6 @@ created: 2022-01-02T08:32:00.000Z
 updated: 2022-09-06T14:00:07.151Z
 ---
 
-<Metadata />
-
 JavaScript의 동일성 비교에는 여러 가지 방법이 있다.
 
 - `==` : 추상 비교(Abstract equality), 느슨한 비교(Loose equality)

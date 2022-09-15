@@ -11,8 +11,6 @@ created: 2022-01-05T12:39:00.000Z
 updated: 2022-09-06T14:00:06.934Z
 ---
 
-<Metadata />
-
 ## Rest란?
 
 - REpresentational State Transfer의 약자

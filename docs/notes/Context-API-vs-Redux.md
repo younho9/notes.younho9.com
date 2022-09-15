@@ -15,8 +15,6 @@ created: 2022-01-05T12:24:00.000Z
 updated: 2022-09-06T14:00:06.553Z
 ---
 
-<Metadata />
-
 - 정확히는 Context API는 상태를 관리하는 도구가 아니기 때문에 [[useState-vs-useReducer|useState vs useReducer]]와 Context API를 조합하여 사용한다고 할 수 있다.
 - 다음과 같은 공통점이 있다.
   - 저장된 값

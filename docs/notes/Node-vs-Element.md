@@ -11,8 +11,6 @@ created: 2022-01-06T03:43:00.000Z
 updated: 2022-09-06T14:00:06.805Z
 ---
 
-<Metadata />
-
 > 계층 구조상 EventTarget > Node > Element 순으로 상속 관계에 있다.
 
 ![DOM class hierarchy](https://ko.javascript.info//article/basic-dom-node-properties/dom-class-hierarchy.svg)

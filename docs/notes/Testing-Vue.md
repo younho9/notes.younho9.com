@@ -10,8 +10,6 @@ created: 2022-08-09T05:05:00.000Z
 updated: 2022-09-06T14:00:06.994Z
 ---
 
-<Metadata />
-
 ## References
 
 - [Testing | Vue.js (vuejs.org)](https://vuejs.org/guide/scaling-up/testing.html)
