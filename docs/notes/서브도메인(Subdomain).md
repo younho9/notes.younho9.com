@@ -14,9 +14,10 @@ aliases:
   - subdomain
 related:
   - 도메인(Domain)
+  - 프로토콜(Protocol)
   - 동일-사이트(Same-Site)
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-06T14:00:07.284Z
+updated: 2022-09-20T08:46:07.489Z
 ---
 
 ![FHnQtAdWUAElUhk (1200×673) (twimg.com)](https://pbs.twimg.com/media/FHnQtAdWUAElUhk?format=jpg&name=medium)
@@ -32,9 +33,10 @@ updated: 2022-09-06T14:00:07.284Z
 ## Example
 
 ```
-store.yoursite.com
+https://store.yoursite.com
 ```
 
+- `https://` : [[프로토콜(Protocol)]]
 - `store` -> 서브도메인
 - `yoursite` -> 주 도메인(Main domain)
 

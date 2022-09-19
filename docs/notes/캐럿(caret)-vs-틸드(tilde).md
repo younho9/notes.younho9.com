@@ -10,8 +10,9 @@ aliases:
   - caret vs tilde
 related:
   - npm-update
+  - npm-outdated
 created: 2022-01-06T10:55:00.000Z
-updated: 2022-09-06T14:00:07.502Z
+updated: 2022-09-26T10:14:09.141Z
 ---
 
 - 캐럿(^) 의존성 : 하위호환성을 지키는 범위에서 업데이트
@@ -28,6 +29,7 @@ updated: 2022-09-06T14:00:07.502Z
 ## Related
 
 - [[npm-update|npm update]]
+- [[npm-outdated|npm outdated]]
 
 ## References
 
