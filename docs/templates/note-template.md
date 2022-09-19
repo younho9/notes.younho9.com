@@ -1,6 +1,8 @@
 ---
 title: <% tp.file.title.split('-').join(' ') %>
 category: category
+tags:
+  - tag
 aliases:
   - <% tp.file.title.split('-').join(' ') %>
 created: <% moment(tp.file.creation_date("YYYY-MM-DDTHH:mm:ss.SSSZ")).toISOString() %>
