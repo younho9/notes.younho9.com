@@ -1,7 +1,7 @@
 import path from 'path';
 import MarkdownIt from 'markdown-it';
 import sanitize from 'sanitize-filename';
-import {uniq} from 'lodash';
+import uniq from 'lodash.uniq';
 import {defineConfig} from 'vitepress';
 import {
 	description,
