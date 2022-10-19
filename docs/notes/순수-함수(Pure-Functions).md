@@ -6,12 +6,13 @@ tags:
   - terms
 aliases:
   - 순수 함수(Pure Functions)
+  - 순수 함수
   - Pure Functions
 related:
   - 부수-효과(Side-Effect)
   - 변성(Mutable)-vs-불변성(Immutable)
 created: 2022-01-06T04:36:00.000Z
-updated: 2022-09-06T14:00:07.296Z
+updated: 2022-10-19T09:15:33.980Z
 ---
 
 - **같은 입력**이 주어지면 항상 **같은 출력**을 반환한다.
