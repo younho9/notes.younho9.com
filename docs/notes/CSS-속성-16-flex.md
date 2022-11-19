@@ -5,8 +5,10 @@ tags:
   - css
 aliases:
   - CSS 속성 16. flex
+related:
+  - CSS-속성-06-display
 created: 2020-02-02T15:00:00.000Z
-updated: 2022-09-06T14:00:06.545Z
+updated: 2022-11-19T06:06:14.261Z
 ---
 
 > ❗️ 해당 글은 [패스트캠퍼스 - 프론트엔드 개발 강의](https://www.fastcampus.co.kr/dev_online_react/)에서 HTML & CSS, SASS(SCSS) Part의 [박영웅 강사님](https://github.com/ParkYoungWoong)의 강의자료를 정리한 것입니다.
@@ -83,7 +85,7 @@ container-items
 
 `display` 속성으로 `flex container` 를 정의한다.
 
-보통 `display: block;` , `display: inline` , `display: inline-block` , `display: none;` 으로 사용했었는데, ( [Property-06-display](./CSS-속성-06-display.md) 참조) `display: flex;` 또는 `display: inline-flex;` 도 사용할 수 있다.
+보통 `display: block;` , `display: inline` , `display: inline-block` , `display: none;` 으로 사용했었는데, ( [[CSS-속성-06-display]] 참조) `display: flex;` 또는 `display: inline-flex;` 도 사용할 수 있다.
 
 #### 속성 값
 

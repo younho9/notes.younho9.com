@@ -35,6 +35,7 @@
 		"@types/markdown-it": "^12.2.3",
 		"@types/node": "^18.0.0",
 		"@types/pluralize": "^0.0.29",
+		"@vueuse/components": "^9.2.0",
 		"@vueuse/core": "^9.2.0",
 		"@younho9/prettier-config": "^2.4.0",
 		"case-police": "^0.5.9",
@@ -64,6 +65,7 @@
 		"typescript": "^4.7.4",
 		"vitepress": "^1.0.0-alpha.13",
 		"vue": "^3.2.37",
-		"vue-spinner": "^1.0.4"
+		"vue-spinner": "^1.0.4",
+		"vue-tippy": "^6.0.0-alpha.65"
 	}
 }

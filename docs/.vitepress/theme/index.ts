@@ -2,8 +2,10 @@ import {Theme} from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import {CarbonIconsVue, Search24, FilterRemove24} from '@carbon/icons-vue';
 import GridLoader from 'vue-spinner/src/GridLoader.vue';
+import VueTippy from 'vue-tippy';
 import DocIndex from './components/DocIndex.vue';
 import Graph from './components/Graph.vue';
+import HoverCard from './components/HoverCard.vue';
 import Metadata from './components/Metadata.vue';
 import Random from './components/Random.vue';
 
@@ -19,9 +21,11 @@ export default <Theme>{
 				IFilterRemove: FilterRemove24,
 			},
 		});
+		app.use(VueTippy);
 		app.component('GridLoader', GridLoader);
 		app.component('DocIndex', DocIndex);
 		app.component('Graph', Graph);
+		app.component('HoverCard', HoverCard);
 		app.component('Metadata', Metadata);
 		app.component('Random', Random);
 	},
