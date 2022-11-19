@@ -61,6 +61,9 @@ const result = computed(() => {
 const availableTags = computed(() =>
 	uniq(result.value.map((item) => item?.tags ?? []).flat()),
 );
+const availableCategories = computed(() =>
+	uniq(result.value.map((item) => item?.category ?? []).flat()),
+);
 const router = useRouter();
 const getDocItemLink = (item: DocItem) =>
 	`/${pluralize(item.type)}/${item.fileName}.html`;
@@ -141,7 +144,10 @@ const onInputSearch = (event: Event) => {
 					v-for="c of categories"
 					:key="c"
 					class="select-button"
-					:class="{active: category === c}"
+					:class="{
+						active: category === c,
+						disabled: category !== c && !availableCategories.includes(c),
+					}"
 					@click="toggleCategory(c)"
 				>
 					{{ c }}
