@@ -1,27 +1,34 @@
 ---
-title: JavaScript 객체(Object)
+title: 객체(Object)
 category: JavaScript
 tags:
   - javascript
 aliases:
-  - JavaScript 객체(Object)
+  - 객체(Object)
   - 객체
   - Object
+  - object
 related:
+  - 원시-값(Primitive)
+  - 객체(Object)
+  - 값(value)
   - Object
   - 프로토타입-객체
   - 정수-프로퍼티
   - for-of-vs-for-in
   - enumerable(열거-가능)
   - 프로토타입(prototype)
+  - 참조(Reference)
 created: 2022-01-01T02:13:00.000Z
-updated: 2022-09-06T14:00:06.724Z
+updated: 2022-11-23T02:23:18.761Z
 ---
+
+JavaScript에는 크게 두 가지 유형의 값, [[원시-값(Primitive)|원시 값(Primitive)]]과 [[객체(Object)]]가 있다.
 
 ![Object Properties](https://user-images.githubusercontent.com/29270715/77065184-e86d9600-6a08-11ea-9a7a-4d699597e1ef.png)
 
-- 객체는 [문자형으로 된 **키(Key)**](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Property_Accessors#%EC%86%8D%EC%84%B1_%EC%9D%B4%EB%A6%84) 와 모든 자료형을 사용할 수 있는 **값(value)** 쌍으로 구성된 여러 **프로퍼티(property)** 의 집합이다.
-- 프로퍼티의 값으로 함수가 될 수 있는데, 이 경우 **메서드(method)** 라고 불린다.
+- 객체는 [키(Key)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors#property_names) 와 모든 자료형을 사용할 수 있는 [[값(value)]] 쌍으로 구성된 여러 **프로퍼티(property)** 의 집합이다.
+- 함수도 프로퍼티의 값이 될 수 있는데, 이 경우 **메서드(method)** 라고 불린다.
 
 ## 생성 방법
 
@@ -121,6 +128,7 @@ const me = new Person('Lee', 'male');
 
 - [[프로토타입(prototype)]]
 - [[프로토타입-객체|프로토타입 객체]]
+- [[참조(Reference)]]
 
 ## References
 

@@ -1,6 +1,6 @@
 ---
 title: Playwright
-category: Tooling
+category: Tool Chain
 tags:
   - tooling
   - testing
@@ -10,7 +10,7 @@ related:
   - Chromium(크로미움)
   - Cypress
 created: 2022-08-09T02:20:00.000Z
-updated: 2022-09-06T14:00:06.831Z
+updated: 2022-11-23T02:23:18.756Z
 ---
 
 ## Playwright 란?
