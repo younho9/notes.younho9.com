@@ -58,11 +58,14 @@ const result = computed(() => {
 		a.category.toLowerCase().localeCompare(b.category),
 	);
 });
-const availableTags = computed(() =>
-	uniq(result.value.map((item) => item?.tags ?? []).flat()),
+const availableDocTypes = computed(() =>
+	uniq(result.value.map((item) => item?.type ?? []).flat()),
 );
 const availableCategories = computed(() =>
 	uniq(result.value.map((item) => item?.category ?? []).flat()),
+);
+const availableTags = computed(() =>
+	uniq(result.value.map((item) => item?.tags ?? []).flat()),
 );
 const router = useRouter();
 const getDocItemLink = (item: DocItem) =>
@@ -132,7 +135,10 @@ const onInputSearch = (event: Event) => {
 					v-for="t of docTypes"
 					:key="t"
 					class="select-button"
-					:class="{active: docType === t}"
+					:class="{
+						active: docType === t,
+						disabled: docType !== t && !availableDocTypes.includes(t)
+					}"
 					@click="toggleDocType(t)"
 				>
 					{{ startCase(t) }}
