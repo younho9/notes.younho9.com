@@ -50,7 +50,7 @@ const data = useData();
 							:key="relate"
 							class="!py-0"
 							:href="
-								isJournal(relate) ? `/journals/${relate}` : `/notes/${relate}`
+								isJournal(relate) ? `/journals/${relate}.html` : `/notes/${relate}.html`
 							"
 						>
 							<code>{{ relate }}</code>
