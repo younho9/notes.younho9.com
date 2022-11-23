@@ -15,12 +15,12 @@ related:
   - 부수-효과(Side-Effect)
   - 변성(Mutable)-vs-불변성(Immutable)
 created: 2022-01-06T04:11:00.000Z
-updated: 2022-11-23T02:23:18.764Z
+updated: 2022-11-23T02:35:19.191Z
 ---
 
 ![pass-by-reference-vs-pass-by-value-animation](https://blog.penjee.com/wp-content/uploads/2015/02/pass-by-reference-vs-pass-by-value-animation.gif)
 
-함수를 호출할 때, 함수에 전달된 [[매개변수(parameter)-vs-인자(argument)|매개변수(parameter) vs 인자(argument)]]는 매개변수에 복사된다.
+함수를 호출할 때, 함수에 전달된 [[매개변수(parameter)-vs-인자(argument)|인자(argument)]]는 매개변수에 복사된다.
 
 ```js
 function showMessage(from, text) {
@@ -51,7 +51,7 @@ objB.foo += 1;
 console.log(objB.foo); // 2
 ```
 
-함수에서 참조로 전달된 객체가 변하는 [[부수-효과(Side-Effect)|부수 효과(Side Effect)]]를 막기 위해 전달된 객체를 [[변성(Mutable)-vs-불변성(Immutable)|변성(Mutable) vs 불변성(Immutable)]]하게 통제하는 방법을 사용하기도 한다.
+함수에서 참조로 전달된 객체가 변하는 [[부수-효과(Side-Effect)|부수 효과(Side Effect)]]를 막기 위해 전달된 객체를 [[변성(Mutable)-vs-불변성(Immutable)|불변(Immutable)]]하게 통제하는 방법을 사용하기도 한다.
 
 ## Related
 
