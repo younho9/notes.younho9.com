@@ -1,8 +1,9 @@
 ---
 title: 일렉트론(Electron)
-category: Tooling
+category: Tool Chain
 tags:
   - tooling
+  - tool_chain
 aliases:
   - 일렉트론(Electron)
 related:
@@ -12,7 +13,7 @@ related:
   - 프로미스(Promise)
   - ECMAScript-modules
 created: 2022-08-10T01:07:00.000Z
-updated: 2022-09-06T14:00:07.445Z
+updated: 2022-11-23T02:23:18.775Z
 ---
 
 - JavaScript, HTML, CSS로 크로스 플랫폼(cross-platform) 데스크탑 앱을 빌드하기 위한 프레임워크

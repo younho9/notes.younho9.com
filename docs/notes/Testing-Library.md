@@ -1,6 +1,6 @@
 ---
 title: Testing Library
-category: Tooling
+category: Tool Chain
 tags:
   - tooling
   - testing
@@ -11,7 +11,7 @@ aliases:
 related:
   - Cypress-vs-Testing-Library
 created: 2022-08-09T01:47:00.000Z
-updated: 2022-09-06T14:00:06.995Z
+updated: 2022-11-23T02:23:18.752Z
 ---
 
 -
