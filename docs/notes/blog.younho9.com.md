@@ -5,8 +5,11 @@ tags:
   - project
 aliases:
   - blog.younho9.com
+related:
+  - '2023-05-05'
+  - '2023-05-10'
 created: 2022-08-09T07:54:00.000Z
-updated: 2022-09-06T14:00:07.035Z
+updated: 2023-06-27T15:32:29.360Z
 ---
 
 ## Features
@@ -23,6 +26,7 @@ updated: 2022-09-06T14:00:07.035Z
   - Korean monospace font
   - English monospace font
 - Sandpack
+- [Webmention.io](https://webmention.io/)
 
 ## Tech Stacks
 
@@ -56,3 +60,18 @@ updated: 2022-09-06T14:00:07.035Z
   - [leerob/leerob.io: ✨ My portfolio built with Next.js, Tailwind, Prisma, and Vercel. (github.com)](https://github.com/leerob/leerob.io)
 - [Zeno Rocha](https://zenorocha.com/)
   - [zenorocha/zenorocha.com: My personal website ❤️ (github.com)](https://github.com/zenorocha/zenorocha.com)
+- [Paco Coursey](https://paco.me/)
+
+### Timelines
+
+- [[2023-05-05]]
+  - [x] [creaet-next-app](https://nextjs.org/docs/pages/api-reference/create-next-app)
+  - [x] 도메인 연결
+    - https://vercel.com/younho9/blog-younho9-com/settings/domains
+    - https://domains.google.com/registrar/younho9.com/dns
+  - [x] 블로그 템플릿 적용
+    - [x] [Next.js Portfolio with Blog – Vercel](https://vercel.com/templates/next.js/nextjs-portfolio)
+  - [ ] contentlayer 적용
+- [[2023-05-10]]
+  - env(safe-area-inset-bottom)
+    - [아이폰X 안전영역(Safe Area) 대응 사례 | WIT블로그 (nts-corp.com)](https://wit.nts-corp.com/2019/10/24/5731)
