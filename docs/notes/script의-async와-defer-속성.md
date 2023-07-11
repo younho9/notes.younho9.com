@@ -1,5 +1,5 @@
 ---
-title: script 태그의 async와 defer 속성
+title: <script>의 async와 defer 속성
 category: Browser
 tags:
   - browser
@@ -7,12 +7,13 @@ tags:
   - web
   - javascript
 aliases:
+  - <script>의 async와 defer 속성
   - script 태그의 async와 defer 속성
 related:
   - 브라우저-렌더링-1
   - DOMContentLoaded-vs-load
 created: 2021-12-30T04:06:00.000Z
-updated: 2022-09-06T14:00:07.088Z
+updated: 2023-07-11T14:23:46.089Z
 ---
 
 - 브라우저는 HTML을 읽다가 `<script>` 태그를 만나면 파싱을 멈추고, 스크립트를 먼저 실행한다.
