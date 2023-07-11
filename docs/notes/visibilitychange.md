@@ -7,14 +7,14 @@ tags:
 aliases:
   - visibilitychange
 related:
-  - visibiltyState
+  - document.visibiltyState
 created: 2022-01-05T14:05:00.000Z
-updated: 2022-09-06T14:00:07.110Z
+updated: 2023-07-11T15:05:02.236Z
 ---
 
 ## Related
 
-- [[visibiltyState]]
+- [[document.visibiltyState]]
 
 ## References
 

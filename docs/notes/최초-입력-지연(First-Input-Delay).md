@@ -12,11 +12,11 @@ aliases:
 related:
   - FP-vs-FCP-vs-FMP-vs-LCP
   - 트리-쉐이킹(Tree-Shaking)
-  - script-태그의-async와-defer-속성
+  - script의-async와-defer-속성
   - 코드-스플리팅(Code-Splitting)
   - 웹-워커(Web-Worker)
 created: 2022-01-13T00:36:00.000Z
-updated: 2022-09-06T14:00:07.503Z
+updated: 2023-07-11T14:23:46.102Z
 ---
 
 - FID는 사용자가 페이지와 처음 상호 작용할 때(링크를 클릭하거나 버튼을 탭하거나 사용자 지정 JavaScript 기반 컨트롤을 사용할 때)부터 해당 상호 작용에 대한 응답으로 브라우저가 실제로 이벤트 핸들러 처리를 시작하기 까지의 시간을 측정한다.
@@ -29,7 +29,7 @@ updated: 2022-09-06T14:00:07.503Z
   - 장기 실행 코드를 더 작은 비동기 작업으로 세분화한다.
   - 사용하지 않는 자바스크립트를 줄인다.
     - [[트리-쉐이킹(Tree-Shaking)|트리 쉐이킹(Tree Shaking)]]
-    - 사용하지 않는 JavaScript에 [[script-태그의-async와-defer-속성|script 태그의 async와 defer 속성]]를 사용한다.
+    - 사용하지 않는 JavaScript에 [[script의-async와-defer-속성|script 태그의 async와 defer 속성]]를 사용한다.
     - [[코드-스플리팅(Code-Splitting)|코드 스플리팅(Code Splitting)]]
   - [[웹-워커(Web-Worker)|웹 워커(Web Worker)]]
 

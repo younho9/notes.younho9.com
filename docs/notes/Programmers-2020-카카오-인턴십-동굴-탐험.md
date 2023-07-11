@@ -6,7 +6,7 @@ tags:
 aliases:
   - Programmers 2020 카카오 인턴십 동굴 탐험
 created: 2020-09-10T15:00:00.000Z
-updated: 2022-09-06T14:00:06.822Z
+updated: 2023-07-11T15:05:02.225Z
 ---
 
 ## 문제
@@ -240,11 +240,13 @@ updated: 2022-09-06T14:00:06.822Z
 
 - VS Code + Node + Jest 환경으로 디버깅 환경을 구축했다.
 
-  - `F5` 키만 누르면 VSCode의 현재 열려있는 파일의 상위 디렉토리를 Jest로 디버깅모드로 실행시킬 수 있다.
+  - `F5` 키만 누르면 VS Code의 현재 열려있는 파일의 상위 디렉토리를 Jest로 디버깅모드로 실행시킬 수 있다.
 
   - .`vscode/launch.json` 을 다뤘다.
 
-  [NodeJS, Jest, VS Code debugging](https://www.notion.so/00cf8f3ffbaf4a7da77eb52df820e418)
+  <!-- @case-police-ignore VSCode -->
+
+  [NodeJS, Jest, VS Code debugging](https://younho9.notion.site/NodeJS-Jest-VSCode-debugging-00cf8f3ffbaf4a7da77eb52df820e418)
 
 - 효율성 문제가 발생하면 "JS라서 그런가" 하는 생각부터 들었는데, 결국 문제는 내가 짠 코드에 있었다. 효율성 문제를 고려해야한다는 것을 배웠다.
 
