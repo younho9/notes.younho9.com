@@ -99,7 +99,7 @@ export default defineConfig({
 			});
 			md.use(markdownItEmbedNotes, {
 				resolveFilePath: (fileName: string) =>
-					path.resolve(`./docs/${fileName}.md`),
+					path.resolve(`./docs/notes/${fileName}.md`),
 			});
 			md.use(
 				markdownItWikilinks({
@@ -114,7 +114,7 @@ export default defineConfig({
 							.map((pathName) => sanitize(pathName))
 							.join('/');
 
-						return `/${pageName}`;
+						return `/notes/${pageName}`;
 					},
 				}),
 			);
@@ -136,7 +136,7 @@ function nav() {
 			text: 'Docs',
 			items: [
 				{
-					text: 'Notes',
+					text: 'All Notes',
 					link: notes()[0].items[0].link,
 					activeMatch: '/notes/',
 				},
@@ -166,7 +166,7 @@ function nav() {
 
 function sidebar() {
 	return {
-		'/': notes(),
+		'/notes/': notes(),
 	};
 }
 
@@ -183,7 +183,7 @@ function notes() {
 				.sort((a, b) => a.title.toLowerCase().localeCompare(b.title))
 				.map(({title, fileName}) => ({
 					text: title,
-					link: `/${fileName.replace(/.md/, '')}`,
+					link: `/notes/${fileName.replace(/.md/, '')}`,
 				})),
 		}));
 }

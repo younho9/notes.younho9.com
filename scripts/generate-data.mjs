@@ -23,8 +23,8 @@ function getDocInfo(pathname, type) {
 	return docInfo;
 }
 
-const data = getDocFiles('./docs')
-	.map((file) => getDocInfo(`./docs/${file}`, 'note'))
-	.filter(({layout}) => layout !== 'home');
+const data = getDocFiles('./docs/notes').map((file) =>
+	getDocInfo(`./docs/notes/${file}`, 'note'),
+);
 
 fs.writeFileSync('./docs/data.json', JSON.stringify(data), 'utf-8');

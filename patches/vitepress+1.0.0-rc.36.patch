@@ -1,5 +1,5 @@
 diff --git a/node_modules/vitepress/dist/client/app/components/Content.js b/node_modules/vitepress/dist/client/app/components/Content.js
-index 9ccd6e8..9e9ff46 100644
+index 9ccd6e8..34e6159 100644
 --- a/node_modules/vitepress/dist/client/app/components/Content.js
 +++ b/node_modules/vitepress/dist/client/app/components/Content.js
 @@ -1,4 +1,4 @@
@@ -8,16 +8,17 @@ index 9ccd6e8..9e9ff46 100644
  import { useData, useRoute } from 'vitepress';
  import { contentUpdatedCallbacks } from '../utils';
  const runCbs = () => contentUpdatedCallbacks.forEach((fn) => fn());
-@@ -9,8 +9,11 @@ export const Content = defineComponent({
+@@ -9,8 +9,13 @@ export const Content = defineComponent({
      },
      setup(props) {
          const route = useRoute();
--        const { site } = useData();
 +        const Metadata = resolveComponent('Metadata');
-+        const { site, frontmatter } = useData();
++
++				const isNote = route.path.startsWith(`/notes`)
+         const { site } = useData();
 +
          return () => h(props.as, site.value.contentProps ?? { style: { position: 'relative' } }, [
-+          frontmatter.value.layout !== 'home' ? h(Metadata) : null,
++          	isNote ? h(Metadata) : null,
              route.component
                  ? h(route.component, {
                      onVnodeMounted: runCbs,

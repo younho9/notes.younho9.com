@@ -86,10 +86,6 @@ async function updateFrontatter(path) {
 	const file = await readFile(path, 'utf-8');
 	const {data: frontmatter, content} = matter(file);
 
-	if (frontmatter.layout === 'home') {
-		return;
-	}
-
 	const newFrontmatter = updateAliases(
 		updateUpdated(updateTags(updateRelated(frontmatter, content), content)),
 	);
@@ -114,7 +110,7 @@ async function updateFrontatter(path) {
 }
 
 async function getDocFiles() {
-	const docDirs = ['./docs/notes', './docs/journals'];
+	const docDirs = ['./docs/notes'];
 	const isMarkdown = (file) => path.extname(file) === '.md';
 
 	const docFiles = (

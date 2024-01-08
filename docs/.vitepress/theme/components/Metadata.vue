@@ -48,7 +48,7 @@ const data = useData();
 							v-for="relate of value"
 							:key="relate"
 							class="!py-0"
-							:href="`/${relate}.html`"
+							:href="`/notes/${relate}.html`"
 						>
 							<code>{{ relate }}</code>
 						</a>

@@ -26,7 +26,7 @@ onMounted(() => {
 	const randomNumber = random(0, files.length - 1);
 	const randomFile = files[randomNumber];
 	const randomURL = new URL(
-		`/${randomFile.fileName}.html`,
+		`/notes/${randomFile.fileName}.html`,
 		window.location.origin,
 	);
 

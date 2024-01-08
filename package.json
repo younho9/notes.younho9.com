@@ -22,7 +22,7 @@
 			"yarn format",
 			"case-police"
 		],
-		"docs/*.md": [
+		"docs/notes/*.md": [
 			"yarn docs:update-frontmatter"
 		]
 	},

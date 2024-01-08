@@ -61,7 +61,7 @@ const availableTags = computed(() =>
 	uniq(result.value.map((item) => item?.tags ?? []).flat()),
 );
 const router = useRouter();
-const getDocItemLink = (item: DocItem) => `/${item.fileName}.html`;
+const getDocItemLink = (item: DocItem) => `/notes/${item.fileName}.html`;
 const onClickDocItem = (event: Event, item: DocItem) => {
 	if (!(event.target instanceof HTMLElement)) {
 		return;
@@ -268,7 +268,7 @@ const onInputSearch = (event: Event) => {
 
 @media (hover: hover) and (pointer: fine) {
 	.doc-item:hover {
-		background-color: var(--vp-c-bg-mute);
+		background-color: var(--vp-c-gray-soft);
 	}
 }
 
