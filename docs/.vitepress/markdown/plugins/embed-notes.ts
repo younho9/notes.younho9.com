@@ -86,4 +86,4 @@ const embedNotesPlugin: MarkdownIt.PluginWithOptions<Partial<Options>> = (
 	md.core.ruler.before('normalize', 'embedNotes', embedNotes);
 };
 
-module.exports = embedNotesPlugin;
+export default embedNotesPlugin;

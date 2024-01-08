@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"types": ["node"],
+		"types": ["vite/client"],
 		"module": "esnext",
 		"target": "esnext",
 		"moduleResolution": "node",
@@ -13,5 +13,5 @@
 		"lib": ["ESNext", "DOM"]
 	},
 	"exclude": ["node_modules"],
-	"include": ["docs/**/*", "docs/.vitepress/**/*"]
+	"include": ["shims.d.ts", "docs/**/*", "docs/.vitepress/**/*"]
 }

@@ -11,7 +11,7 @@ import './style/vars.css';
 import './style/main.css';
 
 export default <Theme>{
-	...DefaultTheme,
+	extends: DefaultTheme,
 	enhanceApp({app}) {
 		app.use(CarbonIconsVue, {
 			components: {

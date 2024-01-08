@@ -15,7 +15,7 @@ const data = useData();
 			<div class="opacity-50">
 				{{ startCase(key) }}
 			</div>
-			<template v-if="true">
+			<template>
 				<template v-if="key === 'title'">
 					<div>{{ value }}</div>
 				</template>
@@ -50,7 +50,9 @@ const data = useData();
 							:key="relate"
 							class="!py-0"
 							:href="
-								isJournal(relate) ? `/journals/${relate}.html` : `/notes/${relate}.html`
+								isJournal(relate)
+									? `/journals/${relate}.html`
+									: `/notes/${relate}.html`
 							"
 						>
 							<code>{{ relate }}</code>
