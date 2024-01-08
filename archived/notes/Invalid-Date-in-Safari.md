@@ -32,8 +32,8 @@ updated: 2022-09-06T14:00:06.709Z
 > https://stackoverflow.com/a/47790371
 
 ```js
-new Date('2011-04-12 15:00'.replace(/\s/, 'T') + 'Z')
-````
+new Date('2011-04-12 15:00'.replace(/\s/, 'T') + 'Z');
+```
 
 - `Z` 를 포함해야 타임존 오프셋이 추가된다.
 

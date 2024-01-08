@@ -4,13 +4,11 @@ import {useUrlSearchParams, useTimeAgo} from '@vueuse/core';
 import is from '@sindresorhus/is';
 import Fuse from 'fuse.js';
 import {computed, toRef, Ref} from 'vue';
-import pluralize from 'pluralize';
-import {startCase, values, uniq} from 'lodash-es';
+import {values, uniq} from 'lodash-es';
 import data from '../../../data.json';
 import {DocItem} from './types';
 
 const docs = values(data).flat() as DocItem[];
-const docTypes = uniq(docs.map((doc) => doc.type));
 const categories = uniq(docs.map((doc) => doc.category)).sort();
 const allTags = uniq(docs.map((doc) => doc?.tags ?? []).flat()).sort();
 const sortMethods = ['category', 'name', 'updated'] as const;
@@ -20,13 +18,11 @@ const query = useUrlSearchParams<Record<string, string | null>>('history', {
 	removeFalsyValues: true,
 });
 const search = toRef(query, 'search', null);
-const docType = toRef(query, 'type', null);
 const category = toRef(query, 'category', null);
 const tags = toRef(query, 'tags', null);
 const sortMethod = toRef(query, 'sort', 'category') as Ref<SortMethod | null>;
 const result = computed(() => {
 	const index = docs
-		.filter((doc) => is.null_(docType.value) || docType.value === doc.type)
 		.filter(
 			(doc) => is.null_(category.value) || category.value === doc.category,
 		)
@@ -58,9 +54,6 @@ const result = computed(() => {
 		a.category.toLowerCase().localeCompare(b.category),
 	);
 });
-const availableDocTypes = computed(() =>
-	uniq(result.value.map((item) => item?.type ?? []).flat()),
-);
 const availableCategories = computed(() =>
 	uniq(result.value.map((item) => item?.category ?? []).flat()),
 );
@@ -68,8 +61,7 @@ const availableTags = computed(() =>
 	uniq(result.value.map((item) => item?.tags ?? []).flat()),
 );
 const router = useRouter();
-const getDocItemLink = (item: DocItem) =>
-	`/${pluralize(item.type)}/${item.fileName}.html`;
+const getDocItemLink = (item: DocItem) => `/${item.fileName}.html`;
 const onClickDocItem = (event: Event, item: DocItem) => {
 	if (!(event.target instanceof HTMLElement)) {
 		return;
@@ -80,9 +72,6 @@ const onClickDocItem = (event: Event, item: DocItem) => {
 	}
 
 	router.go(getDocItemLink(item));
-};
-const toggleDocType = (t: string) => {
-	docType.value = docType.value === t ? null : t;
 };
 const toggleCategory = (c: string) => {
 	category.value = category.value === c ? null : c;
@@ -109,7 +98,6 @@ const hasFilters = computed(() =>
 	Boolean(search.value || category.value || tags.value || sortMethod.value),
 );
 const resetFilters = () => {
-	docType.value = null;
 	search.value = null;
 	category.value = null;
 	tags.value = null;
@@ -129,21 +117,6 @@ const onInputSearch = (event: Event) => {
 		</div>
 
 		<div class="mt-10 grid grid-cols-[80px_auto] gap-y-2">
-			<div class="text-sm opacity-80">Types</div>
-			<div class="mb-2 flex flex-wrap gap-2">
-				<button
-					v-for="t of docTypes"
-					:key="t"
-					class="select-button"
-					:class="{
-						active: docType === t,
-						disabled: docType !== t && !availableDocTypes.includes(t)
-					}"
-					@click="toggleDocType(t)"
-				>
-					{{ startCase(t) }}
-				</button>
-			</div>
 			<div class="text-sm opacity-80">Categories</div>
 			<div class="mb-2 flex flex-wrap gap-2">
 				<button
@@ -193,6 +166,7 @@ const onInputSearch = (event: Event) => {
 			</div>
 		</div>
 
+		<div class="mt-4 h-[1px] bg-[color:var(--vp-c-divider)]" />
 		<div class="search-bar">
 			<ISearch class="mr-2 opacity-50" />
 			<input
@@ -204,6 +178,8 @@ const onInputSearch = (event: Event) => {
 				placeholder="Search..."
 			/>
 		</div>
+		<div class="mb-4 h-[1px] bg-[color:var(--vp-c-divider)]" />
+
 		<div class="relative flex flex-col gap-2 pt-5">
 			<div
 				v-if="hasFilters"
@@ -225,12 +201,6 @@ const onInputSearch = (event: Event) => {
 				>
 					<article class="space-y-2">
 						<div>
-							<button
-								:class="docType === item.type && 'active'"
-								@click="toggleDocType(item.type)"
-							>
-								{{ startCase(item.type) }} >&nbsp;
-							</button>
 							<button
 								:class="category === item.category && 'active'"
 								@click="toggleCategory(item.category)"
@@ -288,8 +258,7 @@ const onInputSearch = (event: Event) => {
 }
 
 .search-bar {
-	border-color: var(--vp-c-divider-light);
-	@apply my-4 flex border-y-[1px] p-2;
+	@apply flex p-2;
 }
 
 .doc-item {

@@ -2,7 +2,6 @@
 import {useData} from 'vitepress';
 import {useTimeAgo} from '@vueuse/core';
 import {startCase} from 'lodash-es';
-import {isJournal} from '../../utils';
 
 const data = useData();
 </script>
@@ -15,7 +14,7 @@ const data = useData();
 			<div class="opacity-50">
 				{{ startCase(key) }}
 			</div>
-			<template>
+			<template v-if="true">
 				<template v-if="key === 'title'">
 					<div>{{ value }}</div>
 				</template>
@@ -49,11 +48,7 @@ const data = useData();
 							v-for="relate of value"
 							:key="relate"
 							class="!py-0"
-							:href="
-								isJournal(relate)
-									? `/journals/${relate}.html`
-									: `/notes/${relate}.html`
-							"
+							:href="`/${relate}.html`"
 						>
 							<code>{{ relate }}</code>
 						</a>

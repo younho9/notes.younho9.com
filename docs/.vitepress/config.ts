@@ -20,7 +20,6 @@ import {
 	keywords,
 } from './meta';
 import data from '../data.json';
-import {isJournal} from './utils';
 import markdownItExternalLinks from 'markdown-it-external-links';
 import markdownItEmbedNotes from './markdown/plugins/embed-notes';
 import markdownItWikilinks from 'markdown-it-wikilinks';
@@ -100,12 +99,7 @@ export default defineConfig({
 			});
 			md.use(markdownItEmbedNotes, {
 				resolveFilePath: (fileName: string) =>
-					path.resolve(
-						'./docs',
-						isJournal(fileName)
-							? `journals/${fileName}.md`
-							: `notes/${fileName}.md`,
-					),
+					path.resolve(`./docs/${fileName}.md`),
 			});
 			md.use(
 				markdownItWikilinks({
@@ -114,15 +108,13 @@ export default defineConfig({
 					},
 					makeAllLinksAbsolute: true,
 					postProcessPageName: (pageName: string) => {
-						pageName = pageName.trim();
 						pageName = pageName
+							.trim()
 							.split('/')
 							.map((pathName) => sanitize(pathName))
 							.join('/');
 
-						return isJournal(pageName)
-							? `/journals/${pageName}`
-							: `/notes/${pageName}`;
+						return `/${pageName}`;
 					},
 				}),
 			);
@@ -144,6 +136,11 @@ function nav() {
 			text: 'Docs',
 			items: [
 				{
+					text: 'Notes',
+					link: notes()[0].items[0].link,
+					activeMatch: '/notes/',
+				},
+				{
 					text: 'References',
 					items: [
 						{
@@ -154,21 +151,6 @@ function nav() {
 						{
 							text: 'Random',
 							link: '/random.html',
-						},
-					],
-				},
-				{
-					text: 'Types',
-					items: [
-						{
-							text: 'Notes',
-							link: notes()[0].items[0].link,
-							activeMatch: '/notes/',
-						},
-						{
-							text: 'Journals',
-							link: journals()[0].items[0].link,
-							activeMatch: '/journals/',
 						},
 					],
 				},
@@ -184,41 +166,24 @@ function nav() {
 
 function sidebar() {
 	return {
-		'/notes/': notes(),
-		'/journals/': journals(),
+		'/': notes(),
 	};
 }
 
 function notes() {
-	const categories = uniq(data.notes.map(({category}) => category));
+	const categories = uniq(data.map(({category}) => category));
 
 	return categories
 		.sort((a, b) => a.toLowerCase().localeCompare(b))
 		.map((category) => ({
 			text: category,
 			collapsible: true,
-			items: data.notes
+			items: data
 				.filter((note) => note.category === category)
 				.sort((a, b) => a.title.toLowerCase().localeCompare(b.title))
 				.map(({title, fileName}) => ({
 					text: title,
-					link: `/notes/${fileName.replace(/.md/, '')}`,
+					link: `/${fileName.replace(/.md/, '')}`,
 				})),
 		}));
-}
-
-function journals() {
-	const categories = uniq(data.journals.map(({category}) => category));
-
-	return categories.reverse().map((category) => ({
-		text: String(category),
-		collapsible: true,
-		items: data.journals
-			.filter((journal) => journal.category === category)
-			.sort((a, b) => b.title.toLowerCase().localeCompare(a.title))
-			.map(({title}) => ({
-				text: title,
-				link: `/journals/${title}`,
-			})),
-	}));
 }

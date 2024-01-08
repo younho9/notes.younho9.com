@@ -86,6 +86,10 @@ async function updateFrontatter(path) {
 	const file = await readFile(path, 'utf-8');
 	const {data: frontmatter, content} = matter(file);
 
+	if (frontmatter.layout === 'home') {
+		return;
+	}
+
 	const newFrontmatter = updateAliases(
 		updateUpdated(updateTags(updateRelated(frontmatter, content), content)),
 	);

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import {onMounted} from 'vue';
-import pluralize from 'pluralize';
 import data from '../../../data.json';
 import {values, random} from 'lodash-es';
 import {useRouter} from 'vitepress';
@@ -27,11 +26,11 @@ onMounted(() => {
 	const randomNumber = random(0, files.length - 1);
 	const randomFile = files[randomNumber];
 	const randomURL = new URL(
-		`/${pluralize(randomFile.type)}/${randomFile.fileName}.html`,
+		`/${randomFile.fileName}.html`,
 		window.location.origin,
 	);
 
-	router.go(randomURL.href);
+	window.location.replace(randomURL.href);
 });
 </script>
 
