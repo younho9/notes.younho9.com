@@ -244,9 +244,9 @@ const onInputSearch = (event: Event) => {
 	</div>
 </template>
 
-<style scoped lang="postcss">
+<style scoped>
 .select-button {
-	@apply rounded bg-gray-400/5 px-2 py-0.5 text-sm transition-colors duration-300 hover:bg-primary/10 hover:text-primary/100;
+	@apply hover:bg-primary/10 hover:text-primary/100 rounded bg-gray-400/5 px-2 py-0.5 text-sm transition-colors duration-300;
 }
 
 .select-button.active:not(.disabled) {
@@ -277,7 +277,7 @@ const onInputSearch = (event: Event) => {
 }
 
 .doc-item button.active {
-	@apply font-medium text-primary opacity-80;
+	@apply text-primary font-medium opacity-80;
 }
 
 @media (hover: hover) and (pointer: fine) {

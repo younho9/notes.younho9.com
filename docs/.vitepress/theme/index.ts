@@ -7,6 +7,7 @@ import Graph from './components/Graph.vue';
 import Metadata from './components/Metadata.vue';
 import Random from './components/Random.vue';
 
+import 'uno.css';
 import './style/vars.css';
 import './style/main.css';
 

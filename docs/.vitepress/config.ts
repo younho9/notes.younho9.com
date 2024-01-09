@@ -1,3 +1,4 @@
+import UnoCSS from 'unocss/vite';
 import MarkdownIt from 'markdown-it';
 import sanitize from 'sanitize-filename';
 import {uniq} from 'lodash-es';
@@ -76,6 +77,9 @@ export default defineConfig({
 			message: 'Released under the MIT License.',
 			copyright: `Copyright © 2022-present ${author}`,
 		},
+	},
+	vite: {
+		plugins: [UnoCSS()],
 	},
 	markdown: {
 		theme: {
