@@ -9,7 +9,34 @@ type Options = {
 	embedNotesRe: RegExp;
 	notFoundMessage: string;
 	circularMessage: string;
-	resolveFilePath: (filePath: string) => string;
+	srcDir: string;
+};
+
+const breadthFirstFileSearch = (rootPath: string, targetFile: string) => {
+	const queue = [rootPath];
+
+	while (queue.length > 0) {
+		const currentPath = queue.shift() as string;
+		const files = fs.readdirSync(currentPath);
+
+		for (const file of files) {
+			const filePath = path.join(currentPath, file);
+			const stat = fs.statSync(filePath);
+
+			const fileName = path.parse(file).name;
+			const targetFileName = path.parse(targetFile).name;
+
+			if (stat.isFile() && fileName === targetFileName) {
+				return path.resolve(filePath);
+			}
+
+			if (stat.isDirectory()) {
+				queue.push(filePath);
+			}
+		}
+	}
+
+	return null;
 };
 
 const embedNotesPlugin: MarkdownIt.PluginWithOptions<Partial<Options>> = (
@@ -20,7 +47,7 @@ const embedNotesPlugin: MarkdownIt.PluginWithOptions<Partial<Options>> = (
 		embedNotesRe: EMBED_NOTES_RE,
 		notFoundMessage: "Note '{{NOTE}}' not found.",
 		circularMessage: "Circular reference between '{{NOTE}}' and '{{PARENT}}'.",
-		resolveFilePath: (fileName: string) => path.resolve(fileName.trim()),
+		srcDir: './docs',
 	};
 
 	const options: Options = {
@@ -44,10 +71,11 @@ const embedNotesPlugin: MarkdownIt.PluginWithOptions<Partial<Options>> = (
 		while ((match = options.embedNotesRe.exec(src))) {
 			const fileName = match[1];
 			const label = match[3];
-			const filePath = options.resolveFilePath(fileName);
 
-			if (!fs.existsSync(filePath)) {
-				throw new Error(options.notFoundMessage.replace('{{NOTE}}', filePath));
+			const filePath = breadthFirstFileSearch(options.srcDir, fileName);
+
+			if (filePath === null) {
+				throw new Error(options.notFoundMessage.replace('{{NOTE}}', fileName));
 			}
 
 			if (filesProcessed.indexOf(filePath) !== -1) {

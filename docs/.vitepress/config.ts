@@ -89,8 +89,7 @@ export default defineConfig({
 				internalDomains: ['notes.younho9.com'],
 			});
 			md.use(markdownItEmbedNotes, {
-				resolveFilePath: (fileName: string) =>
-					path.resolve(`./docs/notes/${fileName}.md`),
+				srcDir: './docs/notes',
 			});
 			md.use(
 				markdownItWikilinks({
