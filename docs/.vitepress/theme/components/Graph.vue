@@ -2,7 +2,6 @@
 // @ts-nocheck
 import {useRouter} from 'vitepress';
 import {ref, onMounted, onBeforeUnmount} from 'vue';
-import pluralize from 'pluralize';
 import data from '../../../data.json';
 import * as d3 from 'd3';
 import {values, uniq, fromPairs, toPairs} from 'lodash-es';
@@ -16,7 +15,7 @@ type Link = {
 	target: string;
 };
 
-type NodeType = 'note' | 'journal' | 'placeholder' | 'tag';
+type NodeType = 'note' | 'placeholder' | 'tag';
 
 type Node = {
 	id: string;
@@ -134,7 +133,6 @@ const getDefaultStyle = () => ({
 	highlightedForeground: getStyle('--vp-c-brand'),
 	node: {
 		note: getStyle('--vp-c-text-1'),
-		journal: getStyle('--vp-c-text-1'),
 		placeholder: getStyle('--vp-c-text-3'),
 		tag: getStyle('--vp-c-brand'),
 	},
@@ -157,7 +155,6 @@ const model = {
 	showNodesOfType: {
 		placeholder: true,
 		note: true,
-		journal: true,
 		tag: true,
 		image: false,
 	},
@@ -303,7 +300,7 @@ function initDataviz() {
 			if (info.type === 'tag') {
 				router.go(`/docs?tags=${info.id}`);
 			} else {
-				router.go(`/${pluralize(info.type)}/${info.id}.html`);
+				router.go(`/notes/${info.id}.html`);
 			}
 		})
 		.onBackgroundClick((event) => {
