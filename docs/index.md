@@ -23,9 +23,6 @@ features:
   - icon: 📝
     title: Learning
     details: 새로 알게 된 것이나 배운 것들을 기록하고 공유합니다.
-  - icon: 📆
-    title: Journals
-    details: 하루 일지를 기록하고 회고합니다. 계획, 마일스톤, 목표를 세우고, 생산성에 대해 회고합니다.
   - icon: 💭
     title: Thoughts
     details: 기술과 개발에 대한 개인적인 생각을 기록합니다.
