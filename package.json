@@ -18,7 +18,7 @@
 	},
 	"prettier": "@younho9/prettier-config",
 	"lint-staged": {
-		"*.{js,jsx,ts,tsx,json,css,md,mdx}": [
+		"!(**/.obsidian/**)*.{js,jsx,ts,tsx,json,css,md,mdx}": [
 			"yarn format",
 			"case-police"
 		],

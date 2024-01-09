@@ -1,0 +1,9 @@
+{
+  "foldHeading": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./images",
+  "userIgnoreFilters": null
+}

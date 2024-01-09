@@ -4,5 +4,3 @@ dist/
 # vitepress
 docs/data.json
 docs/.vitepress/cache
-docs/notes/private
-docs/notes/.obsidian
