@@ -56,6 +56,17 @@ export default defineConfig({
 		sidebar: sidebar(),
 		search: {
 			provider: 'local',
+			options: {
+				_render(src, env, md) {
+					const html = md.render(src, env);
+
+					if (env.frontmatter?.title) {
+						return md.render(`# ${env.frontmatter.title}`) + html;
+					}
+
+					return html;
+				},
+			},
 		},
 		editLink: {
 			pattern: 'https://github.com/younho9/notes/edit/main/docs/:path',
