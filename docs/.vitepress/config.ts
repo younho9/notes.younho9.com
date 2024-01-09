@@ -1,4 +1,3 @@
-import path from 'path';
 import MarkdownIt from 'markdown-it';
 import sanitize from 'sanitize-filename';
 import {uniq} from 'lodash-es';
@@ -118,6 +117,12 @@ export default defineConfig({
 			md.use(markdownItFootnote);
 		},
 	},
+	srcExclude: [
+		'notes/.obsidian/**/*',
+		'notes/archived/**/*',
+		'notes/private/**/*',
+		'notes/templates/*.md',
+	],
 });
 
 function nav() {

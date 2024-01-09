@@ -9,8 +9,6 @@ created: 2020-06-11T15:00:00.000Z
 updated: 2022-09-06T14:00:07.016Z
 ---
 
-## Web Storage API
-
 Web Storage API는 브라우저가 key/value 쌍을 쿠키보다 훨씬 직관적인 방식으로 저장할 수 있는 메커니즘을 제공한다.
 
 Web Storage에는 `sessionStorage` , `localStorage` 두 가지 메커니즘이 있다.
@@ -19,7 +17,7 @@ Web Storage에는 `sessionStorage` , `localStorage` 두 가지 메커니즘이 �
 
 - `localStorage` : 브라우저를 닫고 새로 열어도 데이터가 유지된다. 자바스크립트를통해서 조작하거나 브라우저 캐시를 지워야 데이터가 사라진다.
 
-### 쿠키와 다른 점
+## 쿠키와 다른 점
 
 - 쿠키는 네트워크 요청 시 서버로 전송되지만, Web Storage 객체는 서버로 전송되지않는다.
 
@@ -27,7 +25,7 @@ Web Storage에는 `sessionStorage` , `localStorage` 두 가지 메커니즘이 �
 
 > 브라우저별, 디바이스별로 Storage의 최대 용량이 다를 수 있다.
 
-### 메서드와 프로퍼티
+## 메서드와 프로퍼티
 
 - `setItem(key, value)` : key/value 쌍을 보관
 
@@ -41,7 +39,7 @@ Web Storage에는 `sessionStorage` , `localStorage` 두 가지 메커니즘이 �
 
 - `length` : 저장된 항목의 개수를 얻음
 
-### localStorage 데모
+## localStorage 데모
 
 아래의 코드를 브라우저 콘솔에서 실행한다.
 
@@ -55,7 +53,7 @@ localStorage.setItem('test', 'Hello localStorage');
 alert(localStorage.getItem('test')); // Hello localStorage
 ```
 
-### sessionStorage 데모
+## sessionStorage 데모
 
 아래의 코드를 브라우저 콘솔에서 실행한다.
 
@@ -75,7 +73,7 @@ alert(sessionStorage.getItem('test'); // Hello sessionStorage
 alert(sessionStorage.getItem('test'); // null
 ```
 
-### 일반 객체처럼 사용하기
+## 일반 객체처럼 사용하기
 
 Storage의 키를 얻거나 설정할 때 일반 객체와 유사한 방법을 사용할 수 있다. 하지만 `getItem` , `setItem` 메서드를 사용하는 것을 권장한다.
 
@@ -99,7 +97,7 @@ delete localStorage.test;
 
 1. 데이터를 수정하면 `storage` 이벤트가 발생하는데, Storage를 객체처럼 접근할 땐일어나지 않는다.
 
-### 키 순회하기
+## 키 순회하기
 
 Storage 객체는 iterable 객체가 아니다. 대신 배열처럼 다뤄 전체 key/value 를 얻을수 있다.
 
@@ -139,11 +137,11 @@ for (let key of keys) {
 }
 ```
 
-### 문자열만 사용
+## 문자열만 사용
 
 `localStorage` 의 key와 value는 반드시 문자열이어야 한다.
 
-### 참고자료
+## 참고자료
 
 [localStorage와 sessionStorage](https://ko.javascript.info/localstorage)
 

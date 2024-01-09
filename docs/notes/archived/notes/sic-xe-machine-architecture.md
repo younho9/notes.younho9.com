@@ -170,7 +170,7 @@ SW 레지스터의 Condition code에 따라 점프하는 명령어이다.
 
 `WD` _`m`_ : Device specified by (_m_) ← (A)[rightmost byte]
 
-## SIC/XE Machine Architecture
+## SIC/XE Machine Architecture 란?
 
 SIC/XE는 SIC의 업그레이드판으로 많은 기능들은 동일하다. 동일한 부분을 제외하고변화된 부분을 알아본다.
 
