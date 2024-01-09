@@ -2,9 +2,6 @@
 import {onMounted} from 'vue';
 import data from '../../../data.json';
 import {values, random} from 'lodash-es';
-import {useRouter} from 'vitepress';
-
-const router = useRouter();
 
 const color = getComputedStyle(document.documentElement).getPropertyValue(
 	'--vp-c-brand',
