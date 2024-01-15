@@ -1,7 +1,7 @@
-diff --git a/node_modules/vitepress/dist/client/app/components/Content.js b/node_modules/vitepress/dist/client/app/components/Content.js
-index 9ccd6e8..8e2306f 100644
---- a/node_modules/vitepress/dist/client/app/components/Content.js
-+++ b/node_modules/vitepress/dist/client/app/components/Content.js
+diff --git a/dist/client/app/components/Content.js b/dist/client/app/components/Content.js
+index 9ccd6e81204c558bd4f267b38ae806cf99d7bcaf..8e2306f010ebadf0d899a9002f5d0a62830b9d79 100644
+--- a/dist/client/app/components/Content.js
++++ b/dist/client/app/components/Content.js
 @@ -1,4 +1,4 @@
 -import { defineComponent, h } from 'vue';
 +import { defineComponent, h, resolveComponent } from 'vue';
