@@ -6,14 +6,18 @@ import DocIndex from './components/DocIndex.vue';
 import Graph from './components/Graph.vue';
 import Metadata from './components/Metadata.vue';
 import Random from './components/Random.vue';
+import TwoSlashFloatingVue from 'vitepress-plugin-twoslash/client';
 
 import 'uno.css';
+import 'vitepress-plugin-twoslash/style.css';
 import './style/vars.css';
 import './style/main.css';
 
 export default <Theme>{
 	extends: DefaultTheme,
 	enhanceApp({app}) {
+		// @ts-ignore
+		app.use(TwoSlashFloatingVue);
 		app.use(CarbonIconsVue, {
 			components: {
 				ISearch: Search24,

@@ -22,6 +22,7 @@ import markdownItWikilinks from 'markdown-it-wikilinks';
 import markdownItTaskLists from 'markdown-it-task-lists';
 import markdownItHashtag from 'markdown-it-hashtag';
 import markdownItFootnote from 'markdown-it-footnote';
+import {transformerTwoslash} from 'vitepress-plugin-twoslash';
 
 export default defineConfig({
 	lang: 'ko-KR',
@@ -120,6 +121,7 @@ export default defineConfig({
 			};
 			md.use(markdownItFootnote);
 		},
+		codeTransformers: [transformerTwoslash()],
 	},
 	srcExclude: [
 		'notes/.obsidian/**/*',
