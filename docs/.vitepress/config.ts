@@ -1,6 +1,5 @@
 import UnoCSS from 'unocss/vite';
 import MarkdownIt from 'markdown-it';
-import sanitize from 'sanitize-filename';
 import {uniq} from 'lodash-es';
 import {defineConfig} from 'vitepress';
 import {
@@ -97,18 +96,9 @@ export default defineConfig({
 			});
 			md.use(
 				markdownItWikilinks({
+					baseURL: '/notes/',
 					htmlAttributes: {
 						class: 'wikilink',
-					},
-					makeAllLinksAbsolute: true,
-					postProcessPageName: (pageName: string) => {
-						pageName = pageName
-							.trim()
-							.split('/')
-							.map((pathName) => sanitize(pathName))
-							.join('/');
-
-						return `/notes/${pageName}`;
 					},
 				}),
 			);
